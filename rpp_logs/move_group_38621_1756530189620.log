@@ -1,0 +1,306 @@
+[INFO] [1756530189.660307512] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0258237 seconds
+[INFO] [1756530189.660358297] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+[INFO] [1756530189.660367309] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[ERROR] [1756530190.039394101] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+[ERROR] [1756530190.039412299] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+[ERROR] [1756530190.039419055] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+[INFO] [1756530190.846107548] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[INFO] [1756530190.846240854] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[INFO] [1756530190.846706192] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[INFO] [1756530190.846915788] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[INFO] [1756530190.846925288] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1756530190.847053120] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[INFO] [1756530190.847059878] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[INFO] [1756530190.847192245] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[INFO] [1756530190.847322162] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[WARN] [1756530190.847982869] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[ERROR] [1756530190.847990799] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[INFO] [1756530191.683230360] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[INFO] [1756530191.714179276] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[INFO] [1756530191.717429036] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[INFO] [1756530191.717437540] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[INFO] [1756530191.717439685] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[INFO] [1756530191.717449961] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[INFO] [1756530191.717457803] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[INFO] [1756530191.717460375] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1756530191.717465806] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1756530191.717468051] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[INFO] [1756530191.717470522] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[INFO] [1756530191.717475915] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[INFO] [1756530191.717478301] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[INFO] [1756530191.717479776] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[INFO] [1756530191.717491862] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[INFO] [1756530191.717493387] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[INFO] [1756530191.717494722] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[INFO] [1756530191.720264656] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'pilz_industrial_motion_planner'
+[INFO] [1756530191.724847816] [moveit.pilz_industrial_motion_planner.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[INFO] [1756530191.731045003] [moveit.pilz_industrial_motion_planner]: Available plugins: pilz_industrial_motion_planner/PlanningContextLoaderCIRC pilz_industrial_motion_planner/PlanningContextLoaderLIN pilz_industrial_motion_planner/PlanningContextLoaderPTP 
+[INFO] [1756530191.731057311] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderCIRC
+[INFO] [1756530191.733866940] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [CIRC]
+[INFO] [1756530191.733881888] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderLIN
+[INFO] [1756530191.735129944] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [LIN]
+[INFO] [1756530191.735138046] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderPTP
+[INFO] [1756530191.736345967] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [PTP]
+[INFO] [1756530191.736355655] [moveit.ros_planning.planning_pipeline]: Using planning interface 'Pilz Industrial Motion Planner'
+[INFO] [1756530191.758512705] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for left_joint_trajectory_controller
+[INFO] [1756530191.759672534] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for right_joint_trajectory_controller
+[INFO] [1756530191.759775581] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530191.759790243] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530191.760111487] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[INFO] [1756530191.760122885] [move_group.move_group]: MoveGroup debug mode is ON
+[INFO] [1756530191.770574429] [move_group.move_group]: 
+
+********************************************************
+* MoveGroup using: 
+*     - ApplyPlanningSceneService
+*     - ClearOctomapService
+*     - CartesianPathService
+*     - ExecuteTrajectoryAction
+*     - GetPlanningSceneService
+*     - KinematicsService
+*     - MoveAction
+*     - MotionPlanService
+*     - QueryPlannersService
+*     - StateValidationService
+********************************************************
+
+[INFO] [1756530191.770597499] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[INFO] [1756530191.770602711] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[WARN] [1756530195.447838671] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756530195.447879790] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756530216.359933763] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756530216.360047572] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756530216.362345351] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756530216.362356708] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756530216.362410268] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[INFO] [1756530216.362424193] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756530216.363198416] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'dual_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[WARN] [1756530216.373601364] [moveit_trajectory_processing.time_optimal_trajectory_generation]: Joint acceleration limits are not defined. Using the default 1 rad/s^2. You can define acceleration limits in the URDF or joint_limits.yaml.
+[INFO] [1756530216.382790984] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[INFO] [1756530230.794049896] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[INFO] [1756530230.794109451] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[INFO] [1756530230.794129850] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530230.794139954] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530230.794219843] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1756530230.802408408] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1756530230.802456261] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530230.802477112] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530230.802619354] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to left_joint_trajectory_controller
+[INFO] [1756530230.803303702] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: left_joint_trajectory_controller started execution
+[INFO] [1756530230.803317988] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1756530230.803350669] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to right_joint_trajectory_controller
+[INFO] [1756530230.803722435] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: right_joint_trajectory_controller started execution
+[INFO] [1756530230.803725562] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1756530242.054377089] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'left_joint_trajectory_controller' successfully finished
+[INFO] [1756530242.054722143] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'right_joint_trajectory_controller' successfully finished
+[INFO] [1756530242.081769833] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[INFO] [1756530242.081844417] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[INFO] [1756530251.406872797] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756530251.406942752] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756530251.412379758] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756530251.412406592] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756530251.412438589] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[INFO] [1756530251.412445587] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756530251.413086692] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'left_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756530251.432322635] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[INFO] [1756530260.835351486] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[INFO] [1756530260.835409476] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[INFO] [1756530260.835426985] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530260.835436702] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530260.835474477] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1756530260.842282953] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1756530260.842334248] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530260.842352894] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530260.842443001] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to left_joint_trajectory_controller
+[INFO] [1756530260.843160568] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: left_joint_trajectory_controller started execution
+[INFO] [1756530260.843175717] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1756530275.894660875] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'left_joint_trajectory_controller' successfully finished
+[INFO] [1756530275.915145040] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[INFO] [1756530275.915265278] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[INFO] [1756530305.775951579] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756530305.776001956] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756530305.781874711] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756530305.781885134] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756530305.781925517] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[INFO] [1756530305.781928736] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756530305.782398835] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756530305.798822534] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[INFO] [1756530310.742109270] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[INFO] [1756530310.742192681] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[INFO] [1756530310.742214024] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530310.742234177] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530310.742286094] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1756530310.748618596] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1756530310.748657936] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530310.748675262] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530310.748762835] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to right_joint_trajectory_controller
+[INFO] [1756530310.749357365] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: right_joint_trajectory_controller started execution
+[INFO] [1756530310.749370353] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1756530323.250581637] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'right_joint_trajectory_controller' successfully finished
+[INFO] [1756530323.272335962] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[INFO] [1756530323.272429799] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[INFO] [1756530331.030123446] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756530331.030199840] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756530331.032499640] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756530331.032519945] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756530331.032551554] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[INFO] [1756530331.032557859] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756530331.033283235] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756530331.047377916] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[INFO] [1756530332.808138881] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[INFO] [1756530332.808217663] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[INFO] [1756530332.808239834] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530332.808253539] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530332.808298833] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1756530332.812329699] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1756530332.812366882] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530332.812387977] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530332.812476281] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to right_joint_trajectory_controller
+[INFO] [1756530332.812871288] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: right_joint_trajectory_controller started execution
+[INFO] [1756530332.812886306] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1756530339.163614717] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'right_joint_trajectory_controller' successfully finished
+[INFO] [1756530339.182055299] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[INFO] [1756530339.182099483] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[INFO] [1756530356.910055788] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756530356.910136243] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756530356.912302702] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756530356.912331526] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756530356.912362134] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[INFO] [1756530356.912368563] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756530356.913028371] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756530356.926331413] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[INFO] [1756530357.216734758] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756530357.216808263] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756530357.222357585] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756530357.222387907] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756530357.222431958] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[INFO] [1756530357.222438200] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756530357.223124086] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756530357.235676667] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[INFO] [1756530359.250878762] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[INFO] [1756530359.250954043] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[INFO] [1756530359.250975255] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530359.251014652] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530359.251063839] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[ERROR] [1756530359.252297026] [moveit_ros.trajectory_execution_manager]: 
+Invalid Trajectory: start point deviates from current robot state more than 0.01
+joint 'right_joint_1': expected: -0.886217, current: -0.954047
+[INFO] [1756530359.252329937] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: ABORTED
+[INFO] [1756530370.075865779] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756530370.075911533] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756530370.081784028] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756530370.081800177] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756530370.081835287] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756530370.081880137] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1756530370.081886966] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756530370.082280301] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756530370.101516907] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530370.101532605] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530370.101567509] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1756530370.102145635] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1756530370.102177487] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530370.102196548] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530370.102316256] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to right_joint_trajectory_controller
+[INFO] [1756530370.102601464] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: right_joint_trajectory_controller started execution
+[INFO] [1756530370.102612591] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1756530376.453213141] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'right_joint_trajectory_controller' successfully finished
+[INFO] [1756530376.481897240] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[INFO] [1756530376.482286789] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[INFO] [1756530377.882424321] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756530377.882505125] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756530377.892135282] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756530377.892153879] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756530377.892181941] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756530377.892204152] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1756530377.892208913] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756530377.892577093] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756530377.913023044] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530377.913039706] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530377.913082231] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1756530377.915079941] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1756530377.915112629] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530377.915130798] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530377.915227605] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to right_joint_trajectory_controller
+[INFO] [1756530377.915549274] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: right_joint_trajectory_controller started execution
+[INFO] [1756530377.915559293] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1756530384.266464889] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'right_joint_trajectory_controller' successfully finished
+[INFO] [1756530384.282120826] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[INFO] [1756530384.285203301] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[INFO] [1756530384.285440353] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756530384.285492322] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756530384.292042145] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756530384.292052920] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756530384.292077754] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[INFO] [1756530384.292081004] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756530384.292606180] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756530384.313097460] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[INFO] [1756530384.314334401] [moveit_ros.trajectory_execution_manager]: Received event 'stop'
+[INFO] [1756530386.332328635] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[INFO] [1756530386.332395075] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[INFO] [1756530386.332416611] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530386.332436627] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530386.332483644] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1756530386.342480475] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1756530386.342521133] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530386.342539678] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530386.342637713] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to right_joint_trajectory_controller
+[INFO] [1756530386.343304811] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: right_joint_trajectory_controller started execution
+[INFO] [1756530386.343319285] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1756530392.693749609] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'right_joint_trajectory_controller' successfully finished
+[INFO] [1756530392.715267903] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[INFO] [1756530392.715328561] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[WARN] [1756530419.688916107] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756530419.688940001] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756530430.998876375] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756530430.998977827] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756530431.002374865] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756530431.002398931] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756530431.002448911] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[INFO] [1756530431.002454994] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756530431.003115059] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756530431.025128988] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[INFO] [1756530432.348979223] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756530432.349036960] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756530432.352328626] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756530432.352354452] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756530432.352409643] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756530432.352435057] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1756530432.352442754] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756530432.353102173] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756530432.378604986] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530432.378628179] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530432.378653163] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1756530432.381777380] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1756530432.381808365] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530432.381830117] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530432.382009212] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to right_joint_trajectory_controller
+[INFO] [1756530432.382275434] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: right_joint_trajectory_controller started execution
+[INFO] [1756530432.382284116] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1756530432.382606706] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'right_joint_trajectory_controller' successfully finished
+[WARN] [1756530432.382619432] [moveit_ros.trajectory_execution_manager]: Controller handle right_joint_trajectory_controller reports status PREEMPTED
+[INFO] [1756530432.382635529] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status PREEMPTED ...
+[INFO] [1756530432.391927616] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[INFO] [1756530433.960223069] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756530433.960296458] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756530433.962443347] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756530433.962466401] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756530433.962498137] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756530433.962524364] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1756530433.962531238] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756530433.963033796] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756530433.972018429] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530433.972044788] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530433.972078854] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1756530433.981869681] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1756530433.981919964] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530433.981939508] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756530433.982058111] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to right_joint_trajectory_controller
+[INFO] [1756530433.982332064] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: right_joint_trajectory_controller started execution
+[INFO] [1756530433.982343945] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[WARN] [1756530440.022133456] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: waitForExecution timed out
+[ERROR] [1756530440.022157270] [moveit_ros.trajectory_execution_manager]: Controller is taking too long to execute trajectory (the expected upper bound for the trajectory execution was 6.039708 seconds). Stopping trajectory.
+[INFO] [1756530440.022169547] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Cancelling execution for right_joint_trajectory_controller
+[INFO] [1756530440.022394253] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status TIMED_OUT ...
+[INFO] [1756530440.031963638] [moveit_move_group_default_capabilities.move_action_capability]: Timeout reached
+[INFO] [1756530443.102255976] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'right_joint_trajectory_controller' successfully finished
+[INFO] [1756530450.591976522] [rclcpp]: signal_handler(signum=2)

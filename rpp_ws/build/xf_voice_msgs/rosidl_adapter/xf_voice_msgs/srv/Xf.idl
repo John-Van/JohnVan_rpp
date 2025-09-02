@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from xf_voice_msgs/srv/Xf.srv
+// generated code does not contain a copyright notice
+
+
+module xf_voice_msgs {
+  module srv {
+    struct Xf_Request {
+      string text;
+    };
+    struct Xf_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

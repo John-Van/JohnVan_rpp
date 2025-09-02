@@ -1,0 +1,6 @@
+{
+  "package_name": "xf_voice_msgs",
+  "non_idl_tuples": [
+    "/home/rpp/rpp_ws/src/application/xf_voice_msgs:srv/Xf.srv"
+  ]
+}

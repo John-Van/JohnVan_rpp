@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="ea200">
+  <xacro:include filename="$(find cr100_description)/xacro/cr100_macro.xacro" />
+  <xacro:include filename="$(find ea200_description)/xacro/up_trunk.xacro" />
+  <xacro:include filename="$(find ea200_description)/xacro/flange_1.xacro" />
+  <xacro:include filename="$(find ea200_description)/xacro/camera_bracket.xacro" />
+  <xacro:include filename="$(find ea200_description)/xacro/flange_2.xacro" />
+  <xacro:include filename="$(find realsense2_description)/urdf/_d455.urdf.xacro" />
+  <xacro:include filename="$(find realsense2_description)/urdf/_d435i.urdf.xacro" />
+  <xacro:include filename="$(find kortex_description)/robots/kortex_robot.xacro" />
+
+  <xacro:arg name="use_nominal_extrinsics" default="true" />
+  <xacro:arg name="sim_gazebo" default="false" />
+  <xacro:arg name="simulation_controllers"
+    default="$(find ea200_description)/config/ros2_controllers.yaml" />
+
+  <!-- initial position for simulations (Mock Hardware, Gazebo, Ignition) -->
+  <xacro:arg name="left_initial_positions_file"
+    default="$(find ea200_description)/config/left_initial_positions.yaml" />
+  <xacro:arg name="right_initial_positions_file"
+    default="$(find ea200_description)/config/right_initial_positions.yaml" />
+
+  <!-- convert to property to use substitution in function -->
+  <xacro:property name="left_initial_positions_file" default="$(arg left_initial_positions_file)" />
+  <xacro:property name="right_initial_positions_file" default="$(arg right_initial_positions_file)" />
+
+  <xacro:if value="$(arg sim_gazebo)">
+    <gazebo>
+      <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+        <parameters>$(arg simulation_controllers)</parameters>
+      </plugin>
+    </gazebo>
+  </xacro:if>
+
+  <xacro:cr100 sim_gazebo="$(arg sim_gazebo)" />
+
+  <xacro:up_trunk parent="trunk_link" sim_gazebo="$(arg sim_gazebo)">
+    <origin xyz="-0.015250000000002 0 0.654999999999988" rpy="0 0 0" />
+  </xacro:up_trunk>
+
+  <xacro:sensor_d455 name="head_camera" parent="head_link" use_nominal_extrinsics="true">
+    <origin xyz="0.069447784372892 0 0.100332383958044" rpy="0 0 0" />
+  </xacro:sensor_d455>
+
+  <xacro:load_robot
+    parent="trunk_2_link"
+    prefix="left_"
+    arm="gen3"
+    sim_gazebo="$(arg sim_gazebo)"
+    initial_positions="${xacro.load_yaml(left_initial_positions_file)}"
+    gripper=""
+    gripper_joint_name=""
+    use_internal_bus_gripper_comm="false"
+    use_fake_hardware="false"
+    dof="7"
+    vision="false"
+    robot_ip="192.168.11.60"
+    username="admin"
+    password="admin"
+    port="10000"
+    port_realtime="10001"
+    session_inactivity_timeout_ms="60000"
+    connection_inactivity_timeout_ms="2000"
+    use_external_cable="true">
+    <origin
+      xyz="0 0.0620000000000037 0.213134470441267"
+      rpy="1.5707963267949 -1.5707963267949 3.1415926535898" />
+  </xacro:load_robot>
+
+  <xacro:flange_1 prefix="left_" parent="left_tool_frame">
+    <origin
+      xyz="0 0 0.000632219022766528"
+      rpy="0 0 0" />
+  </xacro:flange_1>
+
+  <xacro:camera_bracket prefix="left_" parent="left_flange_1_link">
+    <origin
+      xyz="0 0 0.015"
+      rpy="3.133080737142 1.5707963267949 0" />
+  </xacro:camera_bracket>
+
+  <xacro:sensor_d435i name="left_camera" parent="left_camera_bracket_link"
+    use_nominal_extrinsics="true">
+    <origin
+      xyz="-0.0134238432471568 0.076215181864385 0"
+      rpy="1.57079674211473 0 -2.79252680319093" />
+  </xacro:sensor_d435i>
+
+
+  <xacro:load_robot
+    parent="trunk_2_link"
+    prefix="right_"
+    arm="gen3"
+    sim_gazebo="$(arg sim_gazebo)"
+    initial_positions="${xacro.load_yaml(right_initial_positions_file)}"
+    gripper=""
+    gripper_joint_name=""
+    use_internal_bus_gripper_comm="false"
+    use_fake_hardware="false"
+    dof="7"
+    vision="false"
+    robot_ip="192.168.11.61"
+    username="admin"
+    password="admin"
+    port="10000"
+    port_realtime="10001"
+    session_inactivity_timeout_ms="60000"
+    connection_inactivity_timeout_ms="2000"
+    use_external_cable="true">
+    <origin
+      xyz="0 -0.0620000000000037 0.213134470441267"
+      rpy="1.5707963267949 -1.5707963267949 0" />
+  </xacro:load_robot>
+
+  <xacro:flange_1 prefix="right_" parent="right_tool_frame">
+    <origin
+      xyz="0 0 0.000632219022766528"
+      rpy="0 0 0" />
+  </xacro:flange_1>
+
+  <xacro:camera_bracket prefix="right_" parent="right_flange_1_link">
+    <origin
+      xyz="0 0 0.015"
+      rpy="3.133080737142 1.5707963267949 0" />
+  </xacro:camera_bracket>
+
+  <xacro:sensor_d435i name="right_camera" parent="right_camera_bracket_link"
+    use_nominal_extrinsics="true">
+    <origin
+      xyz="-0.0134238432471568 0.076215181864385 0"
+      rpy="1.57079674211473 0 -2.79252680319093" />
+  </xacro:sensor_d435i>
+   <link
+    name="mic_link">
+    <inertial>
+      <origin
+        xyz="-0.002809184271715 0.00160074264881274 -0.000791385450987336"
+        rpy="0 0 0" />
+      <mass
+        value="0.00296049786777864" />
+      <inertia
+        ixx="1.75212809601777E-06"
+        ixy="1.25533312010993E-07"
+        ixz="-1.19427392791652E-08"
+        iyy="1.89852889016767E-06"
+        iyz="4.79897931097733E-09"
+        izz="3.64841242721064E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ea200_description/meshes/mic_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.741176470588235 0.901960784313726 0.956862745098039 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ea200_description/meshes/mic_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint
+    name="mic_joint"
+    type="fixed">
+    <origin
+      xyz="0.000491091623170126 0 0.203116345407276"
+      rpy="0 0.00209885556419057 0.519451392605463" />
+    <parent
+      link="head_link" />
+    <child
+      link="mic_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

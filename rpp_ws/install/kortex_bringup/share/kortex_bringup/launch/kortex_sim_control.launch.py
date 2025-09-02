@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/drivers/ros2_kortex/kortex_bringup/launch/kortex_sim_control.launch.py

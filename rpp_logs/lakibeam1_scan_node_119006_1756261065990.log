@@ -1,0 +1,15 @@
+[INFO] [1756261066.010383576] [lakibeam1_back_node]: frame_id:laser_B_link
+[INFO] [1756261066.010470340] [lakibeam1_back_node]: output_topic:scan_multi
+[INFO] [1756261066.010480539] [lakibeam1_back_node]: inverted:False
+[INFO] [1756261066.010486971] [lakibeam1_back_node]: hostip:192.168.11.11
+[INFO] [1756261066.010493105] [lakibeam1_back_node]: sensorip:192.168.11.20
+[INFO] [1756261066.010498526] [lakibeam1_back_node]: port:2368
+[INFO] [1756261066.010504566] [lakibeam1_back_node]: scanfreq:
+[INFO] [1756261066.010510253] [lakibeam1_back_node]: filter:
+[INFO] [1756261066.010516052] [lakibeam1_back_node]: laser_enable:
+[INFO] [1756261066.010522151] [lakibeam1_back_node]: scan_range_start:
+[INFO] [1756261066.010528223] [lakibeam1_back_node]: scan_range_stop:
+[INFO] [1756261066.010533735] [lakibeam1_back_node]: create_socket
+[INFO] [1756261066.010551158] [lakibeam1_back_node]: Socket bind error!
+[INFO] [1756261066.010554993] [lakibeam1_back_node]: scan_publish
+[INFO] [1756261154.515333921] [rclcpp]: signal_handler(signum=2)

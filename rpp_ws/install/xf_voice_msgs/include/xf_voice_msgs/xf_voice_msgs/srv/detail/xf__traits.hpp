@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/xf_voice_msgs/rosidl_generator_cpp/xf_voice_msgs/srv/detail/xf__traits.hpp

@@ -1,0 +1,5 @@
+[INFO] [1756015033.873802756] [spawner_fault_controller]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [1756015035.445572589] [spawner_fault_controller]: [94mLoaded [1mfault_controller[0m
+[WARN] [1756015045.448019041] [spawner_fault_controller]: Failed getting a result from calling /controller_manager/configure_controller in 10.0. (Attempt 1 of 3.)
+[WARN] [1756015055.449004990] [spawner_fault_controller]: Failed getting a result from calling /controller_manager/configure_controller in 10.0. (Attempt 2 of 3.)
+[WARN] [1756015065.450033157] [spawner_fault_controller]: Failed getting a result from calling /controller_manager/configure_controller in 10.0. (Attempt 3 of 3.)

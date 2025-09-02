@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/navigation_2d/ament_cmake_core/navigation_2dConfig-version.cmake

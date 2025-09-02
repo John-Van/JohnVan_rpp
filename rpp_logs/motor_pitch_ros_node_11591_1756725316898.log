@@ -1,0 +1,24 @@
+[INFO] [1756725317.369973350] [motor_pitch_ros_node]: Pitch Motor initialization parameters:
+[INFO] [1756725317.370049600] [motor_pitch_ros_node]: CAN Port: can0
+[INFO] [1756725317.370055412] [motor_pitch_ros_node]: CAN Motor ID: 0x01
+[INFO] [1756725317.370059149] [motor_pitch_ros_node]: Pitch Joint: trunk_2_joint
+[INFO] [1756725317.370064257] [motor_pitch_ros_node]: High Limit: 90.00
+[INFO] [1756725317.370071140] [motor_pitch_ros_node]: Low Limit: 0.00
+[INFO] [1756725317.370077806] [motor_pitch_ros_node]: Velocity: 2.00
+[INFO] [1756725317.380035489] [motor_pitch_ros_node]: Motor is in place. Current position: 0.00 (rad), 0.00 (degree)
+[INFO] [1756725398.113962572] [motor_pitch_ros_node]: Set position: 0.20 (rad), 11.46 (degree)
+[INFO] [1756725398.116381582] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756725399.276467776] [motor_pitch_ros_node]: Motor is in place. Current position: 0.20 (rad), 11.48 (degree)
+[INFO] [1756725406.482880825] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756725406.487003046] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756725407.037056224] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.70 (degree)
+[INFO] [1756725413.554883614] [motor_pitch_ros_node]: Set position: 0.20 (rad), 11.46 (degree)
+[INFO] [1756725413.557568729] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756725414.097583168] [motor_pitch_ros_node]: Motor is in place. Current position: 0.20 (rad), 11.44 (degree)
+[INFO] [1756725418.470003368] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756725418.477923923] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756725418.997960111] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.72 (degree)
+[INFO] [1756725424.121072555] [motor_pitch_ros_node]: Set position: 0.01 (rad), 0.57 (degree)
+[INFO] [1756725424.128435032] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756725425.098454731] [motor_pitch_ros_node]: Motor is in place. Current position: 0.01 (rad), 0.67 (degree)
+[INFO] [1756725433.979488938] [rclcpp]: signal_handler(signum=2)

@@ -1,0 +1,1564 @@
+[INFO] [1756454046.263591521] [motor_pitch_ros_node]: Pitch Motor initialization parameters:
+[INFO] [1756454046.263665810] [motor_pitch_ros_node]: CAN Port: can0
+[INFO] [1756454046.263673887] [motor_pitch_ros_node]: CAN Motor ID: 0x01
+[INFO] [1756454046.263677182] [motor_pitch_ros_node]: Pitch Joint: trunk_2_joint
+[INFO] [1756454046.263682604] [motor_pitch_ros_node]: High Limit: 90.00
+[INFO] [1756454046.263689943] [motor_pitch_ros_node]: Low Limit: 0.00
+[INFO] [1756454046.263693893] [motor_pitch_ros_node]: Velocity: 2.00
+[INFO] [1756454046.273653613] [motor_pitch_ros_node]: Motor is in place. Current position: 0.30 (rad), 17.20 (degree)
+[INFO] [1756454127.823776453] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454127.828008752] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454128.823708883] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454129.228079387] [motor_pitch_ros_node]: Motor is in place. Current position: 0.53 (rad), 30.10 (degree)
+[INFO] [1756454129.823645790] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454129.828109113] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454129.838112388] [motor_pitch_ros_node]: Motor is in place. Current position: 0.52 (rad), 29.93 (degree)
+[INFO] [1756454130.823683676] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454130.828162279] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454130.838171886] [motor_pitch_ros_node]: Motor is in place. Current position: 0.52 (rad), 29.97 (degree)
+[INFO] [1756454131.823746134] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454132.823721600] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454132.828277692] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454132.838271937] [motor_pitch_ros_node]: Motor is in place. Current position: 0.52 (rad), 30.03 (degree)
+[INFO] [1756454133.823687253] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454133.828321636] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454133.838321640] [motor_pitch_ros_node]: Motor is in place. Current position: 0.52 (rad), 30.01 (degree)
+[INFO] [1756454134.823656970] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454135.823644722] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454135.828428137] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454135.838427552] [motor_pitch_ros_node]: Motor is in place. Current position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454136.823690630] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454136.828481722] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454136.838480920] [motor_pitch_ros_node]: Motor is in place. Current position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454137.823654534] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454137.828535365] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454137.838536747] [motor_pitch_ros_node]: Motor is in place. Current position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454138.823640417] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454139.823712104] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454139.828646748] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454139.838647053] [motor_pitch_ros_node]: Motor is in place. Current position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454140.823821015] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454140.828697186] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454140.838695469] [motor_pitch_ros_node]: Motor is in place. Current position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454141.823652694] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454142.823662833] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454142.828803806] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454142.838803651] [motor_pitch_ros_node]: Motor is in place. Current position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454143.823723697] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454143.828860922] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454143.838862471] [motor_pitch_ros_node]: Motor is in place. Current position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454144.823689897] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454145.823733895] [motor_pitch_ros_node]: Set position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454145.828964764] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454145.838968175] [motor_pitch_ros_node]: Motor is in place. Current position: 0.52 (rad), 30.00 (degree)
+[INFO] [1756454156.749181822] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454156.749557909] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454157.749593257] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454158.669660699] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.24 (degree)
+[INFO] [1756454158.749412991] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454158.749645796] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454158.759691203] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.22 (degree)
+[INFO] [1756454159.749459418] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454159.749710973] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454159.759730705] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.17 (degree)
+[INFO] [1756454160.749376698] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454160.749771176] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454160.769775345] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.17 (degree)
+[INFO] [1756454161.749400222] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454161.749812305] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454161.759814870] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.17 (degree)
+[INFO] [1756454162.749388281] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454162.749871560] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454162.759875466] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.18 (degree)
+[INFO] [1756454163.749410230] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454163.749910736] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454163.759909902] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.18 (degree)
+[INFO] [1756454164.749568760] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454164.749980075] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454164.760002601] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454165.749548588] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454165.750040372] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454165.760030544] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454166.749567109] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454166.750085893] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454166.760083400] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454167.749524019] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454167.750136376] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454167.760139255] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454168.749535689] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454168.750189376] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454168.760188470] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454169.749590963] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454169.750244574] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454169.760246710] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454170.749423893] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454170.750300763] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454170.760338381] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454171.749399166] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454171.750354690] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454171.760357217] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454172.749528147] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454172.750412047] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454172.760407965] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454173.749449574] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454173.750456171] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454173.760462531] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454174.749506508] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454174.750518844] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454174.760522313] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454175.749452902] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454175.750562562] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454175.760545415] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454176.749505958] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454176.750617553] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454176.760619122] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454177.749419047] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454177.750671533] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454177.760680245] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454178.749459324] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454178.750724690] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454178.760728238] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454179.749588018] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454179.750783248] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454179.760788469] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454180.749508468] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454180.750863840] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454180.760833184] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454181.749528547] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454181.750884763] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454181.760892316] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454182.749618277] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454182.750908009] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454182.760907682] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454183.749559312] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454184.749464708] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454184.751044740] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454184.761054914] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454185.749439869] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454185.751098279] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454185.761102899] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454186.749384631] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454187.749364377] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454187.751205544] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454187.761228483] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454188.749365706] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454188.751258827] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454188.761266895] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454189.749389866] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454189.751339287] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454189.761319524] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454190.749355439] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454190.751391598] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454190.761379552] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454191.749361212] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454191.751420520] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454191.761446003] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454192.749409689] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454192.751477026] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454192.761472872] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454193.749368203] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454193.751553237] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454193.761532001] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454194.749424049] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454194.751582769] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454194.761588230] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454195.749494613] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454195.751628326] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454195.761641615] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454196.749383069] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454196.751713234] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454196.761688991] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454197.749483528] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454197.751740791] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454197.761740121] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454198.749455880] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454199.749401460] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454199.751847296] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454199.761858550] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454200.749346710] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454200.751897036] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454200.761911180] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454201.749412876] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454201.751909681] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454201.761911533] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454202.749382413] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454202.752016642] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454202.762013501] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454203.749428419] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454204.749419282] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454204.752116257] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454204.762119385] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454205.749483930] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454205.752168885] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454205.762170580] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454206.749428164] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454207.749410086] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454207.752276877] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454207.762277487] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454208.749356774] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454208.752333522] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454208.762331614] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454209.749408193] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454210.749536398] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454210.752436177] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454210.762479062] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454211.749424618] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454211.752513898] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454211.762543964] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454212.749397183] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454212.752568426] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454212.762577217] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454213.749407779] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454213.752599573] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454213.762608210] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454214.749447376] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454214.752652181] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454214.762659241] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454215.749390179] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454216.749427438] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454216.752788288] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454216.762821417] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454217.749506903] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454217.752816014] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454217.762812024] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454218.749556710] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454219.749550000] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454219.752907961] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454219.762916364] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454220.749405982] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454220.752973848] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454220.762937755] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454221.749421146] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454222.749455281] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454223.749461605] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454223.753137258] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454223.763133151] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454224.749415120] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454224.753187524] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454224.763180834] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454225.749366043] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454226.749447850] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454226.753295568] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454226.763301857] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454227.749391555] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454227.753378068] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454227.763359147] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454228.749531800] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454229.749520268] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454229.753455515] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454229.763459444] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454230.749470793] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454230.753527714] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454230.763509008] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454231.749364308] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454232.749384305] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454232.753618208] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454232.763650180] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454233.749532372] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454233.753670506] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454233.763681330] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454234.749506134] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454235.749436373] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454235.753777023] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454235.763784088] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454236.749447850] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454236.753832643] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454236.763834686] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454237.749373315] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454238.749367736] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454238.753922106] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454238.763927199] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454239.749412619] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454239.753996221] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454239.763997248] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454240.749413527] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454241.749370186] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454241.754101147] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454241.764186106] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454242.749428947] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454242.754152639] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454242.764157336] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454243.749382587] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454243.754207734] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454243.764219806] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454244.749430590] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454245.749609540] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454245.754325471] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454245.764329154] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454246.749346929] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454246.754383490] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454246.764373253] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454247.749407690] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454248.749492344] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454248.754495606] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454248.764482833] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454249.749424606] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454249.754525775] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454249.764528520] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454250.749380800] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454251.749410369] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454251.754633106] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454251.764686093] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454252.749414252] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454252.754689864] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454252.764700693] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454253.749391456] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454254.749392938] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454254.754793733] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454254.764802293] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454255.749431575] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454255.754849344] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454255.764854786] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454256.749369794] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454257.749368752] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454257.754908911] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454257.764911648] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454258.749416748] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454258.755008976] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454258.765014027] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454259.749558419] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454260.749506123] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454260.755190338] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454260.765138806] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454261.749505599] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454261.755187425] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454261.765178865] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454262.749386892] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454263.749405612] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454263.755238504] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454263.765284434] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454264.749359848] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454264.755330112] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454264.765334691] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454265.749407112] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454266.749554266] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454266.755441225] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454266.765452529] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454267.749524413] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454267.755496657] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454267.765497638] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454268.749398678] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454269.749378942] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454269.755611535] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454269.765599334] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454270.749609838] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454270.755658886] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454270.765697660] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454271.749424407] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454272.749367163] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454272.755771122] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454272.765789047] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454273.749350955] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454274.749429364] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454275.749413532] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454275.755918707] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454275.765928109] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454276.749422897] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454276.755980620] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454276.765982383] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454277.749481917] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454278.749492131] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454279.749449939] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454279.756147228] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454279.766155897] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454280.749451299] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454281.749446073] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454282.749406006] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454282.756298532] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454282.766303965] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454283.749460885] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454284.749379523] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454284.756446070] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454284.766436103] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454285.749350169] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454286.749483612] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454287.749592232] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454287.756603777] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454287.766612012] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454288.749608385] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454289.749371864] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454290.749377097] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454290.756734107] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454290.766730719] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454291.749448512] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454292.749545604] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454292.756829629] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454292.766839392] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454293.749463860] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454294.749415472] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454295.749359392] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454295.756998038] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454295.767003461] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454296.749603997] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454297.749410543] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454298.749544157] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454298.757295499] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454298.767162175] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454299.749497491] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454300.749448049] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454301.749484889] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454301.757316887] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454301.767320381] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454302.749604572] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454303.749480924] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454304.749367392] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454305.749374127] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454305.757544354] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454305.767541461] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454306.749385965] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454307.749494352] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454308.749584292] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454308.757692776] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454308.767832120] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454309.749402227] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454310.749370627] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454311.749413952] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454312.749363629] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454313.749520390] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454313.757911755] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454313.767915150] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454314.749452220] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454315.749586898] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454316.749445365] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454317.749588646] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454317.758216939] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454317.768176206] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454318.749516352] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454319.749463119] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454320.749614349] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454321.749614868] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454322.749580503] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454323.749560825] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454324.749604628] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454325.749535601] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454326.749711362] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454326.758653844] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454326.768679824] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454327.749623406] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454328.749443065] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454329.749437431] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454329.758815087] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454329.768821848] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454330.749338659] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454331.749502072] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454332.749406482] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454333.749397612] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454334.749408059] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454335.749350220] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454335.759137196] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454335.769141578] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454336.749409864] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454337.749429580] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454338.749379028] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454339.749671172] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454340.749449102] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454341.749521109] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454342.749427879] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454342.749526217] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454342.759546149] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454343.749375178] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454343.749566825] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454343.759534644] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454344.749387953] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454344.749622301] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454344.759590053] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454345.749396401] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454345.749675782] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454345.759673629] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454346.749479522] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454346.749726685] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454346.759730044] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454347.749573242] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454347.749788315] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454347.759800068] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454348.749428651] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454348.749843834] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454348.759852099] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454349.749585134] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454349.749889860] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454349.759896523] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454350.749432803] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454350.749910338] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454350.759926150] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454351.749382290] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454351.750018324] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454351.760021397] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454352.749706002] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454352.750069010] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454352.760052900] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454353.749395817] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454353.750115422] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454353.760105286] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454354.749375620] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454354.750156661] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454354.760156494] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454355.749526070] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454355.750209383] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454355.760209872] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454356.749523019] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454356.750263955] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454356.760457658] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454357.749555277] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454357.750279966] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454357.760344242] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454358.749403077] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454358.750376129] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454358.760385735] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454359.749377441] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454359.750423690] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454359.760430019] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454360.749514621] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454360.750503394] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454360.760486048] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454361.749453427] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454362.749396002] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454362.750619618] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454362.760593191] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454363.749555500] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454363.750637300] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454363.760641594] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454364.749424165] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454364.750693224] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454364.760694645] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454365.749530922] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454365.750753682] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454365.760748999] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454366.749327086] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454366.750798523] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454366.760801304] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454367.749562436] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454367.750890091] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454367.760859528] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454368.749601147] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454368.750911437] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454368.760914506] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454369.749503006] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454369.750963100] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454369.760972220] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454370.749467959] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454370.751024741] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454370.761026928] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454371.749443893] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454372.749470890] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454372.751124009] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454372.761135224] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454373.749535624] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454373.751175447] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454373.761180457] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454374.749467697] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454375.749483128] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454375.751286997] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454375.761285192] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454376.749400797] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454376.751362905] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454376.761343550] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454377.749374040] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454377.751391635] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454377.761396669] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454378.749345230] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454378.751469993] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454378.761473123] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454379.749400777] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454379.751553053] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454379.761555069] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454380.749391926] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454380.751684630] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454380.761648925] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454381.749410559] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454381.751722083] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454381.761725104] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454382.749422655] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454382.751803804] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454382.761838914] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454383.749426130] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454383.751930603] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454383.761902881] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454384.749428791] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454384.751969485] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454384.761974557] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454385.749478841] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454385.752053396] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454385.762055794] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454386.749444099] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454386.752136623] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454386.762139393] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454387.749445952] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454387.752220694] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454387.762226493] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454388.749608377] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454388.752322617] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454388.762303931] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454389.749435780] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454389.752385924] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454389.762388977] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454390.749450208] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454391.749485946] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454391.752552471] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454391.762553496] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454392.749539503] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454392.752657058] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454392.762659266] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454393.749498533] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454394.749609710] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454394.752821080] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454394.762825754] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454395.749547998] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454395.752915401] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454395.762938373] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454396.749563373] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454397.749484606] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454398.749505763] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454399.749512937] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454399.753225326] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454399.763233867] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454400.749489593] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454400.753302040] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454400.763304067] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454401.749472161] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454402.749406411] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454403.749506451] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454403.753548688] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454403.763554031] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454404.749403212] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454404.753630005] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454404.763631210] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454405.749468862] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454405.753708977] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454405.763712973] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454406.749406274] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454407.749426235] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454407.753922857] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454407.763881895] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454408.749408886] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454409.749448137] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454409.754001837] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454409.764140955] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454410.749428611] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454410.754144920] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454410.764125503] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454411.749406860] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454412.749458854] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454412.754292950] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454412.764281798] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454413.749443231] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454413.754411413] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454413.764355992] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454414.749372631] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454415.749343913] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454415.754531218] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454415.764545627] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454416.749409478] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454416.754616501] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454416.764617495] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454417.749441187] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454418.749422630] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454418.754783172] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454418.764783091] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454419.749401922] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454420.749507320] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454421.749389924] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454421.755032699] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454421.765032204] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454422.749653167] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454422.755110459] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454422.765106030] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454423.749440169] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454424.749530251] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454425.749450652] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454425.755371134] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454425.765355812] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454426.749459754] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454427.749433077] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454427.755515473] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454427.765511864] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454428.749463139] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454428.755612152] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454428.765594382] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454429.749439250] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454430.749555076] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454430.755755965] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454430.765763646] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454431.749541142] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454432.749487826] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454433.749463964] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454433.756022697] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454433.766017594] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454434.749535319] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454435.749624217] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454436.749453644] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454436.756241240] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454436.766253031] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454437.749500559] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454438.749647679] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454439.749410429] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454439.756535580] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454439.766510709] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454440.749476063] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454441.749504135] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454442.749453158] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454442.756727572] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454442.766726447] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454443.749373790] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454444.749482643] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454445.749510945] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454445.757002544] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454445.766974255] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454446.749522311] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454447.749528298] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454448.749457062] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454448.757173966] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454448.767209037] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454449.749410750] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454450.749352065] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454451.749465420] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454451.757445515] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454451.767451370] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454452.749580301] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454453.749424375] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454454.749383028] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454454.757686286] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454454.767689024] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454455.749407292] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454456.749380562] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454457.749404168] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454457.757912732] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454457.767913210] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454458.749511172] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454459.749402508] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454460.749429626] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454460.758165137] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454460.768191275] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454461.749576868] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454462.749356516] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454463.749420667] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454463.758436461] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454463.768434420] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454464.749527739] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454465.749395032] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454466.749396996] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454466.758654517] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454466.768660366] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454467.749581585] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454468.749491798] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454469.749423820] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454470.749464785] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454471.749430097] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454472.749391188] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454473.749377256] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454474.749481901] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454475.749725956] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454476.749550401] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454477.749817119] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454478.749524054] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454478.749592585] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454478.769714630] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454479.749439121] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454479.749681216] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454479.759685357] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454480.749564070] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454480.749761361] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454480.759858421] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454481.749542866] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454481.749832638] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454481.759874019] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454482.749464538] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454482.749912585] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454482.759918153] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454483.749504748] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454483.749991675] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454483.760011889] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454484.749512578] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454484.750093398] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454484.760069065] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454485.749417100] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454485.750148217] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454485.760150024] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454486.749423889] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454486.750228771] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454486.760229633] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454487.749625843] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454487.750312507] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454487.760324431] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454488.749423479] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454488.750383819] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454488.760392641] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454489.749395047] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454489.750462807] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454489.760488073] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454490.749490647] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454490.750552267] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454490.760541173] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454491.749420108] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454491.750617125] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454491.760617076] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454492.749495962] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454492.750697634] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454492.760706796] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454493.749441440] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454493.750784220] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454493.760786899] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454494.749432347] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454494.750832024] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454494.760891018] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454495.749443198] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454495.750910984] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454495.760914154] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454496.749416682] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454496.751008279] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454496.761008882] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454497.749399100] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454497.751111319] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454497.761127570] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454498.749384408] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454498.751170884] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454498.761168783] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454499.749398460] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454499.751244507] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454499.761252233] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454500.749419119] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454501.749415908] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454501.751399161] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454501.761431524] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454502.749471594] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454502.751479237] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454502.761483907] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454503.749359462] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454504.749574381] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454504.751634142] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454504.761685376] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454505.749546680] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454505.751715291] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454505.761715023] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454506.749563457] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454506.751789520] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454506.761793708] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454507.749482912] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454507.751873479] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454507.761867827] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454508.749481235] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454508.751926395] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454508.761959450] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454509.749355562] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454509.752031688] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454509.762030260] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454510.749415346] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454510.752111269] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454510.762111881] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454511.749474438] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454511.752198684] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454511.762203506] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454512.749406695] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454512.752259344] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454512.762260249] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454513.749415905] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454513.752333107] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454513.762336360] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454514.749370581] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454514.752417996] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454514.762415777] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454515.749382853] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454516.749383628] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454516.752565441] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454516.762565745] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454517.749518543] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454517.752643752] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454517.762647995] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454518.749416251] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454519.749367267] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454519.752799999] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454519.762803265] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454520.749457490] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454520.752896216] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454520.762879471] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454521.749578949] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454521.753132110] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454521.763174473] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454522.749502784] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454523.749554679] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454523.753132474] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454523.763257319] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454524.749464998] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454524.753194825] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454524.763187351] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454525.749528297] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454526.749376793] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454526.753338403] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454526.763344288] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454527.749489487] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454527.753428877] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454527.763430256] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454528.749477633] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454529.749480463] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454529.753583005] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454529.763582510] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454530.749629817] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454530.753645983] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454530.763646832] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454531.749442159] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454532.749537983] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454532.753801182] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454532.763806623] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454533.749412671] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454533.753876915] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454533.763879069] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454534.749407482] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454534.753917829] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454534.763912977] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454535.749448979] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454536.749570767] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454536.754126250] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454536.764129217] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454537.749411192] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454537.754183714] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454537.764191332] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454538.749410331] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454539.749384652] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454540.749364445] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454540.754415587] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454540.764415850] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454541.749428000] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454542.749605062] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454543.749450005] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454543.754647176] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454543.764643646] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454544.749425680] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454545.749395714] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454546.749418779] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454546.754872620] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454546.764877338] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454547.749424034] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454548.749459610] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454549.749463945] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454550.749432942] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454550.755179874] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454550.765178298] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454551.749441895] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454552.749394564] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454553.749373229] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454553.755426115] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454553.765425803] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454554.749384226] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454554.755484440] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454554.765494697] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454555.749388933] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454556.749383287] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454556.755645302] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454556.765647861] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454557.749465448] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454557.755739345] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454557.765754777] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454558.749589581] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454559.749385790] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454560.749457792] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454560.755912534] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454560.765919062] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454561.749460555] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454562.749565977] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454563.749420498] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454563.756178749] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454563.766169105] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454564.749452703] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454565.749464105] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454566.749468082] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454566.756392071] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454566.766394262] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454567.749526499] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454568.749546253] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454569.749428262] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454569.756618568] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454569.766622104] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454570.749371772] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454571.749390566] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454572.749555014] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454572.756847630] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454572.766850990] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454573.749543809] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454574.749512962] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454575.749402691] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454576.749459788] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454577.749435760] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454578.749422306] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454578.757301805] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454578.767301042] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454579.749377622] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454580.749525963] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454581.749484403] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454582.749502439] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454582.757598811] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454582.767605395] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454583.749458571] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454584.749425670] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454585.749380421] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454585.757826621] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454585.767811591] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454586.749538442] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454587.749558648] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454588.749405833] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454588.758047827] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454588.768048797] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454589.749500646] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454590.749515640] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454591.749495468] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454592.749387088] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454593.749412901] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454594.749451699] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454594.758492502] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454594.768496593] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454595.749475109] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454596.749490954] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454597.749369201] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454597.758735121] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454597.768722059] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454598.749416955] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454599.749529245] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454600.749558407] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454601.749466619] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454602.749430853] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454603.749376972] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454604.749358729] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454605.749400695] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454606.749406377] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454607.749417952] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454607.749472634] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454607.759464406] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454608.749370790] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454608.749532455] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454608.759533058] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454609.749428581] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454609.749616974] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454609.759623912] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454610.749601293] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454610.749666701] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454610.759690825] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454611.749366231] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454611.749755234] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454611.759778497] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454612.749631553] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454612.749830609] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454612.759795249] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454613.749440554] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454613.749909758] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454613.759936749] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454614.749476553] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454614.749979174] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454614.760112855] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454615.749420837] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454615.750053557] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454615.760051426] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454616.749621510] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454616.750129510] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454616.760131491] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454617.749536790] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454617.750178016] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454617.760205989] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454618.749343775] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454618.750275500] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454618.760283237] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454619.749417305] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454619.750329692] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454619.760356812] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454620.749418180] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454620.750452222] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454620.760423281] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454621.749504756] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454621.750519774] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454621.760496897] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454622.749455643] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454622.750576736] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454622.760583886] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454623.749469999] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454623.750670482] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454623.760653195] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454624.749466315] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454624.750766198] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454624.760718393] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454625.749577085] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454625.750790058] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454625.760882846] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454626.749534926] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454626.750872162] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454626.760873994] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454627.749598604] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454627.750907751] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454627.760924271] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454628.749455669] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454628.751020183] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454628.761099510] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454629.749376695] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454629.751088759] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454629.761083469] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454630.749428699] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454630.751157226] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454630.761156010] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454631.749517773] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454631.751231171] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454631.761235905] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454632.749482899] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454632.751303832] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454632.761306435] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454633.749325560] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454633.751408393] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454633.761383748] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454634.749495310] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454634.751476054] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454634.761453173] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454635.749378286] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454635.751525244] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454635.761526363] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454636.749497761] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454637.749445864] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454637.751681593] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454637.761688708] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454638.749385860] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454638.751752523] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454638.761755348] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454639.749499552] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454639.751818090] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454639.761817701] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454640.749344227] [motor_pitch_ros_node]: Set position: 0.82 (rad), 47.19 (degree)
+[INFO] [1756454640.751890599] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454640.761904838] [motor_pitch_ros_node]: Motor is in place. Current position: 0.82 (rad), 47.19 (degree)
+[ERROR] [1756454658.130487930] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454658.133158636] [motor_pitch_ros_node]: Motor starts moving
+[ERROR] [1756454659.130783679] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454660.130863449] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454661.130767149] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454662.130872749] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454662.863507849] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.91 (degree)
+[ERROR] [1756454663.130682683] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454663.133520463] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454664.063603410] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.10 (degree)
+[ERROR] [1756454664.130719094] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454664.133590268] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454664.143593192] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.08 (degree)
+[ERROR] [1756454665.130856293] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454665.133662536] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454665.143662984] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.98 (degree)
+[ERROR] [1756454666.130698596] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454667.130651153] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454667.133807114] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454667.143837791] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.98 (degree)
+[ERROR] [1756454668.130677494] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454668.133837278] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454668.143879643] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.99 (degree)
+[ERROR] [1756454669.130812231] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454669.133910815] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454669.363971131] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.10 (degree)
+[ERROR] [1756454670.130744792] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454671.130705433] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454671.134120854] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454671.144098124] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.01 (degree)
+[ERROR] [1756454672.130816266] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454672.134197771] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454672.144195983] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.98 (degree)
+[ERROR] [1756454673.130805693] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454674.130835872] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454674.134334138] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454674.144328152] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.98 (degree)
+[ERROR] [1756454675.130798848] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454675.134397101] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454675.144404594] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.98 (degree)
+[ERROR] [1756454676.130848226] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454677.130671582] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454677.134546499] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454677.144532414] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.99 (degree)
+[ERROR] [1756454678.130767207] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454678.134626089] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454678.144603684] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454679.130840638] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454679.134706566] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454679.144707682] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454680.130769199] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454680.134750518] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454680.144756585] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454681.130751352] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454682.130707763] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454682.134894691] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454682.144898930] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454683.131086598] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454683.135068953] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454683.144966473] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454684.130900414] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454684.135034912] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454684.145045208] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454685.130671793] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454686.130717840] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454687.130848076] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454687.135259395] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454687.145250773] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454688.130917498] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454689.130765071] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454689.135396030] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454689.145397704] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454690.130767660] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454690.135471489] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454690.145470876] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454691.130687613] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454691.135537755] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454691.265686078] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.10 (degree)
+[ERROR] [1756454692.130841118] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454693.130694101] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454693.135679276] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454693.145680065] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.99 (degree)
+[ERROR] [1756454694.130732241] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454694.135749272] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454694.145749749] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.99 (degree)
+[ERROR] [1756454695.130713425] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454696.130752431] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454697.130734887] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454697.135990498] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454697.145984937] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.01 (degree)
+[ERROR] [1756454698.130929883] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454698.136055895] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454698.146055714] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.01 (degree)
+[ERROR] [1756454699.130708547] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454700.130821843] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454701.130852962] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454701.136249598] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454701.146249876] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.98 (degree)
+[ERROR] [1756454702.130823159] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454703.130925679] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454703.136392818] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454703.146395976] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.99 (degree)
+[ERROR] [1756454704.131001257] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454704.136489114] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454704.146558279] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.99 (degree)
+[ERROR] [1756454705.130858631] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454706.130779199] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454706.136614824] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454706.146645823] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.99 (degree)
+[ERROR] [1756454707.130900732] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454707.136690010] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454707.146702524] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.99 (degree)
+[ERROR] [1756454708.130883923] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454709.130656248] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454710.130914453] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454710.137019011] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454710.147056630] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.03 (degree)
+[ERROR] [1756454711.130878221] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454712.130790635] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454713.130889543] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454713.137106330] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454713.147106995] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.95 (degree)
+[ERROR] [1756454714.130726162] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454714.137223715] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454714.147229920] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.01 (degree)
+[ERROR] [1756454715.130880425] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454716.130735354] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454717.130798864] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454717.137412975] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454717.147408043] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.01 (degree)
+[ERROR] [1756454718.130780720] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454719.130895493] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454720.130695792] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454720.137599780] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454720.147604478] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454721.130676746] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454722.130855844] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454723.130737420] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454723.137816242] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454723.147818379] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 89.98 (degree)
+[ERROR] [1756454724.130773167] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454725.130677011] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454726.130786487] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454726.138023949] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454726.148023892] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.01 (degree)
+[ERROR] [1756454727.130722398] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454728.130711946] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454729.130788777] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454729.138239423] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454729.148238493] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.01 (degree)
+[ERROR] [1756454730.130670032] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454731.130752061] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454732.130637675] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454732.138480634] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454732.148481381] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454733.130664292] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454734.130692984] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454735.130665667] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454736.130677540] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454737.130694129] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454738.130714543] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454738.138871791] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454738.148878141] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454739.130745963] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454740.130758183] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454741.130781169] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454741.139084726] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454741.149088290] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454742.130739018] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454743.131022838] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454744.130918148] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454744.139305806] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454744.149308706] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454745.130820594] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454746.130718620] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454747.130892997] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454748.130839422] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454749.130851234] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454750.130784628] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454750.139717641] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454750.149717539] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454751.130721434] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454752.130722048] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454753.130729746] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454754.130711453] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454754.139997499] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454754.149995430] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454755.130709146] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454756.130669204] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454757.130649417] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454758.130745061] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454759.130677337] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454760.130697517] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454761.130653656] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454762.130656594] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454763.130740880] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454763.140626718] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454763.150625822] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454764.130801233] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454765.130747300] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454765.130785846] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454765.140813035] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454766.130763606] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454766.130808427] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454766.140834201] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454767.130862989] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454767.130895720] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454767.140926211] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454768.130911956] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454768.130951460] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454768.140975102] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454769.130761797] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454769.131040808] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454769.141042427] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454770.130833787] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454770.131109734] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454770.141113342] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454771.130798282] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454771.131183939] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454771.141187554] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454772.130806671] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454772.131249336] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454772.141249147] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454773.130831990] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454773.131320618] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454773.141320302] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454774.130774950] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454774.131396189] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454774.141393621] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454775.130749809] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454775.131457297] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454775.141467768] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454776.130743895] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454776.131555465] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454776.141485746] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454777.130848719] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454777.131625574] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454777.141646783] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454778.130764914] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454778.131669533] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454778.141668061] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454779.130732573] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454779.131784370] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454779.141762817] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454780.130887182] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454780.131805877] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454780.141810593] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454781.130700391] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454781.131881731] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454781.141875774] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454782.130807014] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454782.131908331] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454782.141911786] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454783.130820737] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454783.132012889] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454783.142012992] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454784.130804683] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454784.132087617] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454784.142087490] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454785.130793915] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454785.132151502] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454785.142172382] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454786.130646691] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454786.132219935] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454786.142244140] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454787.130729186] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454787.132289258] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454787.142288859] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454788.130822946] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454788.132363501] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454788.142359059] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.01 (degree)
+[ERROR] [1756454789.130678098] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454789.132431904] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454789.142468403] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.01 (degree)
+[ERROR] [1756454790.130824464] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454790.132531392] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454790.142506086] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.01 (degree)
+[ERROR] [1756454791.130739547] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454792.130832268] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454792.132657873] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454792.142657495] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454793.130739142] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454793.132736779] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454793.142704568] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454794.130815186] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454794.132872801] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454794.142993556] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454795.130706670] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454795.132841828] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454795.142842684] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454796.130754977] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454796.132909347] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454796.142912241] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454797.130801547] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454798.130825415] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454798.133074493] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454798.143073504] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454799.130781148] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454799.133126612] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454799.143143022] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454800.130863851] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454800.133197532] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454800.143207338] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454801.130927925] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756454802.131006169] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454802.133351496] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454802.143349328] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454803.130918453] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454803.133427381] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454803.143424978] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[ERROR] [1756454804.130940387] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756454804.133495626] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454804.143516500] [motor_pitch_ros_node]: Motor is in place. Current position: 1.57 (rad), 90.00 (degree)
+[INFO] [1756454822.593708969] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454822.594728445] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454823.594149623] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454824.594154848] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454825.594001637] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454826.594061691] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454827.594113252] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454828.594084466] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454829.594091208] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454829.825249465] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.82 (degree)
+[INFO] [1756454830.594040588] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454830.595275106] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454830.615276818] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.75 (degree)
+[INFO] [1756454831.594009383] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454831.595374311] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454831.605375809] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.67 (degree)
+[INFO] [1756454832.594157719] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454832.595448956] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454832.605425113] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.69 (degree)
+[INFO] [1756454833.594214623] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454833.595499197] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454833.605498538] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.80 (degree)
+[INFO] [1756454834.594102327] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454834.595557779] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454834.605656558] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454835.594138334] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454835.595632301] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454835.605711101] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.68 (degree)
+[INFO] [1756454836.594363607] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454836.595691384] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454836.605788914] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.78 (degree)
+[INFO] [1756454837.594170158] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454837.595753382] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454837.605766355] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.77 (degree)
+[INFO] [1756454838.594146097] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454838.595820465] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454838.605819893] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.72 (degree)
+[INFO] [1756454839.594098767] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454839.595888814] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454839.605893382] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.69 (degree)
+[INFO] [1756454840.594137085] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454840.595940565] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454840.605942571] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.71 (degree)
+[INFO] [1756454841.594284543] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454841.596023923] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454841.606026120] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.75 (degree)
+[INFO] [1756454842.594247228] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454843.594147186] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454843.596167124] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454843.606162231] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.74 (degree)
+[INFO] [1756454844.594022200] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454844.596232972] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454844.606236442] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454845.594067541] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454845.596337521] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454845.606300820] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454846.594104730] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454846.596383985] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454846.606384066] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454847.594152034] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454847.596467801] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454847.606437407] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454848.594194952] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454848.596526474] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454848.606501964] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454849.594151083] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454850.594223455] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454850.596682233] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454850.606694952] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454851.594289926] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454851.596705089] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454851.606710820] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454852.594200450] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454853.594053986] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454853.596936418] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454853.606850247] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454854.594008698] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454854.596908199] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454854.606910220] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454855.594101171] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454856.594024352] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454856.597040469] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454856.607042851] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454857.594067835] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454857.597108577] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454857.607110085] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454858.594185994] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454859.594026243] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454859.597244655] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454859.607244767] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454860.594037662] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454861.594025628] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454861.597379974] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454861.607380288] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454862.594021044] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454862.597469202] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454862.607448264] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454863.594092625] [motor_pitch_ros_node]: Set position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454863.597535465] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454863.607538570] [motor_pitch_ros_node]: Motor is in place. Current position: 0.10 (rad), 5.73 (degree)
+[INFO] [1756454870.181805591] [motor_pitch_ros_node]: Set position: 0.20 (rad), 11.46 (degree)
+[INFO] [1756454870.187960961] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454870.748103660] [motor_pitch_ros_node]: Motor is in place. Current position: 0.20 (rad), 11.49 (degree)
+[INFO] [1756454871.182182966] [motor_pitch_ros_node]: Set position: 0.20 (rad), 11.46 (degree)
+[INFO] [1756454871.188027139] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454871.198026024] [motor_pitch_ros_node]: Motor is in place. Current position: 0.20 (rad), 11.47 (degree)
+[INFO] [1756454872.182073436] [motor_pitch_ros_node]: Set position: 0.20 (rad), 11.46 (degree)
+[INFO] [1756454872.188096396] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454872.198097386] [motor_pitch_ros_node]: Motor is in place. Current position: 0.20 (rad), 11.47 (degree)
+[INFO] [1756454873.182164694] [motor_pitch_ros_node]: Set position: 0.20 (rad), 11.46 (degree)
+[INFO] [1756454873.188163782] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454873.198162896] [motor_pitch_ros_node]: Motor is in place. Current position: 0.20 (rad), 11.47 (degree)
+[INFO] [1756454874.182100427] [motor_pitch_ros_node]: Set position: 0.20 (rad), 11.46 (degree)
+[INFO] [1756454880.733295043] [motor_pitch_ros_node]: Set position: 0.30 (rad), 17.19 (degree)
+[INFO] [1756454880.738676758] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454881.238712103] [motor_pitch_ros_node]: Motor is in place. Current position: 0.30 (rad), 17.19 (degree)
+[INFO] [1756454881.733601877] [motor_pitch_ros_node]: Set position: 0.30 (rad), 17.19 (degree)
+[INFO] [1756454882.733610058] [motor_pitch_ros_node]: Set position: 0.30 (rad), 17.19 (degree)
+[INFO] [1756454882.738806741] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454882.748805325] [motor_pitch_ros_node]: Motor is in place. Current position: 0.30 (rad), 17.17 (degree)
+[INFO] [1756454883.733793136] [motor_pitch_ros_node]: Set position: 0.30 (rad), 17.19 (degree)
+[INFO] [1756454883.738871282] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454883.748872204] [motor_pitch_ros_node]: Motor is in place. Current position: 0.30 (rad), 17.18 (degree)
+[INFO] [1756454884.733604717] [motor_pitch_ros_node]: Set position: 0.30 (rad), 17.19 (degree)
+[INFO] [1756454885.733584306] [motor_pitch_ros_node]: Set position: 0.30 (rad), 17.19 (degree)
+[INFO] [1756454885.739015662] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454885.749014587] [motor_pitch_ros_node]: Motor is in place. Current position: 0.30 (rad), 17.19 (degree)
+[INFO] [1756454886.733661564] [motor_pitch_ros_node]: Set position: 0.30 (rad), 17.19 (degree)
+[INFO] [1756454886.739082235] [motor_pitch_ros_node]: Motor starts moving
+[INFO] [1756454886.749119091] [motor_pitch_ros_node]: Motor is in place. Current position: 0.30 (rad), 17.19 (degree)
+[INFO] [1756454970.369398895] [rclcpp]: signal_handler(signum=2)

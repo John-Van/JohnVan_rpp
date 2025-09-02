@@ -1,0 +1,15 @@
+---
+2204_product:
+  git_repos:
+   application: # 机器人综合演示demo ROS包
+      slam_3d:
+        url: https://git.robotplusplus.com.cn/robot-application/slam_3d.git
+        user: $robuster_git_user
+        tag:   ros-humble-dev #pass
+        other_exec:
+        apt_pkgs: 
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_application_repos
+      

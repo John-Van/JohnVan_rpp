@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/kinova_gen3_lite_moveit_config/ament_cmake_core/kinova_gen3_lite_moveit_configConfig.cmake

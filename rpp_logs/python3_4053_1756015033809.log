@@ -1,0 +1,5 @@
+[INFO] [1756015033.870415665] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [1756015035.425948249] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+[WARN] [1756015045.428882658] [spawner_joint_state_broadcaster]: Failed getting a result from calling /controller_manager/configure_controller in 10.0. (Attempt 1 of 3.)
+[WARN] [1756015055.429984011] [spawner_joint_state_broadcaster]: Failed getting a result from calling /controller_manager/configure_controller in 10.0. (Attempt 2 of 3.)
+[WARN] [1756015065.431014731] [spawner_joint_state_broadcaster]: Failed getting a result from calling /controller_manager/configure_controller in 10.0. (Attempt 3 of 3.)

@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/navigation/navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp

@@ -1,0 +1,259 @@
+---
+cr100_product:
+  env_map:
+    user_debug: false #true or false
+    robuster_git_user: rpp:shihe321
+    local_drivers_repos: $HOME/rpp_ws/src/drivers
+    local_robot_repos: $HOME/rpp_ws/src/robot
+    local_slam_repos: $HOME/rpp_ws/src/slam
+    local_navigation_repos: $HOME/rpp_ws/src/navigation
+    local_manipulator_repos: $HOME/rpp_ws/src/manipulator
+    local_application_repos: $HOME/rpp_ws/src/application
+    local_vision_repos: $HOME/rpp_ws/src/vision
+    local_tools_repos: $HOME/rpp_ws/src/tools
+    locla_3rdparty_repos: $HOME/3rdparty
+    locla_rpp_data: $HOME/rpp_data
+    locla_rpp_tools: $HOME/rpp_tools
+    locla_rpp_docs: $HOME/rpp_docs
+    locla_rpp_logs: $HOME/rpp_logs
+    local_rpp_application: $HOME/rpp_application
+    locla_rpp_background: 2024_12_30_ubuntu2204_ros2_rpp.jpg #or rpp.jpg
+    nvidia_gpu_model: 
+    car_mode: robot
+    system_architecture: Linux_amd64 # or Linux_arm64
+    PS1_STRING: \\[\033[1;32m\\]\u\\[\033[1;36m\\]<\\[\033[1;32m\\]$car_mode\\[\033[1;36m\\]>:\\[\033[1;34m\\]\w\\[\033[0m\\]\\$ '
+    apt_source_url: https://mirrors.tuna.tsinghua.edu.cn
+    pip_source_url: https://pypi.tuna.tsinghua.edu.cn/simple
+    rpp_tools_link: http://file.robotplusplus.com.cn/common_tools/1.1.0
+    rpp_data_link: http://file.robotplusplus.com.cn/rpp_data/1.0.0
+    nvidia_toolkit_link: http://file.robotplusplus.com.cn/nvidia/ubuntu18.04-cuda-11.4.0-cudnn-8.4.1.50-tensorrt-8.4.1.5-amd64/
+    git_3rdparty_link: https://git.robotplusplus.com.cn/third-party
+    ros2_source_url: https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu
+    ros_distro_version: humble
+  depends_map : 
+    debian_pkgs: 
+      -  code_*.deb
+      - nomachine_*.deb
+      - SunloginClient_*.deb
+
+    python2_pip_pkgs: 
+       -
+    python3_pip_pkgs: 
+      - numpy
+    apt_pkgs: 
+      - openssh-server 
+      - python3  python3-pip
+      - htop tree
+      - curl wget wireshark proxychains4
+      - gawk vim 
+      - git
+      - gimp kazam   pcl-tools
+      - net-tools
+      - bleachbit #硬盘清理工具
+      - libeigen3-dev 
+      - libmodbus-dev libserial-dev
+      - libfuse2
+      - g++ gcc cmake
+    apt_ros_pkgs:
+      # - ros-control position-controllers  effort-controllers  velocity-controllers
+      # - gazebo-ros gazebo-ros-control
+      # - moveit moveit-servo combined-robot-hw trac-ik-kinematics-plugin  joint-trajectory-controller
+      # -  joint-state-controller effort-controllers   ros-controllers  joint-state-publisher-gui
+      # - joy teleop-twist-joy
+      # - ddynamic-reconfigure 
+      - ros-base  plotjuggler-ros   #is ros2
+      
+    rpp_docs:
+      - http://file.robotplusplus.com.cn/equipment_information/router/Four-Faith/F-NR120/
+  git_repos:
+   3rdparty: # 存放需要源码编译的第三方库，如GTSAM, OpenCV, ceres 等。也包含一些设备的驱动程序，如librealsense, livox-SDK等
+   driver: # 设备、传感器的ROS驱动
+      lakibeam1: #ros2
+        url: https://git.robotplusplus.com.cn/drivers/drivers-ros2/lakibeam1.git
+        user: $robuster_git_user
+        tag: 
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_drivers_repos
+        rpp_docs: http://file.robotplusplus.com.cn/equipment_information/lidar/2d/LakiBeam/
+
+      livox_ros_driver2: #ros2
+        url: https://git.robotplusplus.com.cn/drivers/livox-sdk/livox_ros_driver2.git
+        user: $robuster_git_user
+        tag: 
+        other_exec: livox_ros_driver2_humble.build
+        apt_pkgs:
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_drivers_repos
+        rpp_docs: http://file.robotplusplus.com.cn/equipment_information/lidar/3d/livox/mid360/
+      robuster_driver: #ros2
+        url: https://git.robotplusplus.com.cn/robuster/robuster_driver.git
+        user: $robuster_git_user
+        tag: rpp-humble-dev
+        other_exec:
+        apt_pkgs: 
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_drivers_repos
+
+   slam: # 建图定位ROS包
+     slam_toolbox: #ros2
+       url: https://git.robotplusplus.com.cn/slam/stevemacenski/slam_toolbox.git
+       user: $robuster_git_user
+       tag: rpp-humble
+       local_path: $local_slam_repos
+       other_exec:
+       apt_pkgs:  libsuitesparse-dev   libceres-dev
+       apt_ros_pkgs: #sparse-bundle-adjustment
+       python2_pip_pkgs:
+       python3_pip_pkgs:
+     FASTLIO2_ROS2: #ros2
+       url: https://git.robotplusplus.com.cn/slam/fast-lio-sam/liangheming/FASTLIO2_ROS2.git
+       user: $robuster_git_user
+       tag: rpp-humble-dev
+       local_path: $local_slam_repos
+       other_exec:
+       apt_pkgs: #libceres-dev
+       apt_ros_pkgs: #sparse-bundle-adjustment
+       python2_pip_pkgs:
+       python3_pip_pkgs:
+   navigation: # 导航ROS包
+     navigation2: #ros2
+       url: https://git.robotplusplus.com.cn/navigation/ros-navigation/navigation2.git
+       user: $robuster_git_user
+       tag: rpp-humble-dev
+       local_path: $local_navigation_repos
+       other_exec:
+       apt_pkgs: libgraphicsmagick++-dev libxtensor-dev
+       apt_ros_pkgs: bondcpp     behaviortree-cpp-v3  diagnostic-updater spatio-temporal-voxel-layer  #等待
+       python2_pip_pkgs:
+       python3_pip_pkgs:
+   manipulator: #械臂相关ROS包
+   application: # 机器人综合演示demo ROS包
+      robot_bringup: #ros2
+        url: https://git.robotplusplus.com.cn/robot-application/robot_bringup.git
+        user: $robuster_git_user
+        tag: cr100
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_application_repos
+
+      navigation_2d:
+        url: https://git.robotplusplus.com.cn/robot-application/navigation_2d.git
+        user: $robuster_git_user
+        tag: ros-humble-dev
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs:  ira-laser-tools pcl-ros pointcloud-to-laserscan
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_application_repos
+      slam_2d:
+        url: https://git.robotplusplus.com.cn/robot-application/slam_2d.git
+        user: $robuster_git_user
+        tag:   ros-humble-dev  #pass
+        other_exec:
+        apt_pkgs: 
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_application_repos
+      slam_3d:
+        url: https://git.robotplusplus.com.cn/robot-application/slam_3d.git
+        user: $robuster_git_user
+        tag:   ros-humble-dev #pass
+        other_exec:
+        apt_pkgs: 
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_application_repos
+
+   vision: # 仿真相关功能包
+   product: # 具体产品对应的描述包，bringup包
+    cr100_description: #ros2
+      url: https://git.robotplusplus.com.cn/robuster/description/cr100_description.git
+      user: $robuster_git_user
+      tag: 
+      other_exec:
+      apt_pkgs:
+      apt_ros_pkgs: 
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+      local_path: $local_robot_repos
+    robuster_mr_msgs: #ros2
+      url: https://git.robotplusplus.com.cn/robuster/robuster_mr_msgs.git
+      user: $robuster_git_user
+      tag: humble
+      other_exec:
+      apt_pkgs:
+      apt_ros_pkgs: 
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+      local_path: $local_robot_repos
+
+   tools:
+    ira_laser_tools: #ros2
+      url: https://git.robotplusplus.com.cn/third-party/nakai-omer/ira_laser_tools.git
+      user: $robuster_git_user
+      tag:  humble
+      local_path: $local_tools_repos
+      other_exec:
+      apt_pkgs:
+      apt_ros_pkgs:
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+
+    lidar_clipping: #ros2
+      url: https://git.robotplusplus.com.cn/others/lidar_clipping.git
+      user: $robuster_git_user
+      tag:  
+      local_path: $local_tools_repos
+      other_exec:
+      apt_pkgs:
+      apt_ros_pkgs:
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+   rpp_tools:
+    starterButton:
+      url: https://git.robotplusplus.com.cn/others/starterbutton.git
+      user: $robuster_git_user
+      tag: ros-humble-dev 
+      local_path: $locla_rpp_tools
+      other_exec:
+      apt_pkgs:
+      apt_ros_pkgs:
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+
+    pointcloud_to_2dmap:
+      url: https://git.robotplusplus.com.cn/slam/pointcloud_to_2dmap.git
+      user: $robuster_git_user
+      tag: ros-humble-dev
+      local_path: $locla_rpp_tools
+      other_exec: pointcloud_to_2dmap.build
+      apt_pkgs:
+      apt_ros_pkgs:
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+
+   rpp_data:
+    rpp_data:
+      url: https://git.robotplusplus.com.cn/others/rpp_data.git
+      user: $robuster_git_user
+      tag: 
+      local_path: $locla_rpp_data
+      other_exec: rpp_data.build
+      apt_pkgs:
+      apt_ros_pkgs:
+      python2_pip_pkgs:
+      python3_pip_pkgs:

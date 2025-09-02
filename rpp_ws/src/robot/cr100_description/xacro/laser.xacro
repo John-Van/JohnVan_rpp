@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="laser">
+    <!-- wheel_prefix:名称   left_right_mirror：左右镜像<1左，-1右>  front_rear_mirror：前后镜像<1前，-1后>         -->
+    <!--以左前轮作为参照物，进行编写-->
+    <xacro:macro name="laser" params="laser_prefix *joint_pose sim_gazebo:=false">
+        <link name="${laser_prefix}_link">
+            <inertial>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <mass value="0" />
+                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+            </inertial>
+            <visual>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <mesh filename="package://cr100_description/meshes/laser_F_link.STL" />
+
+                </geometry>
+                <material name="">
+                    <color rgba="0.941176470588235 0.674509803921569 0.117647058823529 1" />
+                </material>
+            </visual>
+            <collision>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <mesh filename="package://cr100_description/meshes/laser_F_link.STL" />
+
+                </geometry>
+            </collision>
+        </link>
+        <joint name="${laser_prefix}_joint" type="fixed">
+            <xacro:insert_block name="joint_pose" />
+            <parent link="base_link" />
+            <child link="${laser_prefix}_link" />
+            <axis xyz="0 0 0" />
+        </joint>
+
+        <xacro:if value="${sim_gazebo}">
+            <gazebo reference="${laser_prefix}_link">
+                <material>Gazebo/Black</material>
+                <sensor type="ray" name="${laser_prefix}">
+                    <pose>${laser_sensor_pose_xyzrpy}</pose>
+                    <visualize>${laser_sensor_visualize}</visualize>
+                    <update_rate>${laser_sensor_update_rate}</update_rate>
+                    <ray>
+                        <scan>
+                            <horizontal>
+                                <samples>${laser_sensor_ray_scan_horizontal_samples}</samples>
+                                <resolution>${laser_sensor_ray_scan_horizontal_resolution}</resolution>
+                                <min_angle>${laser_sensor_ray_scan_horizontal_min_angle}</min_angle>
+                                <max_angle>${laser_sensor_ray_scan_horizontal_max_angle}</max_angle>
+                            </horizontal>
+                        </scan>
+                        <range>
+                            <min>${laser_sensor_ray_range_min}</min>
+                            <max>${laser_sensor_ray_range_max}</max>
+                            <resolution>${laser_sensor_ray_range_resolution}</resolution>
+                        </range>
+                        <noise>
+                            <type>${laser_sensor_ray_noise_type}</type>
+                            <mean>${laser_sensor_ray_noise_mean}</mean>
+                            <stddev>${laser_sensor_ray_noise_stddev}</stddev>
+                        </noise>
+                    </ray>
+                    <plugin name="${laser_prefix}" filename="libgazebo_ros_ray_sensor.so">
+                        <robotNamespace>/</robotNamespace>
+                        <ros>
+                            <remapping>~/out:=${laser_prefix}</remapping>
+                        </ros>
+                        <output_type>sensor_msgs/LaserScan</output_type>
+                        <frame_name>${laser_prefix}_link</frame_name>
+                        <!-- <updateRate>${laser_sensor_plugin_updateRate}</updateRate>
+                    <updateRateHZ>${laser_sensor_plugin_updateRateHZ}</updateRateHZ> -->
+                    </plugin>
+                </sensor>
+            </gazebo>
+        </xacro:if>
+    </xacro:macro>
+</robot>

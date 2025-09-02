@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-514a5242fd3c81214dfd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ira_laser_tools",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ira_laser_tools::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ira_laser_tools-b933e0133a79b872a35a.json",
+					"name" : "ira_laser_tools",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ira_laser_tools_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ira_laser_tools_uninstall-aad4d4475571755a4016.json",
+					"name" : "ira_laser_tools_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "laserscan_multi_merger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laserscan_multi_merger-369f607ff5768d04fb64.json",
+					"name" : "laserscan_multi_merger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "laserscan_virtualizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laserscan_virtualizer-4ce5c3478e9d75affc27.json",
+					"name" : "laserscan_virtualizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1c30c8b8c1b279fedb9b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rpp/rpp_ws/build/ira_laser_tools",
+		"source" : "/home/rpp/rpp_ws/src/tools/ira_laser_tools"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,4 @@
+make -j $(nproc)
+echo "shihe321" | sudo -S  make load
+
+

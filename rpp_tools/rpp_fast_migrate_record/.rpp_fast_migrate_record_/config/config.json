@@ -1,0 +1,161 @@
+{
+
+    "基础状态工作集": {
+        "name": "基础状态工作集",
+        "type": "Widget",
+        "Introduction": "工厂设置功能，仅供史河工程师使用。\n",
+        "background_url": "rpp_background.png",
+            "1-基础状态制作": {
+                "name": "1-基础状态制作",
+                "type": "QToolButton",
+                "Introduction": "需要在确定基础状态无误后使用，若有错误需要手动删除后再重新调用",
+                "bash_url": "~/rpp_tools/rpp_fast_migrate_record/.bin/rpp_recovery",
+                "background_url": "base_make.png",
+                "Additional_environment_variables": "50 true",
+                "show_shell": "true"
+            },
+            "2-基础状态恢复": {
+                "name": "2-基础状态恢复",
+                "type": "QToolButton",
+                "Introduction": "!!仅限在live系统中使用!!\n恢复系统为基础状态",
+                "bash_url": "~/rpp_tools/rpp_fast_migrate_record/.bin/rpp_recovery",
+                "background_url": "base_recovery.png",
+                "Additional_environment_variables": "51 true",
+                "show_shell": "true"
+            }
+        
+    },   
+     "空间状态保存集": {
+        "name": "空间状态保存集",
+        "type": "Widget",
+        "Introduction": "空间状态保存功能，保存当前系统数据。\n 本页面工具集合仅限在正常系统上使用",
+        "background_url": "rpp_background.png",
+        "A-空间状态保存": {
+            "name": "A-空间状态保存",
+            "type": "QToolButton",
+            "Introduction": "注意：每次保存会覆盖上一次保存的数据\n保存至A空间",
+            "bash_url": "~/rpp_tools/rpp_fast_migrate_record/.bin/rpp_recovery",
+            "background_url": "user_make_A.png",
+            "Additional_environment_variables": "23 true",
+            "show_shell": "true"
+        },
+        "B-空间状态保存": {
+            "name": "B-空间状态保存",
+            "type": "QToolButton",
+            "Introduction": "注意：每次保存会覆盖上一次保存的数据\n保存至B空间",
+            "bash_url": "~/rpp_tools/rpp_fast_migrate_record/.bin/rpp_recovery",
+            "background_url": "user_make_B.png",
+            "Additional_environment_variables": "24 true",
+            "show_shell": "true"
+        },
+        "C-空间状态保存": {
+            "name": "C-空间状态保存",
+            "type": "QToolButton",
+            "Introduction": "注意：每次保存会覆盖上一次保存的数据\n保存至C空间",
+            "bash_url": "~/rpp_tools/rpp_fast_migrate_record/.bin/rpp_recovery",
+            "background_url": "user_make_C.png",
+            "Additional_environment_variables": "25 true",
+            "show_shell": "true"
+        }
+
+
+    },   
+    "空间状态恢复集": {
+       "name": "空间状态恢复集",
+       "type": "Widget",
+       "Introduction": "空间状态保存功能，恢复保存过的数据到当前系统。\n本操作会导致当前数据丢失!\n 本页面工具集合仅限在正常系统上使用。",
+       "background_url": "rpp_background.png",  "A-空间状态恢复": {
+        "name": "A-空间状态恢复",
+        "type": "QToolButton",
+        "Introduction": "!!!注意：每次恢复会删除当前数据!!!\n恢复至A空间",
+        "bash_url": "~/rpp_tools/rpp_fast_migrate_record/.bin/rpp_recovery",
+        "background_url": "user_recovery_A.png",
+        "Additional_environment_variables": "26 true",
+        "show_shell": "true"
+    },
+    "B-空间状态恢复": {
+        "name": "B-空间状态恢复",
+        "type": "QToolButton",
+        "Introduction": "!!!注意：每次恢复会删除当前数据!!!\n恢复至B空间",
+        "bash_url": "~/rpp_tools/rpp_fast_migrate_record/.bin/rpp_recovery",
+        "background_url": "user_recovery_B.png",
+        "Additional_environment_variables": "27 true",
+        "show_shell": "true"
+    },
+    "C-空间状态恢复": {
+        "name": "C-空间状态恢复",
+        "type": "QToolButton",
+        "Introduction": "!!!注意：每次恢复会删除当前数据!!!\n恢复至C空间",
+        "bash_url": "~/rpp_tools/rpp_fast_migrate_record/.bin/rpp_recovery",
+        "background_url": "user_recovery_C.png",
+        "Additional_environment_variables": "28 true",
+        "show_shell": "true"
+    },
+    "出厂状态恢复": {
+        "name": "出厂状态恢复",
+        "type": "QToolButton",
+        "Introduction": "!!!注意：每次恢复会删除当前数据!!!\n恢复出厂状态",
+        "bash_url": "~/rpp_tools/rpp_fast_migrate_record/.bin/rpp_recovery",
+        "background_url": "factory_recovery.png",
+        "Additional_environment_variables": "29 true",
+        "show_shell": "true"
+    },
+    "清空用户空间": {
+        "name": "清空用户空间",
+        "type": "QToolButton",
+        "Introduction": "!!!注意:尝试删除A、B、C用户空间数据!!!\n",
+        "bash_url": "~/rpp_tools/rpp_fast_migrate_record/.bin/rpp_recovery",
+        "background_url": "user_delete.png",
+        "Additional_environment_variables": "30 true",
+        "show_shell": "true"
+    }
+    },    
+     "异常状态恢复集": {
+        "name": "异常状态恢复集",
+        "type": "Widget",
+        "Introduction": "本组所有功能仅限在live系统上使用",
+        "background_url": "rpp_background.png",
+        "1-出厂状态恢复": {
+            "name": "1-出厂状态恢复",
+            "type": "QToolButton",
+            "Introduction": "!!!注意: 本操作仅限在live系统上执行!!!\n!!!注意: 本操作仅限在未改变磁盘状态时执行!!!\n",
+            "bash_url": "~/rpp_tools/rpp_fast_migrate_record/.bin/rpp_recovery",
+            "background_url": "live_recovery.png",
+            "Additional_environment_variables": "21 true",
+            "show_shell": "true"
+        },
+        "2-配置系统": {
+            "name": "2-配置系统",
+            "type": "QToolButton",
+            "Introduction": "!!!注意：执行本操作前请联系售后人员获取相应数据包!!!\n",
+            "bash_url": "~/rpp_tools/rpp_fast_migrate_record/.bin/rpp_recovery",
+            "background_url": "live_setting.png",
+            "Additional_environment_variables": "22 true",
+            "show_shell": "true"
+        }
+    },    
+    "交付产品工具集": {
+       "name": "交付产品工具集",
+       "type": "Widget",
+       "Introduction": "工厂设置功能，仅供史河工程师使用",
+       "background_url": "rpp_background.png",
+       "1-出厂状态制作": {
+           "name": "1-出厂状态制作",
+           "type": "QToolButton",
+           "bash_url": "~/rpp_tools/rpp_fast_migrate_record/.bin/rpp_recovery",
+           "background_url": "factory_make.png",
+           "Additional_environment_variables": "52 true",
+           "show_shell": "true"
+       },
+       "2-获取增量备份": {
+           "name": "2-获取增量备份",
+           "type": "QToolButton",
+           "Introduction": "!!使用时需要先制作出厂状态!!\n拷贝备份文件至: ~/btrfs_data/   \n确认无误后需要拷贝至服务器",
+           "bash_url": "~/rpp_tools/rpp_fast_migrate_record/.bin/rpp_recovery",
+           "background_url": "factory_diff_to_base.png",
+           "Additional_environment_variables": "53 true",
+           "show_shell": "true"
+       }
+      
+}
+}

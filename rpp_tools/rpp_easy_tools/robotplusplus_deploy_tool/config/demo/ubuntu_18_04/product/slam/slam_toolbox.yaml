@@ -1,0 +1,14 @@
+---
+1804_product:
+  git_repos:
+   slam: # 建图定位ROS包
+     slam_toolbox:
+       url: https://git.robotplusplus.com.cn/slam/stevemacenski/slam_toolbox.git
+       user: $robuster_git_user
+       tag: feat-v3.0.1
+       local_path: $local_slam_repos
+       other_exec:
+       apt_pkgs: libceres-dev
+       apt_ros_pkgs: sparse-bundle-adjustment
+       python2_pip_pkgs:
+       python3_pip_pkgs:

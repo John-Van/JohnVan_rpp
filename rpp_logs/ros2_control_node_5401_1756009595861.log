@@ -1,0 +1,466 @@
+[INFO] [1756009595.886381543] [controller_manager]: Subscribing to '~/robot_description' topic for robot description file.
+[INFO] [1756009595.887129734] [controller_manager]: update rate is 100 Hz
+[INFO] [1756009595.887145328] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1756009595.887299110] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1756009595.897747840] [controller_manager]: Received robot description file.
+[INFO] [1756009595.898572124] [resource_manager]: Loading hardware 'left_KortexMultiInterfaceHardware' 
+[INFO] [1756009595.904346449] [KortexMultiInterfaceHardware]: Setting severity threshold to DEBUG
+[INFO] [1756009595.904381516] [resource_manager]: Initialize hardware 'left_KortexMultiInterfaceHardware' 
+[INFO] [1756009595.904388268] [KortexMultiInterfaceHardware]: Configuring Hardware Interface
+[INFO] [1756009595.904546745] [KortexMultiInterfaceHardware]: Robot ip is '192.168.11.60'
+[INFO] [1756009595.904549898] [KortexMultiInterfaceHardware]: Username is 'admin'
+[INFO] [1756009595.904555355] [KortexMultiInterfaceHardware]: Port used '10000'
+[INFO] [1756009595.904557724] [KortexMultiInterfaceHardware]: Realtime port used '10001'
+[INFO] [1756009595.904559707] [KortexMultiInterfaceHardware]: Session inactivity timeout is '60000'
+[INFO] [1756009595.904562175] [KortexMultiInterfaceHardware]: Connection inactivity timeout is '2000'
+[ERROR] [1756009595.904564283] [KortexMultiInterfaceHardware]: Gripper joint name is empty!
+[INFO] [1756009595.904574859] [KortexMultiInterfaceHardware]: Connecting to robot at 192.168.11.60
+[INFO] [1756009595.904955442] [KortexMultiInterfaceHardware]: Creating session for communication
+[INFO] [1756009596.047729397] [KortexMultiInterfaceHardware]: Session created
+[INFO] [1756009596.632810458] [KortexMultiInterfaceHardware]: Actuator count reported by robot is '7'
+[INFO] [1756009596.633191242] [KortexMultiInterfaceHardware]: Hardware Interface successfully configured
+[INFO] [1756009596.633215797] [resource_manager]: Successful initialization of hardware 'left_KortexMultiInterfaceHardware'
+[DEBUG] [1756009596.633247197] [KortexMultiInterfaceHardware]: export_state_interfaces for joint: left_joint_1
+[DEBUG] [1756009596.633304487] [KortexMultiInterfaceHardware]: export_state_interfaces for joint: left_joint_2
+[DEBUG] [1756009596.633328835] [KortexMultiInterfaceHardware]: export_state_interfaces for joint: left_joint_3
+[DEBUG] [1756009596.633334069] [KortexMultiInterfaceHardware]: export_state_interfaces for joint: left_joint_4
+[DEBUG] [1756009596.633338096] [KortexMultiInterfaceHardware]: export_state_interfaces for joint: left_joint_5
+[DEBUG] [1756009596.633343080] [KortexMultiInterfaceHardware]: export_state_interfaces for joint: left_joint_6
+[DEBUG] [1756009596.633347025] [KortexMultiInterfaceHardware]: export_state_interfaces for joint: left_joint_7
+[INFO] [1756009596.633588666] [resource_manager]: Loading hardware 'right_KortexMultiInterfaceHardware' 
+[INFO] [1756009596.633812897] [KortexMultiInterfaceHardware]: Setting severity threshold to DEBUG
+[INFO] [1756009596.633827207] [resource_manager]: Initialize hardware 'right_KortexMultiInterfaceHardware' 
+[INFO] [1756009596.633832563] [KortexMultiInterfaceHardware]: Configuring Hardware Interface
+[INFO] [1756009596.633929951] [KortexMultiInterfaceHardware]: Robot ip is '192.168.11.61'
+[INFO] [1756009596.633935273] [KortexMultiInterfaceHardware]: Username is 'admin'
+[INFO] [1756009596.633942023] [KortexMultiInterfaceHardware]: Port used '10000'
+[INFO] [1756009596.633947162] [KortexMultiInterfaceHardware]: Realtime port used '10001'
+[INFO] [1756009596.633952747] [KortexMultiInterfaceHardware]: Session inactivity timeout is '60000'
+[INFO] [1756009596.633958778] [KortexMultiInterfaceHardware]: Connection inactivity timeout is '2000'
+[ERROR] [1756009596.633964801] [KortexMultiInterfaceHardware]: Gripper joint name is empty!
+[INFO] [1756009596.633982387] [KortexMultiInterfaceHardware]: Connecting to robot at 192.168.11.61
+[INFO] [1756009596.634618184] [KortexMultiInterfaceHardware]: Creating session for communication
+[INFO] [1756009596.715177575] [KortexMultiInterfaceHardware]: Session created
+[INFO] [1756009597.304847236] [KortexMultiInterfaceHardware]: Actuator count reported by robot is '7'
+[INFO] [1756009597.304925996] [KortexMultiInterfaceHardware]: Hardware Interface successfully configured
+[INFO] [1756009597.304942991] [resource_manager]: Successful initialization of hardware 'right_KortexMultiInterfaceHardware'
+[DEBUG] [1756009597.304953208] [KortexMultiInterfaceHardware]: export_state_interfaces for joint: right_joint_1
+[DEBUG] [1756009597.304962794] [KortexMultiInterfaceHardware]: export_state_interfaces for joint: right_joint_2
+[DEBUG] [1756009597.304968805] [KortexMultiInterfaceHardware]: export_state_interfaces for joint: right_joint_3
+[DEBUG] [1756009597.304973853] [KortexMultiInterfaceHardware]: export_state_interfaces for joint: right_joint_4
+[DEBUG] [1756009597.304977861] [KortexMultiInterfaceHardware]: export_state_interfaces for joint: right_joint_5
+[DEBUG] [1756009597.304982412] [KortexMultiInterfaceHardware]: export_state_interfaces for joint: right_joint_6
+[DEBUG] [1756009597.304986353] [KortexMultiInterfaceHardware]: export_state_interfaces for joint: right_joint_7
+[INFO] [1756009597.305155066] [resource_manager]: 'configure' hardware 'right_KortexMultiInterfaceHardware' 
+[INFO] [1756009597.305167574] [resource_manager]: Successful 'configure' of hardware 'right_KortexMultiInterfaceHardware'
+[INFO] [1756009597.305187339] [resource_manager]: 'activate' hardware 'right_KortexMultiInterfaceHardware' 
+[INFO] [1756009597.305193852] [KortexMultiInterfaceHardware]: Activating KortexMultiInterfaceHardware...
+[INFO] [1756009597.306029727] [KortexMultiInterfaceHardware]: Gripper initial position is '0.000000'.
+[INFO] [1756009597.306464845] [KortexMultiInterfaceHardware]: KortexMultiInterfaceHardware successfully activated!
+[INFO] [1756009597.306475646] [resource_manager]: Successful 'activate' of hardware 'right_KortexMultiInterfaceHardware'
+[INFO] [1756009597.306485859] [resource_manager]: 'configure' hardware 'left_KortexMultiInterfaceHardware' 
+[INFO] [1756009597.306492991] [resource_manager]: Successful 'configure' of hardware 'left_KortexMultiInterfaceHardware'
+[WARN] [1756009597.306504749] [resource_manager]: (hardware 'left_KortexMultiInterfaceHardware'): 'reset_fault/internal_fault' state interface already in available list. This can happen due to multiple calls to 'configure'
+[WARN] [1756009597.306516618] [resource_manager]: (hardware 'left_KortexMultiInterfaceHardware'): 'tcp/twist.linear.x' command interface already in available list. This can happen due to multiple calls to 'configure'
+[WARN] [1756009597.306521333] [resource_manager]: (hardware 'left_KortexMultiInterfaceHardware'): 'tcp/twist.linear.y' command interface already in available list. This can happen due to multiple calls to 'configure'
+[WARN] [1756009597.306525412] [resource_manager]: (hardware 'left_KortexMultiInterfaceHardware'): 'tcp/twist.linear.z' command interface already in available list. This can happen due to multiple calls to 'configure'
+[WARN] [1756009597.306529270] [resource_manager]: (hardware 'left_KortexMultiInterfaceHardware'): 'tcp/twist.angular.x' command interface already in available list. This can happen due to multiple calls to 'configure'
+[WARN] [1756009597.306533320] [resource_manager]: (hardware 'left_KortexMultiInterfaceHardware'): 'tcp/twist.angular.y' command interface already in available list. This can happen due to multiple calls to 'configure'
+[WARN] [1756009597.306537215] [resource_manager]: (hardware 'left_KortexMultiInterfaceHardware'): 'tcp/twist.angular.z' command interface already in available list. This can happen due to multiple calls to 'configure'
+[WARN] [1756009597.306540877] [resource_manager]: (hardware 'left_KortexMultiInterfaceHardware'): 'reset_fault/command' command interface already in available list. This can happen due to multiple calls to 'configure'
+[WARN] [1756009597.306571209] [resource_manager]: (hardware 'left_KortexMultiInterfaceHardware'): 'reset_fault/async_success' command interface already in available list. This can happen due to multiple calls to 'configure'
+[INFO] [1756009597.306575593] [resource_manager]: 'activate' hardware 'left_KortexMultiInterfaceHardware' 
+[INFO] [1756009597.306580602] [KortexMultiInterfaceHardware]: Activating KortexMultiInterfaceHardware...
+[INFO] [1756009597.307268087] [KortexMultiInterfaceHardware]: Gripper initial position is '0.000000'.
+[INFO] [1756009597.307813302] [KortexMultiInterfaceHardware]: KortexMultiInterfaceHardware successfully activated!
+[INFO] [1756009597.307838151] [resource_manager]: Successful 'activate' of hardware 'left_KortexMultiInterfaceHardware'
+[DEBUG] [1756009597.309342571] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.309929650] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.310368298] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.310917149] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.311301506] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.311820170] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.312211500] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.312545834] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.312816067] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.313048260] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.313318209] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.313909373] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.314270756] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.314861694] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.315244661] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.315499676] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.315770085] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.315995421] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.316235978] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.316531459] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.316821188] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.317043173] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.317404430] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.317890225] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.318201864] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.318528195] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.318886307] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.319142948] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.319419051] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.319865122] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.320179703] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.320497243] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.320778134] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.321010467] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.321266986] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.321476662] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.321750483] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.321972440] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.322208814] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.322474677] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.322749057] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.322941134] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.323195548] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.323475028] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.323743048] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.323954640] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.324224643] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.324492001] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.324738055] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.324937957] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.325235763] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.325485850] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.325776111] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.325995789] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.326225665] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.326523047] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.326743800] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.326960008] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.327215350] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.327551918] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.327783791] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.328002985] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.328216513] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.328828252] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.329145643] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.329430315] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.329748291] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.329975115] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.330230361] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.330469064] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.331061055] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.331319019] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.331594187] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.331890864] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.332180414] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.332472976] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.332823886] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.333016556] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.333217308] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.333471961] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.333785022] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.333980517] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.334241211] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.334483341] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.334762113] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.334958728] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.335224714] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.335480378] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.335755909] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.335958390] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.336248233] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.336462898] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.337086270] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.337367906] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.337655560] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.337900870] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.338186081] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.338462575] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.338759670] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.338966494] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.339222541] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.339489524] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.339741497] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.339930696] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.340203436] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.340479947] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.340791585] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.340974786] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.341226572] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.341467192] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.341767279] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.341975212] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.342206696] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.342493035] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.342748916] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.342970115] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.343206911] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.343455670] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.344073398] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.344357048] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.344644910] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.344936422] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.345193637] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.345492317] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.345764237] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.345965863] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.346255941] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.346495999] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.346770689] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.347002432] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.347201057] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.347460499] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.347749174] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.347981509] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.348205623] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.348498923] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.348762654] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.349014094] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.349267670] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.349461436] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.349722900] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.349944859] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.350223605] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.350478595] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.350760227] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.350945725] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.351182575] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.351792032] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.352131266] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.352423718] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.352724525] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.352973768] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.353230623] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.353540173] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.353761379] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.353991471] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.354199462] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.354498117] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.354755201] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.354993097] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.355210878] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.355477524] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.355754793] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.356026414] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.356249352] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.356493961] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.357085184] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.357371758] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.357705047] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.357959447] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.358260241] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.358482338] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.358781475] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.359015996] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.359309309] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.359798628] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.360171032] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.360483602] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.360794557] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.361027462] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.361267393] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.361485330] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.361746049] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.361988024] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.362211742] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.362786619] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.363166659] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.363449864] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.363760226] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.364015812] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.364233801] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.364476440] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.364746036] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.364989346] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.365267826] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.365498281] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.365775595] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.365990423] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.366239592] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.366800628] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.367132427] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.367436710] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.367758648] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.367974435] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.368220628] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.368474218] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.368758954] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.368990081] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.369238485] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.369498554] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.370091498] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.370371118] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.370653300] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.370877263] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.371168222] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.371472951] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.371763103] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.371953223] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.372230868] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.372461760] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.372756669] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.372949632] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.373192640] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.373456940] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.373753608] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.373967763] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.374181116] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.374449702] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.374742941] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.374982926] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.375195369] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.375474631] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.375732676] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.375933673] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.376168580] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.376498006] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.376748420] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.376964689] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.377209768] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.377552245] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.377759269] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.378001172] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.378204768] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.378491127] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.378751904] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.378971042] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.379211554] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.379528311] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.379743235] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.380304853] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.380621082] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.380964747] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.381220741] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.381836661] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.382141239] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.382419852] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.383062380] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.383311292] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.383609401] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.383878025] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.384154734] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.384433195] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.384736736] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.384940322] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.385207041] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.385444286] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.385725156] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.385931725] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.386177122] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.386468212] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.386756629] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.386971948] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.387188297] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.387468553] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.387755761] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.387960030] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.388222487] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.388467482] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.388742085] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.388982964] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.389207336] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.389467506] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.389760205] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.390001459] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.390213050] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.390466884] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.390749055] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.390932113] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.391183396] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.391450156] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.391734705] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.391951992] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.392228856] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[INFO] [1756009597.392278637] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[DEBUG] [1756009597.392498657] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.392783099] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.392987896] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.393309995] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.393887486] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.397818373] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.398162883] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.408109163] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.408528145] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[INFO] [1756009597.409064218] [controller_manager]: Loading controller 'left_joint_trajectory_controller'
+[DEBUG] [1756009597.417819751] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.418141620] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[WARN] [1756009597.419279484] [left_joint_trajectory_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[INFO] [1756009597.427791110] [controller_manager]: Loading controller 'fault_controller'
+[DEBUG] [1756009597.428120719] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.428465942] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[INFO] [1756009597.437594768] [controller_manager]: Loading controller 'right_joint_trajectory_controller'
+[DEBUG] [1756009597.437850149] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.438873951] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[WARN] [1756009597.446587645] [right_joint_trajectory_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[INFO] [1756009597.447735537] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1756009597.447809761] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[DEBUG] [1756009597.448106539] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.448480495] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[INFO] [1756009597.457626400] [controller_manager]: Configuring controller 'left_joint_trajectory_controller'
+[INFO] [1756009597.457769763] [left_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1756009597.457783471] [left_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[INFO] [1756009597.457797173] [left_joint_trajectory_controller]: Using 'splines' interpolation method.
+[DEBUG] [1756009597.457833253] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.458098241] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[INFO] [1756009597.458552283] [left_joint_trajectory_controller]: Controller state will be published at 100.00 Hz.
+[INFO] [1756009597.460372270] [left_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [1756009597.467516821] [controller_manager]: Configuring controller 'fault_controller'
+[DEBUG] [1756009597.468126636] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.468477926] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[INFO] [1756009597.477599777] [controller_manager]: Configuring controller 'right_joint_trajectory_controller'
+[INFO] [1756009597.477779229] [right_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1756009597.477793069] [right_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[DEBUG] [1756009597.477803057] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[INFO] [1756009597.477806427] [right_joint_trajectory_controller]: Using 'splines' interpolation method.
+[DEBUG] [1756009597.478166437] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[INFO] [1756009597.478235888] [right_joint_trajectory_controller]: Controller state will be published at 100.00 Hz.
+[INFO] [1756009597.479665309] [right_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[DEBUG] [1756009597.487836465] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.488130606] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.497806815] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.498087105] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.507785203] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.508061607] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.518054992] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.528114393] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.538381357] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.548104320] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.558379921] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.568354209] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.578566700] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.588362656] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.598830705] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.608671911] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.618965526] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.628600634] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.638187189] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.648061784] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.658122187] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.668146963] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.678167568] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.688793711] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.698260354] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.959599056] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.960525263] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.961121133] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.961846777] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.962436699] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.968073261] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.978187300] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.988478112] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009597.998109859] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.008510439] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.018185555] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.028161285] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.038195987] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.048484334] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.058162347] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.068607931] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.078137367] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.088537870] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.098066795] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.108107076] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.118135367] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.128102163] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.138807558] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.148151931] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.158364284] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.486023360] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.487006054] [KortexMultiInterfaceHardware]: No controller active in LOW_LEVEL_SERVOING mode !
+[DEBUG] [1756009598.487931701] [KortexMultiInt

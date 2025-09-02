@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/xf_voice_msgs/rosidl_typesupport_introspection_c/xf_voice_msgs/srv/detail/xf__rosidl_typesupport_introspection_c.h

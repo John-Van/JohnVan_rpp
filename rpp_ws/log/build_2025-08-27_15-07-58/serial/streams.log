@@ -1,0 +1,60 @@
+[0.655s] Invoking command in '/home/rpp/rpp_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake /home/rpp/rpp_ws/src/drivers/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rpp/rpp_ws/install/serial
+[1.171s] -- The C compiler identification is GNU 11.4.0
+[1.171s] -- The CXX compiler identification is GNU 11.4.0
+[1.172s] -- Detecting C compiler ABI info
+[1.172s] -- Detecting C compiler ABI info - done
+[1.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.172s] -- Detecting C compile features
+[1.172s] -- Detecting C compile features - done
+[1.172s] -- Detecting CXX compiler ABI info
+[1.174s] -- Detecting CXX compiler ABI info - done
+[1.199s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.199s] -- Detecting CXX compile features
+[1.199s] -- Detecting CXX compile features - done
+[1.199s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.560s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.715s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.057s] -- Configuring done
+[2.072s] -- Generating done
+[2.131s] -- Build files have been written to: /home/rpp/rpp_ws/build/serial
+[2.144s] Invoked command in '/home/rpp/rpp_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake /home/rpp/rpp_ws/src/drivers/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rpp/rpp_ws/install/serial
+[2.146s] Invoking command in '/home/rpp/rpp_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/serial -- -j24 -l24
+[2.682s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[2.682s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[2.682s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[3.276s] [100%] [32m[1mLinking CXX shared library libserial.so[0m
+[3.434s] [100%] Built target serial
+[3.509s] Invoked command in '/home/rpp/rpp_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/serial -- -j24 -l24
+[3.510s] Invoking command in '/home/rpp/rpp_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/serial
+[4.601s] -- Install configuration: "Debug"
+[4.601s] -- Execute custom install script
+[4.601s] -- Symlinking: /home/rpp/rpp_ws/install/serial/include/serial/impl/unix.h
+[4.601s] -- Symlinking: /home/rpp/rpp_ws/install/serial/include/serial/impl/win.h
+[4.601s] -- Symlinking: /home/rpp/rpp_ws/install/serial/include/serial/serial.h
+[4.602s] -- Symlinking: /home/rpp/rpp_ws/install/serial/include/serial/v8stdint.h
+[4.602s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/environment/library_path.sh
+[4.602s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/environment/library_path.dsv
+[4.603s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[4.603s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[4.603s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[4.603s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[4.603s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/environment/path.sh
+[4.603s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/environment/path.dsv
+[4.603s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/local_setup.bash
+[4.603s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/local_setup.sh
+[4.603s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/local_setup.zsh
+[4.604s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/local_setup.dsv
+[4.604s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/package.dsv
+[4.604s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/ament_index/resource_index/packages/serial
+[4.604s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/cmake/ament_cmake_export_targets-extras.cmake
+[4.604s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.604s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[4.604s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[4.604s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[4.604s] -- Symlinking: /home/rpp/rpp_ws/install/serial/share/serial/package.xml
+[4.604s] -- Installing: /home/rpp/rpp_ws/install/serial/lib/libserial.so
+[4.604s] -- Installing: /home/rpp/rpp_ws/install/serial/share/serial/cmake/export_serial.cmake
+[4.604s] -- Installing: /home/rpp/rpp_ws/install/serial/share/serial/cmake/export_serial-debug.cmake
+[4.604s] -- Installing: /home/rpp/rpp_ws/install/serial/share/serial/cmake/export_serialExport.cmake
+[4.605s] -- Installing: /home/rpp/rpp_ws/install/serial/share/serial/cmake/export_serialExport-debug.cmake
+[4.706s] Invoked command in '/home/rpp/rpp_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/serial

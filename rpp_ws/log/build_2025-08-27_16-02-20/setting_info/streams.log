@@ -1,0 +1,17 @@
+[1.854s] Invoking command in '/home/rpp/rpp_ws/build/setting_info': PYTHONPATH=/home/rpp/rpp_ws/build/setting_info/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpp/rpp_ws/install/setting_info/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rpp/rpp_ws/build/setting_info/build --no-deps symlink_data
+[2.311s] running develop
+[2.539s] running egg_info
+[2.540s] writing setting_info.egg-info/PKG-INFO
+[2.540s] writing dependency_links to setting_info.egg-info/dependency_links.txt
+[2.540s] writing entry points to setting_info.egg-info/entry_points.txt
+[2.540s] writing requirements to setting_info.egg-info/requires.txt
+[2.540s] writing top-level names to setting_info.egg-info/top_level.txt
+[2.541s] reading manifest file 'setting_info.egg-info/SOURCES.txt'
+[2.541s] writing manifest file 'setting_info.egg-info/SOURCES.txt'
+[2.542s] running build_ext
+[2.542s] Creating /home/rpp/rpp_ws/install/setting_info/lib/python3.10/site-packages/setting-info.egg-link (link to .)
+[2.542s] Installing setting_info_node script to /home/rpp/rpp_ws/install/setting_info/lib/setting_info
+[2.542s] 
+[2.542s] Installed /home/rpp/rpp_ws/build/setting_info
+[2.543s] running symlink_data
+[2.694s] Invoked command in '/home/rpp/rpp_ws/build/setting_info' returned '0': PYTHONPATH=/home/rpp/rpp_ws/build/setting_info/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpp/rpp_ws/install/setting_info/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rpp/rpp_ws/build/setting_info/build --no-deps symlink_data

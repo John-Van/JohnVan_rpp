@@ -1,0 +1,16 @@
+1756261065.2931328 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-27-10-17-45-292456-rpp-Default-string-118861
+1756261065.2932289 [INFO] [launch]: Default logging verbosity is set to INFO
+1756261065.7076666 [INFO] [lakibeam1_scan_node-1]: process started with pid [118900]
+1756261065.7077918 [INFO] [livox_ros_driver2_node-2]: process started with pid [118902]
+1756261065.7078507 [INFO] [lidar_clipping-3]: process started with pid [118904]
+1756261065.7078953 [INFO] [robot_state_publisher-4]: process started with pid [118906]
+1756261065.7079337 [INFO] [joint_state_publisher-5]: process started with pid [118908]
+1756261065.7079682 [INFO] [rpp_ros_driver_node-6]: process started with pid [118910]
+1756261066.0699203 [joint_state_publisher-5] [INFO] [1756261066.069694926] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1756261152.3630762 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756261152.4304473 [ERROR] [rpp_ros_driver_node-6]: process has died [pid 118910, exit code -6, cmd '/home/rpp/rpp_ws/install/rpp_ros_driver/lib/rpp_ros_driver/rpp_ros_driver_node --ros-args --params-file /home/rpp/rpp_ws/install/robot_bringup/share/robot_bringup/params/rpp.yaml --params-file /tmp/launch_params_zrr867kt'].
+1756261152.4543202 [ERROR] [lakibeam1_scan_node-1]: process has died [pid 118900, exit code -6, cmd '/home/rpp/rpp_ws/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node --ros-args -r __node:=lakibeam1_back_node -r __ns:=/ --params-file /tmp/launch_params_4hbsvwzo'].
+1756261152.4686308 [INFO] [lidar_clipping-3]: process has finished cleanly [pid 118904]
+1756261152.4689941 [INFO] [robot_state_publisher-4]: process has finished cleanly [pid 118906]
+1756261152.4900455 [INFO] [joint_state_publisher-5]: process has finished cleanly [pid 118908]
+1756261155.2287769 [INFO] [livox_ros_driver2_node-2]: process has finished cleanly [pid 118902]

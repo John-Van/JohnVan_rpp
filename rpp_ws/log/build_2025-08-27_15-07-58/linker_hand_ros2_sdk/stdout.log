@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating linker_hand_ros2_sdk.egg-info
+writing linker_hand_ros2_sdk.egg-info/PKG-INFO
+writing dependency_links to linker_hand_ros2_sdk.egg-info/dependency_links.txt
+writing entry points to linker_hand_ros2_sdk.egg-info/entry_points.txt
+writing requirements to linker_hand_ros2_sdk.egg-info/requires.txt
+writing top-level names to linker_hand_ros2_sdk.egg-info/top_level.txt
+writing manifest file 'linker_hand_ros2_sdk.egg-info/SOURCES.txt'
+reading manifest file 'linker_hand_ros2_sdk.egg-info/SOURCES.txt'
+writing manifest file 'linker_hand_ros2_sdk.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/lib/python3.10/site-packages/linker-hand-ros2-sdk.egg-link (link to .)
+Installing linker_hand_sdk script to /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/lib/linker_hand_ros2_sdk
+
+Installed /home/rpp/rpp_ws/build/linker_hand_ros2_sdk
+running symlink_data
+creating /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/ament_index
+creating /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/ament_index/resource_index
+creating /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/ament_index/resource_index/packages
+symbolically linking /home/rpp/rpp_ws/build/linker_hand_ros2_sdk/resource/linker_hand_ros2_sdk -> /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/ament_index/resource_index/packages
+symbolically linking /home/rpp/rpp_ws/build/linker_hand_ros2_sdk/package.xml -> /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk
+creating /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/launch
+symbolically linking /home/rpp/rpp_ws/build/linker_hand_ros2_sdk/launch/linker_hand.launch.py -> /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/launch
+symbolically linking /home/rpp/rpp_ws/build/linker_hand_ros2_sdk/launch/linker_hand_double.launch.py -> /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/launch

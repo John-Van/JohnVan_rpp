@@ -1,0 +1,38 @@
+[INFO] [1756027465.623936597] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756027465.624002523] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1756027465.657055401] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1756027468.747169398] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1756027468.755520776] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1756027468.789199039] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756027468.826490644] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0193717 seconds
+[INFO] [1756027468.826519821] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+[INFO] [1756027468.826526183] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[ERROR] [1756027469.141262844] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+[ERROR] [1756027469.141284034] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+[ERROR] [1756027469.141295153] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+[INFO] [1756027469.914558119] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1756027469.914865119] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1756027470.830951255] [interactive_marker_display_97958274554864]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1756027470.861438475] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+[INFO] [1756027470.861451664] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+[INFO] [1756027470.865217336] [move_group_interface]: Ready to take commands for planning group dual_arm.
+[INFO] [1756027470.994694063] [interactive_marker_display_97958274554864]: Sending request for interactive markers
+[INFO] [1756027471.113715765] [interactive_marker_display_97958274554864]: Service response received for initialization
+[INFO] [1756030802.001000741] [moveit_ros_visualization.motion_planning_frame]: group right_arm
+[INFO] [1756030802.001028633] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'right_arm' in namespace ''
+[INFO] [1756030802.004456543] [move_group_interface]: Ready to take commands for planning group right_arm.
+[INFO] [1756030803.903228561] [move_group_interface]: Plan and Execute request accepted
+[INFO] [1756030843.289008489] [move_group_interface]: Plan and Execute request complete!
+[INFO] [1756031016.681854580] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+[INFO] [1756031016.681872574] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+[INFO] [1756031016.685760210] [move_group_interface]: Ready to take commands for planning group dual_arm.
+[INFO] [1756031032.311017885] [move_group_interface]: Plan and Execute request accepted
+[INFO] [1756031087.979130570] [move_group_interface]: Plan and Execute request complete!
+[INFO] [1756031782.175632522] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756031782.176184650] [move_group_interface]: Planning request accepted
+[INFO] [1756031782.292190070] [move_group_interface]: Planning request aborted
+[ERROR] [1756031782.293018068] [move_group_interface]: MoveGroupInterface::plan() failed or timeout reached
+[INFO] [1756031840.794216462] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+[INFO] [1756031840.794236067] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'left_arm' in namespace ''
+[INFO] [1756031840.797783828] [move_group_interface]: Ready to take commands for planning group left_arm.
+[INFO] [1756031843.664442011] [

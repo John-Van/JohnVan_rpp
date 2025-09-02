@@ -1,0 +1,70 @@
+1756483664.1610696 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-30-00-07-44-160570-rpp-Default-string-10533
+1756483664.1611431 [INFO] [launch]: Default logging verbosity is set to INFO
+1756483664.1904225 [INFO] [iat_publish-1]: process started with pid [10534]
+1756483664.1905346 [INFO] [tts_subscribe-2]: process started with pid [10536]
+1756483664.1905856 [INFO] [voice_control-3]: process started with pid [10538]
+1756483664.1906216 [INFO] [voice_dialog-4]: process started with pid [10540]
+1756483664.2125585 [iat_publish-1] [INFO] [1756483664.212241708] [iat_node]: MSPLogin success.
+1756483664.7751319 [voice_dialog-4] [INFO] [1756483664.774920791] [voice_dialog_node]: 语音对话节点已启动
+1756483664.7825041 [voice_control-3] [WARN] [1756483664.782410438] [voice_control_node]: 尚未获取 base_angle，无法转向
+1756483664.7885208 [voice_control-3] [INFO] [1756483664.788366844] [voice_control_node]: 已加载 JSON 文件: /home/rpp//rpp_data/config/voice/voice_pose.json
+1756483664.7887099 [voice_control-3] [INFO] [1756483664.788544259] [voice_control_node]: 等待 TF [mic_link -> base_link] 可用...
+1756483664.7947171 [voice_control-3] [INFO] [1756483664.794614778] [voice_control_node]: TF 尚未可用，继续等待...
+1756483665.2959459 [voice_control-3] [INFO] [1756483665.295792236] [voice_control_node]: TF 尚未可用，继续等待...
+1756483665.7986639 [voice_control-3] [INFO] [1756483665.798487367] [voice_control_node]: TF 尚未可用，继续等待...
+1756483666.2998617 [voice_control-3] [INFO] [1756483666.299680333] [voice_control_node]: TF 尚未可用，继续等待...
+1756483666.8010170 [voice_control-3] [INFO] [1756483666.800838827] [voice_control_node]: TF 尚未可用，继续等待...
+1756483667.3022244 [voice_control-3] [INFO] [1756483667.302042868] [voice_control_node]: TF 尚未可用，继续等待...
+1756483667.8029318 [voice_control-3] [INFO] [1756483667.802781272] [voice_control_node]: TF 尚未可用，继续等待...
+1756483668.3038135 [voice_control-3] [INFO] [1756483668.303665853] [voice_control_node]: TTS 成功播报：成功加载 2 个点位
+1756483668.3040235 [voice_control-3] [INFO] [1756483668.303878599] [voice_control_node]: TF 尚未可用，继续等待...
+1756483668.8048337 [voice_control-3] [INFO] [1756483668.804674470] [voice_control_node]: TF 尚未可用，继续等待...
+1756483669.3060644 [voice_control-3] [INFO] [1756483669.305875952] [voice_control_node]: TF 尚未可用，继续等待...
+1756483669.8068879 [voice_control-3] [INFO] [1756483669.806746907] [voice_control_node]: TF 尚未可用，继续等待...
+1756483670.3080835 [voice_control-3] [INFO] [1756483670.307916541] [voice_control_node]: TF 尚未可用，继续等待...
+1756483670.8091707 [voice_control-3] [INFO] [1756483670.809022158] [voice_control_node]: TF 尚未可用，继续等待...
+1756483671.3103368 [voice_control-3] [INFO] [1756483671.310194824] [voice_control_node]: TF 尚未可用，继续等待...
+1756483671.8111529 [voice_control-3] [INFO] [1756483671.810963283] [voice_control_node]: TF 尚未可用，继续等待...
+1756483672.3122294 [voice_control-3] [INFO] [1756483672.312032304] [voice_control_node]: TF 尚未可用，继续等待...
+1756483672.8134234 [voice_control-3] [INFO] [1756483672.813258935] [voice_control_node]: TF 尚未可用，继续等待...
+1756483673.3142395 [voice_control-3] [INFO] [1756483673.314019318] [voice_control_node]: TF 尚未可用，继续等待...
+1756483673.8157387 [voice_control-3] [INFO] [1756483673.815584458] [voice_control_node]: TF 获取成功 
+1756483706.0884776 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756483706.0898824 [iat_publish-1] [INFO] [1756483706.088373910] [rclcpp]: signal_handler(signum=2)
+1756483706.0900645 [tts_subscribe-2] [INFO] [1756483706.088380859] [rclcpp]: signal_handler(signum=2)
+1756483706.0901937 [voice_control-3] Traceback (most recent call last):
+1756483706.0902359 [voice_control-3]   File "/home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/voice_control", line 572, in <module>
+1756483706.0902650 [voice_control-3]     main()
+1756483706.0903032 [voice_control-3]   File "/home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/voice_control", line 566, in main
+1756483706.0903394 [voice_control-3]     rclpy.spin(node)
+1756483706.0905070 [voice_control-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 226, in spin
+1756483706.0906546 [voice_control-3]     executor.spin_once()
+1756483706.0907381 [voice_control-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+1756483706.0907800 [voice_control-3]     self._spin_once_impl(timeout_sec)
+1756483706.0908182 [voice_control-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 728, in _spin_once_impl
+1756483706.0908508 [voice_control-3]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+1756483706.0908823 [voice_control-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 711, in wait_for_ready_callbacks
+1756483706.0909064 [voice_control-3]     return next(self._cb_iter)
+1756483706.0909364 [voice_control-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 608, in _wait_for_ready_callbacks
+1756483706.0909624 [voice_control-3]     wait_set.wait(timeout_nsec)
+1756483706.0909841 [voice_control-3] KeyboardInterrupt
+1756483706.0911357 [voice_dialog-4] Traceback (most recent call last):
+1756483706.0911896 [voice_dialog-4]   File "/home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/voice_dialog", line 138, in <module>
+1756483706.0912256 [voice_dialog-4]     main()
+1756483706.0912571 [voice_dialog-4]   File "/home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/voice_dialog", line 133, in main
+1756483706.0912926 [voice_dialog-4]     rclpy.spin(node)
+1756483706.0913308 [voice_dialog-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 226, in spin
+1756483706.0914981 [voice_dialog-4]     executor.spin_once()
+1756483706.0915303 [voice_dialog-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+1756483706.0915632 [voice_dialog-4]     self._spin_once_impl(timeout_sec)
+1756483706.0915937 [voice_dialog-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 728, in _spin_once_impl
+1756483706.0916202 [voice_dialog-4]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+1756483706.0916517 [voice_dialog-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 711, in wait_for_ready_callbacks
+1756483706.0916784 [voice_dialog-4]     return next(self._cb_iter)
+1756483706.0917108 [voice_dialog-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 608, in _wait_for_ready_callbacks
+1756483706.0917528 [voice_dialog-4]     wait_set.wait(timeout_nsec)
+1756483706.0917928 [voice_dialog-4] KeyboardInterrupt
+1756483706.1188791 [ERROR] [voice_dialog-4]: process has died [pid 10540, exit code -2, cmd '/home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/voice_dialog --ros-args -r __node:=voice_dialog_node --params-file /tmp/launch_params__xnfcng5 --params-file /tmp/launch_params_vc44uu06 --params-file /tmp/launch_params_y1zm4cdt'].
+1756483706.1231849 [ERROR] [voice_control-3]: process has died [pid 10538, exit code -2, cmd '/home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/voice_control --ros-args -r __node:=voice_control_node'].
+1756483706.1972845 [INFO] [iat_publish-1]: process has finished cleanly [pid 10534]
+1756483706.1981137 [INFO] [tts_subscribe-2]: process has finished cleanly [pid 10536]

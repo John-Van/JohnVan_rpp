@@ -1,0 +1,15 @@
+[0.385s] Invoking command in '/home/rpp/rpp_ws/build/motor_pitch_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/motor_pitch_sdk -- -j24 -l24
+[1.198s] [ 60%] Built target motor_pitch_sdk
+[1.198s] [100%] Built target rpp_keyboard_teleoperate
+[1.234s] Invoked command in '/home/rpp/rpp_ws/build/motor_pitch_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/motor_pitch_sdk -- -j24 -l24
+[1.236s] Invoking command in '/home/rpp/rpp_ws/build/motor_pitch_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/motor_pitch_sdk
+[1.343s] -- Install configuration: ""
+[1.343s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/lib/libmotor_pitch_sdk.so
+[1.344s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/bin/rpp_keyboard_teleoperate
+[1.344s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/include
+[1.344s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/include/motor_pitch
+[1.344s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/include/motor_pitch/can.h
+[1.344s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/include/motor_pitch/motor_pitch.h
+[1.344s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/share/motor_pitch_sdk/cmake/motor_pitch_sdkConfig.cmake
+[1.344s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/share/motor_pitch_sdk/cmake/motor_pitch_sdkConfig-noconfig.cmake
+[1.505s] Invoked command in '/home/rpp/rpp_ws/build/motor_pitch_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/motor_pitch_sdk

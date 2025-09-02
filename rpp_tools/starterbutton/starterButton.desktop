@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Categories=Utility;X-PC-Server;
+Name=starterButton
+Exec=bash -c "cd $HOME/rpp_tools/ && source $HOME/.rpprc && $HOME/rpp_tools/rpp_fast_gui.AppImage -d ./starterbutton/.starterButton -n  starterButton "
+Icon=/home/rpp/rpp_tools/starterbutton/.starterButton/images/starterButton.png
+Comment=Run starterButton script
+Terminal=false
+Name[zh_CN]=starterButton

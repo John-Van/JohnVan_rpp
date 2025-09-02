@@ -1,0 +1,39 @@
+[INFO] [1756629967.270190905] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756629967.270249380] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1756629967.318008368] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1756629970.457229136] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1756629970.467258517] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1756629970.510118370] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756629970.531022003] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.019005 seconds
+[INFO] [1756629970.531050070] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+[INFO] [1756629970.531056830] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[ERROR] [1756629970.838254535] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+[ERROR] [1756629970.838270414] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+[ERROR] [1756629970.838279731] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+[INFO] [1756629971.592565686] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1756629971.592857300] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1756629972.543939898] [interactive_marker_display_104052184897616]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1756629972.573582126] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+[INFO] [1756629972.573593988] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+[INFO] [1756629972.577141851] [move_group_interface]: Ready to take commands for planning group dual_arm.
+[INFO] [1756629972.828569139] [interactive_marker_display_104052184897616]: Sending request for interactive markers
+[INFO] [1756629972.927520979] [interactive_marker_display_104052184897616]: Service response received for initialization
+[INFO] [1756629984.116660866] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756629984.117222935] [move_group_interface]: Planning request accepted
+[INFO] [1756629984.130373168] [move_group_interface]: Planning request complete!
+[INFO] [1756629984.130782558] [move_group_interface]: time taken to generate plan: 0.00762467 seconds
+[INFO] [1756629989.221975179] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+[INFO] [1756629989.222012667] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'left_arm' in namespace ''
+[INFO] [1756629989.227727105] [move_group_interface]: Ready to take commands for planning group left_arm.
+[INFO] [1756629990.705074188] [move_group_interface]: Execute request accepted
+[INFO] [1756629994.930062933] [move_group_interface]: Execute request success!
+[INFO] [1756630337.326039266] [moveit_ros_visualization.motion_planning_frame]: group right_arm
+[INFO] [1756630337.326099407] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'right_arm' in namespace ''
+[INFO] [1756630337.329921165] [move_group_interface]: Ready to take commands for planning group right_arm.
+[INFO] [1756630352.292938193] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756630352.293258292] [move_group_interface]: Planning request accepted
+[INFO] [1756630352.320281479] [move_group_interface]: Planning request complete!
+[INFO] [1756630352.320744559] [move_group_interface]: time taken to generate plan: 0.0185361 seconds
+[INFO] [1756630359.872375202] [move_group_interface]: Execute request accepted
+[INFO] [1756630367.198544980] [move_group_interface]: Execute request success!
+[INFO] [1756630377.699027599] [move_group_interface]: MoveGroup action cli

@@ -1,0 +1,4 @@
+1756454045.7490125 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-29-15-54-05-748428-rpp-Default-string-67051
+1756454045.7490954 [INFO] [launch]: Default logging verbosity is set to INFO
+1756454045.7782059 [INFO] [motor_pitch_ros_node-1]: process started with pid [67052]
+1756454970.3695910 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)

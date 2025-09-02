@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-4c0caa69f445acefaf44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "motor_lift_sdk",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_lift_sdk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_lift_sdk-Debug-1b2b7026ccdcb820aba7.json",
+					"name" : "motor_lift_sdk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rpp_keyboard_teleoperate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rpp_keyboard_teleoperate-Debug-f036889555cfc7cc9ce8.json",
+					"name" : "rpp_keyboard_teleoperate",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rpp/rpp_ws/build/motor_lift_sdk",
+		"source" : "/home/rpp/rpp_ws/src/drivers/motor_lift_sdk"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

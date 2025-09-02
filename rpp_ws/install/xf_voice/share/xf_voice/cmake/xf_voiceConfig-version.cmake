@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/xf_voice/ament_cmake_core/xf_voiceConfig-version.cmake

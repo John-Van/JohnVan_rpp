@@ -1,0 +1,126 @@
+---
+demo_image:
+  env_map:
+    robuster_git_user: rpp:shihe321
+    local_drivers_repos: $HOME/rpp_ws/src/drivers
+    local_robot_repos: $HOME/rpp_ws/src/robot
+    local_slam_repos: $HOME/rpp_ws/src/slam
+    local_navigation_repos: $HOME/rpp_ws/src/navigation
+    local_manipulator_repos: $HOME/rpp_ws/src/manipulator
+    local_application_repos: $HOME/rpp_ws/src/application
+    local_vision_repos: $HOME/rpp_ws/src/vision
+    locla_3rdparty_repos: $HOME/3rdparty
+    car_mode: robot
+    nvidia_gpu_model: "3080"   # 注意显卡型号 无显卡需要注释本项
+    system_architecture: Linux_arm64 # or Linux_arm64     ## 注意架构
+    PS1_STRING: \\[\033[1;32m\\]\u\\[\033[1;36m\\]<\\[\033[1;32m\\]$car_mode\\[\033[1;36m\\]>:\\[\033[1;34m\\]\w\\[\033[0m\\]\\$ '
+    apt_source_url: https://mirrors.tuna.tsinghua.edu.cn
+    pip_source_url: https://pypi.tuna.tsinghua.edu.cn/simple
+    rpp_tools_link: http://file.robotplusplus.com.cn/common_tools/1.0.0
+    nvidia_toolkit_link: http://file.robotplusplus.com.cn/nvidia/ubuntu18.04-cuda-11.4.0-cudnn-8.4.1.50-tensorrt-8.4.1.5-amd64/
+    git_3rdparty_link: https://git.robotplusplus.com.cn/third-party
+    ros1_source_url: https://mirrors.tuna.tsinghua.edu.cn/ros/ubuntu/
+    ros_distro_version: melodic
+  depends_map : 
+    debian_pkgs: 
+      -  code_*.deb
+      - nomachine_*.deb
+      - SunloginClient_*.deb
+
+    python2_pip_pkgs: 
+      - catkin-tools
+      - rospkg
+      - pyserial 
+      - numpy
+    python3_pip_pkgs: 
+      - numpy
+    apt_pkgs: 
+      - openssh-server 
+      - python python3 python-pip python3-pip
+      - htop tree
+      - curl wget wireshark proxychains4
+      - gawk vim 
+      - git
+      - gimp kazam   pcl-tools
+      - net-tools
+      - bleachbit #硬盘清理工具
+      - libeigen3-dev 
+      - libmodbus-dev libserial-dev
+      - cmake
+    apt_ros_pkgs:
+      - ros-control position-controllers  effort-controllers  velocity-controllers
+      - gazebo-ros gazebo-ros-control
+      - moveit moveit-servo combined-robot-hw trac-ik-kinematics-plugin  joint-trajectory-controller
+      -  joint-state-controller effort-controllers   ros-controllers  joint-state-publisher-gui
+      - joy teleop-twist-joy
+      - ddynamic-reconfigure 
+  git_repos:
+   3rdparty: # 存放需要源码编译的第三方库，如GTSAM, OpenCV, ceres 等。也包含一些设备的驱动程序，如librealsense, livox-SDK等
+     lio-sam:
+        url: https://git.robotplusplus.com.cn/slam/lio-sam/lio-sam.git
+        user: $robuster_git_user
+        tag:
+        local_path: $local_robuster_slam_repos
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs:
+        python2_pip_pkgs:
+         python3_pip_pkgs:
+     lio-sa2m:
+        url: https://git.robotplusplus.com.cn/slam/lio-sam/lio-sam.git
+        user: $robuster_git_user
+        tag:
+        local_path: $local_robuster_slam_repos
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs:
+        python2_pip_pkgs: 4s5
+        python3_pip_pkgs: sss5s55   55 aa dfdf
+   driver: # 设备、传感器的ROS驱动
+       lio-sam:
+          url: https://git.robotplusplus.com.cn/slam/lio-sam/lio-sam.git
+          user: $robuster_git_user
+          tag:
+          other_exec:
+          apt_pkgs:
+          apt_ros_pkgs:
+          python2_pip_pkgs:
+          python3_pip_pkgs:
+          local_path: $local_robuster_slam_repos
+   slam: # 建图定位ROS包
+     lio-sam:
+       url: https://git.robotplusplus.com.cn/slam/lio-sam/lio-sam.git
+       user: $robuster_git_user
+       tag:
+       local_path: $local_robuster_slam_repos
+       other_exec:
+       apt_pkgs:
+       apt_ros_pkgs:
+       python2_pip_pkgs:
+       python3_pip_pkgs:
+   navigation: # 导航ROS包
+     lio-sam:
+       url: https://git.robotplusplus.com.cn/slam/lio-sam/lio-sam.git
+       user: $robuster_git_user
+       tag:
+       local_path: $local_robuster_slam_repos
+       other_exec:
+       apt_pkgs:
+       apt_ros_pkgs:
+       python2_pip_pkgs:
+       python3_pip_pkgs:
+   manipulator: #械臂相关ROS包
+      lio-sam:
+        url: https://git.robotplusplus.com.cn/slam/lio-sam/lio-sam.git
+        user: $robuster_git_user
+        tag:
+        local_path: $local_robuster_slam_repos
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs:
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+   application: # 机器人综合演示demo ROS包
+   vision: # 仿真相关功能包
+   product: # 具体产品对应的描述包，bringup包
+

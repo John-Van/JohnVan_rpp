@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c9ee5feb322b0c5f0429.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "xf_voice_msgs__py",
+					"jsonFile" : "directory-xf_voice_msgs__py-071146710d79ae0aa1d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rpp/rpp_ws/build/xf_voice_msgs/xf_voice_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "xf_voice_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_xf_voice_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_xf_voice_msgs_egg-04cd11964b639b28c323.json",
+					"name" : "ament_cmake_python_build_xf_voice_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_xf_voice_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_xf_voice_msgs-1a4c63e64355196e188a.json",
+					"name" : "ament_cmake_python_symlink_xf_voice_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2d23da0144c9525afdb0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_voice_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_voice_msgs-5f5ce29e5ba0c46203c8.json",
+					"name" : "xf_voice_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_voice_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_voice_msgs__cpp-b3d04add0ed6273b5c3b.json",
+					"name" : "xf_voice_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xf_voice_msgs__py::@850c5fcf1fd4f19275d6",
+					"jsonFile" : "target-xf_voice_msgs__py-8a58d1845f5bd9220a87.json",
+					"name" : "xf_voice_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_voice_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_voice_msgs__rosidl_generator_c-4aae0396721feddab99b.json",
+					"name" : "xf_voice_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_voice_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_voice_msgs__rosidl_generator_py-413f8fa5054505b3ea24.json",
+					"name" : "xf_voice_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_voice_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_voice_msgs__rosidl_typesupport_c-6ec87befa4b352237c8b.json",
+					"name" : "xf_voice_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_voice_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_voice_msgs__rosidl_typesupport_c__pyext-4985e8a2fd1f77daa51f.json",
+					"name" : "xf_voice_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_voice_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_voice_msgs__rosidl_typesupport_cpp-eb89aa089e0e9b42176f.json",
+					"name" : "xf_voice_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_voice_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_voice_msgs__rosidl_typesupport_fastrtps_c-6a8d7a86c5b6c43509cc.json",
+					"name" : "xf_voice_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_voice_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_voice_msgs__rosidl_typesupport_fastrtps_c__pyext-de0dda8364a5bc118a38.json",
+					"name" : "xf_voice_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_voice_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_voice_msgs__rosidl_typesupport_fastrtps_cpp-9d68fed022be09240d40.json",
+					"name" : "xf_voice_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_voice_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_voice_msgs__rosidl_typesupport_introspection_c-7df216f19f322ae32e6c.json",
+					"name" : "xf_voice_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_voice_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_voice_msgs__rosidl_typesupport_introspection_c__pyext-70866a5401ac93f7ffe3.json",
+					"name" : "xf_voice_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_voice_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_voice_msgs__rosidl_typesupport_introspection_cpp-e5aad8c9adedf566b217.json",
+					"name" : "xf_voice_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_voice_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_voice_msgs_uninstall-1822c1fd67d73f954d6a.json",
+					"name" : "xf_voice_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rpp/rpp_ws/build/xf_voice_msgs",
+		"source" : "/home/rpp/rpp_ws/src/application/xf_voice_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

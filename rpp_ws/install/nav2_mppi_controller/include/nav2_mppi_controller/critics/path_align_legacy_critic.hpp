@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/navigation/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critics/path_align_legacy_critic.hpp

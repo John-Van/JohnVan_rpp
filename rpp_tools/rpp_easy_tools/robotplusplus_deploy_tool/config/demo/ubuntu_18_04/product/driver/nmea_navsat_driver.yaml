@@ -1,0 +1,15 @@
+---
+1804_product:
+  git_repos:
+   driver: # 设备、传感器的ROS驱动
+      nmea_navsat_driver:
+        url: https://git.robotplusplus.com.cn/drivers/nmea_navsat_driver.git
+        user:  $robuster_git_user
+        tag: ros1_rpp
+        other_exec:
+        apt_pkgs:  
+        apt_ros_pkgs: catkin-virtualenv
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_drivers_repos
+   

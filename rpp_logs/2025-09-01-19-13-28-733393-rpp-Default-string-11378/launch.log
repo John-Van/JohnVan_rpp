@@ -1,0 +1,9 @@
+1756725208.7341919 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-19-13-28-733393-rpp-Default-string-11378
+1756725208.7342985 [INFO] [launch]: Default logging verbosity is set to INFO
+1756725208.7709062 [INFO] [gui_control-1]: process started with pid [11379]
+1756725208.7710302 [INFO] [gui_control-2]: process started with pid [11381]
+1756725443.7014472 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756725448.7070808 [ERROR] [gui_control-2]: process[gui_control-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1756725448.7073128 [ERROR] [gui_control-1]: process[gui_control-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1756725448.7074342 [INFO] [gui_control-2]: sending signal 'SIGTERM' to process[gui_control-2]
+1756725448.7076094 [INFO] [gui_control-1]: sending signal 'SIGTERM' to process[gui_control-1]

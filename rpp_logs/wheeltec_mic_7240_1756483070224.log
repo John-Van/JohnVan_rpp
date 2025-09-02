@@ -1,0 +1,13 @@
+[INFO] [1756483070.235208030] [wheeltec_mic]: wheeltec_mic serial port opened
+[WARN] [1756483070.235278457] [wheeltec_mic]: Received empty or null buffer in process_data()
+[WARN] [1756483070.235408388] [wheeltec_mic]: Received empty or null buffer in process_data()
+[WARN] [1756483070.235505957] [wheeltec_mic]: Received empty or null buffer in process_data()
+[WARN] [1756483070.235589439] [wheeltec_mic]: Received empty or null buffer in process_data()
+[WARN] [1756483070.235751358] [wheeltec_mic]: Received empty or null buffer in process_data()
+[WARN] [1756483070.235830947] [wheeltec_mic]: Received empty or null buffer in process_data()
+[WARN] [1756483070.235908405] [wheeltec_mic]: Received empty or null buffer in process_data()
+[WARN] [1756483070.235987126] [wheeltec_mic]: Received empty or null buffer in process_data()
+[WARN] [1756483070.236067663] [wheeltec_mic]: Received empty or null buffer in process_data()
+[WARN] [1756483070.236145795] [wheeltec_mic]: Received empty or null buffer in process_data()
+[WARN] [1756483070.236224331] [wheeltec_mic]: Received empty or null buffer in process_data()
+[INFO] [1756483138.800864173] [rclcpp]: signal_handler(signum=2)

@@ -1,0 +1,38 @@
+1756730979.8391123 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-20-49-39-838547-rpp-Default-string-17715
+1756730979.8391941 [INFO] [launch]: Default logging verbosity is set to INFO
+1756730980.8577876 [INFO] [robot_state_publisher-1]: process started with pid [17717]
+1756730980.8579803 [INFO] [gzserver-2]: process started with pid [17719]
+1756730980.8580704 [INFO] [gzclient-3]: process started with pid [17721]
+1756730980.8581588 [INFO] [spawn_entity.py-4]: process started with pid [17723]
+1756731011.5778418 [ERROR] [spawn_entity.py-4]: process has died [pid 17723, exit code 1, cmd '/opt/ros/humble/lib/gazebo_ros/spawn_entity.py -topic robot_description -entity ea200 -z 0.08 --ros-args -r __node:=spawn_robot'].
+1756731011.5823362 [INFO] [spawner-5]: process started with pid [17961]
+1756731011.5824251 [INFO] [spawner-6]: process started with pid [17963]
+1756731011.5824687 [INFO] [spawner-7]: process started with pid [17965]
+1756731011.5825043 [INFO] [spawner-8]: process started with pid [17967]
+1756731011.9051764 [spawner-7] [INFO] [1756731011.904968804] [spawner_body_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756731011.9088237 [spawner-5] [INFO] [1756731011.908648423] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+1756731011.9203076 [spawner-6] [INFO] [1756731011.920132898] [spawner_diff_drive_base_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756731013.2037926 [spawner-5] [WARN] [1756731013.203579726] [spawner_joint_state_broadcaster]: [93mController already loaded, skipping load_controller[0m
+1756731013.2047231 [spawner-7] [FATAL] [1756731013.204580093] [spawner_body_controller]: [91mFailed loading controller [1mbody_controller[0m
+1756731013.2055259 [spawner-6] [FATAL] [1756731013.205417596] [spawner_diff_drive_base_controller]: [91mFailed loading controller [1mdiff_drive_base_controller[0m
+1756731013.2059288 [spawner-5] [ERROR] [1756731013.205815119] [spawner_joint_state_broadcaster]: [91mFailed to configure controller[0m
+1756731013.2238715 [spawner-8] [FATAL] [1756731013.223575768] [spawner_joint_position_controller]: [91mFailed loading controller [1mjoint_position_controller[0m
+1756731013.3348396 [ERROR] [spawner-7]: process has died [pid 17965, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner body_controller -c controller_manager --ros-args'].
+1756731013.3367429 [ERROR] [spawner-6]: process has died [pid 17963, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner diff_drive_base_controller -c controller_manager --ros-args'].
+1756731013.3372705 [ERROR] [spawner-5]: process has died [pid 17961, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner joint_state_broadcaster -c controller_manager --ros-args'].
+1756731013.3396502 [INFO] [rviz2-9]: process started with pid [18117]
+1756731013.3477747 [ERROR] [spawner-8]: process has died [pid 17967, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner joint_position_controller -c controller_manager --ros-args'].
+1756731013.7564371 [rviz2-9] [INFO] [1756731013.756212420] [rviz2]: Stereo is NOT SUPPORTED
+1756731013.7566881 [rviz2-9] [INFO] [1756731013.756336511] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1756731013.8288345 [rviz2-9] [INFO] [1756731013.828624038] [rviz2]: Stereo is NOT SUPPORTED
+1756731033.6034513 [INFO] [rviz2-9]: process has finished cleanly [pid 18117]
+1756731035.2775421 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756731035.2789524 [gzserver-2] [INFO] [1756731035.277401428] [rclcpp]: signal_handler(signum=2)
+1756731035.3029647 [ERROR] [gzclient-3]: process has died [pid 17721, exit code -2, cmd 'gzclient --gui-client-plugin=libgazebo_ros_eol_gui.so'].
+1756731035.3828187 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 17717]
+1756731040.2843702 [ERROR] [gzserver-2]: process[gzserver-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1756731040.2851422 [INFO] [gzserver-2]: sending signal 'SIGTERM' to process[gzserver-2]
+1756731040.2854965 [gzserver-2] [INFO] [1756731040.285333544] [rclcpp]: signal_handler(signum=15)
+1756731045.2820280 [ERROR] [gzserver-2]: process[gzserver-2] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+1756731045.2825801 [INFO] [gzserver-2]: sending signal 'SIGKILL' to process[gzserver-2]
+1756731045.3199255 [ERROR] [gzserver-2]: process has died [pid 17719, exit code -9, cmd 'gzserver /opt/ros/humble/share/gazebo_ros/worlds/empty.world -slibgazebo_ros_init.so -slibgazebo_ros_factory.so -slibgazebo_ros_force_system.so'].

@@ -1,0 +1,15 @@
+---
+1804_product:
+  git_repos:
+   slam: # 建图定位ROS包
+     fast_lio_sam:
+       url: https://git.robotplusplus.com.cn/slam/fast-lio-sam/fast_lio_sam.git
+       user: $robuster_git_user
+       tag: feat-v3.0.1
+       local_path: $local_slam_repos
+       other_exec: fast_lio_sam.build
+       apt_pkgs: libgeographic-dev
+       apt_ros_pkgs:  ros-numpy 
+       python2_pip_pkgs: pyrsistent==0.15   ipywidgets==7.5.1 open3d==0.9
+       python3_pip_pkgs:       
+   

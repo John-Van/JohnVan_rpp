@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/drivers/lakibeam1/lakibeam1_ros2_v1_0_0/launch/lakibeam1_scan.launch.py

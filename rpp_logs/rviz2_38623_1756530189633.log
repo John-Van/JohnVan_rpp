@@ -1,0 +1,71 @@
+[INFO] [1756530189.968517632] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756530189.968574361] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1756530190.063489365] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1756530193.223666533] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1756530193.233319198] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1756530193.282864724] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756530193.306368558] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0207706 seconds
+[INFO] [1756530193.306397858] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+[INFO] [1756530193.306406779] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[ERROR] [1756530193.626725615] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+[ERROR] [1756530193.626741906] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+[ERROR] [1756530193.626751732] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+[INFO] [1756530194.436051737] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1756530194.436451471] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1756530195.420437617] [interactive_marker_display_111315096194512]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1756530195.450228799] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+[INFO] [1756530195.450240889] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+[INFO] [1756530195.455065273] [move_group_interface]: Ready to take commands for planning group dual_arm.
+[INFO] [1756530195.584957067] [interactive_marker_display_111315096194512]: Sending request for interactive markers
+[INFO] [1756530195.718599375] [interactive_marker_display_111315096194512]: Service response received for initialization
+[INFO] [1756530216.359514976] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756530216.360032427] [move_group_interface]: Planning request accepted
+[INFO] [1756530216.383073720] [move_group_interface]: Planning request complete!
+[INFO] [1756530216.383102025] [move_group_interface]: time taken to generate plan: 0.0101771 seconds
+[INFO] [1756530228.680309116] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+[INFO] [1756530228.680336483] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'left_arm' in namespace ''
+[INFO] [1756530228.684002232] [move_group_interface]: Ready to take commands for planning group left_arm.
+[INFO] [1756530230.794221133] [move_group_interface]: Execute request accepted
+[INFO] [1756530242.082021075] [move_group_interface]: Execute request success!
+[INFO] [1756530251.406597383] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756530251.406978013] [move_group_interface]: Planning request accepted
+[INFO] [1756530251.432592968] [move_group_interface]: Planning request complete!
+[INFO] [1756530251.433083158] [move_group_interface]: time taken to generate plan: 0.00967519 seconds
+[INFO] [1756530260.835448135] [move_group_interface]: Execute request accepted
+[INFO] [1756530275.915424157] [move_group_interface]: Execute request success!
+[INFO] [1756530297.804683091] [moveit_ros_visualization.motion_planning_frame]: group right_arm
+[INFO] [1756530297.804728178] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'right_arm' in namespace ''
+[INFO] [1756530297.807903470] [move_group_interface]: Ready to take commands for planning group right_arm.
+[INFO] [1756530305.775659619] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756530305.776022053] [move_group_interface]: Planning request accepted
+[INFO] [1756530305.799102993] [move_group_interface]: Planning request complete!
+[INFO] [1756530305.800139551] [move_group_interface]: time taken to generate plan: 0.00857795 seconds
+[INFO] [1756530310.742201561] [move_group_interface]: Execute request accepted
+[INFO] [1756530323.272639077] [move_group_interface]: Execute request success!
+[INFO] [1756530331.029973647] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756530331.030401255] [move_group_interface]: Planning request accepted
+[INFO] [1756530331.047657277] [move_group_interface]: Planning request complete!
+[INFO] [1756530331.048059360] [move_group_interface]: time taken to generate plan: 0.00815664 seconds
+[INFO] [1756530332.808274633] [move_group_interface]: Execute request accepted
+[INFO] [1756530339.182252919] [move_group_interface]: Execute request success!
+[INFO] [1756530356.909819300] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756530356.910265543] [move_group_interface]: Planning request accepted
+[INFO] [1756530356.926615969] [move_group_interface]: Planning request complete!
+[INFO] [1756530356.926917676] [move_group_interface]: time taken to generate plan: 0.00955506 seconds
+[INFO] [1756530357.216474482] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756530357.216888181] [move_group_interface]: Planning request accepted
+[INFO] [1756530357.235975845] [move_group_interface]: Planning request complete!
+[INFO] [1756530357.236605541] [move_group_interface]: time taken to generate plan: 0.00641339 seconds
+[INFO] [1756530359.251307033] [move_group_interface]: Execute request accepted
+[INFO] [1756530359.252550281] [move_group_interface]: Execute request aborted
+[ERROR] [1756530359.252807293] [move_group_interface]: MoveGroupInterface::execute() failed or timeout reached
+[INFO] [1756530370.075924491] [move_group_interface]: Plan and Execute request accepted
+[INFO] [1756530376.482762106] [move_group_interface]: Plan and Execute request complete!
+[INFO] [1756530377.882658217] [move_group_interface]: Plan and Execute request accepted
+[INFO] [1756530381.584257003] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756530384.285505987] [move_group_interface]: Planning request accepted
+[INFO] [1756530384.313396983] [move_group_interface]: Plan and Execute request complete!
+[INFO] [1756530384.313455756] [move_group_interface]: Planning request complete!
+[INFO] [1756530384.314053383] [move_group_interface]: time taken to generate plan: 0.0165994 seconds
+[INFO] [1756530386.332668986] [move_group_interface]: Execute request accepted
+[INFO] [1756530392.715507736] [move_group_interface]: Execute request success!

@@ -1,0 +1,124 @@
+1756008262.0107877 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-24-12-04-22-010299-rpp-Default-string-4731
+1756008262.0108652 [INFO] [launch]: Default logging verbosity is set to INFO
+1756008262.4413908 [INFO] [move_group-1]: process started with pid [4732]
+1756008262.4414859 [INFO] [rviz2-2]: process started with pid [4734]
+1756008262.9900563 [rviz2-2] [INFO] [1756008262.989677895] [rviz2]: Stereo is NOT SUPPORTED
+1756008262.9901590 [rviz2-2] [INFO] [1756008262.989731423] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1756008263.0153296 [rviz2-2] [INFO] [1756008263.015165567] [rviz2]: Stereo is NOT SUPPORTED
+1756008263.1350987 [rviz2-2] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1756008263.1352017 [rviz2-2]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1756008266.1587472 [rviz2-2] [ERROR] [1756008266.158329869] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1756008266.1776474 [rviz2-2] [INFO] [1756008266.177434051] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1756008266.2132227 [rviz2-2] [INFO] [1756008266.213043541] [rviz2]: Stereo is NOT SUPPORTED
+1756008266.2460778 [rviz2-2] [INFO] [1756008266.245912209] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0191744 seconds
+1756008266.2461710 [rviz2-2] [INFO] [1756008266.245940621] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+1756008266.2461996 [rviz2-2] [INFO] [1756008266.245947659] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1756008266.5561094 [rviz2-2] [ERROR] [1756008266.555940004] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+1756008266.5562282 [rviz2-2] [ERROR] [1756008266.555959917] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+1756008266.5562639 [rviz2-2] [ERROR] [1756008266.555972439] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+1756008267.3361709 [rviz2-2] [INFO] [1756008267.335986031] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+1756008267.3364863 [rviz2-2] [INFO] [1756008267.336290993] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+1756008268.2907586 [rviz2-2] [INFO] [1756008268.290587075] [interactive_marker_display_103652690816592]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+1756008268.3201051 [rviz2-2] [INFO] [1756008268.320005010] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+1756008268.3201668 [rviz2-2] [INFO] [1756008268.320016950] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+1756008268.3243346 [rviz2-2] [INFO] [1756008268.324164609] [move_group_interface]: Ready to take commands for planning group dual_arm.
+1756008268.4605858 [rviz2-2] [INFO] [1756008268.460324189] [interactive_marker_display_103652690816592]: Sending request for interactive markers
+1756008268.6035006 [rviz2-2] [INFO] [1756008268.603108440] [interactive_marker_display_103652690816592]: Service response received for initialization
+1756008306.2642281 [rviz2-2] [INFO] [1756008306.263576418] [move_group_interface]: Plan and Execute request accepted
+1756008324.7778819 [rviz2-2] [INFO] [1756008324.777616482] [move_group_interface]: Plan and Execute request aborted
+1756008324.7782817 [rviz2-2] [ERROR] [1756008324.778109987] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+1756008642.5330844 [rviz2-2] [INFO] [1756008642.532788368] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+1756008642.5332925 [rviz2-2] [INFO] [1756008642.532840126] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'left_arm' in namespace ''
+1756008642.5442479 [rviz2-2] [INFO] [1756008642.543959403] [move_group_interface]: Ready to take commands for planning group left_arm.
+1756008659.7703624 [rviz2-2] [INFO] [1756008659.770056698] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+1756008659.7705638 [rviz2-2] [INFO] [1756008659.770098211] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+1756008659.7802639 [rviz2-2] [INFO] [1756008659.779862447] [move_group_interface]: Ready to take commands for planning group dual_arm.
+1756008708.9550219 [rviz2-2] [INFO] [1756008708.954720961] [move_group_interface]: MoveGroup action client/server ready
+1756008708.9558170 [rviz2-2] [INFO] [1756008708.955285883] [move_group_interface]: Planning request accepted
+1756008709.1137586 [rviz2-2] [INFO] [1756008709.113594252] [move_group_interface]: Planning request aborted
+1756008709.1143219 [rviz2-2] [ERROR] [1756008709.114191004] [move_group_interface]: MoveGroupInterface::plan() failed or timeout reached
+1756008716.0221093 [rviz2-2] [INFO] [1756008716.021812587] [move_group_interface]: MoveGroup action client/server ready
+1756008716.0228610 [rviz2-2] [INFO] [1756008716.022274254] [move_group_interface]: Planning request accepted
+1756008716.1093421 [rviz2-2] [INFO] [1756008716.109206366] [move_group_interface]: Planning request aborted
+1756008716.1097097 [rviz2-2] [ERROR] [1756008716.109620025] [move_group_interface]: MoveGroupInterface::plan() failed or timeout reached
+1756008749.9876416 [rviz2-2] [INFO] [1756008749.987261586] [move_group_interface]: MoveGroup action client/server ready
+1756008749.9884253 [rviz2-2] [INFO] [1756008749.987846991] [move_group_interface]: Planning request accepted
+1756008750.1193454 [rviz2-2] [INFO] [1756008750.119226467] [move_group_interface]: Planning request aborted
+1756008750.1195600 [rviz2-2] [ERROR] [1756008750.119306553] [move_group_interface]: MoveGroupInterface::plan() failed or timeout reached
+1756008769.0115566 [rviz2-2] [INFO] [1756008769.010942261] [move_group_interface]: Plan and Execute request accepted
+1756008769.1326003 [rviz2-2] [INFO] [1756008769.132478631] [move_group_interface]: Plan and Execute request aborted
+1756008769.1330721 [rviz2-2] [ERROR] [1756008769.132962675] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+1756008774.4666011 [rviz2-2] [INFO] [1756008774.466003457] [move_group_interface]: Plan and Execute request accepted
+1756008774.5731223 [rviz2-2] [INFO] [1756008774.573082509] [move_group_interface]: Plan and Execute request aborted
+1756008774.5733626 [rviz2-2] [ERROR] [1756008774.573224704] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+1756008784.4810369 [rviz2-2] [INFO] [1756008784.480027884] [move_group_interface]: Plan and Execute request accepted
+1756008784.5915544 [rviz2-2] [INFO] [1756008784.591502626] [move_group_interface]: Plan and Execute request aborted
+1756008784.5919120 [rviz2-2] [ERROR] [1756008784.591861383] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+1756008792.6962764 [rviz2-2] [WARN] [1756008792.695963818] [moveit_ros_visualization.motion_planning_frame_planning]: Unable to find a random collision free configuration after 100 attempts
+1756008803.4923663 [rviz2-2] [INFO] [1756008803.492041431] [move_group_interface]: MoveGroup action client/server ready
+1756008803.4932227 [rviz2-2] [INFO] [1756008803.492456637] [move_group_interface]: Planning request accepted
+1756008803.6417208 [rviz2-2] [INFO] [1756008803.641613279] [move_group_interface]: Planning request aborted
+1756008803.6420367 [rviz2-2] [ERROR] [1756008803.641994342] [move_group_interface]: MoveGroupInterface::plan() failed or timeout reached
+1756008812.4165840 [rviz2-2] [INFO] [1756008812.415618237] [move_group_interface]: Plan and Execute request accepted
+1756008812.5543325 [rviz2-2] [INFO] [1756008812.554290386] [move_group_interface]: Plan and Execute request aborted
+1756008812.5544479 [rviz2-2] [ERROR] [1756008812.554375034] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+1756008815.6277311 [rviz2-2] [INFO] [1756008815.626791842] [move_group_interface]: Plan and Execute request accepted
+1756008815.7799342 [rviz2-2] [INFO] [1756008815.779866472] [move_group_interface]: Plan and Execute request aborted
+1756008815.7806478 [rviz2-2] [ERROR] [1756008815.780426496] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+1756008815.9479022 [rviz2-2] [INFO] [1756008815.947330232] [move_group_interface]: Plan and Execute request accepted
+1756008816.0772567 [rviz2-2] [INFO] [1756008816.077103561] [move_group_interface]: Plan and Execute request aborted
+1756008816.0775087 [rviz2-2] [ERROR] [1756008816.077314982] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+1756008834.5238054 [rviz2-2] [INFO] [1756008834.523439986] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+1756008834.5240738 [rviz2-2] [INFO] [1756008834.523479805] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'left_arm' in namespace ''
+1756008834.5348680 [rviz2-2] [INFO] [1756008834.534566423] [move_group_interface]: Ready to take commands for planning group left_arm.
+1756008838.6563032 [rviz2-2] [INFO] [1756008838.655307296] [move_group_interface]: Plan and Execute request accepted
+1756008884.5364919 [rviz2-2] [INFO] [1756008884.536297025] [move_group_interface]: Plan and Execute request complete!
+1756009156.7638788 [rviz2-2] [INFO] [1756009156.763576177] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+1756009156.7640820 [rviz2-2] [INFO] [1756009156.763618859] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+1756009156.7722466 [rviz2-2] [INFO] [1756009156.771932012] [move_group_interface]: Ready to take commands for planning group dual_arm.
+1756009205.1731384 [rviz2-2] [INFO] [1756009205.172453824] [move_group_interface]: Plan and Execute request accepted
+1756009205.2947543 [rviz2-2] [INFO] [1756009205.294657395] [move_group_interface]: Plan and Execute request aborted
+1756009205.2950006 [rviz2-2] [ERROR] [1756009205.294960148] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+1756009261.0142758 [rviz2-2] [INFO] [1756009261.013860219] [moveit_ros_visualization.motion_planning_frame]: group right_arm
+1756009261.0145888 [rviz2-2] [INFO] [1756009261.013907218] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'right_arm' in namespace ''
+1756009261.0243566 [rviz2-2] [INFO] [1756009261.023945677] [move_group_interface]: Ready to take commands for planning group right_arm.
+1756009263.3889344 [rviz2-2] [INFO] [1756009263.388128565] [move_group_interface]: Plan and Execute request accepted
+1756009263.4994438 [rviz2-2] [INFO] [1756009263.499403338] [move_group_interface]: Plan and Execute request aborted
+1756009263.5007381 [rviz2-2] [ERROR] [1756009263.500428128] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+1756009264.9871290 [rviz2-2] [INFO] [1756009264.986553881] [move_group_interface]: Plan and Execute request accepted
+1756009265.0989463 [rviz2-2] [INFO] [1756009265.098717666] [move_group_interface]: Plan and Execute request aborted
+1756009265.0990860 [rviz2-2] [ERROR] [1756009265.098911484] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+1756009267.2084301 [rviz2-2] [INFO] [1756009267.208128498] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+1756009267.2086349 [rviz2-2] [INFO] [1756009267.208169635] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'left_arm' in namespace ''
+1756009267.2202985 [rviz2-2] [INFO] [1756009267.220034489] [move_group_interface]: Ready to take commands for planning group left_arm.
+1756009268.0309329 [rviz2-2] [INFO] [1756009268.029933382] [move_group_interface]: Plan and Execute request accepted
+1756009319.2271538 [rviz2-2] [INFO] [1756009319.226940582] [move_group_interface]: Plan and Execute request complete!
+1756009322.3555658 [rviz2-2] [INFO] [1756009322.355141052] [moveit_ros_visualization.motion_planning_frame]: group right_arm
+1756009322.3558679 [rviz2-2] [INFO] [1756009322.355191198] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'right_arm' in namespace ''
+1756009322.3658988 [rviz2-2] [INFO] [1756009322.365555924] [move_group_interface]: Ready to take commands for planning group right_arm.
+1756009323.3820889 [rviz2-2] [INFO] [1756009323.381145114] [move_group_interface]: Plan and Execute request accepted
+1756009334.4071262 [rviz2-2] [INFO] [1756009334.406962093] [move_group_interface]: Plan and Execute request aborted
+1756009334.4074836 [rviz2-2] [ERROR] [1756009334.407060284] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+1756009335.4815392 [rviz2-2] [INFO] [1756009335.481009639] [move_group_interface]: Plan and Execute request accepted
+1756009347.3865268 [rviz2-2] [INFO] [1756009347.386450174] [move_group_interface]: Plan and Execute request aborted
+1756009347.3866873 [rviz2-2] [ERROR] [1756009347.386573074] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+1756009350.3193045 [rviz2-2] [INFO] [1756009350.318971583] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+1756009350.3195751 [rviz2-2] [INFO] [1756009350.319009987] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+1756009350.3274131 [rviz2-2] [INFO] [1756009350.327148129] [move_group_interface]: Ready to take commands for planning group dual_arm.
+1756009351.0219641 [rviz2-2] [INFO] [1756009351.021342524] [move_group_interface]: Plan and Execute request accepted
+1756009361.8771856 [rviz2-2] [INFO] [1756009361.877041873] [move_group_interface]: Plan and Execute request aborted
+1756009361.8782737 [rviz2-2] [ERROR] [1756009361.878076021] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+1756009461.0881128 [rviz2-2] [INFO] [1756009461.087823813] [moveit_ros_visualization.motion_planning_frame]: group right_arm
+1756009461.0883315 [rviz2-2] [INFO] [1756009461.087864982] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'right_arm' in namespace ''
+1756009461.0964439 [rviz2-2] [INFO] [1756009461.096197061] [move_group_interface]: Ready to take commands for planning group right_arm.
+1756009473.0488484 [rviz2-2] [INFO] [1756009473.048183349] [move_group_interface]: Plan and Execute request accepted
+1756009501.0971003 [rviz2-2] [INFO] [1756009501.096750856] [move_group_interface]: Plan and Execute request aborted
+1756009501.0977247 [rviz2-2] [ERROR] [1756009501.097088446] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+1756009502.2673321 [rviz2-2] [INFO] [1756009502.266158622] [move_group_interface]: Plan and Execute request accepted
+1756009532.3388903 [rviz2-2] [INFO] [1756009532.338545165] [move_group_interface]: Plan and Execute request complete!
+1756009571.8177774 [rviz2-2] [INFO] [1756009571.817467519] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+1756009571.8179810 [rviz2-2] [INFO] [1756009571.817511042] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'left_arm' in namespace ''
+1756009571.8277988 [rviz2-2] [INFO] [1756009571.827387495] [move_group_interface]: Ready to take commands for planning group left_arm.
+1756009572.9528921 [rviz2-2] [INFO] [1756009572.951955507] [move_group_interface]: Plan and Execute request accepted
+1756009576.5362399 [rviz2-2] [INFO] [1756009576.536180702] [move_group_interface]: Plan and Execute request aborted
+1756009576.5364919 [rviz2-2] [ERROR] [1756009576.536441052] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached

@@ -1,0 +1,14 @@
+---
+2204_product:
+  git_repos:
+   navigation: # 导航ROS包
+     navigation2: #ros2
+       url: https://git.robotplusplus.com.cn/navigation/ros-navigation/navigation2.git
+       user: $robuster_git_user
+       tag: rpp-humble-dev
+       local_path: $local_navigation_repos
+       other_exec:
+       apt_pkgs: libgraphicsmagick++-dev libxtensor-dev
+       apt_ros_pkgs: bondcpp     behaviortree-cpp-v3  diagnostic-updater spatio-temporal-voxel-layer  #等待
+       python2_pip_pkgs:
+       python3_pip_pkgs:

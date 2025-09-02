@@ -1,0 +1,2 @@
+[WARN] [1756713222.711732646] [spawner_left_joint_trajectory_controller]: [93mController already loaded, skipping load_controller[0m
+[ERROR] [1756713222.713031534] [spawner_left_joint_trajectory_controller]: [91mFailed to configure controller[0m

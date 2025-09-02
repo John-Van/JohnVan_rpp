@@ -1,0 +1,98 @@
+[0.652s] Invoking command in '/home/rpp/rpp_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake /home/rpp/rpp_ws/src/application/pymoveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rpp/rpp_ws/install/pymoveit2
+[1.176s] -- The C compiler identification is GNU 11.4.0
+[1.176s] -- The CXX compiler identification is GNU 11.4.0
+[1.176s] -- Detecting C compiler ABI info
+[1.177s] -- Detecting C compiler ABI info - done
+[1.177s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.177s] -- Detecting C compile features
+[1.177s] -- Detecting C compile features - done
+[1.177s] -- Detecting CXX compiler ABI info
+[1.178s] -- Detecting CXX compiler ABI info - done
+[1.200s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.200s] -- Detecting CXX compile features
+[1.200s] -- Detecting CXX compile features - done
+[1.202s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.501s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.674s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.236s] -- Configuring done
+[2.257s] -- Generating done
+[2.260s] -- Build files have been written to: /home/rpp/rpp_ws/build/pymoveit2
+[2.271s] Invoked command in '/home/rpp/rpp_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake /home/rpp/rpp_ws/src/application/pymoveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rpp/rpp_ws/install/pymoveit2
+[2.274s] Invoking command in '/home/rpp/rpp_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/pymoveit2 -- -j24 -l24
+[3.460s] Built target ament_cmake_python_symlink_pymoveit2
+[3.460s] running egg_info
+[3.460s] creating pymoveit2.egg-info
+[3.461s] writing pymoveit2.egg-info/PKG-INFO
+[3.461s] writing dependency_links to pymoveit2.egg-info/dependency_links.txt
+[3.461s] writing top-level names to pymoveit2.egg-info/top_level.txt
+[3.461s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[3.461s] reading manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[3.461s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[3.461s] Built target ament_cmake_python_build_pymoveit2_egg
+[3.483s] Invoked command in '/home/rpp/rpp_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/pymoveit2 -- -j24 -l24
+[3.494s] Invoking command in '/home/rpp/rpp_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/pymoveit2
+[4.611s] -- Install configuration: ""
+[4.611s] -- Execute custom install script
+[4.612s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/pymoveit2/environment/pythonpath.sh
+[4.612s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/pymoveit2/environment/pythonpath.dsv
+[4.612s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/PKG-INFO
+[4.613s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/SOURCES.txt
+[4.614s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/dependency_links.txt
+[4.614s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/top_level.txt
+[4.614s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/__init__.py
+[4.614s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/gripper_command.py
+[4.614s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/gripper_interface.py
+[4.614s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2.py
+[4.614s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2_gripper.py
+[4.615s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2_servo.py
+[4.615s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py
+[4.615s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/crane_x7.py
+[4.615s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/kinova.py
+[4.615s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/lbr.py
+[4.615s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/panda.py
+[4.616s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/phantomx_pincher.py
+[4.616s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/ur.py
+[4.616s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/utils.py
+[4.616s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/lib/pymoveit2/ex_allow_collisions.py
+[4.616s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/lib/pymoveit2/ex_clear_planning_scene.py
+[4.616s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/lib/pymoveit2/ex_collision_mesh.py
+[4.616s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/lib/pymoveit2/ex_collision_primitive.py
+[4.617s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/lib/pymoveit2/ex_fk.py
+[4.618s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/lib/pymoveit2/ex_gripper.py
+[4.618s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/lib/pymoveit2/ex_ik.py
+[4.619s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/lib/pymoveit2/ex_joint_goal.py
+[4.619s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/lib/pymoveit2/ex_orientation_path_constraint.py
+[4.619s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/lib/pymoveit2/ex_pose_goal.py
+[4.619s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/lib/pymoveit2/ex_servo.py
+[4.619s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/ament_index/resource_index/package_run_dependencies/pymoveit2
+[4.619s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/ament_index/resource_index/parent_prefix_path/pymoveit2
+[4.619s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.sh
+[4.619s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.dsv
+[4.619s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/pymoveit2/environment/path.sh
+[4.620s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/pymoveit2/environment/path.dsv
+[4.620s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/pymoveit2/local_setup.bash
+[4.620s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/pymoveit2/local_setup.sh
+[4.620s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/pymoveit2/local_setup.zsh
+[4.620s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/pymoveit2/local_setup.dsv
+[4.620s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/pymoveit2/package.dsv
+[4.620s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/ament_index/resource_index/packages/pymoveit2
+[4.620s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config.cmake
+[4.621s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config-version.cmake
+[4.621s] -- Symlinking: /home/rpp/rpp_ws/install/pymoveit2/share/pymoveit2/package.xml
+[4.622s] Listing '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2'...
+[4.622s] Compiling '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/__init__.py'...
+[4.622s] Compiling '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/gripper_command.py'...
+[4.623s] Compiling '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/gripper_interface.py'...
+[4.623s] Compiling '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2.py'...
+[4.623s] Compiling '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2_gripper.py'...
+[4.623s] Compiling '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2_servo.py'...
+[4.623s] Listing '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots'...
+[4.623s] Compiling '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py'...
+[4.623s] Compiling '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/crane_x7.py'...
+[4.623s] Compiling '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/kinova.py'...
+[4.623s] Compiling '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/lbr.py'...
+[4.623s] Compiling '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/panda.py'...
+[4.623s] Compiling '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/phantomx_pincher.py'...
+[4.624s] Compiling '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/ur.py'...
+[4.624s] Compiling '/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/utils.py'...
+[4.800s] Invoked command in '/home/rpp/rpp_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/pymoveit2

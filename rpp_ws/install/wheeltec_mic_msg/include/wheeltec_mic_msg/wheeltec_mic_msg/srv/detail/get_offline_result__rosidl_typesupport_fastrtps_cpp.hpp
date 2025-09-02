@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/wheeltec_mic_msg/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/get_offline_result__rosidl_typesupport_fastrtps_cpp.hpp

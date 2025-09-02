@@ -1,0 +1,32 @@
+# grippers moveit config
+# add new gripper config below xarm_gripper_config
+xarm_gripper_config:
+    group_name: xarm_gripper
+    joint_names:
+        - drive_joint
+    action_name: /xarm_gripper_traj_controller/follow_joint_trajectory
+    open_joint_positions:
+        - 0.0
+    close_joint_positions:
+        - 0.88
+
+gen3_robotiq_2f_85_config:
+    group_name: gripper
+    joint_names:
+        - kortex_robotiq_85_left_knuckle_joint
+    action_name: /robotiq_gripper_controller/gripper_cmd
+    open_joint_positions:
+        - 0.0
+    close_joint_positions:
+        - 0.8
+
+
+fake_config:
+    group_name: gripper
+    joint_names:
+        - fake_joint
+    action_name: /fake
+    open_joint_positions:
+        - 0.0
+    close_joint_positions:
+        - 0.8

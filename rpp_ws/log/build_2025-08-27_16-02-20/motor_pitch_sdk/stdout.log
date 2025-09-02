@@ -1,0 +1,11 @@
+[ 60%] Built target motor_pitch_sdk
+[100%] Built target rpp_keyboard_teleoperate
+-- Install configuration: ""
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/lib/libmotor_pitch_sdk.so
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/bin/rpp_keyboard_teleoperate
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/include
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/include/motor_pitch
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/include/motor_pitch/can.h
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/include/motor_pitch/motor_pitch.h
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/share/motor_pitch_sdk/cmake/motor_pitch_sdkConfig.cmake
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_pitch_sdk/share/motor_pitch_sdk/cmake/motor_pitch_sdkConfig-noconfig.cmake

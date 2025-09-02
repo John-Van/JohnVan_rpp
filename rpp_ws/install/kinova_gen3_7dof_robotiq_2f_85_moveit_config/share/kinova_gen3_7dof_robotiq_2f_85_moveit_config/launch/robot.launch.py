@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/drivers/ros2_kortex/kortex_moveit_config/kinova_gen3_7dof_robotiq_2f_85_moveit_config/launch/robot.launch.py

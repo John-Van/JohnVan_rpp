@@ -1,0 +1,7 @@
+mkdir build
+cd build
+cmake ..
+make -j $(nproc)
+echo "shihe321" | sudo -S  make install
+   
+   

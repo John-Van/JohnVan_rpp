@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/navigation/navigation2/nav2_bt_navigator/include/nav2_bt_navigator/navigator.hpp

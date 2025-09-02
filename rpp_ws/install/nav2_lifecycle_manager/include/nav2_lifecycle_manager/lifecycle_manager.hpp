@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/navigation/navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp

@@ -1,0 +1,122 @@
+[0.073s] Invoking command in '/home/rpp/rpp_ws/build/kortex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake /home/rpp/rpp_ws/src/drivers/ros2_kortex/kortex_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rpp/rpp_ws/install/kortex_description
+[1.120s] -- The C compiler identification is GNU 11.4.0
+[1.120s] -- The CXX compiler identification is GNU 11.4.0
+[1.120s] -- Detecting C compiler ABI info
+[1.120s] -- Detecting C compiler ABI info - done
+[1.120s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.120s] -- Detecting C compile features
+[1.120s] -- Detecting C compile features - done
+[1.120s] -- Detecting CXX compiler ABI info
+[1.122s] -- Detecting CXX compiler ABI info - done
+[1.123s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.124s] -- Detecting CXX compile features
+[1.125s] -- Detecting CXX compile features - done
+[1.131s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.133s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.135s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.135s] -- Configuring done
+[1.136s] -- Generating done
+[1.136s] -- Build files have been written to: /home/rpp/rpp_ws/build/kortex_description
+[1.246s] Invoked command in '/home/rpp/rpp_ws/build/kortex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake /home/rpp/rpp_ws/src/drivers/ros2_kortex/kortex_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rpp/rpp_ws/install/kortex_description
+[1.246s] Invoking command in '/home/rpp/rpp_ws/build/kortex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/kortex_description -- -j24 -l24
+[2.635s] Invoked command in '/home/rpp/rpp_ws/build/kortex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/kortex_description -- -j24 -l24
+[2.637s] Invoking command in '/home/rpp/rpp_ws/build/kortex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/kortex_description
+[3.539s] -- Install configuration: ""
+[3.539s] -- Execute custom install script
+[3.539s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/gazebo_initial_joint_positions.yaml
+[3.539s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/joint_limits.yaml
+[3.540s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/ros2_controllers.yaml
+[3.540s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/twist_limits.yaml
+[3.540s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/base_link.STL
+[3.543s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/bicep_link.STL
+[3.544s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/bracelet_no_vision_link.STL
+[3.550s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/bracelet_with_vision_link.STL
+[3.550s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/forearm_link.STL
+[3.550s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/shoulder_link.STL
+[3.550s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/spherical_wrist_1_link.STL
+[3.550s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/spherical_wrist_2_link.STL
+[3.550s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/urdf/gen3_macro.xacro
+[3.550s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/urdf/gen3_transmission_macro.xacro
+[3.551s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/urdf/kortex.ros2_control.xacro
+[3.551s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/gazebo_initial_joint_positions.yaml
+[3.551s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/joint_limits.yaml
+[3.551s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/ros2_controllers.yaml
+[3.551s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/twist_limits.yaml
+[3.551s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/base_link.STL
+[3.551s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/base_link.dae
+[3.551s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_no_vision_link.STL
+[3.551s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_no_vision_link.dae
+[3.551s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_with_vision_link.STL
+[3.552s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_with_vision_link.dae
+[3.552s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/end_effector_link.STL
+[3.552s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/forearm_link.STL
+[3.552s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/forearm_link.dae
+[3.552s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_1_link.STL
+[3.552s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_1_link.dae
+[3.552s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_2_link.STL
+[3.552s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_2_link.dae
+[3.552s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/shoulder_link.STL
+[3.552s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/shoulder_link.dae
+[3.553s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_1_link.STL
+[3.553s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_1_link.dae
+[3.556s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_2_link.STL
+[3.556s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_2_link.dae
+[3.557s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/urdf/gen3_macro.xacro
+[3.557s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/urdf/gen3_transmission_macro.xacro
+[3.557s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/urdf/kortex.ros2_control.xacro
+[3.557s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/config/joint_limits.yaml
+[3.557s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/config/ros2_controllers.yaml
+[3.557s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/config/twist_limits.yaml
+[3.558s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/arm_link.STL
+[3.558s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/base_link.STL
+[3.558s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/forearm_link.STL
+[3.560s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/lower_wrist_link.STL
+[3.562s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/shoulder_link.STL
+[3.577s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/upper_wrist_link.STL
+[3.577s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/urdf/gen3_lite_macro.xacro
+[3.589s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/urdf/gen3_lite_transmission_macro.xacro
+[3.603s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/urdf/kortex.ros2_control.xacro
+[3.630s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/config/joint_limits.yaml
+[3.652s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/gripper_base_link.STL
+[3.663s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/left_finger_dist_link.STL
+[3.677s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/left_finger_prox_link.STL
+[3.697s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/right_finger_dist_link.STL
+[3.729s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/right_finger_prox_link.STL
+[3.736s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/GEN3-LITE-GRIPPER_URDF_SIMPLIFIED_V2.urdf
+[3.751s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f.ros2_control.xacro
+[3.766s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f_macro.xacro
+[3.782s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f_transmission_macro.xacro
+[3.799s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140/LICENSE
+[3.817s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140/README.md
+[3.838s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140/urdf/robotiq_2f_140_macro.xacro
+[3.854s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85/LICENSE
+[3.873s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85/README.md
+[3.896s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85/urdf/robotiq_2f_85_macro.xacro
+[3.913s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/launch/view_robot.launch.py
+[3.931s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/multiple_robots/kortex_dual_robots.xacro
+[3.951s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/robots/gen3.xacro
+[3.966s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/robots/gen3_2f85.urdf
+[3.984s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/robots/gen3_lite.urdf
+[4.002s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/robots/gen3_lite_gen3_lite_2f.xacro
+[4.018s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/robots/gen3_robotiq_2f_140.xacro
+[4.036s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/robots/gen3_robotiq_2f_85.xacro
+[4.052s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/robots/kinova.urdf.xacro
+[4.068s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/robots/kortex_robot.xacro
+[4.079s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/rviz/view_robot.rviz
+[4.094s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/config/initial_positions.yaml
+[4.107s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/ament_index/resource_index/package_run_dependencies/kortex_description
+[4.121s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/ament_index/resource_index/parent_prefix_path/kortex_description
+[4.137s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/environment/ament_prefix_path.sh
+[4.153s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/environment/ament_prefix_path.dsv
+[4.170s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/environment/path.sh
+[4.187s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/environment/path.dsv
+[4.198s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/local_setup.bash
+[4.210s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/local_setup.sh
+[4.222s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/local_setup.zsh
+[4.238s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/local_setup.dsv
+[4.254s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/package.dsv
+[4.267s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/ament_index/resource_index/packages/kortex_description
+[4.282s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/cmake/kortex_descriptionConfig.cmake
+[4.299s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/cmake/kortex_descriptionConfig-version.cmake
+[4.313s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_description/share/kortex_description/package.xml
+[4.815s] Invoked command in '/home/rpp/rpp_ws/build/kortex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/kortex_description

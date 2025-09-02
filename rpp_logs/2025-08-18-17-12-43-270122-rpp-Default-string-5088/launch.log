@@ -1,0 +1,30 @@
+1755508363.2709112 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-18-17-12-43-270122-rpp-Default-string-5088
+1755508363.2710266 [INFO] [launch]: Default logging verbosity is set to INFO
+1755508363.3212118 [INFO] [ros2_control_node-1]: process started with pid [5201]
+1755508363.3213584 [INFO] [spawner-2]: process started with pid [5203]
+1755508363.3214376 [INFO] [spawner-3]: process started with pid [5205]
+1755508363.3214974 [INFO] [spawner-4]: process started with pid [5207]
+1755508363.3215485 [INFO] [spawner-5]: process started with pid [5209]
+1755508363.5452025 [ros2_control_node-1] [INFO] [1755508363.544951556] [controller_manager]: Subscribing to '~/robot_description' topic for robot description file.
+1755508363.5721321 [ros2_control_node-1] [INFO] [1755508363.571078201] [controller_manager]: update rate is 100 Hz
+1755508363.5722675 [ros2_control_node-1] [INFO] [1755508363.571109211] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+1755508363.5723288 [ros2_control_node-1] [WARN] [1755508363.571198321] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+1755508363.5809860 [ros2_control_node-1] [INFO] [1755508363.580780902] [controller_manager]: Received robot description file.
+1755508363.5819845 [ros2_control_node-1] text not specified in the gripper_joint_name tag
+1755508363.5821829 [ros2_control_node-1] text not specified in the gripper_joint_name tag
+1755508363.5822377 [ros2_control_node-1] [INFO] [1755508363.581925860] [resource_manager]: Loading hardware 'left_KortexMultiInterfaceHardware' 
+1755508363.5892851 [ros2_control_node-1] [INFO] [1755508363.588586004] [KortexMultiInterfaceHardware]: Setting severity threshold to DEBUG
+1755508363.5895274 [ros2_control_node-1] [INFO] [1755508363.588771988] [resource_manager]: Initialize hardware 'left_KortexMultiInterfaceHardware' 
+1755508363.5895703 [ros2_control_node-1] [INFO] [1755508363.588782450] [KortexMultiInterfaceHardware]: Configuring Hardware Interface
+1755508363.5896044 [ros2_control_node-1] [INFO] [1755508363.589003920] [KortexMultiInterfaceHardware]: Robot ip is '192.168.11.60'
+1755508363.5896363 [ros2_control_node-1] [INFO] [1755508363.589008652] [KortexMultiInterfaceHardware]: Username is 'admin'
+1755508363.5896676 [ros2_control_node-1] [INFO] [1755508363.589017208] [KortexMultiInterfaceHardware]: Port used '10000'
+1755508363.5896969 [ros2_control_node-1] [INFO] [1755508363.589021038] [KortexMultiInterfaceHardware]: Realtime port used '10001'
+1755508363.5897264 [ros2_control_node-1] [INFO] [1755508363.589024534] [KortexMultiInterfaceHardware]: Session inactivity timeout is '60000'
+1755508363.5897565 [ros2_control_node-1] [INFO] [1755508363.589028182] [KortexMultiInterfaceHardware]: Connection inactivity timeout is '2000'
+1755508363.5898080 [ros2_control_node-1] [ERROR] [1755508363.589031569] [KortexMultiInterfaceHardware]: Gripper joint name is empty!
+1755508363.5898392 [ros2_control_node-1] [INFO] [1755508363.589047011] [KortexMultiInterfaceHardware]: Connecting to robot at 192.168.11.60
+1755508363.7104676 [spawner-5] [INFO] [1755508363.710232538] [spawner_fault_controller]: waiting for service /controller_manager/list_controllers to become available...
+1755508363.7137468 [spawner-2] [INFO] [1755508363.713589783] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+1755508363.7273934 [spawner-4] [INFO] [1755508363.727190660] [spawner_right_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...
+1755508363.7378969 [spawner-3] [INFO] [1755508363.737717799] [spawner_left_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...

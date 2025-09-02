@@ -1,0 +1,14 @@
+{
+  "package_name": "rpp_msgs",
+  "non_idl_tuples": [
+    "/home/rpp/rpp_ws/src/drivers/rpp_msgs:msg/BatteryState.msg",
+    "/home/rpp/rpp_ws/src/drivers/rpp_msgs:msg/DeviceState.msg",
+    "/home/rpp/rpp_ws/src/drivers/rpp_msgs:msg/ErrorState.msg",
+    "/home/rpp/rpp_ws/src/drivers/rpp_msgs:msg/LightState.msg",
+    "/home/rpp/rpp_ws/src/drivers/rpp_msgs:msg/MotorState.msg",
+    "/home/rpp/rpp_ws/src/drivers/rpp_msgs:msg/SingleMotorState.msg",
+    "/home/rpp/rpp_ws/src/drivers/rpp_msgs:msg/SetDevice.msg",
+    "/home/rpp/rpp_ws/src/drivers/rpp_msgs:msg/SetErrorMask.msg",
+    "/home/rpp/rpp_ws/src/drivers/rpp_msgs:msg/SetLight.msg"
+  ]
+}

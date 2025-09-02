@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/navigation/navigation2/nav2_simple_commander/launch/assisted_teleop_example_launch.py

@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/navigation_2d/ament_cmake_environment_hooks/local_setup.zsh

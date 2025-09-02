@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/rpp_msgs/rosidl_generator_cpp/rpp_msgs/msg/detail/light_state__struct.hpp

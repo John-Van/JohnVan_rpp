@@ -1,0 +1,4 @@
+source;share/slam_2d/local_setup.bash
+source;share/slam_2d/local_setup.dsv
+source;share/slam_2d/local_setup.sh
+source;share/slam_2d/local_setup.zsh

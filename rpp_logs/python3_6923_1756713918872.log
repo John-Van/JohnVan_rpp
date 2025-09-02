@@ -1,0 +1,3 @@
+[INFO] [1756713919.032195165] [spawner_left_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [1756713921.806909262] [spawner_left_joint_trajectory_controller]: [94mLoaded [1mleft_joint_trajectory_controller[0m
+[INFO] [1756713923.187632121] [spawner_left_joint_trajectory_controller]: [92mConfigured and activated [1mleft_joint_trajectory_controller[0m

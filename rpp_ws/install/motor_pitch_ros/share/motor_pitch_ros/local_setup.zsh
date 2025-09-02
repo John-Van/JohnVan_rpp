@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/motor_pitch_ros/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/slam/FASTLIO2_ROS2/localizer/launch/localizer_launch.py

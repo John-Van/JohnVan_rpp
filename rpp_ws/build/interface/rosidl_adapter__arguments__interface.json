@@ -1,0 +1,10 @@
+{
+  "package_name": "interface",
+  "non_idl_tuples": [
+    "/home/rpp/rpp_ws/src/slam/FASTLIO2_ROS2/interface:srv/SaveMaps.srv",
+    "/home/rpp/rpp_ws/src/slam/FASTLIO2_ROS2/interface:srv/Relocalize.srv",
+    "/home/rpp/rpp_ws/src/slam/FASTLIO2_ROS2/interface:srv/IsValid.srv",
+    "/home/rpp/rpp_ws/src/slam/FASTLIO2_ROS2/interface:srv/RefineMap.srv",
+    "/home/rpp/rpp_ws/src/slam/FASTLIO2_ROS2/interface:srv/SavePoses.srv"
+  ]
+}

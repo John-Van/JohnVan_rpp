@@ -1,0 +1,13 @@
+# 检查操作系统版本
+os_version=$(lsb_release -rs)
+if [[ "$os_version" == "18.04" ]]; then
+    cmake_version="3.10"
+elif [[ "$os_version" == "20.04" ]]; then
+    cmake_version="3.16"
+else
+    echo "不支持的 Ubuntu 版本: $os_version"
+    exit 1
+fi
+# 创建符号链接
+echo "shihe321" |sudo -S ln -s /usr/share/cmake/geographiclib/FindGeographicLib.cmake /usr/share/cmake-${cmake_version}/Modules/ 
+

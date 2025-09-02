@@ -1,0 +1,4 @@
+[INFO] [1756455945.692101416] [ex_joint_goal]: Moving to {joint_positions: [0.0, 0.0, 0.0, -0.7853981633974483, 0.0, 1.5707963267948966, 0.7853981633974483]}
+[WARN] [1756455945.692817537] [ex_joint_goal]: Service 'plan_kinematic_path' is not yet available. Better luck next time!
+[WARN] [1756455945.693034086] [ex_joint_goal]: Cannot execute motion because the provided/planned trajectory is invalid.
+[WARN] [1756455945.693191754] [ex_joint_goal]: Cannot wait until motion is executed (no motion is in progress).

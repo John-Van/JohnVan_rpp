@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/drivers/rpp_msgs/msg/BatteryState.msg

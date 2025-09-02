@@ -1,0 +1,79 @@
+running egg_info
+creating build/bt_task_manager_ros2/bt_task_manager_ros2.egg-info
+writing build/bt_task_manager_ros2/bt_task_manager_ros2.egg-info/PKG-INFO
+writing dependency_links to build/bt_task_manager_ros2/bt_task_manager_ros2.egg-info/dependency_links.txt
+writing entry points to build/bt_task_manager_ros2/bt_task_manager_ros2.egg-info/entry_points.txt
+writing requirements to build/bt_task_manager_ros2/bt_task_manager_ros2.egg-info/requires.txt
+writing top-level names to build/bt_task_manager_ros2/bt_task_manager_ros2.egg-info/top_level.txt
+writing manifest file 'build/bt_task_manager_ros2/bt_task_manager_ros2.egg-info/SOURCES.txt'
+reading manifest file 'build/bt_task_manager_ros2/bt_task_manager_ros2.egg-info/SOURCES.txt'
+writing manifest file 'build/bt_task_manager_ros2/bt_task_manager_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build
+creating /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib
+creating /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2
+copying bt_task_manager_ros2/behaviours.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2
+copying bt_task_manager_ros2/chassis_move.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2
+copying bt_task_manager_ros2/get_grasp_pose.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2
+copying bt_task_manager_ros2/__init__.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2
+copying bt_task_manager_ros2/moveit_arm.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2
+copying bt_task_manager_ros2/moveit_gripper.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2
+copying bt_task_manager_ros2/navigation.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2
+copying bt_task_manager_ros2/rb_decorators.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2
+running install
+running install_lib
+creating /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2
+copying /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2/behaviours.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2
+copying /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2/chassis_move.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2
+copying /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2/get_grasp_pose.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2
+copying /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2/__init__.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2
+copying /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2/moveit_arm.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2
+copying /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2/moveit_gripper.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2
+copying /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2/navigation.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2
+copying /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/build/lib/bt_task_manager_ros2/rb_decorators.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2
+byte-compiling /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2/behaviours.py to behaviours.cpython-310.pyc
+byte-compiling /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2/chassis_move.py to chassis_move.cpython-310.pyc
+byte-compiling /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2/get_grasp_pose.py to get_grasp_pose.cpython-310.pyc
+byte-compiling /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2/moveit_arm.py to moveit_arm.cpython-310.pyc
+byte-compiling /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2/moveit_gripper.py to moveit_gripper.cpython-310.pyc
+byte-compiling /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2/navigation.py to navigation.cpython-310.pyc
+byte-compiling /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2/rb_decorators.py to rb_decorators.cpython-310.pyc
+running install_data
+copying package.xml -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2
+creating /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/ament_index
+creating /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/ament_index/resource_index
+creating /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/ament_index/resource_index/packages
+copying resource/bt_task_manager_ros2 -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/ament_index/resource_index/packages
+creating /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/launch
+copying launch/aruco_detector_node.launch.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/launch
+copying launch/aruco_single.launch.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/launch
+copying launch/camera_calibration.launch.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/launch
+copying launch/controller_node.launch.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/launch
+copying launch/grasp_bringup.launch.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/launch
+copying launch/grasp_node.launch.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/launch
+copying launch/hand_eye_calibration.launch.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/launch
+copying launch/test.launch.py -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/launch
+creating /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/config
+copying config/aruco_detector_node.yaml -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/config
+copying config/camera_calibration.yaml -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/config
+copying config/camera.yaml -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/config
+copying config/controller_node.yaml -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/config
+copying config/grasp_node.yaml -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/config
+copying config/moveit_arm_configs.yaml -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/config
+copying config/moveit_gripper_configs.yaml -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/config
+copying config/task_grasp.yaml -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/config
+copying config/test.yaml -> /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/share/bt_task_manager_ros2/config
+running install_egg_info
+Copying build/bt_task_manager_ros2/bt_task_manager_ros2.egg-info to /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/python3.10/site-packages/bt_task_manager_ros2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arm script to /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/bt_task_manager_ros2
+Installing aruco_detector_node script to /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/bt_task_manager_ros2
+Installing chassis script to /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/bt_task_manager_ros2
+Installing controller_node script to /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/bt_task_manager_ros2
+Installing grasp_node script to /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/bt_task_manager_ros2
+Installing gripper script to /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/bt_task_manager_ros2
+Installing navigation script to /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/bt_task_manager_ros2
+Installing test script to /home/rpp/rpp_ws/src/application/bt_task_manager_ros2/install/bt_task_manager_ros2/lib/bt_task_manager_ros2
+writing list of installed files to '/home/rpp/rpp_ws/src/application/bt_task_manager_ros2/build/bt_task_manager_ros2/install.log'

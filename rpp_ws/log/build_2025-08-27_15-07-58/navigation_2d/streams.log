@@ -1,0 +1,51 @@
+[0.646s] Invoking command in '/home/rpp/rpp_ws/build/navigation_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake /home/rpp/rpp_ws/src/application/navigation_2d -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rpp/rpp_ws/install/navigation_2d
+[1.171s] -- The C compiler identification is GNU 11.4.0
+[1.171s] -- The CXX compiler identification is GNU 11.4.0
+[1.171s] -- Detecting C compiler ABI info
+[1.171s] -- Detecting C compiler ABI info - done
+[1.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.171s] -- Detecting C compile features
+[1.177s] -- Detecting C compile features - done
+[1.177s] -- Detecting CXX compiler ABI info
+[1.192s] -- Detecting CXX compiler ABI info - done
+[1.205s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.207s] -- Detecting CXX compile features
+[1.207s] -- Detecting CXX compile features - done
+[1.208s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.676s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.800s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.922s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.112s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.117s] -- Added test 'lint_cmake' to check CMake code style
+[2.120s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.128s] -- Added test 'xmllint' to check XML markup files
+[2.136s] -- Configuring done
+[2.141s] -- Generating done
+[2.144s] -- Build files have been written to: /home/rpp/rpp_ws/build/navigation_2d
+[2.175s] Invoked command in '/home/rpp/rpp_ws/build/navigation_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake /home/rpp/rpp_ws/src/application/navigation_2d -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rpp/rpp_ws/install/navigation_2d
+[2.177s] Invoking command in '/home/rpp/rpp_ws/build/navigation_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/navigation_2d -- -j24 -l24
+[3.301s] Invoked command in '/home/rpp/rpp_ws/build/navigation_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/navigation_2d -- -j24 -l24
+[3.305s] Invoking command in '/home/rpp/rpp_ws/build/navigation_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/navigation_2d
+[3.684s] -- Install configuration: ""
+[3.685s] -- Execute custom install script
+[3.685s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/launch/amcl_navigation.launch.py
+[3.685s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/launch/fast_lio_navigation.launch.py
+[3.686s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/launch/localization_amcl.launch.py
+[3.686s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/launch/localization_lio.launch.py
+[3.686s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/launch/navigation.launch.py
+[3.686s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/ament_index/resource_index/package_run_dependencies/navigation_2d
+[3.687s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/ament_index/resource_index/parent_prefix_path/navigation_2d
+[3.687s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/environment/ament_prefix_path.sh
+[3.687s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/environment/ament_prefix_path.dsv
+[3.687s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/environment/path.sh
+[3.687s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/environment/path.dsv
+[3.687s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/local_setup.bash
+[3.687s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/local_setup.sh
+[3.687s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/local_setup.zsh
+[3.687s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/local_setup.dsv
+[3.687s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/package.dsv
+[3.687s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/ament_index/resource_index/packages/navigation_2d
+[3.688s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/cmake/navigation_2dConfig.cmake
+[3.688s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/cmake/navigation_2dConfig-version.cmake
+[3.707s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/package.xml
+[4.639s] Invoked command in '/home/rpp/rpp_ws/build/navigation_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/navigation_2d

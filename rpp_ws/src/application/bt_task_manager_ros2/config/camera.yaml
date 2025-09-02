@@ -1,0 +1,10 @@
+/on_hand_camera:
+  ros__parameters:
+    device: "192.168.11.60"
+    camera_name: "on_hand_camera"
+    serial_no: "327122071492"
+    enable_color: true
+    enable_depth: true
+    align_depth.enable: true
+    enable_sync: true
+    rgb_camera.profile: 1920x1080x30

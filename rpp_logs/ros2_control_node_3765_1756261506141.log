@@ -1,0 +1,20 @@
+[INFO] [1756261506.167282452] [controller_manager]: Subscribing to '~/robot_description' topic for robot description file.
+[INFO] [1756261506.168177930] [controller_manager]: update rate is 100 Hz
+[INFO] [1756261506.168198230] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1756261506.168293458] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1756261506.178611913] [controller_manager]: Received robot description file.
+[INFO] [1756261506.179244938] [resource_manager]: Loading hardware 'left_KortexMultiInterfaceHardware' 
+[INFO] [1756261506.213682378] [KortexMultiInterfaceHardware]: Setting severity threshold to DEBUG
+[INFO] [1756261506.213726392] [resource_manager]: Initialize hardware 'left_KortexMultiInterfaceHardware' 
+[INFO] [1756261506.213732756] [KortexMultiInterfaceHardware]: Configuring Hardware Interface
+[INFO] [1756261506.213919947] [KortexMultiInterfaceHardware]: Robot ip is '192.168.11.60'
+[INFO] [1756261506.213923743] [KortexMultiInterfaceHardware]: Username is 'admin'
+[INFO] [1756261506.213929962] [KortexMultiInterfaceHardware]: Port used '10000'
+[INFO] [1756261506.213932586] [KortexMultiInterfaceHardware]: Realtime port used '10001'
+[INFO] [1756261506.213934799] [KortexMultiInterfaceHardware]: Session inactivity timeout is '60000'
+[INFO] [1756261506.213937239] [KortexMultiInterfaceHardware]: Connection inactivity timeout is '2000'
+[ERROR] [1756261506.213939362] [KortexMultiInterfaceHardware]: Gripper joint name is empty!
+[INFO] [1756261506.213952245] [KortexMultiInterfaceHardware]: Connecting to robot at 192.168.11.60
+[INFO] [1756261509.283862796] [KortexMultiInterfaceHardware]: Creating session for communication
+[ERROR] [1756261509.284018205] [controller_manager]: The published robot description file (urdf) seems not to be genuine. The following error was caught:not connected !!!
+[INFO] [1756261773.135375498] [rclcpp]: signal_handler(signum=2)

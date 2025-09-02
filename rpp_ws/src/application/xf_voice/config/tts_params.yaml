@@ -1,0 +1,16 @@
+tts_node:
+  ros__parameters:
+    tts_appid: "e1e3f3c1" #出厂参数"9a7a7ebd" 我的账号："e1e3f3c1"
+    out_name: "/tmp/tts_sample.wav"
+    voice_name: "x4_mengmengneutral" # 发音人  xiaoyan   x_mengmengsad   x_mengmenghappy    x4_mengmengneutral
+    voice_text_enc: "utf8" # 文本编码格式
+    voice_sample_rate: "16000" #成音频采样率，支持参数，16000，8000，默认为16000
+    voice_speed: "50" #合成音频对应的语速，取值范围：[0,100]，数值越大语速越快。默认值：50
+    voice_volume: "100" #合成音频的音量
+    voice_pitch: "50" #音调
+    voice_rdn: "2" #
+    # 1 完全数值,
+    # 2 完全字符串，
+    # 3 字符串优先，
+    # 默认值：0*/
+    play_after_tts: true #

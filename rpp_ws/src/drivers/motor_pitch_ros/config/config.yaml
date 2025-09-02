@@ -1,0 +1,9 @@
+/motor_pitch_ros_node:
+  ros__parameters:
+    can_port: can0
+    can_motor_id: 0x01
+    # 以下，需要为浮点数，加小数点
+    # 上下限位为角度
+    high_limit: 90.0
+    low_limit: 0.0
+    velocity: 2.0

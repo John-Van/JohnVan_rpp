@@ -1,0 +1,97 @@
+[INFO] [1756434434.470683606] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0233743 seconds
+[INFO] [1756434434.470724764] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+[INFO] [1756434434.470729207] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[ERROR] [1756434434.832988414] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+[ERROR] [1756434434.832998898] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+[ERROR] [1756434434.833004652] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+[INFO] [1756434435.590927772] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[INFO] [1756434435.591034332] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[INFO] [1756434435.591405929] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[INFO] [1756434435.591606014] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[INFO] [1756434435.591614983] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1756434435.591767014] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[INFO] [1756434435.591773596] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[INFO] [1756434435.591941227] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[INFO] [1756434435.592105612] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[WARN] [1756434435.592747519] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[ERROR] [1756434435.592755517] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[INFO] [1756434436.406830361] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[INFO] [1756434436.434591323] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[INFO] [1756434436.437806510] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[INFO] [1756434436.437814953] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[INFO] [1756434436.437817485] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[INFO] [1756434436.437828151] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[INFO] [1756434436.437835960] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[INFO] [1756434436.437838544] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1756434436.437844216] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1756434436.437846913] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[INFO] [1756434436.437849401] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[INFO] [1756434436.437855133] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[INFO] [1756434436.437857001] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[INFO] [1756434436.437860430] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[INFO] [1756434436.437875316] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[INFO] [1756434436.437876832] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[INFO] [1756434436.437878234] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[INFO] [1756434436.440446653] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'pilz_industrial_motion_planner'
+[INFO] [1756434436.445015935] [moveit.pilz_industrial_motion_planner.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[INFO] [1756434436.453226206] [moveit.pilz_industrial_motion_planner]: Available plugins: pilz_industrial_motion_planner/PlanningContextLoaderCIRC pilz_industrial_motion_planner/PlanningContextLoaderLIN pilz_industrial_motion_planner/PlanningContextLoaderPTP 
+[INFO] [1756434436.453237198] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderCIRC
+[INFO] [1756434436.455963647] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [CIRC]
+[INFO] [1756434436.455973056] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderLIN
+[INFO] [1756434436.457210945] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [LIN]
+[INFO] [1756434436.457218350] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderPTP
+[INFO] [1756434436.458373008] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [PTP]
+[INFO] [1756434436.458380751] [moveit.ros_planning.planning_pipeline]: Using planning interface 'Pilz Industrial Motion Planner'
+[INFO] [1756434436.482970582] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for left_joint_trajectory_controller
+[INFO] [1756434436.483823565] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for right_joint_trajectory_controller
+[INFO] [1756434436.483910119] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756434436.483925014] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756434436.484249439] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[INFO] [1756434436.484260175] [move_group.move_group]: MoveGroup debug mode is ON
+[INFO] [1756434436.494895381] [move_group.move_group]: 
+
+********************************************************
+* MoveGroup using: 
+*     - ApplyPlanningSceneService
+*     - ClearOctomapService
+*     - CartesianPathService
+*     - ExecuteTrajectoryAction
+*     - GetPlanningSceneService
+*     - KinematicsService
+*     - MoveAction
+*     - MotionPlanService
+*     - QueryPlannersService
+*     - StateValidationService
+********************************************************
+
+[INFO] [1756434436.494921211] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[INFO] [1756434436.494926252] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[WARN] [1756434440.118070409] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756434440.118104076] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756434493.970005372] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756434493.970116222] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756434493.974414746] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756434493.974440584] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756434493.974483483] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756434493.974535338] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1756434493.974542696] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756434493.975255319] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'dual_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[WARN] [1756434493.998924876] [moveit_trajectory_processing.time_optimal_trajectory_generation]: Joint acceleration limits are not defined. Using the default 1 rad/s^2. You can define acceleration limits in the URDF or joint_limits.yaml.
+[INFO] [1756434494.068942828] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756434494.068969594] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756434494.069145344] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1756434494.074316900] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1756434494.074355431] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756434494.074370692] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756434494.074497142] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to left_joint_trajectory_controller
+[INFO] [1756434494.075783418] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: left_joint_trajectory_controller started execution
+[INFO] [1756434494.075805716] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1756434494.076132152] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to right_joint_trajectory_controller
+[INFO] [1756434494.077169436] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: right_joint_trajectory_controller started execution
+[INFO] [1756434494.077183592] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1756434565.878414264] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'left_joint_trajectory_controller' successfully finished
+[INFO] [1756434565.879813244] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'right_joint_trajectory_controller' successfully finished
+[INFO] [1756434565.894058367] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[INFO] [1756434565.894721664] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[INFO] [1756434601.763169469] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756434601.763250583] [moveit_move_group_default_capabilities.move_action_capability]: executing..

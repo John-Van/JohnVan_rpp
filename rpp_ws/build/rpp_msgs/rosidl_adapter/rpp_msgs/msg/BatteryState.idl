@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rpp_msgs/msg/BatteryState.msg
+// generated code does not contain a copyright notice
+
+
+module rpp_msgs {
+  module msg {
+    struct BatteryState {
+      uint8 percentage;
+
+      float temperature;
+
+      float voltage;
+
+      float current;
+
+      @verbatim (language="comment", text=
+        "time stamp in nanoseconds, since epoch")
+      int64 ts;
+    };
+  };
+};

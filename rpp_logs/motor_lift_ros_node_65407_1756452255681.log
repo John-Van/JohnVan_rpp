@@ -1,0 +1,221 @@
+[INFO] [1756452256.047536262] [motor_lift_ros_node]: Lift Motor initialization parameters:
+[INFO] [1756452256.047592702] [motor_lift_ros_node]: CAN Port: can0
+[INFO] [1756452256.047597322] [motor_lift_ros_node]: CAN Motor ID: 0x02
+[INFO] [1756452256.047600324] [motor_lift_ros_node]: Lift Joint: connector_joint
+[INFO] [1756452256.047605683] [motor_lift_ros_node]: High Limit: 0.00
+[INFO] [1756452256.047617770] [motor_lift_ros_node]: Low Limit: -0.46
+[INFO] [1756452256.047622000] [motor_lift_ros_node]: Velocity: 0.02800 m/s
+[INFO] [1756453018.739054423] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453019.740069707] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453020.739283006] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453021.739164509] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453022.739252973] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453023.739275786] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453024.739273247] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453025.739218914] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453026.739247355] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453026.852319794] [motor_lift_ros_node]: Motor is in place. Current position: -20.00
+[INFO] [1756453027.739194840] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453028.739218964] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453029.739212821] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453030.739217640] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453031.739207317] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453032.739189991] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453033.739179749] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453034.739284323] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453035.739275487] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453036.739173785] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453037.739354890] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453038.739277055] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453039.739366392] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453040.739363907] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453041.739145472] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453042.739232218] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453043.739724298] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453044.739830026] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453045.739336524] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453046.739432570] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453047.739222953] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453048.739535087] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453049.739381661] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453050.739328826] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453060.450063076] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453060.463957880] [motor_lift_ros_node]: Motor starts moving
+[INFO] [1756453061.449863625] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453062.450225656] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453063.450167244] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453064.450133215] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453064.874168719] [motor_lift_ros_node]: Motor is in place. Current position: -10.00
+[INFO] [1756453065.449934546] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453065.454199831] [motor_lift_ros_node]: Motor starts moving
+[INFO] [1756453065.554205697] [motor_lift_ros_node]: Motor is in place. Current position: -10.00
+[INFO] [1756453066.449908570] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453067.450112826] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453068.449935763] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453069.449925723] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453070.449934138] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453071.450110660] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453072.449929542] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453073.449916106] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453074.449921051] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453075.449924327] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453076.450098391] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453077.449679915] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453078.450116659] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453079.449875527] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453080.450064495] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453081.449990104] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453082.450116499] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453083.450337651] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453084.449829965] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453085.449850246] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453086.449920122] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453087.449943834] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453088.450415125] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453089.449893415] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453090.450021717] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453091.450022131] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453092.449927783] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453093.449933445] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453094.449982838] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453095.449883267] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453096.449917462] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453097.450016432] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453098.449921954] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453099.449879439] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453100.449890336] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453101.450060194] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453102.449782653] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453103.449983110] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453104.450346461] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453105.449991467] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453106.450042952] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453107.449816645] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453108.449953416] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453109.450002362] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453110.449944713] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453111.450228659] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453112.449917854] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453113.449911524] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453114.450160102] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453115.450226117] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453116.449909215] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453117.449924944] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453118.449920359] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453119.449954290] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453120.449993413] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453121.450059202] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453122.449988200] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453123.449892940] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453124.449867994] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453125.449888711] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453126.449964018] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453127.449976616] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453128.449965643] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453129.449972950] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453130.450336169] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453131.450101299] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453132.450012542] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453133.449848694] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453134.449971225] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453135.449935104] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453136.449927635] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453137.450440249] [motor_lift_ros_node]: Set position: -0.10 (m)
+[ERROR] [1756453147.608285437] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756453147.618298780] [motor_lift_ros_node]: Motor starts moving
+[ERROR] [1756453148.608992823] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453149.608573305] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453150.608555755] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453151.608575447] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756453152.028481714] [motor_lift_ros_node]: Motor is in place. Current position: -0.00
+[ERROR] [1756453152.608548504] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756453152.618579384] [motor_lift_ros_node]: Motor starts moving
+[INFO] [1756453152.728590464] [motor_lift_ros_node]: Motor is in place. Current position: 0.00
+[ERROR] [1756453153.608463772] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453154.608644959] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453155.608894309] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453156.608758410] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453157.608511710] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453158.608752203] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453159.608622451] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453160.608635437] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453161.608539816] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453166.508114001] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453167.508289144] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453168.508360374] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453169.508392272] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453174.751486183] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453175.751881665] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453176.751836263] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453177.751889606] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453178.751947156] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756453186.552442776] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453186.560285961] [motor_lift_ros_node]: Motor starts moving
+[INFO] [1756453187.552450510] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453188.552431008] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453189.552322792] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453190.552550446] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453191.552425933] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453192.552425403] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453193.553113418] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453194.552525371] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453194.552595873] [motor_lift_ros_node]: Motor is in place. Current position: -20.00
+[INFO] [1756453194.560691849] [motor_lift_ros_node]: Motor starts moving
+[INFO] [1756453194.660695733] [motor_lift_ros_node]: Motor is in place. Current position: -20.00
+[INFO] [1756453195.552487614] [motor_lift_ros_node]: Set position: -0.20 (m)
+[INFO] [1756453196.552491662] [motor_lift_ros_node]: Set position: -0.20 (m)
+[ERROR] [1756453202.874913748] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756453202.891082276] [motor_lift_ros_node]: Motor starts moving
+[ERROR] [1756453203.874985175] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453204.874963898] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453205.874970828] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453206.874949543] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453207.875067095] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453208.875170578] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453209.875268258] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453210.875017330] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756453213.021620653] [motor_lift_ros_node]: Motor is in place. Current position: -46.00
+[INFO] [1756453227.376670263] [motor_lift_ros_node]: Set position: -0.40 (m)
+[INFO] [1756453227.392362697] [motor_lift_ros_node]: Motor starts moving
+[INFO] [1756453228.376860136] [motor_lift_ros_node]: Set position: -0.40 (m)
+[INFO] [1756453229.376952311] [motor_lift_ros_node]: Set position: -0.40 (m)
+[INFO] [1756453230.372513336] [motor_lift_ros_node]: Motor is in place. Current position: -40.00
+[INFO] [1756453230.376952851] [motor_lift_ros_node]: Set position: -0.40 (m)
+[INFO] [1756453231.377049824] [motor_lift_ros_node]: Set position: -0.40 (m)
+[INFO] [1756453232.377069279] [motor_lift_ros_node]: Set position: -0.40 (m)
+[INFO] [1756453238.302357954] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453238.302877612] [motor_lift_ros_node]: Motor starts moving
+[INFO] [1756453239.302637901] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453240.302454945] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453241.302334103] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453242.302519857] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453243.302505375] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453244.302515887] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453245.302519669] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453246.302484172] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453247.302581950] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453248.302628574] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453249.302310218] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453249.873487097] [motor_lift_ros_node]: Motor is in place. Current position: -10.00
+[INFO] [1756453250.302509072] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453250.303485778] [motor_lift_ros_node]: Motor starts moving
+[INFO] [1756453250.413495412] [motor_lift_ros_node]: Motor is in place. Current position: -10.00
+[INFO] [1756453251.302605158] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453252.302558796] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453253.302591821] [motor_lift_ros_node]: Set position: -0.10 (m)
+[INFO] [1756453259.689450779] [motor_lift_ros_node]: Set position: 0.00 (m)
+[INFO] [1756453259.704021465] [motor_lift_ros_node]: Motor starts moving
+[INFO] [1756453260.689591762] [motor_lift_ros_node]: Set position: 0.00 (m)
+[INFO] [1756453261.689638293] [motor_lift_ros_node]: Set position: 0.00 (m)
+[INFO] [1756453262.690979814] [motor_lift_ros_node]: Set position: 0.00 (m)
+[INFO] [1756453263.689666862] [motor_lift_ros_node]: Set position: 0.00 (m)
+[INFO] [1756453264.114190660] [motor_lift_ros_node]: Motor is in place. Current position: -0.00
+[INFO] [1756453264.689459561] [motor_lift_ros_node]: Set position: 0.00 (m)
+[INFO] [1756453264.704220723] [motor_lift_ros_node]: Motor starts moving
+[INFO] [1756453264.804231314] [motor_lift_ros_node]: Motor is in place. Current position: 0.00
+[INFO] [1756453265.689338148] [motor_lift_ros_node]: Set position: 0.00 (m)
+[INFO] [1756453266.689555525] [motor_lift_ros_node]: Set position: 0.00 (m)
+[ERROR] [1756453273.575769722] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453274.041716779] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756453275.041750577] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756453392.962249472] [rclcpp]: signal_handler(signum=2)

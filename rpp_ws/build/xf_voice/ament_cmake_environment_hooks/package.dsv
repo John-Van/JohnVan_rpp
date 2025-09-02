@@ -1,0 +1,4 @@
+source;share/xf_voice/local_setup.bash
+source;share/xf_voice/local_setup.dsv
+source;share/xf_voice/local_setup.sh
+source;share/xf_voice/local_setup.zsh

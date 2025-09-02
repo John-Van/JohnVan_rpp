@@ -1,0 +1,14 @@
+---
+2204_product:
+  git_repos:
+   product: # 具体产品对应的描述包，bringup包
+    cr100_description: #ros2
+      url: https://git.robotplusplus.com.cn/robuster/description/cr100_description.git
+      user: $robuster_git_user
+      tag: 
+      other_exec:
+      apt_pkgs:
+      apt_ros_pkgs: 
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+      local_path: $local_robot_repos

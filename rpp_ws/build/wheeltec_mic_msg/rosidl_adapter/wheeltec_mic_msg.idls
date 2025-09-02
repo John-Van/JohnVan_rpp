@@ -1,0 +1,7 @@
+/home/rpp/rpp_ws/build/wheeltec_mic_msg/rosidl_adapter/wheeltec_mic_msg:msg/PcmMsg.idl
+/home/rpp/rpp_ws/build/wheeltec_mic_msg/rosidl_adapter/wheeltec_mic_msg:msg/Position.idl
+/home/rpp/rpp_ws/build/wheeltec_mic_msg/rosidl_adapter/wheeltec_mic_msg:srv/GetDeviceType.idl
+/home/rpp/rpp_ws/build/wheeltec_mic_msg/rosidl_adapter/wheeltec_mic_msg:srv/GetOfflineResult.idl
+/home/rpp/rpp_ws/build/wheeltec_mic_msg/rosidl_adapter/wheeltec_mic_msg:srv/SetAwakeWord.idl
+/home/rpp/rpp_ws/build/wheeltec_mic_msg/rosidl_adapter/wheeltec_mic_msg:srv/SetMajorMic.idl
+/home/rpp/rpp_ws/build/wheeltec_mic_msg/rosidl_adapter/wheeltec_mic_msg:srv/SwitchMic.idl

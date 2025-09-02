@@ -1,0 +1,9 @@
+1756713948.1659451 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-16-05-48-165424-rpp-Default-string-7235
+1756713948.1660197 [INFO] [launch]: Default logging verbosity is set to INFO
+1756713948.1905897 [INFO] [motor_lift_ros_node-1]: process started with pid [7236]
+1756714351.1090615 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756714356.1151466 [ERROR] [motor_lift_ros_node-1]: process[motor_lift_ros_node-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1756714356.1153836 [INFO] [motor_lift_ros_node-1]: sending signal 'SIGTERM' to process[motor_lift_ros_node-1]
+1756714361.1151338 [ERROR] [motor_lift_ros_node-1]: process[motor_lift_ros_node-1] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+1756714361.1153665 [INFO] [motor_lift_ros_node-1]: sending signal 'SIGKILL' to process[motor_lift_ros_node-1]
+1756714361.1170096 [ERROR] [motor_lift_ros_node-1]: process has died [pid 7236, exit code -9, cmd '/home/rpp/rpp_ws/install/motor_lift_ros/lib/motor_lift_ros/motor_lift_ros_node --ros-args -r __node:=motor_lift_ros_node --params-file /home/rpp/rpp_ws/install/motor_lift_ros/share/motor_lift_ros/config/config.yaml'].

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "xf_voice_msgs__py",
+		"source" : "/home/rpp/rpp_ws/build/xf_voice_msgs/xf_voice_msgs__py"
+	}
+}

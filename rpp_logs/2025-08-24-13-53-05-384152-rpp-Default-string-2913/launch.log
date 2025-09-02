@@ -1,0 +1,9 @@
+1756014785.3849492 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-24-13-53-05-384152-rpp-Default-string-2913
+1756014785.3850274 [INFO] [launch]: Default logging verbosity is set to INFO
+1756014785.7466040 [INFO] [lakibeam1_scan_node-1]: process started with pid [2918]
+1756014785.7467787 [INFO] [livox_ros_driver2_node-2]: process started with pid [2921]
+1756014785.7468727 [INFO] [lidar_clipping-3]: process started with pid [2926]
+1756014785.7469563 [INFO] [robot_state_publisher-4]: process started with pid [2930]
+1756014785.7470307 [INFO] [joint_state_publisher-5]: process started with pid [2934]
+1756014785.7470939 [INFO] [rpp_ros_driver_node-6]: process started with pid [2938]
+1756014786.1593521 [joint_state_publisher-5] [INFO] [1756014786.159196994] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...

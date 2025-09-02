@@ -1,0 +1,5 @@
+1756044974.2055025 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-24-22-16-14-204833-rpp-Default-string-31718
+1756044974.2055964 [INFO] [launch]: Default logging verbosity is set to INFO
+1756044974.2434471 [INFO] [realsense2_camera_node-1]: process started with pid [31719]
+1756044974.2435551 [INFO] [realsense2_camera_node-2]: process started with pid [31721]
+1756044974.2436059 [INFO] [realsense2_camera_node-3]: process started with pid [31723]

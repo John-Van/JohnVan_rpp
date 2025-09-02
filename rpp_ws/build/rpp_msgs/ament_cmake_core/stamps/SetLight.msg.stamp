@@ -1,0 +1,2 @@
+uint8 front_light
+uint8 rear_light

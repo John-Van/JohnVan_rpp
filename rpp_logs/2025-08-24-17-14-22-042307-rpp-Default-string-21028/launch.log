@@ -1,0 +1,56 @@
+1756026862.0427616 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-24-17-14-22-042307-rpp-Default-string-21028
+1756026862.0428293 [INFO] [launch]: Default logging verbosity is set to INFO
+1756026862.0723960 [INFO] [ros2_control_node-1]: process started with pid [21029]
+1756026862.0725043 [INFO] [spawner-2]: process started with pid [21031]
+1756026862.0725558 [INFO] [spawner-3]: process started with pid [21033]
+1756026862.0725980 [INFO] [spawner-4]: process started with pid [21035]
+1756026862.0726309 [INFO] [spawner-5]: process started with pid [21037]
+1756026862.1154840 [ros2_control_node-1] [INFO] [1756026862.115171869] [controller_manager]: Subscribing to '~/robot_description' topic for robot description file.
+1756026862.1160488 [ros2_control_node-1] [INFO] [1756026862.115872345] [controller_manager]: update rate is 100 Hz
+1756026862.1161578 [ros2_control_node-1] [INFO] [1756026862.115895569] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+1756026862.1164072 [ros2_control_node-1] [WARN] [1756026862.116015194] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+1756026862.2514613 [ros2_control_node-1] [INFO] [1756026862.251185227] [controller_manager]: Received robot description file.
+1756026862.2542365 [ros2_control_node-1] text not specified in the gripper_joint_name tag
+1756026862.2543473 [ros2_control_node-1] text not specified in the gripper_joint_name tag
+1756026862.2544198 [ros2_control_node-1] [INFO] [1756026862.252729971] [resource_manager]: Loading hardware 'left_KortexMultiInterfaceHardware' 
+1756026862.2935102 [ros2_control_node-1] [INFO] [1756026862.293128690] [KortexMultiInterfaceHardware]: Setting severity threshold to DEBUG
+1756026862.2936435 [ros2_control_node-1] [INFO] [1756026862.293179748] [resource_manager]: Initialize hardware 'left_KortexMultiInterfaceHardware' 
+1756026862.2936993 [ros2_control_node-1] [INFO] [1756026862.293187963] [KortexMultiInterfaceHardware]: Configuring Hardware Interface
+1756026862.2939203 [ros2_control_node-1] [INFO] [1756026862.293417880] [KortexMultiInterfaceHardware]: Robot ip is '192.168.11.60'
+1756026862.2939801 [ros2_control_node-1] [INFO] [1756026862.293427150] [KortexMultiInterfaceHardware]: Username is 'admin'
+1756026862.2940297 [ros2_control_node-1] [INFO] [1756026862.293436505] [KortexMultiInterfaceHardware]: Port used '10000'
+1756026862.2940760 [ros2_control_node-1] [INFO] [1756026862.293440827] [KortexMultiInterfaceHardware]: Realtime port used '10001'
+1756026862.2941220 [ros2_control_node-1] [INFO] [1756026862.293444597] [KortexMultiInterfaceHardware]: Session inactivity timeout is '60000'
+1756026862.2941675 [ros2_control_node-1] [INFO] [1756026862.293448706] [KortexMultiInterfaceHardware]: Connection inactivity timeout is '2000'
+1756026862.2942123 [ros2_control_node-1] [ERROR] [1756026862.293452556] [KortexMultiInterfaceHardware]: Gripper joint name is empty!
+1756026862.2942564 [ros2_control_node-1] [INFO] [1756026862.293471749] [KortexMultiInterfaceHardware]: Connecting to robot at 192.168.11.60
+1756026862.3665671 [spawner-5] [INFO] [1756026862.366348270] [spawner_fault_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756026862.3669097 [spawner-2] [INFO] [1756026862.366348696] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+1756026862.3670573 [spawner-3] [INFO] [1756026862.366566097] [spawner_left_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756026862.3702407 [spawner-4] [INFO] [1756026862.370171600] [spawner_right_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756026865.3547058 [ros2_control_node-1] [INFO] [1756026865.354469177] [KortexMultiInterfaceHardware]: Creating session for communication
+1756026865.3549492 [ros2_control_node-1] [ERROR] [1756026865.354637681] [controller_manager]: The published robot description file (urdf) seems not to be genuine. The following error was caught:not connected !!!
+1756026872.3788800 [spawner-3] [WARN] [1756026872.378663303] [spawner_left_joint_trajectory_controller]: Could not contact service /controller_manager/list_controllers
+1756026872.3791695 [spawner-2] [WARN] [1756026872.378722753] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+1756026872.3792777 [spawner-2] [INFO] [1756026872.378909408] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+1756026872.3793581 [spawner-3] [INFO] [1756026872.378958217] [spawner_left_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756026872.3806899 [spawner-5] [WARN] [1756026872.380639520] [spawner_fault_controller]: Could not contact service /controller_manager/list_controllers
+1756026872.3808503 [spawner-5] [INFO] [1756026872.380815784] [spawner_fault_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756026872.3838801 [spawner-4] [WARN] [1756026872.383788845] [spawner_right_joint_trajectory_controller]: Could not contact service /controller_manager/list_controllers
+1756026872.3839974 [spawner-4] [INFO] [1756026872.383964127] [spawner_right_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756026882.3906965 [spawner-3] [WARN] [1756026882.390515012] [spawner_left_joint_trajectory_controller]: Could not contact service /controller_manager/list_controllers
+1756026882.3910058 [spawner-3] [INFO] [1756026882.390810113] [spawner_left_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756026882.3920491 [spawner-2] [WARN] [1756026882.391985445] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+1756026882.3922350 [spawner-2] [INFO] [1756026882.392191079] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+1756026882.3944795 [spawner-5] [WARN] [1756026882.394430889] [spawner_fault_controller]: Could not contact service /controller_manager/list_controllers
+1756026882.3946710 [spawner-5] [INFO] [1756026882.394636193] [spawner_fault_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756026882.3953633 [spawner-4] [WARN] [1756026882.395238108] [spawner_right_joint_trajectory_controller]: Could not contact service /controller_manager/list_controllers
+1756026882.3955362 [spawner-4] [INFO] [1756026882.395423658] [spawner_right_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756026892.4026113 [spawner-3] [WARN] [1756026892.402455355] [spawner_left_joint_trajectory_controller]: Could not contact service /controller_manager/list_controllers
+1756026892.4028847 [spawner-3] [INFO] [1756026892.402636660] [spawner_left_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756026892.4057014 [spawner-2] [WARN] [1756026892.405605622] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+1756026892.4059265 [spawner-2] [INFO] [1756026892.405864809] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+1756026892.4077642 [spawner-5] [WARN] [1756026892.407621775] [spawner_fault_controller]: Could not contact service /controller_manager/list_controllers
+1756026892.4079125 [spawner-4] [WARN] [1756026892.407665658] [spawner_right_joint_trajectory_controller]: Could not contact service /controller_manager/list_controllers
+1756026892.4080057 [spawner-5] [INFO] [1756026892.407796718] [spawner_fault_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756026892.4081113 [spawner-4] [INFO] [1756026892.407833304] [spawner_right_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...

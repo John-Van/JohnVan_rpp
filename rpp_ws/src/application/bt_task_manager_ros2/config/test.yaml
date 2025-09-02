@@ -1,0 +1,6 @@
+test:
+  ros__parameters:
+    robot_info.name: "MyRobot"
+    robot_info.speed: 2.5
+    robot_info.sensors.camera: True
+    robot_info.sensors.lidar: False

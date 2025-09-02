@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="up_trunk">
+    <xacro:include filename="$(find cr100_description)/xacro/inertial_matrix.xacro" />
+    <xacro:macro name="up_trunk" params="prefix:='' parent *origin sim_gazebo:=false">
+        <link name="${prefix}trunk_1_link">
+            <inertial>
+                <origin xyz="-0.05 0 0" rpy="0 0 0" />
+                <xacro:Box_inertial_matrix m="50" l="0.45" w="0.3" h="0.95" />
+            </inertial>
+            <visual>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <mesh filename="package://ea200_description/meshes/trunk_1_link.STL" />
+                </geometry>
+                <material name="">
+                    <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+                </material>
+            </visual>
+            <collision>
+                <origin xyz="0 0 0"
+                    rpy="0 0 0" />
+                <geometry>
+                    <!-- <mesh filename="package://ea200_description/meshes/trunk_1_link.STL" /> -->
+                    <box size="0.6 0.34 0.97"/>
+                </geometry>
+            </collision>
+        </link>
+        <joint name="${prefix}trunk_1_joint" type="fixed">
+            <xacro:insert_block name="origin" />
+            <parent link="${parent}" />
+            <child link="${prefix}trunk_1_link" />
+            <axis xyz="0 0 0" />
+        </joint>
+        <link name="${prefix}connector_link">
+            <inertial>
+                <origin xyz="0.075 0 0" rpy="0 0 0" />
+                <xacro:Box_inertial_matrix m="10" l="0.3" w="0.2" h="0.1" />
+            </inertial>
+            <visual>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <mesh filename="package://ea200_description/meshes/connector_link.STL" />
+                </geometry>
+                <material name="">
+                    <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+                </material>
+            </visual>
+            <collision>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <mesh filename="package://ea200_description/meshes/connector_link.STL" />
+                </geometry>
+            </collision>
+        </link>
+        <joint name="${prefix}connector_joint" type="prismatic">
+            <origin xyz="0.14475 0 0.206" rpy="0 0 0" />
+            <parent link="${prefix}trunk_1_link" />
+            <child link="${prefix}connector_link" />
+            <axis xyz="0 0 1" />
+            <limit
+                lower="-0.4"
+                upper="0"
+                effort="0"
+                velocity="0" />
+        </joint>
+        <link name="${prefix}trunk_2_link">
+            <inertial>
+                <origin xyz="0 0 0.15" rpy="0 0 0" />
+                <xacro:Box_inertial_matrix m="10" l="0.15" w="0.3" h="0.4" />
+            </inertial>
+            <visual>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <mesh filename="package://ea200_description/meshes/trunk_2_link.STL" />
+                </geometry>
+                <material name="">
+                    <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+                </material>
+            </visual>
+            <collision>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <mesh filename="package://ea200_description/meshes/trunk_2_link.STL" />
+                </geometry>
+            </collision>
+        </link>
+        <joint name="${prefix}trunk_2_joint" type="revolute">
+            <origin xyz="0.1525 0 0" rpy="0 0 0" />
+            <parent link="${prefix}connector_link" />
+            <child link="${prefix}trunk_2_link" />
+            <axis xyz="0 1 0" />
+            <limit
+                lower="0"
+                upper="1.57"
+                effort="0"
+                velocity="0" />
+        </joint>
+        <link name="${prefix}head_link">
+            <inertial>
+                <origin xyz="0 0 0.115" rpy="0 0 0" />
+                <xacro:Box_inertial_matrix m="0.1" l="0.15" w="0.15" h="0.15" />
+            </inertial>
+            <visual>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <mesh filename="package://ea200_description/meshes/head_link.STL" />
+                </geometry>
+                <material name="">
+                    <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+                </material>
+            </visual>
+            <collision>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <mesh filename="package://ea200_description/meshes/head_link.STL" />
+                </geometry>
+            </collision>
+        </link>
+        <joint name="${prefix}head_joint" type="revolute">
+            <origin xyz="0 0 0.335" rpy="0 0 0" />
+            <parent link="${prefix}trunk_2_link" />
+            <child link="${prefix}head_link" />
+            <axis xyz="0 1 0" />
+            <limit
+                lower="-0.1745"
+                upper="0.1745"
+                effort="0"
+                velocity="0" />
+        </joint>
+
+        <xacro:if value="${sim_gazebo}">
+            <ros2_control name="ea200_GazeboSystem" type="system">
+                <hardware>
+                    <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+                </hardware>
+                <joint name="${prefix}connector_joint">
+                    <command_interface name="position">
+                        <param name="min">-0.4</param>
+                        <param name="max">0</param>
+                    </command_interface>
+                    <state_interface name="position">
+                        <param name="initial_value">0</param>
+                    </state_interface>
+                    <state_interface name="velocity" />
+                    <state_interface name="effort" />
+                </joint>
+                <joint name="${prefix}trunk_2_joint">
+                    <command_interface name="position">
+                        <param name="min">0</param>
+                        <param name="max">1.57</param>
+                    </command_interface>
+                    <state_interface name="position">
+                        <param name="initial_value">0</param>
+                    </state_interface>
+                    <state_interface name="velocity" />
+                    <state_interface name="effort" />
+                </joint>
+                <joint name="${prefix}head_joint">
+                    <command_interface name="position">
+                        <param name="min">-0.1745</param>
+                        <param name="max">0.1745</param>
+                    </command_interface>
+                    <state_interface name="position">
+                        <param name="initial_value">0</param>
+                    </state_interface>
+                    <state_interface name="velocity" />
+                    <state_interface name="effort" />
+                </joint>
+            </ros2_control>
+        </xacro:if>
+
+    </xacro:macro>
+</robot>

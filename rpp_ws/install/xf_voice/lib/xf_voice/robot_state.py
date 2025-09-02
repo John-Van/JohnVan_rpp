@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/application/xf_voice/src/voice_control/robot_state.py

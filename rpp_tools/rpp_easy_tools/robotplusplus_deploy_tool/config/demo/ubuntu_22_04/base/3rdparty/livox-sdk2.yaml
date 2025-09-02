@@ -1,0 +1,14 @@
+---
+2204_image:
+  git_repos:
+   3rdparty: 
+     livox-sdk2: 
+        url: https://git.robotplusplus.com.cn/drivers/livox-sdk/livox-sdk2.git
+        user: $robuster_git_user
+        tag: 
+        local_path: $locla_3rdparty_repos
+        other_exec: simple_3rdparty.build
+        apt_pkgs: 
+        apt_ros_pkgs:
+        python2_pip_pkgs:
+        python3_pip_pkgs: 

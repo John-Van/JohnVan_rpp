@@ -1,0 +1,5 @@
+/home/rpp/rpp_ws/install/serial/lib/libserial.so
+/home/rpp/rpp_ws/install/serial/share/serial/cmake/export_serial.cmake
+/home/rpp/rpp_ws/install/serial/share/serial/cmake/export_serial-debug.cmake
+/home/rpp/rpp_ws/install/serial/share/serial/cmake/export_serialExport.cmake
+/home/rpp/rpp_ws/install/serial/share/serial/cmake/export_serialExport-debug.cmake

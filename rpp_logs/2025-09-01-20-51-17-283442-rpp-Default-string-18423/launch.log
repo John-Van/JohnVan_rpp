@@ -1,0 +1,33 @@
+1756731077.2839906 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-20-51-17-283442-rpp-Default-string-18423
+1756731077.2840741 [INFO] [launch]: Default logging verbosity is set to INFO
+1756731078.2720091 [INFO] [robot_state_publisher-1]: process started with pid [18428]
+1756731078.2721441 [INFO] [gzserver-2]: process started with pid [18430]
+1756731078.2722056 [INFO] [gzclient-3]: process started with pid [18432]
+1756731078.2722461 [INFO] [spawn_entity.py-4]: process started with pid [18434]
+1756731078.5463161 [ERROR] [gzserver-2]: process has died [pid 18430, exit code 255, cmd 'gzserver /opt/ros/humble/share/gazebo_ros/worlds/empty.world -slibgazebo_ros_init.so -slibgazebo_ros_factory.so -slibgazebo_ros_force_system.so'].
+1756731094.8111324 [INFO] [gzclient-3]: process has finished cleanly [pid 18432]
+1756731108.8526869 [ERROR] [spawn_entity.py-4]: process has died [pid 18434, exit code 1, cmd '/opt/ros/humble/lib/gazebo_ros/spawn_entity.py -topic robot_description -entity ea200 -z 0.08 --ros-args -r __node:=spawn_robot'].
+1756731108.8572686 [INFO] [spawner-5]: process started with pid [18656]
+1756731108.8573682 [INFO] [spawner-6]: process started with pid [18658]
+1756731108.8574142 [INFO] [spawner-7]: process started with pid [18660]
+1756731108.8574510 [INFO] [spawner-8]: process started with pid [18662]
+1756731109.1907234 [spawner-6] [INFO] [1756731109.190479767] [spawner_diff_drive_base_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756731109.1938341 [spawner-5] [INFO] [1756731109.193603270] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+1756731109.1963477 [spawner-8] [INFO] [1756731109.196184102] [spawner_joint_position_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756731109.1968286 [spawner-7] [INFO] [1756731109.196710939] [spawner_body_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756731109.4452505 [spawner-5] [WARN] [1756731109.445039175] [spawner_joint_state_broadcaster]: [93mController already loaded, skipping load_controller[0m
+1756731109.4462423 [spawner-5] [ERROR] [1756731109.446112101] [spawner_joint_state_broadcaster]: [91mFailed to configure controller[0m
+1756731109.5702996 [ERROR] [spawner-5]: process has died [pid 18656, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner joint_state_broadcaster -c controller_manager --ros-args'].
+1756731109.5723248 [INFO] [rviz2-9]: process started with pid [18796]
+1756731109.7467833 [spawner-8] [FATAL] [1756731109.746555858] [spawner_joint_position_controller]: [91mFailed loading controller [1mjoint_position_controller[0m
+1756731109.8713324 [ERROR] [spawner-8]: process has died [pid 18662, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner joint_position_controller -c controller_manager --ros-args'].
+1756731110.0512006 [rviz2-9] [INFO] [1756731110.050997411] [rviz2]: Stereo is NOT SUPPORTED
+1756731110.0514464 [rviz2-9] [INFO] [1756731110.051102475] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1756731110.0660601 [rviz2-9] [INFO] [1756731110.065852973] [rviz2]: Stereo is NOT SUPPORTED
+1756731110.2124152 [spawner-6] [FATAL] [1756731110.212204064] [spawner_diff_drive_base_controller]: [91mFailed loading controller [1mdiff_drive_base_controller[0m
+1756731110.2201922 [spawner-7] [FATAL] [1756731110.220023637] [spawner_body_controller]: [91mFailed loading controller [1mbody_controller[0m
+1756731110.3467402 [ERROR] [spawner-7]: process has died [pid 18660, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner body_controller -c controller_manager --ros-args'].
+1756731110.3469121 [ERROR] [spawner-6]: process has died [pid 18658, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner diff_drive_base_controller -c controller_manager --ros-args'].
+1756735617.1360257 [INFO] [rviz2-9]: process has finished cleanly [pid 18796]
+1756735631.2675021 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756735631.3769455 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 18428]

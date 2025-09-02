@@ -1,0 +1,12 @@
+[INFO] [1756708971.460758085] [motor_pitch_ros_node]: Pitch Motor initialization parameters:
+[INFO] [1756708971.460823082] [motor_pitch_ros_node]: CAN Port: can0
+[INFO] [1756708971.460828352] [motor_pitch_ros_node]: CAN Motor ID: 0x01
+[INFO] [1756708971.460831807] [motor_pitch_ros_node]: Pitch Joint: trunk_2_joint
+[INFO] [1756708971.460837112] [motor_pitch_ros_node]: High Limit: 90.00
+[INFO] [1756708971.460844858] [motor_pitch_ros_node]: Low Limit: 0.00
+[INFO] [1756708971.460849071] [motor_pitch_ros_node]: Velocity: 2.00
+[INFO] [1756708971.470820774] [motor_pitch_ros_node]: Motor is in place. Current position: 0.00 (rad), 0.00 (degree)
+[ERROR] [1756709010.393474886] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756709054.308903067] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756709091.950124337] [motor_pitch_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756709148.292535751] [rclcpp]: signal_handler(signum=2)

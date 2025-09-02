@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/interface/rosidl_generator_py/interface/srv/__init__.py

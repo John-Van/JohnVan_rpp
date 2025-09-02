@@ -1,0 +1,233 @@
+{
+    "1.设备驱动": {
+        "name": "1.设备驱动",
+        "type": "Widget",
+        "Introduction": "",
+        "background_url": "rpp_background.png",
+        "启动程序": {
+            "name": "1-启动机器",
+            "type": "QToolButton",
+            "Introduction": "",
+            "bash_url": "~/rpp_tools/starterbutton/.bin/start_driver.sh",
+            "background_url": "default.png",
+            "Additional_environment_variables": "",
+            "show_shell": "true"
+        },
+        "关闭ros": {
+            "name": "2-关闭ros",
+            "type": "QToolButton",
+            "Introduction": "",
+            "bash_url": "~/rpp_tools/starterbutton/.bin/kill_ros.sh",
+            "background_url": "default.png",
+            "Additional_environment_variables": "",
+            "show_shell": "true"
+        }
+    },
+    "2. 建图与导航": {
+        "name": "2. 建图与导航",
+        "type": "Widget",
+        "Introduction": "",
+        "background_url": "rpp_background.png",
+        "3d slam 方案": {
+            "name": "3d slam 方案",
+            "type": "GroupBox",
+            "Introduction": "3d slam 建图",
+            "background_url": "rpp_background.png",
+            "1.3d slam 建图": {
+                "name": "1.3d slam 建图",
+                "type": "QToolButton",
+                "Introduction": "建图会自行启动机器人驱动。",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/slam_3d_mapping.sh",
+                "background_url": "mapping.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            },
+            "2.保存地图": {
+                "name": "2.保存地图",
+                "type": "QToolButton",
+                "Introduction": "保存点云地图",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/mapping_fast_lio_sam_save_map.sh",
+                "background_url": "mapping.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            },
+            "3.转为2d地图": {
+                "name": "3.转为2d地图",
+                "type": "QToolButton",
+                "Introduction": "点云地图映射为2d地图",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/pointcloud_to_2dmap.sh",
+                "background_url": "mapping.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            }  ,
+            "4.修图": {
+                "name": "4.修图",
+                "type": "QToolButton",
+                "Introduction": "处理2d地图",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/fast_lio_gimp_img.sh",
+                "background_url": "mapping.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            },
+            "5.开始导航-3d": {
+                "name": "5.开始导航-3d",
+                "type": "QToolButton",
+                "Introduction": "使用3d定位方案。",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/start_navigation_3d.sh",
+                "background_url": "mapping.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            }
+        }
+    },
+    "3.移动抓取": {
+        "name": "3.移动抓取",
+        "type": "Widget",
+        "Introduction": "",
+        "background_url": "rpp_background.png",
+        "1.模块启动": {
+            "name": "1.模块启动",
+            "type": "GroupBox",
+            "Introduction": "1.模块启动",
+            "background_url": "rpp_background.png",
+            "1.启动升降俯仰": {
+                "name": "1.启动升降俯仰",
+                "type": "QToolButton",
+                "Introduction": "",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/start_lift_pitch.sh",
+                "background_url": "default.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            },
+            "2.启动相机": {
+                "name": "2.启动相机",
+                "type": "QToolButton",
+                "Introduction": "",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/start_camera.sh",
+                "background_url": "default.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            },
+            "3.启动aruco检测": {
+                "name": "3.启动aruco检测",
+                "type": "QToolButton",
+                "Introduction": "",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/start_aruco_detector.sh",
+                "background_url": "default.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            },
+            "4.启动机械臂": {
+                "name": "4.启动机械臂",
+                "type": "QToolButton",
+                "Introduction": "",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/start_arm.sh",
+                "background_url": "default.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            },
+            "5.启动moveit": {
+                "name": "5.启动moveit",
+                "type": "QToolButton",
+                "Introduction": "",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/start_moveit.sh",
+                "background_url": "default.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            },
+            "6.行为树监控": {
+                "name": "6.行为树监控",
+                "type": "QToolButton",
+                "Introduction": "",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/py_trees_tree_viewer.sh",
+                "background_url": "default.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            }
+        },
+        "2.原地抓取": {
+            "name": "2.原地抓取",
+            "type": "GroupBox",
+            "Introduction": "2.原地抓取",
+            "background_url": "rpp_background.png",
+            "2.1启动行为树节点": {
+                "name": "2.1-启动行为树节点",
+                "type": "QToolButton",
+                "Introduction": "",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/start_bt_grasp_node.sh",
+                "background_url": "default.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            },
+            "2.2-pick": {
+                "name": "2.2-pick",
+                "type": "QToolButton",
+                "Introduction": "",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/bt_grasp_pick.sh",
+                "background_url": "default.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            },
+            "2.3-place": {
+                "name": "2.3-place",
+                "type": "QToolButton",
+                "Introduction": "",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/bt_grasp_place.sh",
+                "background_url": "default.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            },
+            "2.4-loop": {
+                "name": "2.4-loop",
+                "type": "QToolButton",
+                "Introduction": "",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/bt_grasp_loop.sh",
+                "background_url": "default.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            },
+            "2.5-reset": {
+                "name": "2.5-reset",
+                "type": "QToolButton",
+                "Introduction": "",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/bt_grasp_reset.sh",
+                "background_url": "default.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            }
+        },
+        "3.移动抓取 ": {
+            "name": "3.移动抓取 ",
+            "type": "GroupBox",
+            "Introduction": "3.移动抓取 ",
+            "background_url": "rpp_background.png",
+            "3.1启动行为树节点": {
+                "name": "3.1-启动行为树节点",
+                "type": "QToolButton",
+                "Introduction": "",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/start_bt_controller_node.sh",
+                "background_url": "default.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            },
+            "3.2开始任务": {
+                "name": "3.2-开始任务",
+                "type": "QToolButton",
+                "Introduction": "",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/bt_run.sh",
+                "background_url": "default.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            },
+            "3.5取消任务": {
+                "name": "3.5-取消任务",
+                "type": "QToolButton",
+                "Introduction": "",
+                "bash_url": "~/rpp_tools/starterbutton/.bin/bt_cancel.sh",
+                "background_url": "default.png",
+                "Additional_environment_variables": "",
+                "show_shell": "true"
+            }
+        }
+    }
+}

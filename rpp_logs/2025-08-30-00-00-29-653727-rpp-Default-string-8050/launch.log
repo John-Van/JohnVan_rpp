@@ -1,0 +1,14 @@
+1756483229.6542466 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-30-00-00-29-653727-rpp-Default-string-8050
+1756483229.6543221 [INFO] [launch]: Default logging verbosity is set to INFO
+1756483229.6810915 [WARNING] [launch_ros.actions.node]: Parameter file path is not a file: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/config/tts_params.yaml
+1756483229.6858428 [INFO] [iat_publish-1]: process started with pid [8051]
+1756483229.6859212 [INFO] [tts_subscribe-2]: process started with pid [8053]
+1756483229.6859839 [INFO] [wheeltec_mic-3]: process started with pid [8055]
+1756483229.6860194 [INFO] [voice_control-4]: process started with pid [8057]
+1756483229.6860528 [INFO] [voice_control-5]: process started with pid [8059]
+1756483330.4365439 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756483330.4635956 [ERROR] [voice_control-5]: process has died [pid 8059, exit code -2, cmd '/home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/voice_control --ros-args'].
+1756483330.5026860 [ERROR] [voice_control-4]: process has died [pid 8057, exit code -11, cmd '/home/rpp/rpp_ws/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/voice_control --ros-args --params-file /tmp/launch_params_0j1wu6y5'].
+1756483330.5301883 [ERROR] [wheeltec_mic-3]: process has died [pid 8055, exit code -11, cmd '/home/rpp/rpp_ws/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/wheeltec_mic --ros-args --params-file /tmp/launch_params_o18pm9ys'].
+1756483330.5429158 [INFO] [tts_subscribe-2]: process has finished cleanly [pid 8053]
+1756483330.5439556 [INFO] [iat_publish-1]: process has finished cleanly [pid 8051]

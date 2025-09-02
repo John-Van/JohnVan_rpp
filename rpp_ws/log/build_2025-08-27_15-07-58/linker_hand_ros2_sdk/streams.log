@@ -1,0 +1,27 @@
+[2.249s] Invoking command in '/home/rpp/rpp_ws/build/linker_hand_ros2_sdk': PYTHONPATH=/home/rpp/rpp_ws/build/linker_hand_ros2_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rpp/rpp_ws/build/linker_hand_ros2_sdk/build --no-deps symlink_data
+[3.337s] running develop
+[3.551s] running egg_info
+[3.551s] creating linker_hand_ros2_sdk.egg-info
+[3.551s] writing linker_hand_ros2_sdk.egg-info/PKG-INFO
+[3.551s] writing dependency_links to linker_hand_ros2_sdk.egg-info/dependency_links.txt
+[3.551s] writing entry points to linker_hand_ros2_sdk.egg-info/entry_points.txt
+[3.551s] writing requirements to linker_hand_ros2_sdk.egg-info/requires.txt
+[3.551s] writing top-level names to linker_hand_ros2_sdk.egg-info/top_level.txt
+[3.552s] writing manifest file 'linker_hand_ros2_sdk.egg-info/SOURCES.txt'
+[3.552s] reading manifest file 'linker_hand_ros2_sdk.egg-info/SOURCES.txt'
+[3.552s] writing manifest file 'linker_hand_ros2_sdk.egg-info/SOURCES.txt'
+[3.552s] running build_ext
+[3.552s] Creating /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/lib/python3.10/site-packages/linker-hand-ros2-sdk.egg-link (link to .)
+[3.553s] Installing linker_hand_sdk script to /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/lib/linker_hand_ros2_sdk
+[3.553s] 
+[3.553s] Installed /home/rpp/rpp_ws/build/linker_hand_ros2_sdk
+[3.554s] running symlink_data
+[3.555s] creating /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/ament_index
+[3.555s] creating /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/ament_index/resource_index
+[3.555s] creating /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/ament_index/resource_index/packages
+[3.555s] symbolically linking /home/rpp/rpp_ws/build/linker_hand_ros2_sdk/resource/linker_hand_ros2_sdk -> /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/ament_index/resource_index/packages
+[3.555s] symbolically linking /home/rpp/rpp_ws/build/linker_hand_ros2_sdk/package.xml -> /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk
+[3.555s] creating /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/launch
+[3.555s] symbolically linking /home/rpp/rpp_ws/build/linker_hand_ros2_sdk/launch/linker_hand.launch.py -> /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/launch
+[3.555s] symbolically linking /home/rpp/rpp_ws/build/linker_hand_ros2_sdk/launch/linker_hand_double.launch.py -> /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/launch
+[3.614s] Invoked command in '/home/rpp/rpp_ws/build/linker_hand_ros2_sdk' returned '0': PYTHONPATH=/home/rpp/rpp_ws/build/linker_hand_ros2_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rpp/rpp_ws/build/linker_hand_ros2_sdk/build --no-deps symlink_data

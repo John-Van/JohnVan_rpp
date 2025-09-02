@@ -1,0 +1,5 @@
+[INFO] [1756015033.867959024] [spawner_right_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [1756015035.404890864] [spawner_right_joint_trajectory_controller]: [94mLoaded [1mright_joint_trajectory_controller[0m
+[WARN] [1756015045.407010937] [spawner_right_joint_trajectory_controller]: Failed getting a result from calling /controller_manager/configure_controller in 10.0. (Attempt 1 of 3.)
+[WARN] [1756015055.408391735] [spawner_right_joint_trajectory_controller]: Failed getting a result from calling /controller_manager/configure_controller in 10.0. (Attempt 2 of 3.)
+[WARN] [1756015065.409556063] [spawner_right_joint_trajectory_controller]: Failed getting a result from calling /controller_manager/configure_controller in 10.0. (Attempt 3 of 3.)

@@ -1,0 +1,28 @@
+1756027412.0435514 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-24-17-23-32-043084-rpp-Default-string-22444
+1756027412.0436199 [INFO] [launch]: Default logging verbosity is set to INFO
+1756027412.4315159 [INFO] [move_group-1]: process started with pid [22445]
+1756027412.4316044 [INFO] [rviz2-2]: process started with pid [22447]
+1756027412.8327353 [rviz2-2] [INFO] [1756027412.832539037] [rviz2]: Stereo is NOT SUPPORTED
+1756027412.8328292 [rviz2-2] [INFO] [1756027412.832597582] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1756027412.8749857 [rviz2-2] [INFO] [1756027412.874790272] [rviz2]: Stereo is NOT SUPPORTED
+1756027412.9474416 [rviz2-2] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1756027412.9475410 [rviz2-2]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1756027415.9594610 [rviz2-2] [ERROR] [1756027415.959205866] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1756027415.9655015 [rviz2-2] [INFO] [1756027415.965293243] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1756027415.9925873 [rviz2-2] [INFO] [1756027415.992397489] [rviz2]: Stereo is NOT SUPPORTED
+1756027416.0249629 [rviz2-2] [INFO] [1756027416.024744364] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0194955 seconds
+1756027416.0250659 [rviz2-2] [INFO] [1756027416.024776557] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+1756027416.0250988 [rviz2-2] [INFO] [1756027416.024782846] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1756027416.3113539 [rviz2-2] [ERROR] [1756027416.311168972] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+1756027416.3114552 [rviz2-2] [ERROR] [1756027416.311183887] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+1756027416.3114820 [rviz2-2] [ERROR] [1756027416.311192449] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+1756027417.0272031 [rviz2-2] [INFO] [1756027417.026924715] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+1756027417.0274246 [rviz2-2] [INFO] [1756027417.027181515] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+1756027417.8494897 [rviz2-2] [INFO] [1756027417.849321555] [interactive_marker_display_96390945346592]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+1756027417.8760002 [rviz2-2] [INFO] [1756027417.875783358] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+1756027417.8760965 [rviz2-2] [INFO] [1756027417.875800725] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+1756027417.8784823 [rviz2-2] [INFO] [1756027417.878392889] [move_group_interface]: Ready to take commands for planning group dual_arm.
+1756027418.0081961 [rviz2-2] [INFO] [1756027418.008052267] [interactive_marker_display_96390945346592]: Sending request for interactive markers
+1756027418.1258509 [rviz2-2] [INFO] [1756027418.125600938] [interactive_marker_display_96390945346592]: Service response received for initialization
+1756027428.6448710 [rviz2-2] [INFO] [1756027428.644669970] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
+1756027429.7528868 [ERROR] [rviz2-2]: process has died [pid 22447, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/rpp/rpp_ws/install/ea200_moveit_config/share/ea200_moveit_config/config/moveit.rviz --ros-args -r __node:=rviz2_moveit --params-file /tmp/launch_params_cj5zpgko --params-file /tmp/launch_params_k054yb_b --params-file /tmp/launch_params_ho4jaegq --params-file /tmp/launch_params_2otzdav5 --params-file /tmp/launch_params_o9ij6pd2'].

@@ -1,0 +1,15 @@
+---
+1804_product:
+  git_repos:
+   product: # 具体产品对应的描述包，bringup包
+    mmx5_xarm_rob85_moveit_config:
+        url: https://git.robotplusplus.com.cn/robot-application/moveit_config/mmx5_xarm_robotiq85_moveit_config.git
+        user: $robuster_git_user
+        tag: 
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_robot_repos
+   

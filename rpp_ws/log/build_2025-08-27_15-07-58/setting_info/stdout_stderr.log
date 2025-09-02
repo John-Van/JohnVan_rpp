@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating setting_info.egg-info
+writing setting_info.egg-info/PKG-INFO
+writing dependency_links to setting_info.egg-info/dependency_links.txt
+writing entry points to setting_info.egg-info/entry_points.txt
+writing requirements to setting_info.egg-info/requires.txt
+writing top-level names to setting_info.egg-info/top_level.txt
+writing manifest file 'setting_info.egg-info/SOURCES.txt'
+reading manifest file 'setting_info.egg-info/SOURCES.txt'
+writing manifest file 'setting_info.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rpp/rpp_ws/install/setting_info/lib/python3.10/site-packages/setting-info.egg-link (link to .)
+Installing setting_info_node script to /home/rpp/rpp_ws/install/setting_info/lib/setting_info
+
+Installed /home/rpp/rpp_ws/build/setting_info
+running symlink_data
+creating /home/rpp/rpp_ws/install/setting_info/share/ament_index
+creating /home/rpp/rpp_ws/install/setting_info/share/ament_index/resource_index
+creating /home/rpp/rpp_ws/install/setting_info/share/ament_index/resource_index/packages
+symbolically linking /home/rpp/rpp_ws/build/setting_info/resource/setting_info -> /home/rpp/rpp_ws/install/setting_info/share/ament_index/resource_index/packages
+symbolically linking /home/rpp/rpp_ws/build/setting_info/package.xml -> /home/rpp/rpp_ws/install/setting_info/share/setting_info

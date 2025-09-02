@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/lidar_clipping/ament_cmake_core/lidar_clippingConfig-version.cmake

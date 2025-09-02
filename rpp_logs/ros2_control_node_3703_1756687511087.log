@@ -1,0 +1,28 @@
+[INFO] [1756687511.111548451] [controller_manager]: Subscribing to '~/robot_description' topic for robot description file.
+[INFO] [1756687511.112232164] [controller_manager]: update rate is 100 Hz
+[INFO] [1756687511.112247179] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1756687511.112345893] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1756687511.122733831] [controller_manager]: Received robot description file.
+[INFO] [1756687511.123608512] [resource_manager]: Loading hardware 'left_KortexMultiInterfaceHardware' 
+[INFO] [1756687511.149918087] [KortexMultiInterfaceHardware]: Setting severity threshold to DEBUG
+[INFO] [1756687511.149957935] [resource_manager]: Initialize hardware 'left_KortexMultiInterfaceHardware' 
+[INFO] [1756687511.149963774] [KortexMultiInterfaceHardware]: Configuring Hardware Interface
+[INFO] [1756687511.150117515] [KortexMultiInterfaceHardware]: Robot ip is '192.168.11.60'
+[INFO] [1756687511.150120448] [KortexMultiInterfaceHardware]: Username is 'admin'
+[INFO] [1756687511.150125365] [KortexMultiInterfaceHardware]: Port used '10000'
+[INFO] [1756687511.150127371] [KortexMultiInterfaceHardware]: Realtime port used '10001'
+[INFO] [1756687511.150129086] [KortexMultiInterfaceHardware]: Session inactivity timeout is '60000'
+[INFO] [1756687511.150130933] [KortexMultiInterfaceHardware]: Connection inactivity timeout is '2000'
+[ERROR] [1756687511.150132702] [KortexMultiInterfaceHardware]: Gripper joint name is empty!
+[INFO] [1756687511.150142817] [KortexMultiInterfaceHardware]: Connecting to robot at 192.168.11.60
+[INFO] [1756687514.262792048] [KortexMultiInterfaceHardware]: Creating session for communication
+[ERROR] [1756687514.262948093] [controller_manager]: The published robot description file (urdf) seems not to be genuine. The following error was caught:not connected !!!
+[INFO] [1756708662.783553769] [controller_manager]: Received robot description file.
+[WARN] [1756708662.783622842] [controller_manager]: ResourceManager has already loaded an urdf file. Ignoring attempt to reload a robot description file.
+[INFO] [1756708749.607012708] [controller_manager]: Received robot description file.
+[WARN] [1756708749.607043148] [controller_manager]: ResourceManager has already loaded an urdf file. Ignoring attempt to reload a robot description file.
+[INFO] [1756708773.296315104] [controller_manager]: Received robot description file.
+[WARN] [1756708773.296356299] [controller_manager]: ResourceManager has already loaded an urdf file. Ignoring attempt to reload a robot description file.
+[INFO] [1756709157.608044381] [controller_manager]: Received robot description file.
+[WARN] [1756709157.608099418] [controller_manager]: ResourceManager has already loaded an urdf file. Ignoring attempt to reload a robot description file.
+[INFO] [1756709216.856485518] [rclcpp]: signal_handler(signum=2)

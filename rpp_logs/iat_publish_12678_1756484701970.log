@@ -1,0 +1,13 @@
+[INFO] [1756484701.985429426] [iat_node]: MSPLogin success.
+[INFO] [1756484722.046839092] [iat_node]: Awake flag received, start IAT.
+[INFO] [1756484722.064924337] [xf_voice]: Start listening ...
+[INFO] [1756484737.266850547] [xf_voice]: Result: 有什么可以帮你？我是巨声智能机器人小飞，请您说出指令，有任何需求请吩咐我。现在几点了？
+
+[INFO] [1756484737.290132496] [iat_node]: Published result.
+[INFO] [1756484764.977635415] [iat_node]: Awake flag received, start IAT.
+[INFO] [1756484764.992839001] [xf_voice]: Start listening ...
+[INFO] [1756484773.143211583] [xf_voice]: Result: 未听清，请再说一次，那现在这种。
+
+[INFO] [1756484773.144462102] [iat_node]: Published result.
+[INFO] [1756484773.243402625] [xf_voice]: Speech end (VAD)
+[INFO] [1756484793.696142601] [rclcpp]: signal_handler(signum=2)

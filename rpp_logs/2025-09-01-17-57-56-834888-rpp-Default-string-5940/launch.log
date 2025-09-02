@@ -1,0 +1,5 @@
+1756720676.8354235 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-17-57-56-834888-rpp-Default-string-5940
+1756720676.8354983 [INFO] [launch]: Default logging verbosity is set to INFO
+1756720676.8605757 [INFO] [motor_lift_ros_node-1]: process started with pid [5941]
+1756720701.4859357 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756720701.6531429 [ERROR] [motor_lift_ros_node-1]: process has died [pid 5941, exit code -11, cmd '/home/rpp/rpp_ws/install/motor_lift_ros/lib/motor_lift_ros/motor_lift_ros_node --ros-args -r __node:=motor_lift_ros_node --params-file /home/rpp/rpp_ws/install/motor_lift_ros/share/motor_lift_ros/config/config.yaml'].

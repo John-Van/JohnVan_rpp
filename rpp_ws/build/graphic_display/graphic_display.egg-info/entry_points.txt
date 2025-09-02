@@ -1,0 +1,3 @@
+[console_scripts]
+graphic_display = graphic_display.graphic_display:main
+

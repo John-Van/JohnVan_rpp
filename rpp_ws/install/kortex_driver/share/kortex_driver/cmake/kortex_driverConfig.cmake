@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/kortex_driver/ament_cmake_core/kortex_driverConfig.cmake

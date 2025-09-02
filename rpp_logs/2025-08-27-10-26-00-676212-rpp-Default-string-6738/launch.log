@@ -1,0 +1,29 @@
+1756261560.6768696 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-27-10-26-00-676212-rpp-Default-string-6738
+1756261560.6769657 [INFO] [launch]: Default logging verbosity is set to INFO
+1756261561.1860180 [INFO] [move_group-1]: process started with pid [6769]
+1756261561.1861422 [INFO] [rviz2-2]: process started with pid [6771]
+1756261562.4120455 [rviz2-2] [INFO] [1756261562.411845824] [rviz2]: Stereo is NOT SUPPORTED
+1756261562.4123633 [rviz2-2] [INFO] [1756261562.411911592] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1756261562.5107429 [rviz2-2] [INFO] [1756261562.510524764] [rviz2]: Stereo is NOT SUPPORTED
+1756261562.6390305 [rviz2-2] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1756261562.6391380 [rviz2-2]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1756261565.6688471 [rviz2-2] [ERROR] [1756261565.668569534] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1756261565.6794543 [rviz2-2] [INFO] [1756261565.679254324] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1756261565.7412422 [rviz2-2] [INFO] [1756261565.741034292] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0198697 seconds
+1756261565.7413516 [rviz2-2] [INFO] [1756261565.741063509] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+1756261565.7413890 [rviz2-2] [INFO] [1756261565.741073381] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1756261565.7528653 [rviz2-2] [INFO] [1756261565.752667763] [rviz2]: Stereo is NOT SUPPORTED
+1756261566.0976899 [rviz2-2] [ERROR] [1756261566.097482078] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+1756261566.0978425 [rviz2-2] [ERROR] [1756261566.097501875] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+1756261566.0978971 [rviz2-2] [ERROR] [1756261566.097513157] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+1756261567.0308700 [rviz2-2] [INFO] [1756261567.030603287] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+1756261567.0311306 [rviz2-2] [INFO] [1756261567.030985864] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+1756261568.1697628 [rviz2-2] [INFO] [1756261568.169523002] [interactive_marker_display_103634217767984]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+1756261568.2056365 [rviz2-2] [INFO] [1756261568.205473780] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+1756261568.2057772 [rviz2-2] [INFO] [1756261568.205493290] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+1756261568.2113872 [rviz2-2] [INFO] [1756261568.211227084] [move_group_interface]: Ready to take commands for planning group dual_arm.
+1756261568.2957196 [rviz2-2] [INFO] [1756261568.295408921] [interactive_marker_display_103634217767984]: Sending request for interactive markers
+1756261568.3826659 [rviz2-2] [INFO] [1756261568.382462623] [interactive_marker_display_103634217767984]: Service response received for initialization
+1756261583.6478264 [rviz2-2] [INFO] [1756261583.647165555] [move_group_interface]: Plan and Execute request accepted
+1756261583.7051027 [rviz2-2] [INFO] [1756261583.705049546] [move_group_interface]: Plan and Execute request aborted
+1756261583.7062902 [rviz2-2] [ERROR] [1756261583.706109957] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached

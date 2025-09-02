@@ -1,0 +1,4 @@
+1756712906.8906293 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-15-48-26-890107-rpp-Default-string-5242
+1756712906.8907092 [INFO] [launch]: Default logging verbosity is set to INFO
+1756712906.9210560 [INFO] [motor_lift_ros_node-1]: process started with pid [5243]
+1756712906.9211528 [INFO] [motor_pitch_ros_node-2]: process started with pid [5245]

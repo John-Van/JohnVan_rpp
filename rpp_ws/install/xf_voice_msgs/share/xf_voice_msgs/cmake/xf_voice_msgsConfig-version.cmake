@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/xf_voice_msgs/ament_cmake_core/xf_voice_msgsConfig-version.cmake

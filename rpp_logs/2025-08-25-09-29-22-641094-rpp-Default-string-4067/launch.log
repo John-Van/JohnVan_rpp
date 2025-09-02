@@ -1,0 +1,16 @@
+1756085362.6415730 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-25-09-29-22-641094-rpp-Default-string-4067
+1756085362.6416461 [INFO] [launch]: Default logging verbosity is set to INFO
+1756085362.9912775 [INFO] [lakibeam1_scan_node-1]: process started with pid [4068]
+1756085362.9913952 [INFO] [livox_ros_driver2_node-2]: process started with pid [4070]
+1756085362.9914439 [INFO] [lidar_clipping-3]: process started with pid [4072]
+1756085362.9914787 [INFO] [robot_state_publisher-4]: process started with pid [4074]
+1756085362.9915102 [INFO] [joint_state_publisher-5]: process started with pid [4076]
+1756085362.9915409 [INFO] [rpp_ros_driver_node-6]: process started with pid [4078]
+1756085363.3589897 [joint_state_publisher-5] [INFO] [1756085363.358821598] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1756099628.0896597 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756099628.2004986 [INFO] [lidar_clipping-3]: process has finished cleanly [pid 4072]
+1756099628.2021520 [INFO] [robot_state_publisher-4]: process has finished cleanly [pid 4074]
+1756099628.2183728 [INFO] [joint_state_publisher-5]: process has finished cleanly [pid 4076]
+1756099628.2240963 [ERROR] [lakibeam1_scan_node-1]: process has died [pid 4068, exit code -6, cmd '/home/rpp/rpp_ws/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node --ros-args -r __node:=lakibeam1_back_node -r __ns:=/ --params-file /tmp/launch_params_hlzg1jp9'].
+1756099628.8894453 [ERROR] [livox_ros_driver2_node-2]: process has died [pid 4070, exit code -7, cmd '/home/rpp/rpp_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node --ros-args -r __node:=livox_node -r __ns:=/ --params-file /tmp/launch_params_zjzt5edo --params-file /tmp/launch_params_lpux5_l6 --params-file /tmp/launch_params_79733ugb --params-file /tmp/launch_params_idfjwuk7 --params-file /tmp/launch_params_2r3jecht --params-file /tmp/launch_params_op51svsi --params-file /tmp/launch_params_xu2b8uz9 --params-file /tmp/launch_params_z7a7pm4i --params-file /tmp/launch_params_r210uvux'].
+1756099631.0075402 [INFO] [rpp_ros_driver_node-6]: process has finished cleanly [pid 4078]

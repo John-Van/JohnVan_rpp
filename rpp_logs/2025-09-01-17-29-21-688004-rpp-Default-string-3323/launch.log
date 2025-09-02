@@ -1,0 +1,16 @@
+1756718961.6890557 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-17-29-21-688004-rpp-Default-string-3323
+1756718961.6891313 [INFO] [launch]: Default logging verbosity is set to INFO
+1756718962.0335658 [INFO] [lakibeam1_scan_node-1]: process started with pid [3324]
+1756718962.0336738 [INFO] [livox_ros_driver2_node-2]: process started with pid [3326]
+1756718962.0337200 [INFO] [lidar_clipping-3]: process started with pid [3328]
+1756718962.0337532 [INFO] [robot_state_publisher-4]: process started with pid [3330]
+1756718962.0337830 [INFO] [joint_state_publisher-5]: process started with pid [3332]
+1756718962.0338128 [INFO] [rpp_ros_driver_node-6]: process started with pid [3334]
+1756718962.4079630 [joint_state_publisher-5] [INFO] [1756718962.407798402] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1756735602.9544694 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756735603.0592222 [ERROR] [lakibeam1_scan_node-1]: process has died [pid 3324, exit code -6, cmd '/home/rpp/rpp_ws/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node --ros-args -r __node:=lakibeam1_back_node -r __ns:=/ --params-file /tmp/launch_params_hmt078bu'].
+1756735603.0610101 [INFO] [robot_state_publisher-4]: process has finished cleanly [pid 3330]
+1756735603.0614491 [INFO] [lidar_clipping-3]: process has finished cleanly [pid 3328]
+1756735603.0829685 [INFO] [joint_state_publisher-5]: process has finished cleanly [pid 3332]
+1756735604.2284753 [INFO] [livox_ros_driver2_node-2]: process has finished cleanly [pid 3326]
+1756735605.8706594 [INFO] [rpp_ros_driver_node-6]: process has finished cleanly [pid 3334]

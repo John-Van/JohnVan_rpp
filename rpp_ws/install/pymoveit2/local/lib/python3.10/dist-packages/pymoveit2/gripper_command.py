@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/application/pymoveit2/pymoveit2/gripper_command.py

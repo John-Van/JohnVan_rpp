@@ -1,0 +1,15 @@
+#T503
+sed -i -r "s@http.+github.com@https:///git.robotplusplus.com.cn/third-party@g" ./CMake/pybind11-download.cmake.in
+sed -i -r "s@http.+github.com@https:///git.robotplusplus.com.cn/third-party@g" ./CMake/external_libcurl.cmake
+./scripts/patch-realsense-ubuntu-L4T.sh  
+sudo apt-get install git libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev -y
+echo "nvidia" |sudo  -S sh ./scripts/setup_udev_rules.sh  
+mkdir build && cd build  
+cmake .. -DBUILD_EXAMPLES=true -DCMAKE_BUILD_TYPE=release -DBUILD_PYTHON_BINDINGS:bool=true -DPYTHON_EXECUTABLE=/usr/bin/python3.6 -DFORCE_RSUSB_BACKEND=false -DBUILD_WITH_CUDA=true && make -j$(($(nproc)-1)) && echo "nvidia" |sudo  -S  make install
+#add_text="export PYTHONPATH=/usr/local/lib/$(basename /usr/bin/python3.6)/pyrealsense2\${PYTHONPATH:+:\${PYTHONPATH}}"
+#rpp_add_text_rpprc_and_update "$add_text" $(("$indentation" + 2)) 
+
+#sudo ln -s /usr/include/opencv4/opencv2 /usr/include/opencv2
+echo "nvidia" |sudo  -S ln -s "/usr/include/opencv4" "/usr/include/opencv"
+#sudo sed -i 's@set(_include_dirs "include;/usr/include;/usr/include/opencv")@set(_include_dirs "include;/usr/include;/usr/include/boost/compute/interop/opencv")@' /opt/ros/melodic/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+#sudo sed -i 's@set(_include_dirs "include;/usr/include;/usr/include/opencv")@set(_include_dirs "include;/usr/include;/usr/local/include/opencv4")@' /opt/ros/melodic/share/cv_bridge/cmake/cv_bridgeConfig.cmake

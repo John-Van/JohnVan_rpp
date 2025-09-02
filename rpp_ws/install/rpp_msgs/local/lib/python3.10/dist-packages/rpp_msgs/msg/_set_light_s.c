@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/rpp_msgs/rosidl_generator_py/rpp_msgs/msg/_set_light_s.c

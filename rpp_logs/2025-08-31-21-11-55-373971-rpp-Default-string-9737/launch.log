@@ -1,0 +1,10 @@
+1756645915.3746548 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-31-21-11-55-373971-rpp-Default-string-9737
+1756645915.3747499 [INFO] [launch]: Default logging verbosity is set to INFO
+1756645915.4067233 [INFO] [gui_control-1]: process started with pid [9738]
+1756646035.4822991 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756646039.0825861 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756646040.4853699 [ERROR] [gui_control-1]: process[gui_control-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1756646040.4856422 [INFO] [gui_control-1]: sending signal 'SIGTERM' to process[gui_control-1]
+1756646045.4883895 [ERROR] [gui_control-1]: process[gui_control-1] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+1756646045.4886603 [INFO] [gui_control-1]: sending signal 'SIGKILL' to process[gui_control-1]
+1756646045.4942515 [ERROR] [gui_control-1]: process has died [pid 9738, exit code -9, cmd '/home/rpp/rpp_ws/install/gui_control/lib/gui_control/gui_control --ros-args -r __node:=left_hand_control_node --params-file /tmp/launch_params_0g0xwd31'].

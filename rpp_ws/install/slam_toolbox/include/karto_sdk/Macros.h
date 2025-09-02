@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/slam/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h

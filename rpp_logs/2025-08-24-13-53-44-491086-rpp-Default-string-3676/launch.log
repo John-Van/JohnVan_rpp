@@ -1,0 +1,4 @@
+1756014824.4915648 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-24-13-53-44-491086-rpp-Default-string-3676
+1756014824.4916370 [INFO] [launch]: Default logging verbosity is set to INFO
+1756014824.5163333 [INFO] [aruco_detector_node-1]: process started with pid [3677]
+1756014825.3856084 [aruco_detector_node-1] [INFO] [1756014825.385393844] [aruco_detector_node]: ArUco Detector initialized.

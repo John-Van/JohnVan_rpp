@@ -1,0 +1,66 @@
+1756027464.8130341 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-24-17-24-24-812548-rpp-Default-string-23102
+1756027464.8131092 [INFO] [launch]: Default logging verbosity is set to INFO
+1756027465.2286501 [INFO] [move_group-1]: process started with pid [23103]
+1756027465.2287529 [INFO] [rviz2-2]: process started with pid [23105]
+1756027465.6241395 [rviz2-2] [INFO] [1756027465.623936597] [rviz2]: Stereo is NOT SUPPORTED
+1756027465.6244490 [rviz2-2] [INFO] [1756027465.624002523] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1756027465.6572630 [rviz2-2] [INFO] [1756027465.657055401] [rviz2]: Stereo is NOT SUPPORTED
+1756027465.7330613 [rviz2-2] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1756027465.7331686 [rviz2-2]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1756027468.7475467 [rviz2-2] [ERROR] [1756027468.747169398] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1756027468.7557409 [rviz2-2] [INFO] [1756027468.755520776] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1756027468.7894533 [rviz2-2] [INFO] [1756027468.789199039] [rviz2]: Stereo is NOT SUPPORTED
+1756027468.8266566 [rviz2-2] [INFO] [1756027468.826490644] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0193717 seconds
+1756027468.8267572 [rviz2-2] [INFO] [1756027468.826519821] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+1756027468.8267863 [rviz2-2] [INFO] [1756027468.826526183] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1756027469.1414776 [rviz2-2] [ERROR] [1756027469.141262844] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+1756027469.1416178 [rviz2-2] [ERROR] [1756027469.141284034] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+1756027469.1416714 [rviz2-2] [ERROR] [1756027469.141295153] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+1756027469.9147179 [rviz2-2] [INFO] [1756027469.914558119] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+1756027469.9149981 [rviz2-2] [INFO] [1756027469.914865119] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+1756027470.8311226 [rviz2-2] [INFO] [1756027470.830951255] [interactive_marker_display_97958274554864]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+1756027470.8615427 [rviz2-2] [INFO] [1756027470.861438475] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+1756027470.8616292 [rviz2-2] [INFO] [1756027470.861451664] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+1756027470.8653505 [rviz2-2] [INFO] [1756027470.865217336] [move_group_interface]: Ready to take commands for planning group dual_arm.
+1756027470.9948807 [rviz2-2] [INFO] [1756027470.994694063] [interactive_marker_display_97958274554864]: Sending request for interactive markers
+1756027471.1139138 [rviz2-2] [INFO] [1756027471.113715765] [interactive_marker_display_97958274554864]: Service response received for initialization
+1756030802.0011623 [rviz2-2] [INFO] [1756030802.001000741] [moveit_ros_visualization.motion_planning_frame]: group right_arm
+1756030802.0012765 [rviz2-2] [INFO] [1756030802.001028633] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'right_arm' in namespace ''
+1756030802.0046048 [rviz2-2] [INFO] [1756030802.004456543] [move_group_interface]: Ready to take commands for planning group right_arm.
+1756030803.9035244 [rviz2-2] [INFO] [1756030803.903228561] [move_group_interface]: Plan and Execute request accepted
+1756030843.2891893 [rviz2-2] [INFO] [1756030843.289008489] [move_group_interface]: Plan and Execute request complete!
+1756031016.6821511 [rviz2-2] [INFO] [1756031016.681854580] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+1756031016.6822782 [rviz2-2] [INFO] [1756031016.681872574] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+1756031016.6858969 [rviz2-2] [INFO] [1756031016.685760210] [move_group_interface]: Ready to take commands for planning group dual_arm.
+1756031032.3111079 [rviz2-2] [INFO] [1756031032.311017885] [move_group_interface]: Plan and Execute request accepted
+1756031087.9792724 [rviz2-2] [INFO] [1756031087.979130570] [move_group_interface]: Plan and Execute request complete!
+1756031782.1758327 [rviz2-2] [INFO] [1756031782.175632522] [move_group_interface]: MoveGroup action client/server ready
+1756031782.1763434 [rviz2-2] [INFO] [1756031782.176184650] [move_group_interface]: Planning request accepted
+1756031782.2923505 [rviz2-2] [INFO] [1756031782.292190070] [move_group_interface]: Planning request aborted
+1756031782.2931263 [rviz2-2] [ERROR] [1756031782.293018068] [move_group_interface]: MoveGroupInterface::plan() failed or timeout reached
+1756031840.7943804 [rviz2-2] [INFO] [1756031840.794216462] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+1756031840.7945035 [rviz2-2] [INFO] [1756031840.794236067] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'left_arm' in namespace ''
+1756031840.7979262 [rviz2-2] [INFO] [1756031840.797783828] [move_group_interface]: Ready to take commands for planning group left_arm.
+1756031843.6645644 [rviz2-2] [INFO] [1756031843.664442011] [move_group_interface]: Plan and Execute request accepted
+1756031848.8182807 [rviz2-2] [INFO] [1756031848.818009303] [move_group_interface]: Plan and Execute request complete!
+1756031934.0811172 [rviz2-2] [INFO] [1756031934.080878894] [move_group_interface]: Plan and Execute request accepted
+1756031937.8924174 [rviz2-2] [INFO] [1756031937.892209196] [moveit_ros_visualization.motion_planning_frame]: group right_arm
+1756031937.8925285 [rviz2-2] [INFO] [1756031937.892231567] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'right_arm' in namespace ''
+1756031937.8960702 [rviz2-2] [INFO] [1756031937.895940609] [move_group_interface]: Ready to take commands for planning group right_arm.
+1756031966.1585770 [rviz2-2] [INFO] [1756031966.158488090] [move_group_interface]: Plan and Execute request complete!
+1756031966.1593282 [rviz2-2] [WARN] [1756031966.159139799] [interactive_marker_display_97958274554864]: Update queue too large. Erasing message with sequence number 17738
+1756031966.1593800 [rviz2-2] [WARN] [1756031966.159171657] [interactive_marker_display_97958274554864]: Update queue too large. Erasing message with sequence number 17739
+1756031966.1594052 [rviz2-2] [WARN] [1756031966.159181833] [interactive_marker_display_97958274554864]: Update queue too large. Erasing message with sequence number 17740
+1756031966.1594987 [rviz2-2] [WARN] [1756031966.159190793] [interactive_marker_display_97958274554864]: Update queue too large. Erasing message with sequence number 17741
+1756031966.1595337 [rviz2-2] [WARN] [1756031966.159199558] [interactive_marker_display_97958274554864]: Update queue too large. Erasing message with sequence number 17742
+1756031966.1595569 [rviz2-2] [WARN] [1756031966.159209324] [interactive_marker_display_97958274554864]: Update queue too large. Erasing message with sequence number 17743
+1756031966.1595781 [rviz2-2] [WARN] [1756031966.159217582] [interactive_marker_display_97958274554864]: Update queue too large. Erasing message with sequence number 17744
+1756031966.1596220 [rviz2-2] [WARN] [1756031966.159226259] [interactive_marker_display_97958274554864]: Update queue too large. Erasing message with sequence number 17745
+1756031966.1596506 [rviz2-2] [WARN] [1756031966.159234328] [interactive_marker_display_97958274554864]: Update queue too large. Erasing message with sequence number 17746
+1756031966.1596711 [rviz2-2] [WARN] [1756031966.159242400] [interactive_marker_display_97958274554864]: Update queue too large. Erasing message with sequence number 17747
+1756031966.1596909 [rviz2-2] [WARN] [1756031966.159250358] [interactive_marker_display_97958274554864]: Update queue too large. Erasing message with sequence number 17748
+1756031966.1597102 [rviz2-2] [WARN] [1756031966.159259602] [interactive_marker_display_97958274554864]: Update queue too large. Erasing message with sequence number 17749
+1756031966.1597295 [rviz2-2] [WARN] [1756031966.159267716] [interactive_marker_display_97958274554864]: Update queue too large. Erasing message with sequence number 17750
+1756031966.1597497 [rviz2-2] [WARN] [1756031966.159275496] [interactive_marker_display_97958274554864]: Update queue too large. Erasing message with sequence number 17751
+1756031966.1597688 [rviz2-2] [WARN] [1756031966.159283646] [interactive_marker_display_97958274554864]: Update queue too large. Erasing message with sequence number 17752
+1756031967.2875533 [ERROR] [rviz2-2]: process has died [pid 23105, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/rpp/rpp_ws/install/ea200_moveit_config/share/ea200_moveit_config/config/moveit.rviz --ros-args -r __node:=rviz2_moveit --params-file /tmp/launch_params_b3mihue3 --params-file /tmp/launch_params_fbr6mvzk --params-file /tmp/launch_params_ps3k224y --params-file /tmp/launch_params_ws798dtl --params-file /tmp/launch_params__zzn4kdc'].

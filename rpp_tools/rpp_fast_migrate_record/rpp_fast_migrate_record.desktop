@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Categories=Utility;X-PC-Sever;
+Name=rpp_fast_migrate_record
+Exec=bash -c 'cd $HOME/rpp_tools && $HOME/rpp_tools/rpp_fast_gui.AppImage -d ./rpp_fast_migrate_record/.rpp_fast_migrate_record -n  rpp_fast_migrate_record'
+Icon=/home/rpp/rpp_tools/rpp_fast_migrate_record/.rpp_fast_migrate_record/images/rpp_fast_migrate_record.png
+Comment=Edit this default file
+Categories=this is pc sever;
+Terminal=false
+Name[zh_CN]=rpp_fast_migrate_record
+

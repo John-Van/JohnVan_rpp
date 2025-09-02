@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libmotor_lift_sdk.so -o libmotor_lift_sdk.so CMakeFiles/motor_lift_sdk.dir/src/motor_lift.cpp.o CMakeFiles/motor_lift_sdk.dir/src/can_motor.cpp.o 

@@ -1,0 +1,30 @@
+1756519962.0376368 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-30-10-12-42-036669-rpp-Default-string-3319
+1756519962.0377083 [INFO] [launch]: Default logging verbosity is set to INFO
+1756519962.3838565 [INFO] [lakibeam1_scan_node-1]: process started with pid [3320]
+1756519962.3839726 [INFO] [livox_ros_driver2_node-2]: process started with pid [3322]
+1756519962.3840215 [INFO] [lidar_clipping-3]: process started with pid [3324]
+1756519962.3840647 [INFO] [robot_state_publisher-4]: process started with pid [3326]
+1756519962.3840981 [INFO] [joint_state_publisher-5]: process started with pid [3328]
+1756519962.3841283 [INFO] [rpp_ros_driver_node-6]: process started with pid [3330]
+1756519962.7687335 [joint_state_publisher-5] [INFO] [1756519962.768583108] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1756530467.0643458 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756530467.1979082 [ERROR] [lakibeam1_scan_node-1]: process has died [pid 3320, exit code -6, cmd '/home/rpp/rpp_ws/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node --ros-args -r __node:=lakibeam1_back_node -r __ns:=/ --params-file /tmp/launch_params_e3qmlw7s'].
+1756530468.7368698 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756530468.7375169 [joint_state_publisher-5] Traceback (most recent call last):
+1756530468.7375889 [joint_state_publisher-5]   File "/opt/ros/humble/lib/joint_state_publisher/joint_state_publisher", line 33, in <module>
+1756530468.7377450 [joint_state_publisher-5]     sys.exit(load_entry_point('joint-state-publisher==2.4.0', 'console_scripts', 'joint_state_publisher')())
+1756530468.7377846 [joint_state_publisher-5]   File "/opt/ros/humble/lib/python3.10/site-packages/joint_state_publisher/joint_state_publisher.py", line 470, in main
+1756530468.7378132 [joint_state_publisher-5]     jsp.destroy_node()
+1756530468.7378359 [joint_state_publisher-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 1685, in destroy_node
+1756530468.7379413 [joint_state_publisher-5]     self.destroy_service(self._services[0])
+1756530468.7379739 [joint_state_publisher-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 1609, in destroy_service
+1756530468.7379992 [joint_state_publisher-5]     service.destroy()
+1756530468.7380219 [joint_state_publisher-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/service.py", line 87, in destroy
+1756530468.7380421 [joint_state_publisher-5]     self.__service.destroy_when_not_in_use()
+1756530468.7380631 [joint_state_publisher-5] KeyboardInterrupt
+1756530468.7616951 [ERROR] [joint_state_publisher-5]: process has died [pid 3328, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher/joint_state_publisher --ros-args -r __node:=joint_state_publisher --params-file /tmp/launch_params_wlq90je0'].
+1756530468.8457377 [INFO] [lidar_clipping-3]: process has finished cleanly [pid 3324]
+1756530468.8471899 [INFO] [robot_state_publisher-4]: process has finished cleanly [pid 3326]
+1756530469.2451305 [INFO] [livox_ros_driver2_node-2]: process has finished cleanly [pid 3322]
+1756530469.8807275 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756530469.8817401 [ERROR] [rpp_ros_driver_node-6]: process has died [pid 3330, exit code -2, cmd '/home/rpp/rpp_ws/install/rpp_ros_driver/lib/rpp_ros_driver/rpp_ros_driver_node --ros-args --params-file /home/rpp/rpp_ws/install/robot_bringup/share/robot_bringup/params/rpp.yaml --params-file /tmp/launch_params_ejpldat8'].

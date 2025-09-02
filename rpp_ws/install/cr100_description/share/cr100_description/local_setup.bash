@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/cr100_description/ament_cmake_environment_hooks/local_setup.bash

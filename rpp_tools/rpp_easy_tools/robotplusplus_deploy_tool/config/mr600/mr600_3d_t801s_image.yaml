@@ -1,0 +1,292 @@
+--- # 暂时不做处理
+t801s_image:
+  env_map:
+    user_debug: true
+    user_nvidia_source: true
+    robuster_git_user: rpp:shihe321
+    local_drivers_repos: $HOME/rpp_ws/src/drivers
+    local_robot_repos: $HOME/rpp_ws/src/robot
+    local_slam_repos: $HOME/rpp_ws/src/slam
+    local_navigation_repos: $HOME/rpp_ws/src/navigation
+    local_manipulator_repos: $HOME/rpp_ws/src/manipulator
+    local_application_repos: $HOME/rpp_ws/src/application
+    local_vision_repos: $HOME/rpp_ws/src/vision
+    local_tools_repos: $HOME/rpp_ws/src/tools
+    locla_3rdparty_repos: $HOME/3rdparty
+    locla_rpp_data: $HOME/rpp_data
+    locla_rpp_tools: $HOME/rpp_tools
+    car_mode: robot
+    system_architecture: Linux_arm64 # or Linux_arm64
+    PS1_STRING: \\[\033[1;32m\\]\u\\[\033[1;36m\\]<\\[\033[1;32m\\]$car_mode\\[\033[1;36m\\]>:\\[\033[1;34m\\]\w\\[\033[0m\\]\\$ '
+    apt_source_url: https://mirrors.tuna.tsinghua.edu.cn
+    pip_source_url: https://pypi.tuna.tsinghua.edu.cn/simple
+    rpp_tools_link: http://file.robotplusplus.com.cn/common_tools/1.1.0
+    git_3rdparty_link: https://git.robotplusplus.com.cn/third-party
+    ros1_source_url: https://mirrors.tuna.tsinghua.edu.cn/ros/ubuntu/
+    ros_distro_version: noetic
+  depends_map : 
+    debian_pkgs: 
+      - nomachine_*.deb
+    python2_pip_pkgs: 
+
+    python3_pip_pkgs: 
+      - numpy
+      - pyserial 
+      - rospkg
+      - catkin-tools
+      - pycuda
+    apt_pkgs: 
+      - openssh-server 
+      -  python3  python3-pip python3-catkin-tools #部分软件包必在ros安装完成直接安装
+      - htop tree
+      - curl wget wireshark proxychains4
+      - gawk vim 
+      - git
+      - gimp kazam   pcl-tools
+      - net-tools
+      - bleachbit #硬盘清理工具
+      - libeigen3-dev 
+      - libmodbus-dev libserial-dev
+      - cmake
+      - glmark2 stress cutecom libxmlb2 ubuntu-advantage-desktop-daemon libfwupdplugin5 libpciaccess-dev ubuntu-advantage-tools nvidia-jetpack #nvidia-jetpack bug
+    apt_ros_pkgs:
+      - ros-control position-controllers  effort-controllers  velocity-controllers
+      - gazebo-ros gazebo-ros-control
+      - moveit moveit-servo combined-robot-hw trac-ik-kinematics-plugin  joint-trajectory-controller
+      -  joint-state-controller effort-controllers   ros-controllers  joint-state-publisher-gui
+      - joy teleop-twist-joy
+      - ddynamic-reconfigure 
+  git_repos:
+   3rdparty: # 存放需要源码编译的第三方库，如GTSAM, OpenCV, ceres 等。也包含一些设备的驱动程序，如librealsense, livox-SDK等
+     librealsense:
+        url: https://git.robotplusplus.com.cn/drivers/intelrealsense/librealsense.git 
+        user: $robuster_git_user
+        tag: t801sv3.0.0
+        local_path: $locla_3rdparty_repos
+        other_exec: rpp_orin_nx_librealsense.build #测试完成
+        apt_pkgs:   imagemagick graphviz dvipng python3-venv latexmk librsvg2-bin texlive-lang-chinese texlive-xetex python3-sphinx git libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev  libglu1-mesa-dev freeglut3-dev mesa-common-dev 
+        apt_ros_pkgs:
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+     gtsam: #TODo:fast-lio-sam need 4.2.0 #测试以通过
+        url: https://git.robotplusplus.com.cn/third-party/borglab/gtsam.git
+        user: $robuster_git_user
+        tag: 4.2.0
+        local_path: $locla_3rdparty_repos
+        other_exec: gtsam.build 
+        apt_pkgs:
+        apt_ros_pkgs:
+        python2_pip_pkgs:
+        python3_pip_pkgs: 
+     gtsam1: #吞命令了原因不明
+        url: https://git.robotplusplus.com.cn/third-party/borglab/gtsam.git
+        user: $robuster_git_user
+        tag: 4.2.0
+        local_path: $locla_3rdparty_repos
+        other_exec: gtsam.build 
+        apt_pkgs:
+        apt_ros_pkgs:
+        python2_pip_pkgs:
+        python3_pip_pkgs: 
+   driver: # 设备、传感器的ROS驱动
+      wit_node: #
+        url: https://git.robotplusplus.com.cn/drivers/drivers-ros/wit_node.git
+        user: $robuster_git_user
+        tag: v3.0.0
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs: ecl* #todo:20.04这样装似乎有bug
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_drivers_repos
+      robuster_driver:
+        url: https://git.robotplusplus.com.cn/robuster/robuster_driver.git
+        user: $robuster_git_user
+        tag: mr600_v3.0.0
+        other_exec:
+        apt_pkgs: 
+        apt_ros_pkgs: serial
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_drivers_repos
+      realsense_ros:
+        url: https://git.robotplusplus.com.cn/drivers/drivers-ros/realsense-ros.git
+        user: $robuster_git_user
+        tag: rppv3.0.0
+        other_exec:
+        apt_pkgs: 
+        apt_ros_pkgs: serial
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_drivers_repos
+      nmea_navsat_driver:
+        url: https://git.robotplusplus.com.cn/drivers/nmea_navsat_driver.git
+        user:  $robuster_git_user
+        tag: ros1_rpp
+        other_exec:
+        apt_pkgs:  
+        apt_ros_pkgs: catkin-virtualenv
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_drivers_repos
+      rslidar_sdk:
+        url: https://git.robotplusplus.com.cn/drivers/robosense-lidar/rslidar_sdk.git
+        user:  $robuster_git_user
+        tag: 
+        other_exec:
+        apt_pkgs:  libyaml-cpp-dev libpcap-dev
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_drivers_repos
+   slam: # 建图定位ROS包
+     fast_lio_sam: #todo由于默认使用了python3所以这里好单独测试并推送！！！！
+       url: https://git.robotplusplus.com.cn/slam/fast-lio-sam/fast_lio_sam.git
+       user: $robuster_git_user
+       tag: feat-v3.0.1
+       local_path: $local_slam_repos
+       other_exec: fast_lio_sam.build
+       apt_pkgs: libgeographic-dev
+       apt_ros_pkgs:  ros-numpy 
+       python2_pip_pkgs:  # ipywidgets==7.5.1 open3d==0.9  18.04
+       python3_pip_pkgs:   numpy==1.19.5 open3d==0.14.1
+   navigation: # 导航ROS包
+     teb_local_planner:
+       url: https://git.robotplusplus.com.cn/navigation/rst-tu-dortmund/teb_local_planner.git
+       user: $robuster_git_user
+       tag: rppv3.0.0
+       local_path: $local_navigation_repos
+       other_exec:
+       apt_pkgs: libsuitesparse-dev
+       apt_ros_pkgs: costmap-converter mbf-costmap-core mbf-msgs  libg2o
+       python2_pip_pkgs:
+       python3_pip_pkgs:
+     navigation:
+       url: https://git.robotplusplus.com.cn/navigation/ros-planning/navigation.git
+       user: $robuster_git_user
+       tag: rppv3.0.0
+       local_path: $local_navigation_repos
+       other_exec:
+       apt_pkgs: libsdl-image1.2-dev libsdl-dev
+       apt_ros_pkgs: tf2-sensor-msgs 
+       python2_pip_pkgs:
+       python3_pip_pkgs:
+     navigation_msgs:
+       url: https://git.robotplusplus.com.cn/navigation/ros-planning/navigation_msgs.git
+       user: $robuster_git_user
+       tag: rppv3.0.0
+       local_path: $local_navigation_repos
+       other_exec:
+       apt_pkgs: 
+       apt_ros_pkgs:
+       python2_pip_pkgs:
+       python3_pip_pkgs:
+   manipulator: #械臂相关ROS包
+
+   application: # 机器人综合演示demo ROS包
+      navigation_2d:
+        url: https://git.robotplusplus.com.cn/robot-application/navigation_2d.git
+        user: $robuster_git_user
+        tag: mr600-3d #todo 拉取后单独修改
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs: ira-laser-tools pcl-ros pointcloud-to-laserscan
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_application_repos
+      robot_bringup:
+        url: https://git.robotplusplus.com.cn/robot-application/robot_bringup.git
+        user: $robuster_git_user
+        tag: mr600-3d
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_application_repos
+      slam_3d:
+        url: https://git.robotplusplus.com.cn/robot-application/slam_3d.git
+        user: $robuster_git_user
+        tag:  mr600-3d
+        other_exec:
+        apt_pkgs: 
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_application_repos
+   vision: # 仿真相关功能包
+      realsense_gazebo_description:
+        url: https://git.robotplusplus.com.cn/third-party/m-tartari/realsense_gazebo_description.git
+        user: $robuster_git_user
+        tag: rppv3.0.0
+        local_path: $local_vision_repos
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+      realsense_gazebo_plugin:
+        url: https://git.robotplusplus.com.cn/third-party/pal-robotics/realsense_gazebo_plugin.git
+        user: $robuster_git_user
+        tag: rppv3.0.0
+        local_path: $local_vision_repos
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+   product: # 具体产品对应的描述包，bringup包
+    mr600_3d_description: #todo等待修改
+      url: https://git.robotplusplus.com.cn/robuster/description/mr600_3d_description.git
+      user: $robuster_git_user
+      tag: 
+      other_exec:
+      apt_pkgs:
+      apt_ros_pkgs: 
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+      local_path: $local_robot_repos
+    robuster_mr_msgs:
+      url: https://git.robotplusplus.com.cn/robuster/robuster_mr_msgs.git
+      user: $robuster_git_user
+      tag: v3.0.0
+      other_exec:
+      apt_pkgs:
+      apt_ros_pkgs: 
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+      local_path: $local_robot_repos
+   tools:
+
+   rpp_tools:
+    starterButton:
+      url: https://git.robotplusplus.com.cn/others/starterbutton.git
+      user: $robuster_git_user
+      tag:  mr600-3d
+      local_path: $locla_rpp_tools
+      other_exec:
+      apt_pkgs:
+      apt_ros_pkgs:
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+    pointcloud_to_2dmap:
+      url: https://git.robotplusplus.com.cn/slam/pointcloud_to_2dmap.git
+      user: $robuster_git_user
+      tag:  
+      local_path: $locla_rpp_tools
+      other_exec: pointcloud_to_2dmap.build
+      apt_pkgs:
+      apt_ros_pkgs:
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+   rpp_data:
+    rpp_data:
+      url: https://git.robotplusplus.com.cn/others/rpp_data.git
+      user: $robuster_git_user
+      tag: mr2000-feat-3.0.1 #与mr2000通用
+      local_path: $locla_rpp_data
+      other_exec: rpp_data.build
+      apt_pkgs:
+      apt_ros_pkgs:
+      python2_pip_pkgs:
+      python3_pip_pkgs:

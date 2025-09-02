@@ -1,0 +1,32 @@
+1756026896.6195111 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-24-17-14-56-619015-rpp-Default-string-21344
+1756026896.6195846 [INFO] [launch]: Default logging verbosity is set to INFO
+1756026896.9185212 [INFO] [lakibeam1_scan_node-1]: process started with pid [21345]
+1756026896.9186306 [INFO] [livox_ros_driver2_node-2]: process started with pid [21347]
+1756026896.9186821 [INFO] [lidar_clipping-3]: process started with pid [21349]
+1756026896.9187207 [INFO] [robot_state_publisher-4]: process started with pid [21351]
+1756026896.9187543 [INFO] [joint_state_publisher-5]: process started with pid [21353]
+1756026896.9187837 [INFO] [rpp_ros_driver_node-6]: process started with pid [21355]
+1756026897.1505413 [joint_state_publisher-5] [INFO] [1756026897.150366851] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1756027357.8813686 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756027357.9627860 [ERROR] [lakibeam1_scan_node-1]: process has died [pid 21345, exit code -6, cmd '/home/rpp/rpp_ws/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node --ros-args -r __node:=lakibeam1_back_node -r __ns:=/ --params-file /tmp/launch_params_szrr2ryf'].
+1756027358.6170654 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756027358.6180575 [joint_state_publisher-5] Traceback (most recent call last):
+1756027358.6181366 [joint_state_publisher-5]   File "/opt/ros/humble/lib/joint_state_publisher/joint_state_publisher", line 33, in <module>
+1756027358.6181991 [joint_state_publisher-5]     sys.exit(load_entry_point('joint-state-publisher==2.4.0', 'console_scripts', 'joint_state_publisher')())
+1756027358.6182530 [joint_state_publisher-5]   File "/opt/ros/humble/lib/python3.10/site-packages/joint_state_publisher/joint_state_publisher.py", line 470, in main
+1756027358.6183047 [joint_state_publisher-5]     jsp.destroy_node()
+1756027358.6183698 [joint_state_publisher-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 1681, in destroy_node
+1756027358.6185441 [joint_state_publisher-5]     self.destroy_subscription(self._subscriptions[0])
+1756027358.6186090 [joint_state_publisher-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 1577, in destroy_subscription
+1756027358.6186626 [joint_state_publisher-5]     subscription.destroy()
+1756027358.6187105 [joint_state_publisher-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/subscription.py", line 80, in destroy
+1756027358.6188712 [joint_state_publisher-5]     self.handle.destroy_when_not_in_use()
+1756027358.6189408 [joint_state_publisher-5] KeyboardInterrupt
+1756027358.6472239 [ERROR] [joint_state_publisher-5]: process has died [pid 21353, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher/joint_state_publisher --ros-args -r __node:=joint_state_publisher --params-file /tmp/launch_params_7lt7x_nl'].
+1756027358.7318685 [INFO] [lidar_clipping-3]: process has finished cleanly [pid 21349]
+1756027358.7335131 [INFO] [robot_state_publisher-4]: process has finished cleanly [pid 21351]
+1756027358.8572934 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756027358.8588736 [ERROR] [livox_ros_driver2_node-2]: process has died [pid 21347, exit code -2, cmd '/home/rpp/rpp_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node --ros-args -r __node:=livox_node -r __ns:=/ --params-file /tmp/launch_params_z9yj34ov --params-file /tmp/launch_params_gt8fh6ha --params-file /tmp/launch_params_wbd15pzp --params-file /tmp/launch_params_8uc3876b --params-file /tmp/launch_params_yyimibuq --params-file /tmp/launch_params_vgsrca2h --params-file /tmp/launch_params_cm1y0y4q --params-file /tmp/launch_params_klwou39d --params-file /tmp/launch_params_lc9md72o'].
+1756027359.0731394 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756027359.8969569 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756027360.7124186 [INFO] [rpp_ros_driver_node-6]: process has finished cleanly [pid 21355]

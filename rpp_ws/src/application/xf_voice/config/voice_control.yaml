@@ -1,0 +1,4 @@
+voice_control:
+  ros__parameters:
+    mic_to_base_T: [0.000, -0.055, -1.562]
+    mic_to_base_R: [0, 0, 90]

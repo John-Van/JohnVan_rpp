@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/drivers/ros2_kortex/kortex_description/grippers/robotiq_2f_140/README.md

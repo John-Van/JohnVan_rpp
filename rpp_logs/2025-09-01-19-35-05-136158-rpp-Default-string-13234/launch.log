@@ -1,0 +1,7 @@
+1756726505.1367085 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-19-35-05-136158-rpp-Default-string-13234
+1756726505.1367893 [INFO] [launch]: Default logging verbosity is set to INFO
+1756726505.1654990 [INFO] [linker_hand_sdk-1]: process started with pid [13235]
+1756726505.1655898 [INFO] [linker_hand_sdk-2]: process started with pid [13237]
+1756726515.9715736 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756726516.1079021 [INFO] [linker_hand_sdk-2]: process has finished cleanly [pid 13237]
+1756726516.1083384 [INFO] [linker_hand_sdk-1]: process has finished cleanly [pid 13235]

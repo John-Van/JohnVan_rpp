@@ -1,0 +1,10 @@
+[INFO] [1756281757.580925156] [example]: example node started
+[WARN] [1756281757.813554382] [example]: Service 'plan_kinematic_path' is not yet available. Better luck next time!
+[WARN] [1756281757.814517470] [example]: Cannot execute motion because the provided/planned trajectory is invalid.
+[WARN] [1756281757.814815953] [example]: Cannot wait until motion is executed (no motion is in progress).
+[WARN] [1756281758.112571214] [example]: Service 'plan_kinematic_path' is not yet available. Better luck next time!
+[WARN] [1756281758.113447939] [example]: Cannot execute motion because the provided/planned trajectory is invalid.
+[WARN] [1756281758.113964474] [example]: Cannot wait until motion is executed (no motion is in progress).
+[WARN] [1756281758.412612578] [example]: Service 'plan_kinematic_path' is not yet available. Better luck next time!
+[WARN] [1756281758.413557426] [example]: Cannot execute motion because the provided/planned trajectory is invalid.
+[WARN] [1756281758.413834380] [example]: Cannot wait until motion is executed (no motion is in progress).

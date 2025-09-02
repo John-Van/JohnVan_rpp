@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rpp_msgs/msg/MotorState.msg
+// generated code does not contain a copyright notice
+
+#include "rpp_msgs/msg/SingleMotorState.idl"
+
+module rpp_msgs {
+  module msg {
+    typedef rpp_msgs::msg::SingleMotorState rpp_msgs__msg__SingleMotorState;
+    typedef rpp_msgs__msg__SingleMotorState rpp_msgs__msg__SingleMotorState__4[4];
+    struct MotorState {
+      rpp_msgs__msg__SingleMotorState__4 motor_states;
+
+      @verbatim (language="comment", text=
+        "time stamp in nanoseconds, since epoch")
+      int64 ts;
+    };
+  };
+};

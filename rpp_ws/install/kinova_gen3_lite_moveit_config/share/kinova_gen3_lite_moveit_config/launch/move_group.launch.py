@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/drivers/ros2_kortex/kortex_moveit_config/kinova_gen3_lite_moveit_config/launch/move_group.launch.py

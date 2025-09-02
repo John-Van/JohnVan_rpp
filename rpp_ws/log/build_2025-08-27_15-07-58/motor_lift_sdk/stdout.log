@@ -1,0 +1,34 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rpp/rpp_ws/build/motor_lift_sdk
+[ 14%] [32mBuilding CXX object CMakeFiles/motor_lift_sdk.dir/src/motor_lift.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/motor_lift_sdk.dir/src/can_motor.cpp.o[0m
+[ 42%] [32m[1mLinking CXX shared library libmotor_lift_sdk.so[0m
+[ 42%] Built target motor_lift_sdk
+[ 57%] [32mBuilding CXX object CMakeFiles/rpp_keyboard_teleoperate.dir/src/can_motor.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/rpp_keyboard_teleoperate.dir/examples/keyboard_teleoperate.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rpp_keyboard_teleoperate.dir/src/motor_lift.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rpp_keyboard_teleoperate[0m
+[100%] Built target rpp_keyboard_teleoperate
+-- Install configuration: "Debug"
+-- Installing: /home/rpp/rpp_ws/install/motor_lift_sdk/lib/libmotor_lift_sdk.so
+-- Installing: /home/rpp/rpp_ws/install/motor_lift_sdk/bin/rpp_keyboard_teleoperate
+-- Set runtime path of "/home/rpp/rpp_ws/install/motor_lift_sdk/bin/rpp_keyboard_teleoperate" to ""
+-- Installing: /home/rpp/rpp_ws/install/motor_lift_sdk/include
+-- Installing: /home/rpp/rpp_ws/install/motor_lift_sdk/include/motor_lift
+-- Installing: /home/rpp/rpp_ws/install/motor_lift_sdk/include/motor_lift/can_motor.h
+-- Installing: /home/rpp/rpp_ws/install/motor_lift_sdk/include/motor_lift/motor_lift.h
+-- Installing: /home/rpp/rpp_ws/install/motor_lift_sdk/share/motor_lift_sdk/cmake/motor_lift_sdkConfig.cmake
+-- Installing: /home/rpp/rpp_ws/install/motor_lift_sdk/share/motor_lift_sdk/cmake/motor_lift_sdkConfig-debug.cmake

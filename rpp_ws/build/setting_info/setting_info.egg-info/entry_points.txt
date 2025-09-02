@@ -1,0 +1,3 @@
+[console_scripts]
+setting_info_node = setting_info.setting_info_node:main
+

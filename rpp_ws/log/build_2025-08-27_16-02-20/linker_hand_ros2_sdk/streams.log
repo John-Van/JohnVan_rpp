@@ -1,0 +1,17 @@
+[1.932s] Invoking command in '/home/rpp/rpp_ws/build/linker_hand_ros2_sdk': PYTHONPATH=/home/rpp/rpp_ws/build/linker_hand_ros2_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rpp/rpp_ws/build/linker_hand_ros2_sdk/build --no-deps symlink_data
+[2.461s] running develop
+[2.686s] running egg_info
+[2.686s] writing linker_hand_ros2_sdk.egg-info/PKG-INFO
+[2.687s] writing dependency_links to linker_hand_ros2_sdk.egg-info/dependency_links.txt
+[2.687s] writing entry points to linker_hand_ros2_sdk.egg-info/entry_points.txt
+[2.687s] writing requirements to linker_hand_ros2_sdk.egg-info/requires.txt
+[2.687s] writing top-level names to linker_hand_ros2_sdk.egg-info/top_level.txt
+[2.692s] reading manifest file 'linker_hand_ros2_sdk.egg-info/SOURCES.txt'
+[2.695s] writing manifest file 'linker_hand_ros2_sdk.egg-info/SOURCES.txt'
+[2.701s] running build_ext
+[2.703s] Creating /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/lib/python3.10/site-packages/linker-hand-ros2-sdk.egg-link (link to .)
+[2.709s] Installing linker_hand_sdk script to /home/rpp/rpp_ws/install/linker_hand_ros2_sdk/lib/linker_hand_ros2_sdk
+[2.711s] 
+[2.712s] Installed /home/rpp/rpp_ws/build/linker_hand_ros2_sdk
+[2.712s] running symlink_data
+[2.785s] Invoked command in '/home/rpp/rpp_ws/build/linker_hand_ros2_sdk' returned '0': PYTHONPATH=/home/rpp/rpp_ws/build/linker_hand_ros2_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rpp/rpp_ws/build/linker_hand_ros2_sdk/build --no-deps symlink_data

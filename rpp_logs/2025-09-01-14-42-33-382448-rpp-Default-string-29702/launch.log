@@ -1,0 +1,5 @@
+1756708953.3830776 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-14-42-33-382448-rpp-Default-string-29702
+1756708953.3831630 [INFO] [launch]: Default logging verbosity is set to INFO
+1756708953.4114776 [INFO] [motor_pitch_ros_node-1]: process started with pid [29703]
+1756709148.2926128 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756709148.4625468 [ERROR] [motor_pitch_ros_node-1]: process has died [pid 29703, exit code -11, cmd '/home/rpp/rpp_ws/install/motor_pitch_ros/lib/motor_pitch_ros/motor_pitch_ros_node --ros-args -r __node:=motor_pitch_ros_node --params-file /home/rpp/rpp_ws/install/motor_pitch_ros/share/motor_pitch_ros/config/config.yaml'].

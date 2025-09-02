@@ -1,0 +1,49 @@
+[INFO] [1756038660.851689497] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756038660.851752801] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1756038660.867830868] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1756038663.982422807] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1756038663.991554829] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1756038664.039194482] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756038664.077819931] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0224675 seconds
+[INFO] [1756038664.077847574] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+[INFO] [1756038664.077856312] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[ERROR] [1756038664.434354496] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+[ERROR] [1756038664.434371746] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+[ERROR] [1756038664.434381229] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+[INFO] [1756038665.358552814] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1756038665.358884841] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1756038666.426308299] [interactive_marker_display_94104297459616]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1756038666.462626053] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+[INFO] [1756038666.462640070] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+[INFO] [1756038666.467226378] [move_group_interface]: Ready to take commands for planning group dual_arm.
+[INFO] [1756038666.621369264] [interactive_marker_display_94104297459616]: Sending request for interactive markers
+[INFO] [1756038666.767800498] [interactive_marker_display_94104297459616]: Service response received for initialization
+[INFO] [1756038687.782163762] [move_group_interface]: Plan and Execute request accepted
+[INFO] [1756038752.078806748] [move_group_interface]: Plan and Execute request complete!
+[INFO] [1756044958.110060981] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+[INFO] [1756044958.110100319] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'left_arm' in namespace ''
+[INFO] [1756044958.114103090] [move_group_interface]: Ready to take commands for planning group left_arm.
+[INFO] [1756044959.946377223] [move_group_interface]: Plan and Execute request accepted
+[INFO] [1756044962.448169266] [move_group_interface]: Plan and Execute request complete!
+[INFO] [1756045463.095595619] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
+[INFO] [1756045464.016440730] [interactive_marker_display_94104297459616]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1756045464.016652522] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1756045464.030651194] [interactive_marker_display_94104297459616]: Sending request for interactive markers
+[INFO] [1756045464.059211361] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0176634 seconds
+[INFO] [1756045464.059227020] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+[INFO] [1756045464.059230037] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1756045464.094867896] [interactive_marker_display_94104297459616]: Server not available during initialization, resetting
+[ERROR] [1756045464.394572393] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+[ERROR] [1756045464.394602104] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+[ERROR] [1756045464.394612010] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+[INFO] [1756045465.355312631] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1756045465.355718465] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1756045465.436974475] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+[INFO] [1756045465.436990549] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'left_arm' in namespace ''
+[INFO] [1756045465.440255949] [move_group_interface]: Ready to take commands for planning group left_arm.
+[INFO] [1756045465.479817647] [interactive_marker_display_94104297459616]: Sending request for interactive markers
+[INFO] [1756045465.550858249] [interactive_marker_display_94104297459616]: Service response received for initialization
+[INFO] [1756045689.781236416] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+[INFO] [1756045689.781281018] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+[INFO] [1756045689.786471585] [move_group_interface]: Ready to take commands for planning group dual_arm.
+[INFO] [1756051622.817204030] [rclcpp]: signal_handler(signum=2)

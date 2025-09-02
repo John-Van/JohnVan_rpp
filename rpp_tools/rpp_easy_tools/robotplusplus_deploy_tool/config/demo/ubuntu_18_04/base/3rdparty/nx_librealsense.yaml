@@ -1,0 +1,15 @@
+---
+nx_image:
+  git_repos:
+   3rdparty: # 存放需要源码编译的第三方库，如GTSAM, OpenCV, ceres 等。也包含一些设备的驱动程序，如librealsense, livox-SDK等
+     librealsense:
+        url: https://git.robotplusplus.com.cn/drivers/intelrealsense/librealsense.git
+        user: $robuster_git_user
+        tag: t503V3.0.0
+        local_path: $locla_3rdparty_repos
+        other_exec: rpp_nx_librealsense.build
+        apt_pkgs:
+        apt_ros_pkgs:
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+   

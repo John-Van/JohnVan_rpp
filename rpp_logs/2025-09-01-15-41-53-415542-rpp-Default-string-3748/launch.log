@@ -1,0 +1,9 @@
+1756712513.4160528 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-15-41-53-415542-rpp-Default-string-3748
+1756712513.4161234 [INFO] [launch]: Default logging verbosity is set to INFO
+1756712513.4411595 [INFO] [motor_lift_ros_node-1]: process started with pid [3749]
+1756712744.2871537 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756712745.8310721 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756712747.1433625 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756712747.6869342 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756712749.2890542 [ERROR] [motor_lift_ros_node-1]: process[motor_lift_ros_node-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1756712749.2892857 [INFO] [motor_lift_ros_node-1]: sending signal 'SIGTERM' to process[motor_lift_ros_node-1]

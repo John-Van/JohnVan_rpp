@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/wheeltec_mic_msg/rosidl_generator_c/wheeltec_mic_msg/msg/detail/position__type_support.h

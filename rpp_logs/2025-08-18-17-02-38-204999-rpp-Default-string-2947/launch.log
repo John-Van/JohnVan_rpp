@@ -1,0 +1,18 @@
+1755507758.2055409 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-18-17-02-38-204999-rpp-Default-string-2947
+1755507758.2056174 [INFO] [launch]: Default logging verbosity is set to INFO
+1755507758.5658729 [INFO] [lakibeam1_scan_node-1]: process started with pid [2969]
+1755507758.5659900 [INFO] [livox_ros_driver2_node-2]: process started with pid [2971]
+1755507758.5660377 [INFO] [lidar_clipping-3]: process started with pid [2973]
+1755507758.5660713 [INFO] [robot_state_publisher-4]: process started with pid [2975]
+1755507758.5661023 [INFO] [joint_state_publisher-5]: process started with pid [2977]
+1755507758.5661390 [INFO] [rpp_ros_driver_node-6]: process started with pid [2979]
+1755507758.9908011 [joint_state_publisher-5] [INFO] [1755507758.990636602] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1755507840.3560224 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755507840.4221854 [ERROR] [rpp_ros_driver_node-6]: process has died [pid 2979, exit code -6, cmd '/home/rpp/rpp_ws/install/rpp_ros_driver/lib/rpp_ros_driver/rpp_ros_driver_node --ros-args --params-file /home/rpp/rpp_ws/install/robot_bringup/share/robot_bringup/params/rpp.yaml --params-file /tmp/launch_params_qla7wj8g'].
+1755507840.4663494 [INFO] [lidar_clipping-3]: process has finished cleanly [pid 2973]
+1755507840.4678111 [INFO] [robot_state_publisher-4]: process has finished cleanly [pid 2975]
+1755507840.4817648 [ERROR] [lakibeam1_scan_node-1]: process has died [pid 2969, exit code -6, cmd '/home/rpp/rpp_ws/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node --ros-args -r __node:=lakibeam1_back_node -r __ns:=/ --params-file /tmp/launch_params_w79a8hvt'].
+1755507840.4919090 [INFO] [joint_state_publisher-5]: process has finished cleanly [pid 2977]
+1755507840.6522007 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1755507840.8365655 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1755507840.8397012 [ERROR] [livox_ros_driver2_node-2]: process has died [pid 2971, exit code -2, cmd '/home/rpp/rpp_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node --ros-args -r __node:=livox_node -r __ns:=/ --params-file /tmp/launch_params__o9lh89d --params-file /tmp/launch_params_5sneomdq --params-file /tmp/launch_params_xxp73w9e --params-file /tmp/launch_params_4pfby6d7 --params-file /tmp/launch_params_lw1vg3x3 --params-file /tmp/launch_params_2i50zcy8 --params-file /tmp/launch_params_ffs0qcn0 --params-file /tmp/launch_params_d4z8qv7r --params-file /tmp/launch_params_bc_o61wj'].

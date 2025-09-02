@@ -1,0 +1,28 @@
+[INFO] [1756709223.248162297] [serial_driver]: motion model: 2wd
+[INFO] [1756709223.248791113] [serial_driver]: enable serial control 00
+[INFO] [1756709223.348911358] [serial_driver]: enable serial control 00
+[INFO] [1756709223.449096126] [serial_driver]: enable serial control 00
+[INFO] [1756709223.549321311] [serial_driver]: enable serial control 00
+[INFO] [1756709223.649631419] [serial_driver]: enable serial control 00
+[INFO] [1756709223.749779266] [serial_driver]: enable serial control 00
+[INFO] [1756709223.849999894] [serial_driver]: enable serial control 00
+[INFO] [1756709223.950298469] [serial_driver]: enable serial control 00
+[INFO] [1756709224.050556447] [serial_driver]: enable serial control 00
+[INFO] [1756709224.150828055] [serial_driver]: enable serial control 00
+[INFO] [1756709224.251047097] [serial_driver]: enable serial control 00
+[INFO] [1756709224.351268670] [serial_driver]: enable serial control 00
+[INFO] [1756709224.451492034] [serial_driver]: enable serial control 00
+[INFO] [1756709224.551783180] [serial_driver]: enable serial control 00
+[INFO] [1756709224.651996635] [serial_driver]: enable serial control 00
+[INFO] [1756709224.752271174] [serial_driver]: enable serial control 00
+[INFO] [1756709224.852504821] [serial_driver]: enable serial control 00
+[INFO] [1756709224.952753080] [serial_driver]: enable serial control 00
+[INFO] [1756709225.053078894] [serial_driver]: enable serial control 00
+[INFO] [1756709225.153470987] [serial_driver]: enable serial control 00
+[INFO] [1756709225.253814286] [serial_driver]: enable serial control 00
+[INFO] [1756709225.354141560] [serial_driver]: enable serial control 00
+[INFO] [1756709225.454415936] [serial_driver]: enable serial control 00
+[INFO] [1756709225.554721147] [serial_driver]: enable serial control 00
+[INFO] [1756709225.654976098] [serial_driver]: enable serial control 00
+[INFO] [1756709225.755197561] [serial_driver]: enable serial control success
+[INFO] [1756710342.937844617] [rclcpp]: signal_handler(signum=2)

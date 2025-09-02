@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/slam/FASTLIO2_ROS2/fastlio2/launch/lio_launch.py

@@ -1,0 +1,11 @@
+1756708748.5554178 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-14-39-08-554823-rpp-Default-string-28525
+1756708748.5555005 [INFO] [launch]: Default logging verbosity is set to INFO
+1756708749.5571556 [INFO] [robot_state_publisher-1]: process started with pid [28530]
+1756708749.5572813 [INFO] [gzserver-2]: process started with pid [28532]
+1756708749.5573354 [INFO] [gzclient-3]: process started with pid [28534]
+1756708749.5573745 [INFO] [spawn_entity.py-4]: process started with pid [28536]
+1756708749.8383815 [ERROR] [gzserver-2]: process has died [pid 28532, exit code 255, cmd 'gzserver /opt/ros/humble/share/gazebo_ros/worlds/empty.world -slibgazebo_ros_init.so -slibgazebo_ros_factory.so -slibgazebo_ros_force_system.so'].
+1756708767.9906437 [INFO] [gzclient-3]: process has finished cleanly [pid 28534]
+1756708769.5506396 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756708769.5744162 [ERROR] [spawn_entity.py-4]: process has died [pid 28536, exit code -2, cmd '/opt/ros/humble/lib/gazebo_ros/spawn_entity.py -topic robot_description -entity ea200 -z 0.08 --ros-args -r __node:=spawn_robot'].
+1756708769.6566660 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 28530]

@@ -1,0 +1,7 @@
+[INFO] [1756519962.482760937] [livox_node]: Livox Ros Driver2 Version: 1.0.0
+[INFO] [1756519962.483138930] [livox_node]: Data Source is raw lidar.
+[INFO] [1756519962.483148820] [livox_node]: Config file : /home/rpp/rpp_ws/install/robot_bringup/share/robot_bringup/params/MID360_config.json
+[INFO] [1756519962.484774643] [livox_node]: Init lds lidar success!
+[INFO] [1756519965.485018491] [livox_node]: livox/imu publish use imu format
+[INFO] [1756519965.487007220] [livox_node]: livox/lidar publish use livox custom format
+[INFO] [1756530467.064197342] [rclcpp]: signal_handler(signum=2)

@@ -1,0 +1,26 @@
+1755507758.3980558 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-18-17-02-38-397604-rpp-Default-string-2968
+1755507758.3981237 [INFO] [launch]: Default logging verbosity is set to INFO
+1755507758.7211318 [INFO] [lakibeam1_scan_node-1]: process started with pid [3043]
+1755507758.7212412 [INFO] [livox_ros_driver2_node-2]: process started with pid [3045]
+1755507758.7212870 [INFO] [lidar_clipping-3]: process started with pid [3047]
+1755507758.7213228 [INFO] [robot_state_publisher-4]: process started with pid [3049]
+1755507758.7213535 [INFO] [joint_state_publisher-5]: process started with pid [3051]
+1755507758.7213840 [INFO] [rpp_ros_driver_node-6]: process started with pid [3053]
+1755507759.0065851 [joint_state_publisher-5] [INFO] [1755507759.006427448] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1755507836.3320255 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755507836.4484367 [INFO] [lidar_clipping-3]: process has finished cleanly [pid 3047]
+1755507836.4494357 [INFO] [robot_state_publisher-4]: process has finished cleanly [pid 3049]
+1755507836.4765592 [INFO] [joint_state_publisher-5]: process has finished cleanly [pid 3051]
+1755507837.1292191 [ERROR] [livox_ros_driver2_node-2]: process has died [pid 3045, exit code -11, cmd '/home/rpp/rpp_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node --ros-args -r __node:=livox_node -r __ns:=/ --params-file /tmp/launch_params_4ph8081q --params-file /tmp/launch_params_f9gk7m0q --params-file /tmp/launch_params_cvittgsr --params-file /tmp/launch_params_1n9sdrny --params-file /tmp/launch_params_ldkh92en --params-file /tmp/launch_params_dluac5ce --params-file /tmp/launch_params__vnfxax0 --params-file /tmp/launch_params_f0xf5vg0 --params-file /tmp/launch_params_ib2m5wch'].
+1755507838.3165977 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1755507839.1488886 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1755507841.0915940 [ERROR] [rpp_ros_driver_node-6]: process has died [pid 3053, exit code -11, cmd '/home/rpp/rpp_ws/install/rpp_ros_driver/lib/rpp_ros_driver/rpp_ros_driver_node --ros-args --params-file /home/rpp/rpp_ws/install/robot_bringup/share/robot_bringup/params/rpp.yaml --params-file /tmp/launch_params_nzaaihy6'].
+1755507841.3385775 [ERROR] [lakibeam1_scan_node-1]: process[lakibeam1_scan_node-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1755507841.3394427 [INFO] [lakibeam1_scan_node-1]: sending signal 'SIGTERM' to process[lakibeam1_scan_node-1]
+1755507842.6288774 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1755507842.8288686 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1755507844.4527118 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1755507845.3966959 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1755507846.3396852 [ERROR] [lakibeam1_scan_node-1]: process[lakibeam1_scan_node-1] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+1755507846.3404791 [INFO] [lakibeam1_scan_node-1]: sending signal 'SIGKILL' to process[lakibeam1_scan_node-1]
+1755507846.3430700 [ERROR] [lakibeam1_scan_node-1]: process has died [pid 3043, exit code -9, cmd '/home/rpp/rpp_ws/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node --ros-args -r __node:=lakibeam1_back_node -r __ns:=/ --params-file /tmp/launch_params_7xh3hrm_'].

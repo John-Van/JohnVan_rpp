@@ -1,0 +1,26 @@
+[0.784s] Invoking command in '/home/rpp/rpp_ws/build/navigation_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/navigation_2d -- -j24 -l24
+[1.204s] Invoked command in '/home/rpp/rpp_ws/build/navigation_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/navigation_2d -- -j24 -l24
+[1.206s] Invoking command in '/home/rpp/rpp_ws/build/navigation_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/navigation_2d
+[1.382s] -- Install configuration: ""
+[1.382s] -- Execute custom install script
+[1.382s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/launch/amcl_navigation.launch.py
+[1.382s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/launch/fast_lio_navigation.launch.py
+[1.382s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/launch/localization_amcl.launch.py
+[1.382s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/launch/localization_lio.launch.py
+[1.382s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/launch/navigation.launch.py
+[1.382s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/ament_index/resource_index/package_run_dependencies/navigation_2d
+[1.382s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/ament_index/resource_index/parent_prefix_path/navigation_2d
+[1.382s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/environment/ament_prefix_path.sh
+[1.382s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/environment/ament_prefix_path.dsv
+[1.382s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/environment/path.sh
+[1.382s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/environment/path.dsv
+[1.382s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/local_setup.bash
+[1.382s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/local_setup.sh
+[1.382s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/local_setup.zsh
+[1.383s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/local_setup.dsv
+[1.383s] -- Symlinking: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/package.dsv
+[1.383s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/ament_index/resource_index/packages/navigation_2d
+[1.383s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/cmake/navigation_2dConfig.cmake
+[1.383s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/cmake/navigation_2dConfig-version.cmake
+[1.383s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/navigation_2d/share/navigation_2d/package.xml
+[1.551s] Invoked command in '/home/rpp/rpp_ws/build/navigation_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/navigation_2d

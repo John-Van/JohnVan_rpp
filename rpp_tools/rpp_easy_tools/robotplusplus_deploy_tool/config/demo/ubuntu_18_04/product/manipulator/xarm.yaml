@@ -1,0 +1,16 @@
+---
+1804_product:
+  git_repos:
+   manipulator: #械臂相关ROS包
+      xarm:
+        url: https://git.robotplusplus.com.cn/drivers/drivers-ros/xarm_ros.git
+        user: $robuster_git_user
+        tag: 
+        local_path: $local_manipulator_repos
+        other_exec: rpp_xarm_build.build
+        apt_pkgs:
+        apt_ros_pkgs: gazebo-ros-pkgs ros-control roboticsgroup-upatras-gazebo-plugins ros-control ros-controllers moveit-visual-tools 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+   
+

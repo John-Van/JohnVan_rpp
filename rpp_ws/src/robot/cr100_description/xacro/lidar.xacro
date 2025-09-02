@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="lidar">
+    <xacro:macro name="lidar"
+        params="lidar_prefix:='' 
+        *joint_pose 
+        sim_gazebo:=false
+        visualize_lidar:=false
+        lidar_topic:='/livox/lidar' 
+        lidar_hz:=20 
+        lidar_h_samples:=2000 
+        lidar_h_resolution:=0.25 
+        lidar_h_min_angle:=-${PI} 
+        lidar_h_max_angle:=${PI} 
+        lidar_v_samples:=16 
+        lidar_v_resolution:=1 
+        lidar_v_min_angle:=-0.2618 
+        lidar_v_max_angle:=0.2618 
+        lidar_min_range:=0.6 
+        lidar_max_range:=150.0 
+        lidar_noise_stddev:=0.008 
+        imu_topic:='/livox/imu' 
+        imu_update_rate:=200 
+        imu_angular_noise_stddev:=0.0002 
+        imu_linear_noise_stddev:=0.017">
+        <link name="${lidar_prefix}_link">
+            <inertial>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <mass value="0" />
+                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+            </inertial>
+            <visual>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <mesh filename="package://cr100_description/meshes/lidar_link.STL" />
+                </geometry>
+                <material name="">
+                    <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+                </material>
+            </visual>
+            <collision>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <mesh filename="package://cr100_description/meshes/lidar_link.STL" />
+                </geometry>
+            </collision>
+        </link>
+
+        <joint name="${lidar_prefix}_joint" type="fixed">
+            <xacro:insert_block name="joint_pose" />
+            <parent link="base_link" />
+            <child link="${lidar_prefix}_link" />
+            <axis xyz="0 0 0" />
+        </joint>
+
+        <link name="livox_frame" />
+        <joint name="${lidar_prefix}_imu_joint" type="fixed">
+            <xacro:insert_block name="joint_pose" />
+            <parent link="base_link" />
+            <child link="livox_frame" />
+            <axis xyz="0 0 0" />
+        </joint>
+
+        <xacro:if value="${sim_gazebo}">
+            <gazebo reference="${lidar_prefix}_link">
+                <sensor type="gpu_ray" name="${lidar_prefix}lidar">
+                    <pose>0 0 0 0 0 0</pose>
+                    <visualize>${visualize_lidar}</visualize>
+                    <update_rate>${lidar_hz}</update_rate>
+                    <ray>
+                        <scan>
+                            <horizontal>
+                                <samples>${lidar_h_samples}</samples>
+                                <resolution>${lidar_h_resolution}</resolution>
+                                <min_angle>${lidar_h_min_angle}</min_angle>
+                                <max_angle>${lidar_h_max_angle}</max_angle>
+                            </horizontal>
+                            <vertical>
+                                <samples>${lidar_v_samples}</samples>
+                                <resolution>${lidar_v_resolution}</resolution>
+                                <min_angle>${lidar_v_min_angle}</min_angle>
+                                <max_angle>${lidar_v_max_angle}</max_angle>
+                            </vertical>
+                        </scan>
+                        <range>
+                            <min>${lidar_min_range}</min>
+                            <max>${lidar_max_range}</max>
+                            <resolution>0.001</resolution>
+                        </range>
+                        <noise>
+                            <type>gaussian</type>
+                            <mean>0.0</mean>
+                            <stddev>${lidar_noise_stddev}</stddev>
+                        </noise>
+                    </ray>
+                    <plugin name="gazebo_ros_laser_controller"
+                        filename="libgazebo_ros_ray_sensor.so">
+                        <ros>
+                            <namespace>/</namespace>
+                            <remapping>~/out:=${lidar_topic}</remapping>
+                        </ros>
+                        <output_type>sensor_msgs/PointCloud2</output_type>
+                        <frame_name>${lidar_prefix}_link</frame_name>
+                        <min_range>${lidar_min_range}</min_range>
+                        <max_range>${lidar_max_range}</max_range>
+                    </plugin>
+                </sensor>
+
+                <sensor name="livox_imu" type="imu">
+                    <always_on>true</always_on>
+                    <update_rate>${imu_update_rate}</update_rate>
+                    <imu>
+                        <angular_velocity>
+                            <x>
+                                <noise type="gaussian">
+                                    <mean>0.0</mean>
+                                    <stddev>${imu_angular_noise_stddev}</stddev>
+                                </noise>
+                            </x>
+                            <y>
+                                <noise type="gaussian">
+                                    <mean>0.0</mean>
+                                    <stddev>${imu_angular_noise_stddev}</stddev>
+                                </noise>
+                            </y>
+                            <z>
+                                <noise type="gaussian">
+                                    <mean>0.0</mean>
+                                    <stddev>${imu_angular_noise_stddev}</stddev>
+                                </noise>
+                            </z>
+                        </angular_velocity>
+                        <linear_acceleration>
+                            <x>
+                                <noise type="gaussian">
+                                    <mean>0.0</mean>
+                                    <stddev>${imu_linear_noise_stddev}</stddev>
+                                </noise>
+                            </x>
+                            <y>
+                                <noise type="gaussian">
+                                    <mean>0.0</mean>
+                                    <stddev>${imu_linear_noise_stddev}</stddev>
+                                </noise>
+                            </y>
+                            <z>
+                                <noise type="gaussian">
+                                    <mean>0.0</mean>
+                                    <stddev>${imu_linear_noise_stddev}</stddev>
+                                </noise>
+                            </z>
+                        </linear_acceleration>
+                    </imu>
+                    <plugin name="lidar_imu" filename="libgazebo_ros_imu_sensor.so">
+                        <ros>
+                            <namespace>/</namespace>
+                            <remapping>~/out:=${imu_topic}</remapping>
+                        </ros>
+                        <initial_orientation_as_reference>true</initial_orientation_as_reference>
+                        <frame_name>${lidar_prefix}_link</frame_name>
+                    </plugin>
+                </sensor>
+            </gazebo>
+        </xacro:if>
+    </xacro:macro>
+</robot>

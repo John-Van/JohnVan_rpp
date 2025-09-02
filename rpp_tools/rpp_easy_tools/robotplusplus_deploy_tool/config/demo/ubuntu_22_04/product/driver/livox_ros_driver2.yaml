@@ -1,0 +1,14 @@
+---
+2204_product:
+  git_repos:
+   driver: # 设备、传感器的ROS驱动
+      livox_ros_driver2: #ros2
+        url: https://git.robotplusplus.com.cn/drivers/livox-sdk/livox_ros_driver2.git
+        user: $robuster_git_user
+        tag: 
+        other_exec: livox_ros_driver2_humble.build
+        apt_pkgs:
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_drivers_repos

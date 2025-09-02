@@ -1,0 +1,41 @@
+[INFO] [1756530609.990801774] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756530609.990864406] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1756530610.026388582] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1756530613.124666754] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1756530613.132706837] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1756530613.162476458] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756530613.196793289] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0189219 seconds
+[INFO] [1756530613.196820081] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+[INFO] [1756530613.196826303] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[ERROR] [1756530613.536120635] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+[ERROR] [1756530613.536136400] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+[ERROR] [1756530613.536146597] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+[INFO] [1756530614.388625992] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1756530614.388962834] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1756530615.380645630] [interactive_marker_display_102636977731952]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1756530615.411998686] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+[INFO] [1756530615.412012142] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+[INFO] [1756530615.417014276] [move_group_interface]: Ready to take commands for planning group dual_arm.
+[INFO] [1756530615.539955587] [interactive_marker_display_102636977731952]: Sending request for interactive markers
+[INFO] [1756530615.655696996] [interactive_marker_display_102636977731952]: Service response received for initialization
+[INFO] [1756530622.686089803] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756530622.686799161] [move_group_interface]: Planning request accepted
+[INFO] [1756530622.706519178] [move_group_interface]: Planning request complete!
+[INFO] [1756530622.707367037] [move_group_interface]: time taken to generate plan: 0.0110041 seconds
+[INFO] [1756530624.436254963] [move_group_interface]: Execute request accepted
+[INFO] [1756530629.260189932] [move_group_interface]: Execute request success!
+[INFO] [1756530652.683448931] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756530652.684117754] [move_group_interface]: Planning request accepted
+[INFO] [1756530652.716004776] [move_group_interface]: Planning request complete!
+[INFO] [1756530652.716376962] [move_group_interface]: time taken to generate plan: 0.0201976 seconds
+[INFO] [1756530655.012199968] [move_group_interface]: Execute request accepted
+[INFO] [1756530660.742963128] [move_group_interface]: Execute request success!
+[INFO] [1756530721.268195359] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+[INFO] [1756530721.268240439] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'left_arm' in namespace ''
+[INFO] [1756530721.272371910] [move_group_interface]: Ready to take commands for planning group left_arm.
+[INFO] [1756530724.596838304] [moveit_ros_visualization.motion_planning_frame]: group right_arm
+[INFO] [1756530724.596869439] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'right_arm' in namespace ''
+[INFO] [1756530724.600528951] [move_group_interface]: Ready to take commands for planning group right_arm.
+[INFO] [1756530731.456364996] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+[INFO] [1756530731.456411135] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'left_arm' in namespace ''
+[INFO] [1756530731.459638225] [move_group_interface]: Ready to take commands for planning group left_arm.

@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/nav2_simple_commander/launch/picking_demo_launch.py

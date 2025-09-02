@@ -1,0 +1,85 @@
+[WARN] [1756484824.965143860] [voice_control_node]: 尚未获取 base_angle，无法转向
+[INFO] [1756484824.972776684] [voice_control_node]: 已加载 JSON 文件: /home/rpp//rpp_data/config/voice/voice_pose.json
+[INFO] [1756484824.973156625] [voice_control_node]: 等待 TF [mic_link -> base_link] 可用...
+[INFO] [1756484825.074270787] [voice_control_node]: TF 尚未可用，继续等待...
+[INFO] [1756484825.576714420] [voice_control_node]: TF 尚未可用，继续等待...
+[INFO] [1756484826.079482929] [voice_control_node]: TF 获取成功 
+[INFO] [1756484827.393447584] [voice_control_node]: TTS 成功播报：成功加载 2 个点位
+[INFO] [1756484832.364808728] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[INFO] [1756484832.364982921] [voice_control_node]: 机器人空闲，启动语音听写
+[INFO] [1756484833.080027295] [voice_control_node]: 机器人状态从 IDLE -> IAT
+[INFO] [1756484833.365533162] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484833.365937851] [voice_control_node]: 当前状态 IAT，忽略唤醒请求
+[INFO] [1756484834.365335425] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484834.365540129] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484835.365019573] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484835.365216710] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484836.365068356] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484836.365273674] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484837.365512701] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484837.365922970] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484838.365129266] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484838.365317294] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484839.365142397] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484839.365350707] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484840.365227293] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484840.365418822] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484841.365496888] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484841.365895928] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484841.735290717] [voice_control_node]: TTS 成功播报：我现在正忙，请稍后再试，但是我已对您重新定位
+[INFO] [1756484842.365083377] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484842.365382868] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484843.365061985] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484843.365262464] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484844.365164019] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484844.365359805] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484845.365214529] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484845.365408541] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484846.365179990] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484846.365377104] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484847.365265671] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484847.365458593] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484848.365288501] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484848.365489082] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484848.698890185] [voice_control_node]: 接收到识别结果：有什么可以帮你？我现在正忙，请稍后再试，但是我已为您重新定位，我是智商智能机器人小飞。
+[INFO] [1756484848.699351388] [voice_control_node]: 匹配命令码：None
+[INFO] [1756484849.365044200] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484849.365253262] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484850.016043038] [voice_control_node]: TTS 成功播报：我是具身智能机器人小K, 请您说出指令, 有任何需求请吩咐我
+[INFO] [1756484850.016213701] [voice_control_node]: 准备发布语音唤醒指令...
+[INFO] [1756484850.016359080] [voice_control_node]: 发布唤醒词
+[INFO] [1756484850.365734553] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484850.366253994] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484851.365473266] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484851.365908147] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484852.365515771] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484852.365900420] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484853.365025802] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484853.365230757] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484854.365323627] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484854.365526873] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484855.365485076] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484855.365676429] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484856.365283659] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484856.365512990] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484857.365161045] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484857.365433638] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484858.365663617] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484858.366183269] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484859.365116982] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484859.365321248] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484859.648153504] [voice_control_node]: TTS 成功播报：我现在正忙，请稍后再试，但是我已对您重新定位
+[INFO] [1756484860.364997516] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484860.365330102] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484861.365443410] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484861.365890035] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484862.365377926] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484862.365713548] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484863.365513487] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484863.365724976] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484864.365144626] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484864.365368552] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484865.365057472] [voice_control_node]: 收到唤醒词，准备启动语音听写
+[WARN] [1756484865.365271761] [voice_control_node]: 当前状态 IAT_WAIT，忽略唤醒请求
+[INFO] [1756484866.095208613] [voice_control_node]: TTS 成功播报：我现在正忙，请稍后再试，但是我已对您重新定位
+[INFO] [175

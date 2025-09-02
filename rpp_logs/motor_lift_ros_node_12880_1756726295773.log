@@ -1,0 +1,8 @@
+[INFO] [1756726296.130099564] [motor_lift_ros_node]: Lift Motor initialization parameters:
+[INFO] [1756726296.130167876] [motor_lift_ros_node]: CAN Port: can0
+[INFO] [1756726296.130173144] [motor_lift_ros_node]: CAN Motor ID: 0x02
+[INFO] [1756726296.130176674] [motor_lift_ros_node]: Lift Joint: connector_joint
+[INFO] [1756726296.130181839] [motor_lift_ros_node]: High Limit: 0.00
+[INFO] [1756726296.130188516] [motor_lift_ros_node]: Low Limit: -0.46
+[INFO] [1756726296.130192934] [motor_lift_ros_node]: Velocity: 0.02800 m/s
+[INFO] [1756726301.709844240] [rclcpp]: signal_handler(signum=2)

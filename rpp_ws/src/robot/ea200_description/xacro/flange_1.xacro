@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="flange_1">
+    <xacro:macro name="flange_1" params="prefix:='' parent *origin">
+        <link name="${prefix}flange_1_link">
+            <inertial>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <mass value="0" />
+                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+            </inertial>
+            <visual>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <mesh filename="package://ea200_description/meshes/flange_1_link.STL" />
+                </geometry>
+                <material name="">
+                    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+                </material>
+            </visual>
+            <collision>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <mesh filename="package://ea200_description/meshes/flange_1_link.STL" />
+                </geometry>
+            </collision>
+        </link>
+        <joint name="${prefix}flange_1_joint" type="fixed">
+            <xacro:insert_block name="origin" />
+            <parent link="${parent}" />
+            <child link="${prefix}flange_1_link" />
+        </joint>
+    </xacro:macro>
+</robot>

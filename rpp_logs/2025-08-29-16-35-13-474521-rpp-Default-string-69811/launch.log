@@ -1,0 +1,19 @@
+1756456513.4750817 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-29-16-35-13-474521-rpp-Default-string-69811
+1756456513.4751689 [INFO] [launch]: Default logging verbosity is set to INFO
+1756456513.5034633 [WARNING] [launch_ros.actions.node]: Parameter file path is not a file: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/config/tts_params.yaml
+1756456513.5084679 [INFO] [iat_publish-1]: process started with pid [69813]
+1756456513.5085609 [INFO] [tts_subscribe-2]: process started with pid [69815]
+1756456513.5086086 [INFO] [wheeltec_mic-3]: process started with pid [69817]
+1756456513.5086479 [INFO] [voice_control-4]: process started with pid [69819]
+1756456513.5086834 [INFO] [voice_control-5]: process started with pid [69821]
+1756456681.0651245 [ERROR] [wheeltec_mic-3]: process has died [pid 69817, exit code -11, cmd '/home/rpp/rpp_ws/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/wheeltec_mic --ros-args --params-file /tmp/launch_params_3kv60unz'].
+1756456692.1565948 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756456692.1879404 [ERROR] [voice_control-5]: process has died [pid 69821, exit code -2, cmd '/home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/voice_control --ros-args'].
+1756456692.2307334 [ERROR] [voice_control-4]: process has died [pid 69819, exit code -11, cmd '/home/rpp/rpp_ws/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/voice_control --ros-args --params-file /tmp/launch_params_b95hsdgs'].
+1756456692.2650928 [INFO] [iat_publish-1]: process has finished cleanly [pid 69813]
+1756456695.3884366 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756456695.5732443 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756456695.7410998 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756456697.1611147 [ERROR] [tts_subscribe-2]: process[tts_subscribe-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1756456697.1614254 [INFO] [tts_subscribe-2]: sending signal 'SIGTERM' to process[tts_subscribe-2]
+1756456700.0441329 [INFO] [tts_subscribe-2]: process has finished cleanly [pid 69815]

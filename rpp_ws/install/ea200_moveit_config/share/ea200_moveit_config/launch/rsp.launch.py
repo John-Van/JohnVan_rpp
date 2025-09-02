@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/robot/ea200_moveit_config/launch/rsp.launch.py

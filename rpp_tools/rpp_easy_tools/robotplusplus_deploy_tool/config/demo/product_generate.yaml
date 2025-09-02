@@ -1,0 +1,99 @@
+---
+# bash 处理本文件需要安装查看https://github.com/mikefarah/yq 注意snap安装会有问题
+#yaml
+k03:
+  key: k03
+  robuster_git_user: rpp:shihe321
+  local_drivers_repos: ~/rpp_ws/src/drivers
+  local_robuster_slam_repos: ~/rpp_ws/src/slam
+  local_robuster_mr_repos: ~/rpp_ws/src/robuster_mr
+  local_app_repos: ~/rpp_ws/src/app
+  locla_3rdparty_repos: ~/3rdparty
+  nvidia_gpu_model: ""
+  apt_source_url: https://mirrors.tuna.tsinghua.edu.cn
+  pip_source_url: https://pypi.tuna.tsinghua.edu.cn/simple
+  rpp_tools_link: http://file.robotplusplus.com.cn/common_tools/Linux_amd64/
+  nvidia_toolkit_link: http://file.robotplusplus.com.cn/nvidia/ubuntu18.04-cuda-11.4.0-cudnn-8.4.1.50-tensorrt-8.4.1.5-amd64/
+  git_3rdparty_link: https://git.robotplusplus.com.cn/third-party
+  ros1_source_url: https://mirrors.tuna.tsinghua.edu.cn/ros/ubuntu/
+  ros_distro_version: melodic
+  debian_pkgs: 
+    - 
+  python2_pip_pkgs: 
+    - catkin-tools
+    - rospkg
+    - pyserial pymodbus  arrow # robotiq85
+  python3_pip_pkgs: 
+    -
+  apt_pkgs: 
+    - libyaml-cpp-dev libpcap-dev  #rslidar_sdk 依赖
+    - libsuitesparse-dev  # teb_local_planner
+    - net-tools can-utils #can
+
+  apt_ros_pkgs:
+    - ecl # wit imu
+    - twist-mux joy teleop-twist-joy joint-state-publisher-gui # jrobot
+    - gazebo-ros-pkgs ros-control roboticsgroup-upatras-gazebo-plugins ros-control ros-controllers # xarm
+    - moveit-core moveit-servo moveit-visual-tools trac-ik-kinematics-plugin # moveit
+    - ddynamic-reconfigure # realsense 如果是需要使用gpu需要额外操作
+    - geographic-msgs # robot_localization
+    - navigation robot-localization robot-state-publisher # lio-sam TODO:gtsma 4.0 安装
+    - pointcloud-to-laserscan ira-laser-tools # robuster_mr_navigation
+    - costmap-converter mbf-costmap-core mbf-msgs libg2o # teb_local_planner
+    - grid-map-demos
+    - soem # robotiq85
+    - py-trees* rqt-py-trees moveit-commander # bt_task_manager
+    - catkin-virtualenv #rtk
+    - octomap-ros # octomap
+#
+  source_3rdparty_repos:
+    -  https://git.robotplusplus.com.cn/third-party/borglab/gtsam.git>...<$robuster_git_user>...<4.0.3>...<$locla_3rdparty_repos>...<gtsam.build       #lio-sam
+  source_drivers_repos:
+    #激光雷达
+    - https://git.robotplusplus.com.cn/drivers/drivers-ros/lakibeam1.git>...<$robuster_git_user>...<k03>...<$local_drivers_repos/actual_machine>...<
+    #wait_imu驱动
+    - https://git.robotplusplus.com.cn/drivers/drivers-ros/wit_node.git>...<$robuster_git_user>...<>...<$local_drivers_repos/actual_machine>...<
+    #k03 底盘驱动
+    - https://git.robotplusplus.com.cn/customized-projects/hf124xs0015/jrobot.git>...<$robuster_git_user>...<k03>...<$local_drivers_repos/actual_machine>...<
+   #3d激光雷达驱动
+    - https://git.robotplusplus.com.cn/drivers/robosense-lidar/rslidar_sdk.git>...<$robuster_git_user>...<rpp>...<$local_drivers_repos/actual_machine>...<
+    #xarm
+    - https://git.robotplusplus.com.cn/drivers/drivers-ros/xarm_ros.git>...<$robuster_git_user>...<>...<$local_drivers_repos/actual_machine>...<rpp_xarm_build.build
+    # robotiq
+    - https://git.robotplusplus.com.cn/drivers/drivers-ros/robotiq.git>...<$robuster_git_user>...<>...<$local_drivers_repos/actual_machine>...<
+      # realsense 如果是需要使用gpu需要额外操作
+    - https://git.robotplusplus.com.cn/drivers/drivers-ros/realsense-ros.git>...<$robuster_git_user>...<ros1-legacy>...<$local_drivers_repos/actual_machine>...<
+    # realsense 第三方仿真包
+    - https://git.robotplusplus.com.cn/third-party/m-tartari/realsense_gazebo_description.git>...<$robuster_git_user>...<>...<$local_drivers_repos/simulation>...<
+   # realsense 第三方仿真包依赖
+    - https://git.robotplusplus.com.cn/third-party/pal-robotics/realsense_gazebo_plugin.git>...<$robuster_git_user>...<>...<$local_drivers_repos/simulation>...<
+    #rtk 
+    - https://git.robotplusplus.com.cn/drivers/nmea_navsat_driver.git>...<$robuster_git_user>...<melodic-devel>...<$local_drivers_repos/simulation>...<
+
+  source_robuster_slam_repos:
+  #TODO- mmx5应修改为通用robot_localization
+    - https://git.robotplusplus.com.cn/customized-projects/hf124xs0015/robot_localization.git>...<$robuster_git_user>...<>...<$local_robuster_slam_repos>...<
+  #lio-sam
+    - https://git.robotplusplus.com.cn/slam/lio-sam/lio-sam.git>...<$robuster_git_user>...<>...<$local_robuster_slam_repos>...<
+  #cloud_msgs
+    - https://git.robotplusplus.com.cn/mmx5_4.0/release/navigation/cloud_msgs.git>...<$robuster_git_user>...<>...<$local_robuster_slam_repos>...<
+    #  fast_gicp
+    - https://git.robotplusplus.com.cn/mmx5_4.0/release/navigation/fast_gicp.git>...<$robuster_git_user>...<>...<$local_robuster_slam_repos>...<
+    #hdl_global_localization
+    - https://git.robotplusplus.com.cn/mmx5_4.0/release/navigation/hdl_global_localization.git>...<$robuster_git_user>...<>...<$local_robuster_slam_repos>...<
+        # hdl_localization
+    - https://git.robotplusplus.com.cn/mmx5_4.0/release/navigation/hdl_localization.git>...<$robuster_git_user>...<>...<$local_robuster_slam_repos>...<
+    # ndt_omp
+    - https://git.robotplusplus.com.cn/mmx5_4.0/release/navigation/ndt_omp.git>...<$robuster_git_user>...<>...<$local_robuster_slam_repos>...<
+      # octomap_mapping
+    - https://git.robotplusplus.com.cn/mmx5_4.0/release/navigation/octomap_mapping.git>...<$robuster_git_user>...<>...<$local_robuster_slam_repos>...<
+      # octomap_mapping
+    - https://git.robotplusplus.com.cn/mmx5_4.0/release/navigation/navigation/navigation.git>...<$robuster_git_user>...<>...<$local_robuster_slam_repos>...<
+  source_robuster_mr_repos:
+    - https://git.robotplusplus.com.cn/customized-projects/hf124xs0015/k03_description.git>...<$robuster_git_user>...<>...<$local_robuster_mr_repos/robots_description>...<
+    # robuster_mr_navigation
+    - https://git.robotplusplus.com.cn/slam/lio-sam/robuster_mr_navigation.git>...<$robuster_git_user>...<>...<$local_robuster_mr_repos>...<
+  source_app_repos:
+    - https://git.robotplusplus.com.cn/customized-projects/hf124xs0015/app/k03_xarm_robotiq85_moveit_config.git>...<$robuster_git_user>...<>...<$local_app_repos>...<rpp_catkin_build.build
+
+

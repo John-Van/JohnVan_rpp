@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="cr100">
+    <xacro:macro name="cr100" params="sim_gazebo:=false">
+        <xacro:include filename="$(find cr100_description)/xacro/const.xacro" />
+        <xacro:include filename="$(find cr100_description)/xacro/trunk.xacro" />
+        <xacro:include filename="$(find cr100_description)/xacro/front_wheel.xacro" />
+        <xacro:include filename="$(find cr100_description)/xacro/rear_caster.xacro" />
+        <xacro:include filename="$(find cr100_description)/xacro/inertial_matrix.xacro" />
+        <xacro:include filename="$(find cr100_description)/xacro/laser.xacro" />
+        <xacro:include filename="$(find cr100_description)/xacro/lidar.xacro" />
+        <xacro:include filename="$(find realsense2_description)/urdf/_d435i.urdf.xacro" />
+
+        <link name="base_link" />
+
+        <xacro:trunk parent="base_link">
+            <origin xyz="-0.227000000000003 0 0.163000000000006" rpy="0 0 0" />
+        </xacro:trunk>
+
+        <xacro:front_wheel wheel_prefix="L" left_right_mirror="1" sim_gazebo="$(arg sim_gazebo)" />
+        <xacro:front_wheel wheel_prefix="R" left_right_mirror="-1" sim_gazebo="$(arg sim_gazebo)" />
+        <xacro:rear_caster caster_prefix="L" left_right_mirror="1" sim_gazebo="$(arg sim_gazebo)" />
+        <xacro:rear_caster caster_prefix="R" left_right_mirror="-1" sim_gazebo="$(arg sim_gazebo)" />
+
+        <xacro:laser laser_prefix="laser_B" sim_gazebo="$(arg sim_gazebo)">
+            <origin rpy="-3.14159265358978 0 -3.14159265358979"
+                xyz="-0.519999999999984 0 -0.0213199999999936" />
+        </xacro:laser>
+
+        <xacro:lidar lidar_prefix="lidar" sim_gazebo="$(arg sim_gazebo)">
+            <origin xyz="0.0660000000000008 0 0.3445009" rpy="0 0 0" />
+        </xacro:lidar>
+
+        <xacro:sensor_d435i name="front_camera" parent="base_link" use_nominal_extrinsics="true">
+            <origin xyz="0.10615 0 0.25" rpy="0 0 0" />
+        </xacro:sensor_d435i>
+
+    </xacro:macro>
+</robot>

@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ldx/ros2_ws/install/xarm_msgs/lib/python3.12/site-packages",
+        "/home/ldx/ros2_ws/build/uf_ros_lib",
+        "/home/ldx/ros2_ws/install/uf_ros_lib/lib/python3.12/site-packages",
+        "/home/ldx/ros2_ws/build/kitti2rosbag2",
+        "/home/ldx/ros2_ws/install/kitti2rosbag2/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages",
+        "/home/ldx/Omega6-xArm/vision_pick_place"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ldx/ros2_ws/install/xarm_msgs/lib/python3.12/site-packages",
+        "/home/ldx/ros2_ws/build/uf_ros_lib",
+        "/home/ldx/ros2_ws/install/uf_ros_lib/lib/python3.12/site-packages",
+        "/home/ldx/ros2_ws/build/kitti2rosbag2",
+        "/home/ldx/ros2_ws/install/kitti2rosbag2/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages",
+        "/home/ldx/Omega6-xArm/vision_pick_place"
+    ]
+}

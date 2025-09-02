@@ -1,0 +1,2 @@
+/home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/voice_control
+/home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/voice_dialog

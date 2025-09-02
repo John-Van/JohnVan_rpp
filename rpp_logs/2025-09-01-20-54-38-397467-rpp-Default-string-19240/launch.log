@@ -1,0 +1,48 @@
+1756731278.3981361 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-20-54-38-397467-rpp-Default-string-19240
+1756731278.3982384 [INFO] [launch]: Default logging verbosity is set to INFO
+1756731278.9097142 [INFO] [move_group-1]: process started with pid [19241]
+1756731278.9098270 [INFO] [rviz2-2]: process started with pid [19243]
+1756731279.9137418 [rviz2-2] [INFO] [1756731279.913519036] [rviz2]: Stereo is NOT SUPPORTED
+1756731279.9138579 [rviz2-2] [INFO] [1756731279.913586313] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1756731279.9546919 [rviz2-2] [INFO] [1756731279.954421455] [rviz2]: Stereo is NOT SUPPORTED
+1756731280.0785584 [rviz2-2] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1756731280.0786760 [rviz2-2]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1756731283.1055894 [rviz2-2] [ERROR] [1756731283.105327541] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1756731283.1179428 [rviz2-2] [INFO] [1756731283.117695739] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1756731283.1970580 [rviz2-2] [INFO] [1756731283.196773872] [rviz2]: Stereo is NOT SUPPORTED
+1756731283.2199960 [rviz2-2] [INFO] [1756731283.219817334] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0201754 seconds
+1756731283.2201138 [rviz2-2] [INFO] [1756731283.219844906] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+1756731283.2201495 [rviz2-2] [INFO] [1756731283.219851928] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1756731283.5849180 [rviz2-2] [ERROR] [1756731283.584720630] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+1756731283.5850277 [rviz2-2] [ERROR] [1756731283.584737312] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+1756731283.5850611 [rviz2-2] [ERROR] [1756731283.584746563] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+1756731284.5404947 [rviz2-2] [INFO] [1756731284.540315505] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+1756731284.5409098 [rviz2-2] [INFO] [1756731284.540758282] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+1756731285.6420221 [rviz2-2] [INFO] [1756731285.641841898] [interactive_marker_display_103955578848736]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+1756731285.6773548 [rviz2-2] [INFO] [1756731285.677147550] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+1756731285.6774933 [rviz2-2] [INFO] [1756731285.677166014] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+1756731285.6828277 [rviz2-2] [INFO] [1756731285.682660137] [move_group_interface]: Ready to take commands for planning group dual_arm.
+1756731285.8173015 [rviz2-2] [INFO] [1756731285.817134957] [interactive_marker_display_103955578848736]: Sending request for interactive markers
+1756731285.9361565 [rviz2-2] [INFO] [1756731285.935961384] [interactive_marker_display_103955578848736]: Service response received for initialization
+1756731293.4795589 [rviz2-2] [INFO] [1756731293.479349144] [move_group_interface]: MoveGroup action client/server ready
+1756731293.4803579 [rviz2-2] [INFO] [1756731293.480015965] [move_group_interface]: Planning request accepted
+1756731293.5081763 [rviz2-2] [INFO] [1756731293.508118285] [move_group_interface]: Planning request complete!
+1756731293.5092399 [rviz2-2] [INFO] [1756731293.509159571] [move_group_interface]: time taken to generate plan: 0.0218833 seconds
+1756731295.1908088 [rviz2-2] [INFO] [1756731295.190050549] [move_group_interface]: Execute request accepted
+1756731300.2921426 [rviz2-2] [INFO] [1756731300.292063963] [move_group_interface]: Execute request success!
+1756731303.0720267 [rviz2-2] [INFO] [1756731303.071845231] [move_group_interface]: MoveGroup action client/server ready
+1756731303.0725379 [rviz2-2] [INFO] [1756731303.072172738] [move_group_interface]: Planning request accepted
+1756731303.0967522 [rviz2-2] [INFO] [1756731303.096580806] [move_group_interface]: Planning request complete!
+1756731303.0972774 [rviz2-2] [INFO] [1756731303.097198160] [move_group_interface]: time taken to generate plan: 0.0194295 seconds
+1756731305.7112820 [rviz2-2] [INFO] [1756731305.710527265] [move_group_interface]: Execute request accepted
+1756731310.5624487 [rviz2-2] [INFO] [1756731310.562187380] [move_group_interface]: Execute request success!
+1756731322.6893086 [rviz2-2] [INFO] [1756731322.689073300] [move_group_interface]: MoveGroup action client/server ready
+1756731322.6899769 [rviz2-2] [INFO] [1756731322.689435159] [move_group_interface]: Planning request accepted
+1756731322.7389336 [rviz2-2] [INFO] [1756731322.738863840] [move_group_interface]: Planning request complete!
+1756731322.7401209 [rviz2-2] [INFO] [1756731322.739921906] [move_group_interface]: time taken to generate plan: 0.00922111 seconds
+1756731352.1467738 [rviz2-2] [INFO] [1756731352.146151991] [move_group_interface]: Execute request accepted
+1756731397.0017173 [rviz2-2] [INFO] [1756731397.001509308] [move_group_interface]: Execute request success!
+1756735620.9983411 [rviz2-2] [INFO] [1756735620.998121834] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
+1756735622.1194384 [ERROR] [rviz2-2]: process has died [pid 19243, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/rpp/rpp_ws/install/ea200_moveit_config/share/ea200_moveit_config/config/moveit.rviz --ros-args -r __node:=rviz2_moveit --params-file /tmp/launch_params_2v8rcr4d --params-file /tmp/launch_params_ncvh73ol --params-file /tmp/launch_params_6o9lt8um --params-file /tmp/launch_params_5w7covse --params-file /tmp/launch_params_5w03w_ts'].
+1756735622.9715085 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756735624.1227639 [ERROR] [move_group-1]: process has died [pid 19241, exit code -11, cmd '/opt/ros/humble/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_lz06lsdg'].

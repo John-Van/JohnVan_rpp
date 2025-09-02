@@ -1,0 +1,6 @@
+./autogen.sh
+CFLAGS="-g -O0" ./configure
+make
+echo "shihe321" | sudo -S  make install
+btrfs version
+rm -rf ../btrfs-progs

@@ -1,0 +1,206 @@
+[0.072s] Invoking command in '/home/rpp/rpp_ws/build/kortex_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake /home/rpp/rpp_ws/src/drivers/ros2_kortex/kortex_api -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rpp/rpp_ws/install/kortex_api
+[32.259s] -- The C compiler identification is GNU 11.4.0
+[32.659s] -- The CXX compiler identification is GNU 11.4.0
+[32.694s] -- Detecting C compiler ABI info
+[33.011s] -- Detecting C compiler ABI info - done
+[33.058s] -- Check for working C compiler: /usr/bin/cc - skipped
+[33.060s] -- Detecting C compile features
+[33.062s] -- Detecting C compile features - done
+[33.079s] -- Detecting CXX compiler ABI info
+[33.375s] -- Detecting CXX compiler ABI info - done
+[33.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[33.413s] -- Detecting CXX compile features
+[33.414s] -- Detecting CXX compile features - done
+[33.440s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[33.987s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[34.325s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[34.893s] -- Configuring done
+[34.916s] -- Generating done
+[34.956s] -- Build files have been written to: /home/rpp/rpp_ws/build/kortex_api
+[34.981s] Invoked command in '/home/rpp/rpp_ws/build/kortex_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake /home/rpp/rpp_ws/src/drivers/ros2_kortex/kortex_api -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rpp/rpp_ws/install/kortex_api
+[34.982s] Invoking command in '/home/rpp/rpp_ws/build/kortex_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/kortex_api -- -j24 -l24
+[35.188s] Invoked command in '/home/rpp/rpp_ws/build/kortex_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/kortex_api -- -j24 -l24
+[35.189s] Invoking command in '/home/rpp/rpp_ws/build/kortex_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/kortex_api
+[35.234s] -- Install configuration: ""
+[35.242s] -- Execute custom install script
+[35.242s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/FrameHandler.h
+[35.314s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/IRouterClient.h
+[35.368s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/ITransportClient.h
+[35.488s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/NotificationHandler.h
+[35.544s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/RouterClient.h
+[35.595s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/SessionManager.h
+[35.662s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/TransportClientTcp.h
+[35.714s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/TransportClientUdp.h
+[35.751s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/version.h
+[35.789s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/Frame.h
+[35.854s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/HeaderInfo.h
+[35.950s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/KBasicException.h
+[36.003s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/KDetailedException.h
+[36.038s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/KError.h
+[36.106s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/KinovaTcpUtilities.h
+[36.151s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/TransportBridgeDummy.h
+[36.208s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/version.h
+[36.257s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/ActuatorConfig.pb.h
+[36.291s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/ActuatorCyclic.pb.h
+[36.343s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/Base.pb.h
+[36.364s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/BaseCyclic.pb.h
+[36.437s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/Common.pb.h
+[36.475s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/ControlConfig.pb.h
+[36.514s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/DeviceConfig.pb.h
+[36.533s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/DeviceManager.pb.h
+[36.551s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/Errors.pb.h
+[36.570s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/Frame.pb.h
+[36.588s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/GripperConfig.pb.h
+[36.608s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/GripperCyclic.pb.h
+[36.626s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/GripperCyclicMessage.pb.h
+[36.645s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/InterconnectConfig.pb.h
+[36.664s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/InterconnectCyclic.pb.h
+[36.680s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/InterconnectCyclicMessage.pb.h
+[36.697s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/ProductConfiguration.pb.h
+[36.714s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/Session.pb.h
+[36.732s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/Test.pb.h
+[36.750s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/VisionConfig.pb.h
+[36.771s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/ActuatorConfigClientRpc.h
+[36.790s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/ActuatorCyclicClientRpc.h
+[36.844s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/BaseClientRpc.h
+[36.865s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/BaseCyclicClientRpc.h
+[36.883s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/ControlConfigClientRpc.h
+[36.921s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/DeviceConfigClientRpc.h
+[36.955s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/DeviceManagerClientRpc.h
+[36.999s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/GripperCyclicClientRpc.h
+[37.031s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/InterconnectConfigClientRpc.h
+[37.064s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/InterconnectCyclicClientRpc.h
+[37.100s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/SessionClientRpc.h
+[37.127s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/TestClientRpc.h
+[37.164s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/VisionConfigClientRpc.h
+[37.209s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/any.h
+[37.253s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/any.pb.h
+[37.301s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/api.pb.h
+[37.342s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/arena.h
+[37.376s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/arena_impl.h
+[37.414s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/arenastring.h
+[37.449s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/code_generator.h
+[37.507s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/command_line_interface.h
+[37.542s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/cpp/cpp_generator.h
+[37.572s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/csharp/csharp_generator.h
+[37.594s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/csharp/csharp_names.h
+[37.612s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/importer.h
+[37.648s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/java/java_generator.h
+[37.674s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/java/java_names.h
+[37.696s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/javanano/javanano_generator.h
+[37.719s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/js/js_generator.h
+[37.738s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/js/well_known_types_embed.h
+[37.770s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/objectivec/objectivec_generator.h
+[37.801s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/objectivec/objectivec_helpers.h
+[37.822s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/parser.h
+[37.842s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/php/php_generator.h
+[37.882s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/plugin.h
+[37.918s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/plugin.pb.h
+[37.942s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/python/python_generator.h
+[37.977s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/ruby/ruby_generator.h
+[38.011s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/descriptor.h
+[38.044s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/descriptor.pb.h
+[38.080s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/descriptor_database.h
+[38.173s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/duration.pb.h
+[38.209s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/dynamic_message.h
+[38.241s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/empty.pb.h
+[38.285s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/extension_set.h
+[38.322s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/field_mask.pb.h
+[38.368s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/generated_enum_reflection.h
+[38.402s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/generated_enum_util.h
+[38.438s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/generated_message_reflection.h
+[38.459s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/generated_message_table_driven.h
+[38.497s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/generated_message_util.h
+[38.552s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/has_bits.h
+[38.572s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/io/coded_stream.h
+[38.590s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/io/gzip_stream.h
+[38.618s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/io/printer.h
+[38.637s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/io/strtod.h
+[38.652s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/io/tokenizer.h
+[38.668s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/io/zero_copy_stream.h
+[38.692s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/io/zero_copy_stream_impl.h
+[38.704s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/io/zero_copy_stream_impl_lite.h
+[38.738s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/map.h
+[38.753s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/map_entry.h
+[38.776s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/map_entry_lite.h
+[38.797s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/map_field.h
+[38.841s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/map_field_inl.h
+[38.871s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/map_field_lite.h
+[38.901s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/map_type_handler.h
+[38.942s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/message.h
+[38.969s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/message_lite.h
+[38.999s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/metadata.h
+[39.035s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/metadata_lite.h
+[39.097s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/reflection.h
+[39.120s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/reflection_ops.h
+[39.142s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/repeated_field.h
+[39.168s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/service.h
+[39.199s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/source_context.pb.h
+[39.239s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/struct.pb.h
+[39.309s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomic_sequence_num.h
+[39.346s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops.h
+[39.385s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_arm64_gcc.h
+[39.423s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_arm_gcc.h
+[39.459s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_arm_qnx.h
+[39.492s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_generic_c11_atomic.h
+[39.531s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_generic_gcc.h
+[39.572s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_mips_gcc.h
+[39.596s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_power.h
+[39.635s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_ppc_gcc.h
+[39.680s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_solaris.h
+[39.715s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_tsan.h
+[39.750s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_x86_gcc.h
+[39.800s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_x86_msvc.h
+[39.822s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/bytestream.h
+[39.841s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/callback.h
+[39.857s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/casts.h
+[39.885s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/common.h
+[39.905s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/fastmem.h
+[39.922s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/hash.h
+[39.945s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/logging.h
+[39.988s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/macros.h
+[40.058s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/mutex.h
+[40.105s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/once.h
+[40.179s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/platform_macros.h
+[40.221s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/port.h
+[40.243s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/scoped_ptr.h
+[40.285s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/shared_ptr.h
+[40.318s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/singleton.h
+[40.358s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/status.h
+[40.377s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/stl_util.h
+[40.416s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/stringpiece.h
+[40.461s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/template_util.h
+[40.495s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/type_traits.h
+[40.534s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/text_format.h
+[40.573s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/timestamp.pb.h
+[40.607s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/type.pb.h
+[40.648s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/unknown_field_set.h
+[40.687s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/util/delimited_message_util.h
+[40.738s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/util/field_comparator.h
+[40.794s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/util/field_mask_util.h
+[40.834s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/util/json_util.h
+[40.870s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/util/message_differencer.h
+[40.909s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/util/time_util.h
+[40.940s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/util/type_resolver.h
+[40.980s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/util/type_resolver_util.h
+[41.019s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/wire_format.h
+[41.054s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/wire_format_lite.h
+[41.092s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/wire_format_lite_inl.h
+[41.136s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/include/kortex_api/google/protobuf/wrappers.pb.h
+[41.182s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/ament_index/resource_index/package_run_dependencies/kortex_api
+[41.246s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/ament_index/resource_index/parent_prefix_path/kortex_api
+[41.320s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/kortex_api/environment/ament_prefix_path.sh
+[41.365s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/kortex_api/environment/ament_prefix_path.dsv
+[41.408s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/kortex_api/environment/path.sh
+[41.446s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/kortex_api/environment/path.dsv
+[41.495s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/kortex_api/local_setup.bash
+[41.530s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/kortex_api/local_setup.sh
+[41.571s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/kortex_api/local_setup.zsh
+[41.596s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/kortex_api/local_setup.dsv
+[41.643s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/kortex_api/package.dsv
+[41.689s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/ament_index/resource_index/packages/kortex_api
+[41.717s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/kortex_api/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.736s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/kortex_api/cmake/kortex_apiConfig.cmake
+[41.783s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/kortex_api/cmake/kortex_apiConfig-version.cmake
+[41.832s] -- Symlinking: /home/rpp/rpp_ws/install/kortex_api/share/kortex_api/package.xml
+[41.871s] Invoked command in '/home/rpp/rpp_ws/build/kortex_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/kortex_api

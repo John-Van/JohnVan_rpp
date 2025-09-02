@@ -1,0 +1,15 @@
+1756261065.4883325 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-27-10-17-45-487640-rpp-Default-string-118881
+1756261065.4884334 [INFO] [launch]: Default logging verbosity is set to INFO
+1756261065.9788857 [INFO] [lakibeam1_scan_node-1]: process started with pid [119006]
+1756261065.9790459 [INFO] [livox_ros_driver2_node-2]: process started with pid [119008]
+1756261065.9791155 [INFO] [lidar_clipping-3]: process started with pid [119010]
+1756261065.9791694 [INFO] [robot_state_publisher-4]: process started with pid [119012]
+1756261065.9792168 [INFO] [joint_state_publisher-5]: process started with pid [119014]
+1756261065.9792619 [INFO] [rpp_ros_driver_node-6]: process started with pid [119016]
+1756261066.3160336 [joint_state_publisher-5] [INFO] [1756261066.315680815] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1756261154.5155983 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756261154.5760818 [ERROR] [rpp_ros_driver_node-6]: process has died [pid 119016, exit code -6, cmd '/home/rpp/rpp_ws/install/rpp_ros_driver/lib/rpp_ros_driver/rpp_ros_driver_node --ros-args --params-file /home/rpp/rpp_ws/install/robot_bringup/share/robot_bringup/params/rpp.yaml --params-file /tmp/launch_params_w3xjdlbv'].
+1756261154.6198366 [INFO] [lidar_clipping-3]: process has finished cleanly [pid 119010]
+1756261154.6217923 [INFO] [robot_state_publisher-4]: process has finished cleanly [pid 119012]
+1756261154.6411102 [INFO] [joint_state_publisher-5]: process has finished cleanly [pid 119014]
+1756261155.7781572 [ERROR] [livox_ros_driver2_node-2]: process has died [pid 119008, exit code -7, cmd '/home/rpp/rpp_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node --ros-args -r __node:=livox_node -r __ns:=/ --params-file /tmp/launch_params_c5pi8__v --params-file /tmp/launch_params_fh7ku105 --params-file /tmp/launch_params_n_gogl1_ --params-file /tmp/launch_params_gng6q9d8 --params-file /tmp/launch_params_8lc47ay7 --params-file /tmp/launch_params_naszlmi6 --params-file /tmp/launch_params_7mg9q5pl --params-file /tmp/launch_params_qfe03hc2 --params-file /tmp/launch_params_mri986__'].

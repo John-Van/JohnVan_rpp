@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/xf_voice_msgs/rosidl_typesupport_introspection_c/xf_voice_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

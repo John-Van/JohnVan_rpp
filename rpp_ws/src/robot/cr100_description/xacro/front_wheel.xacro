@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="front_wheel">
+    <!-- wheel_prefix: name left_right_mirror: left and right mirror <1 left, -1 right> -->
+    <!--Use the left front wheel as a reference to write-->
+    <xacro:include filename="$(find cr100_description)/xacro/inertial_matrix.xacro" />
+
+    <xacro:macro name="front_wheel" params="wheel_prefix left_right_mirror sim_gazebo:=false">
+        <link name="wheel_${wheel_prefix}F_link">
+            <inertial>
+                <origin rpy="0 0 0" xyz="0 0 0" />
+                <xacro:cylinder_inertial_matrix m="5" r="${wheel_FL_radius}" h="${wheel_FL_length}" />
+            </inertial>
+            <visual>
+                <xacro:if value="${1 == left_right_mirror}">
+                    <origin xyz="0 0 0" rpy="0 0 0" />
+                </xacro:if>
+                <xacro:if value="${-1 == left_right_mirror}">
+                    <origin xyz="0 0 0" rpy="${PI} 0 0" />
+                </xacro:if>
+                <geometry>
+                    <mesh filename="package://cr100_description/meshes/wheel_LF_link.STL" />
+                </geometry>
+                <material name="">
+                    <color rgba="0.941176470588235 0.674509803921569 0.117647058823529 1" />
+                </material>
+            </visual>
+            <collision>
+                <origin xyz="0 0 0" rpy="${PI/2} 0 0" />
+                <geometry>
+                    <cylinder length="${wheel_FL_length}" radius="${wheel_FL_radius}" />
+                </geometry>
+            </collision>
+        </link>
+        <joint name="wheel_${wheel_prefix}F_joint" type="continuous">
+            <parent link="base_link" />
+            <child link="wheel_${wheel_prefix}F_link" />
+            <xacro:if value="${1 == left_right_mirror}">
+                <origin xyz="${wheel_LF_x} ${wheel_LF_y * left_right_mirror} ${wheel_LF_z}"
+                    rpy="0 0 0" />
+                <axis xyz="0 ${1} 0" rpy="0 0 0" />
+            </xacro:if>
+            <xacro:if value="${-1 == left_right_mirror}">
+                <origin xyz="${wheel_LF_x} ${wheel_LF_y * left_right_mirror} ${wheel_LF_z}"
+                    rpy="0 0 0" />
+                <axis xyz="0 ${1} 0" rpy="0 0 0" />
+            </xacro:if>
+        </joint>
+
+        <xacro:if value="${sim_gazebo}">
+            <gazebo reference="wheel_${wheel_prefix}F_link">
+                <mu1 value="100" />
+                <mu2 value="100" />
+                <!-- <kp value="1000000.0" />
+                <kd value="1.0" />
+                <fdir1 value="1 0 0" />
+                <material>Gazebo/Black</material> -->
+            </gazebo>
+            <ros2_control name="wheel_${wheel_prefix}F_link" type="system">
+                <hardware>
+                    <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+                </hardware>
+                <joint name="wheel_${wheel_prefix}F_joint">
+                    <command_interface name="velocity">
+                    </command_interface>
+                    <state_interface name="position" />
+                    <state_interface name="velocity" />
+                </joint>
+            </ros2_control>
+        </xacro:if>
+
+    </xacro:macro>
+</robot>

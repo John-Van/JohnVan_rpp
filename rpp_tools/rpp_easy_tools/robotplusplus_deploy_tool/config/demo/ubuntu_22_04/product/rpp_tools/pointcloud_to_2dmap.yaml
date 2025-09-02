@@ -1,0 +1,14 @@
+---
+2204_product:
+  git_repos:
+   rpp_tools:
+    pointcloud_to_2dmap:
+      url: https://git.robotplusplus.com.cn/slam/pointcloud_to_2dmap.git
+      user: $robuster_git_user
+      tag: ros-humble-dev
+      local_path: $locla_rpp_tools
+      other_exec: pointcloud_to_2dmap.build
+      apt_pkgs:
+      apt_ros_pkgs:
+      python2_pip_pkgs:
+      python3_pip_pkgs:

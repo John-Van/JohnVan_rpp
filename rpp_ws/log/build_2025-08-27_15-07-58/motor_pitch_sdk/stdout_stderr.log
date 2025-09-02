@@ -1,0 +1,32 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rpp/rpp_ws/build/motor_pitch_sdk
+[ 20%] [32mBuilding CXX object CMakeFiles/motor_pitch_sdk.dir/src/motor_pitch.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/motor_pitch_sdk.dir/src/can.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libmotor_pitch_sdk.so[0m
+[ 60%] Built target motor_pitch_sdk
+[ 80%] [32mBuilding CXX object CMakeFiles/rpp_keyboard_teleoperate.dir/examples/keyboard_teleoperate.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rpp_keyboard_teleoperate[0m
+[100%] Built target rpp_keyboard_teleoperate
+-- Install configuration: ""
+-- Installing: /home/rpp/rpp_ws/install/motor_pitch_sdk/lib/libmotor_pitch_sdk.so
+-- Installing: /home/rpp/rpp_ws/install/motor_pitch_sdk/bin/rpp_keyboard_teleoperate
+-- Set runtime path of "/home/rpp/rpp_ws/install/motor_pitch_sdk/bin/rpp_keyboard_teleoperate" to ""
+-- Installing: /home/rpp/rpp_ws/install/motor_pitch_sdk/include
+-- Installing: /home/rpp/rpp_ws/install/motor_pitch_sdk/include/motor_pitch
+-- Installing: /home/rpp/rpp_ws/install/motor_pitch_sdk/include/motor_pitch/can.h
+-- Installing: /home/rpp/rpp_ws/install/motor_pitch_sdk/include/motor_pitch/motor_pitch.h
+-- Installing: /home/rpp/rpp_ws/install/motor_pitch_sdk/share/motor_pitch_sdk/cmake/motor_pitch_sdkConfig.cmake
+-- Installing: /home/rpp/rpp_ws/install/motor_pitch_sdk/share/motor_pitch_sdk/cmake/motor_pitch_sdkConfig-noconfig.cmake

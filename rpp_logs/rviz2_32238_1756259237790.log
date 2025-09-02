@@ -1,0 +1,39 @@
+[INFO] [1756259238.298601084] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756259238.298666107] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1756259238.407616493] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1756259241.482783083] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1756259241.490624574] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1756259241.557653761] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0198749 seconds
+[INFO] [1756259241.557685233] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+[INFO] [1756259241.557692517] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1756259241.572330489] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1756259241.879999316] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+[ERROR] [1756259241.880016642] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+[ERROR] [1756259241.880025788] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+[INFO] [1756259242.714271685] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1756259242.714584170] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1756259243.682613608] [interactive_marker_display_102511959676320]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1756259243.714482973] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+[INFO] [1756259243.714499946] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+[INFO] [1756259243.716987058] [move_group_interface]: Ready to take commands for planning group dual_arm.
+[INFO] [1756259243.796641101] [interactive_marker_display_102511959676320]: Sending request for interactive markers
+[INFO] [1756259243.870552518] [interactive_marker_display_102511959676320]: Service response received for initialization
+[INFO] [1756259252.847182539] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756259252.848048800] [move_group_interface]: Planning request accepted
+[INFO] [1756259253.865994510] [move_group_interface]: Planning request complete!
+[INFO] [1756259253.866648032] [move_group_interface]: time taken to generate plan: 0.0153707 seconds
+[INFO] [1756259255.627269567] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756259255.627764391] [move_group_interface]: Planning request accepted
+[INFO] [1756259256.644307907] [move_group_interface]: Planning request complete!
+[INFO] [1756259256.644359987] [move_group_interface]: time taken to generate plan: 0.0150337 seconds
+[INFO] [1756259333.084921758] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756259333.085402176] [move_group_interface]: Planning request accepted
+[INFO] [1756259334.122082061] [move_group_interface]: Planning request complete!
+[INFO] [1756259334.122609127] [move_group_interface]: time taken to generate plan: 0.0202408 seconds
+[INFO] [1756259347.996238844] [move_group_interface]: Execute request accepted
+[INFO] [1756259348.996859247] [move_group_interface]: Execute request aborted
+[ERROR] [1756259348.997374307] [move_group_interface]: MoveGroupInterface::execute() failed or timeout reached
+[INFO] [1756259450.088955328] [move_group_interface]: Plan and Execute request accepted
+[INFO] [1756259452.123735887] [move_group_interface]: Plan and Execute request aborted
+[ERROR] [1756259452.124158538] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+[INFO] [1756260380.486954023] [rclcpp]: signal_handler(signum=2)

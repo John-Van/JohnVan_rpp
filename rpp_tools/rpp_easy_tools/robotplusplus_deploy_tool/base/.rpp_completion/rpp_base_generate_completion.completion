@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# 检查 SCRIPT_ROOT_PATH 是否已定义
+if [[ -z "${SCRIPT_ROOT_PATH}" ]]; then
+    echo "Error: SCRIPT_ROOT_PATH is not set."
+    exit 1
+fi
+
+
+
+
+
+
+# 自定义命令补全函数
+function rpp_base_generate_completion() {
+    
+    local cur prev 
+    local config_files=($(rpp_find_path "image.config"))                  
+    COMPREPLY=() # 初始化补全选项
+
+    cur="${COMP_WORDS[COMP_CWORD]}" # 当前输入的部分单词
+    prev="${COMP_WORDS[COMP_CWORD-1]}" # 上一个单词
+    # 获取配置文件列表
+    
+    # 根据上一个参数决定补全选项
+    case "${prev}" in
+        rpp_base_generate)
+            # 提供固定选项、动态配置文件和上一个单词
+            COMPREPLY=($(compgen -W " ${config_files[*]} ${prev}" -- "${cur}"))
+            return 0
+            ;;
+        *)
+            # 默认情况下也可以提供上一个单词作为补全选项
+            COMPREPLY=($(compgen -W "${prev}" -- "${cur}"))
+            return 0
+            ;;
+    esac
+}
+
+# 注册命令补全函数
+complete -F rpp_base_generate_completion rpp_base_generate

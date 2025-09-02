@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating graphic_display.egg-info
+writing graphic_display.egg-info/PKG-INFO
+writing dependency_links to graphic_display.egg-info/dependency_links.txt
+writing entry points to graphic_display.egg-info/entry_points.txt
+writing requirements to graphic_display.egg-info/requires.txt
+writing top-level names to graphic_display.egg-info/top_level.txt
+writing manifest file 'graphic_display.egg-info/SOURCES.txt'
+reading manifest file 'graphic_display.egg-info/SOURCES.txt'
+writing manifest file 'graphic_display.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rpp/rpp_ws/install/graphic_display/lib/python3.10/site-packages/graphic-display.egg-link (link to .)
+Installing graphic_display script to /home/rpp/rpp_ws/install/graphic_display/lib/graphic_display
+
+Installed /home/rpp/rpp_ws/build/graphic_display
+running symlink_data
+creating /home/rpp/rpp_ws/install/graphic_display/share/ament_index
+creating /home/rpp/rpp_ws/install/graphic_display/share/ament_index/resource_index
+creating /home/rpp/rpp_ws/install/graphic_display/share/ament_index/resource_index/packages
+symbolically linking /home/rpp/rpp_ws/build/graphic_display/resource/graphic_display -> /home/rpp/rpp_ws/install/graphic_display/share/ament_index/resource_index/packages
+symbolically linking /home/rpp/rpp_ws/build/graphic_display/package.xml -> /home/rpp/rpp_ws/install/graphic_display/share/graphic_display

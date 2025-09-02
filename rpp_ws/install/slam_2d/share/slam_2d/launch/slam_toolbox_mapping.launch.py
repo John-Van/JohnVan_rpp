@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/application/slam_2d/launch/slam_toolbox_mapping.launch.py

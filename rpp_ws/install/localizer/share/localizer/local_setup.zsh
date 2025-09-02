@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/localizer/ament_cmake_environment_hooks/local_setup.zsh

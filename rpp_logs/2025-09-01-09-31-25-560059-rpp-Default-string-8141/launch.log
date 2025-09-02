@@ -1,0 +1,5 @@
+1756690285.5606081 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-09-31-25-560059-rpp-Default-string-8141
+1756690285.5606885 [INFO] [launch]: Default logging verbosity is set to INFO
+1756690285.5865762 [INFO] [linker_hand_sdk-1]: process started with pid [8142]
+1756690974.0924916 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756690974.2380450 [INFO] [linker_hand_sdk-1]: process has finished cleanly [pid 8142]

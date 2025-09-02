@@ -1,0 +1,10 @@
+/home/ldx/3rdparty/serial/build/CMakeFiles/uninstall.dir
+/home/ldx/3rdparty/serial/build/CMakeFiles/serial_uninstall.dir
+/home/ldx/3rdparty/serial/build/CMakeFiles/serial.dir
+/home/ldx/3rdparty/serial/build/CMakeFiles/test.dir
+/home/ldx/3rdparty/serial/build/CMakeFiles/edit_cache.dir
+/home/ldx/3rdparty/serial/build/CMakeFiles/rebuild_cache.dir
+/home/ldx/3rdparty/serial/build/CMakeFiles/list_install_components.dir
+/home/ldx/3rdparty/serial/build/CMakeFiles/install.dir
+/home/ldx/3rdparty/serial/build/CMakeFiles/install/local.dir
+/home/ldx/3rdparty/serial/build/CMakeFiles/install/strip.dir

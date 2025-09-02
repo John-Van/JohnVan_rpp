@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/xf_voice_msgs/ament_cmake_python/xf_voice_msgs/xf_voice_msgs.egg-info/SOURCES.txt

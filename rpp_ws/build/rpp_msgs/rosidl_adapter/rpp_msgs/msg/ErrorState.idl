@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rpp_msgs/msg/ErrorState.msg
+// generated code does not contain a copyright notice
+
+
+module rpp_msgs {
+  module msg {
+    struct ErrorState {
+      uint8 motor_error;
+
+      uint8 turn_motor_error;
+
+      uint8 bump_error;
+
+      uint8 communication_error;
+
+      @verbatim (language="comment", text=
+        "time stamp in nanoseconds, since epoch")
+      int64 ts;
+    };
+  };
+};

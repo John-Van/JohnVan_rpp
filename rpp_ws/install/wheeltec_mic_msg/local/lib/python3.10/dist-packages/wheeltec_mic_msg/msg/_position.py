@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/wheeltec_mic_msg/rosidl_generator_py/wheeltec_mic_msg/msg/_position.py

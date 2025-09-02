@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/application/pymoveit2/examples/ex_pose_goal.py

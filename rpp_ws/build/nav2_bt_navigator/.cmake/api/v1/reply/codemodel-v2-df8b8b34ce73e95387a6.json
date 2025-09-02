@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-913c6ad1157287be4d56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nav2_bt_navigator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_navigator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_navigator-Release-576e75dd90348b8a5598.json",
+					"name" : "bt_navigator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_navigator_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_navigator_core-Release-35f8c5cd81abf1f55537.json",
+					"name" : "bt_navigator_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_bt_navigator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_bt_navigator_uninstall-Release-009d2bf956550b958c4d.json",
+					"name" : "nav2_bt_navigator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-b2561e7762ad3faf1a86.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rpp/rpp_ws/build/nav2_bt_navigator",
+		"source" : "/home/rpp/rpp_ws/src/navigation/navigation2/nav2_bt_navigator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

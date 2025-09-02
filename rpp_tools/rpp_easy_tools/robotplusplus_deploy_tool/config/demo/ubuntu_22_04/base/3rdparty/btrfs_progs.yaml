@@ -1,0 +1,14 @@
+---
+2204_image:
+  git_repos:
+   3rdparty: 
+     btrfs_progs: 
+        url: https://git.robotplusplus.com.cn/third-party/kdave/btrfs-progs.git
+        user: $robuster_git_user
+        tag: v6.12
+        local_path: $locla_3rdparty_repos
+        other_exec: btrf_progs.build
+        apt_pkgs: python3-sphinx python3-sphinx-rtd-theme libext2fs-dev liblzo2-dev
+        apt_ros_pkgs:
+        python2_pip_pkgs:
+        python3_pip_pkgs: 

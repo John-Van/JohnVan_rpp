@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/lakibeam1/ament_cmake_core/lakibeam1Config-version.cmake

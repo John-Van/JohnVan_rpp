@@ -1,0 +1,9 @@
+source;share/graphic_display/hook/pythonpath.ps1
+source;share/graphic_display/hook/pythonpath.dsv
+source;share/graphic_display/hook/pythonpath.sh
+source;share/graphic_display/hook/ament_prefix_path.ps1
+source;share/graphic_display/hook/ament_prefix_path.dsv
+source;share/graphic_display/hook/ament_prefix_path.sh
+source;../../build/graphic_display/share/graphic_display/hook/pythonpath_develop.ps1
+source;../../build/graphic_display/share/graphic_display/hook/pythonpath_develop.dsv
+source;../../build/graphic_display/share/graphic_display/hook/pythonpath_develop.sh

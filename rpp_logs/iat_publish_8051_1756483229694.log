@@ -1,0 +1,25 @@
+[INFO] [1756483229.714092495] [iat_node]: MSPLogin success.
+[INFO] [1756483247.295436042] [iat_node]: Awake flag received, start IAT.
+[INFO] [1756483247.314452728] [xf_voice]: Start listening ...
+[INFO] [1756483253.129442437] [xf_voice]: Result: 你好，请打开相机。
+
+[INFO] [1756483253.165645628] [iat_node]: Published result.
+[INFO] [1756483253.229529543] [xf_voice]: Speech end (VAD)
+[INFO] [1756483262.195050265] [iat_node]: Awake flag received, start IAT.
+[INFO] [1756483262.207873330] [xf_voice]: Start listening ...
+[INFO] [1756483267.134394764] [xf_voice]: Result: 是恢复了。
+
+[INFO] [1756483267.166469533] [iat_node]: Published result.
+[INFO] [1756483267.234442391] [xf_voice]: Speech end (VAD)
+[INFO] [1756483283.194508616] [iat_node]: Awake flag received, start IAT.
+[INFO] [1756483283.209212627] [xf_voice]: Start listening ...
+[INFO] [1756483289.042877958] [xf_voice]: Speech end (VAD)
+[INFO] [1756483304.195484842] [iat_node]: Awake flag received, start IAT.
+[INFO] [1756483304.209759986] [xf_voice]: Start listening ...
+[INFO] [1756483310.826134484] [xf_voice]: Result: 请发布指令。
+
+[INFO] [1756483310.868814071] [iat_node]: Published result.
+[INFO] [1756483310.926230122] [xf_voice]: Speech end (VAD)
+[INFO] [1756483325.194176711] [iat_node]: Awake flag received, start IAT.
+[INFO] [1756483325.207137556] [xf_voice]: Start listening ...
+[INFO] [1756483330.436296312] [rclcpp]: signal_handler(signum=2)

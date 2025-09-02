@@ -1,0 +1,5 @@
+[INFO] [1756026896.936588283] [serial_driver]: motion model: 2wd
+[INFO] [1756026896.937163744] [serial_driver]: enable serial control 00
+[INFO] [1756026897.037293181] [serial_driver]: enable serial control 00
+[INFO] [1756026897.137426536] [serial_driver]: enable serial control success
+[INFO] [1756027357.881036063] [rclcpp]: signal_handler(signum=2)

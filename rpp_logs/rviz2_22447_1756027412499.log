@@ -1,0 +1,20 @@
+[INFO] [1756027412.832539037] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756027412.832597582] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1756027412.874790272] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1756027415.959205866] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1756027415.965293243] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1756027415.992397489] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756027416.024744364] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0194955 seconds
+[INFO] [1756027416.024776557] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+[INFO] [1756027416.024782846] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[ERROR] [1756027416.311168972] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+[ERROR] [1756027416.311183887] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+[ERROR] [1756027416.311192449] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+[INFO] [1756027417.026924715] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1756027417.027181515] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1756027417.849321555] [interactive_marker_display_96390945346592]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1756027417.875783358] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+[INFO] [1756027417.875800725] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+[INFO] [1756027417.878392889] [move_group_interface]: Ready to take commands for planning group dual_arm.
+[INFO] [1756027418.008052267] [interactive_marker_display_96390945346592]: Sending request for interactive markers
+[INFO] [1756027418.125600938] [interactive_marker_display_96390945346592]: Service response received for initialization

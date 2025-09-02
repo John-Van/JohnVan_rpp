@@ -1,0 +1,9 @@
+source;share/linker_hand_ros2_sdk/hook/pythonpath.ps1
+source;share/linker_hand_ros2_sdk/hook/pythonpath.dsv
+source;share/linker_hand_ros2_sdk/hook/pythonpath.sh
+source;share/linker_hand_ros2_sdk/hook/ament_prefix_path.ps1
+source;share/linker_hand_ros2_sdk/hook/ament_prefix_path.dsv
+source;share/linker_hand_ros2_sdk/hook/ament_prefix_path.sh
+source;../../build/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/hook/pythonpath_develop.ps1
+source;../../build/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/hook/pythonpath_develop.dsv
+source;../../build/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/hook/pythonpath_develop.sh

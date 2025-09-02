@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/rpp/rpp_ws/install/rpp_msgs/include/**",
+        "/home/rpp/rpp_ws/install/kortex_driver/include/**",
+        "/home/rpp/rpp_ws/install/kortex_api/include/**",
+        "/home/rpp/rpp_ws/install/io_msgs2/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/rpp/rpp_ws/src/drivers/ros2_kortex/kortex_driver/include/**",
+        "/home/rpp/rpp_ws/src/drivers/rpp_driver/include/**",
+        "/home/rpp/rpp_ws/src/drivers/rpp_ros_driver/include/**",
+        "/home/rpp/rpp_ws/src/drivers/syntron_servo_ros/include/**",
+        "/home/rpp/rpp_ws/src/drivers/syntron_servo_sdk/include/**",
+        "/home/rpp/rpp_ws/src/drivers/ti5cra_servo_ros/include/**",
+        "/home/rpp/rpp_ws/src/drivers/ti5cra_servo_sdk/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

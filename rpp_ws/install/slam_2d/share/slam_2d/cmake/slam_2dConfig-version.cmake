@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/slam_2d/ament_cmake_core/slam_2dConfig-version.cmake

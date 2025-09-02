@@ -1,0 +1,83 @@
+---
+nodka_1804_image:
+  env_map:
+    user_debug: true #true or false
+    robuster_git_user: rpp:shihe321
+    local_drivers_repos: $HOME/rpp_ws/src/drivers
+    local_robot_repos: $HOME/rpp_ws/src/robot
+    local_slam_repos: $HOME/rpp_ws/src/slam
+    local_navigation_repos: $HOME/rpp_ws/src/navigation
+    local_manipulator_repos: $HOME/rpp_ws/src/manipulator
+    local_application_repos: $HOME/rpp_ws/src/application
+    local_vision_repos: $HOME/rpp_ws/src/vision
+    local_tools_repos: $HOME/rpp_ws/src/tools
+    locla_3rdparty_repos: $HOME/3rdparty
+    locla_rpp_data: $HOME/rpp_data
+    locla_rpp_tools: $HOME/rpp_tools
+    nvidia_gpu_model: 
+    car_mode: robot
+    system_architecture: Linux_amd64 # or Linux_arm64
+    PS1_STRING: \\[\033[1;32m\\]\u\\[\033[1;36m\\]<\\[\033[1;32m\\]$car_mode\\[\033[1;36m\\]>:\\[\033[1;34m\\]\w\\[\033[0m\\]\\$ '
+    apt_source_url: https://mirrors.tuna.tsinghua.edu.cn
+    pip_source_url: https://pypi.tuna.tsinghua.edu.cn/simple
+    rpp_tools_link: http://file.robotplusplus.com.cn/common_tools/1.1.0
+    rpp_data_link: http://file.robotplusplus.com.cn/rpp_data/1.0.0
+    nvidia_toolkit_link: http://file.robotplusplus.com.cn/nvidia/ubuntu18.04-cuda-11.4.0-cudnn-8.4.1.50-tensorrt-8.4.1.5-amd64/
+    git_3rdparty_link: https://git.robotplusplus.com.cn/third-party
+    ros1_source_url: https://mirrors.tuna.tsinghua.edu.cn/ros/ubuntu/
+    ros_distro_version: melodic
+  depends_map : 
+    debian_pkgs: 
+      -  code_*.deb
+      - nomachine_*.deb
+      - SunloginClient_*.deb
+
+    python2_pip_pkgs: 
+      - catkin-tools
+      - rospkg
+      - pyserial 
+      - numpy
+    python3_pip_pkgs: 
+      - numpy
+    apt_pkgs: 
+      - openssh-server 
+      - python python3 python-pip python3-pip
+      - htop tree
+      - curl wget wireshark proxychains4
+      - gawk vim 
+      - git
+      - gimp kazam   pcl-tools
+      - net-tools
+      - bleachbit #硬盘清理工具
+      - libeigen3-dev 
+      - libmodbus-dev libserial-dev
+      - cmake
+    apt_ros_pkgs:
+      - ros-control position-controllers  effort-controllers  velocity-controllers
+      - gazebo-ros gazebo-ros-control
+      - moveit moveit-servo combined-robot-hw trac-ik-kinematics-plugin  joint-trajectory-controller
+      -  joint-state-controller effort-controllers   ros-controllers  joint-state-publisher-gui
+      - joy teleop-twist-joy
+      - ddynamic-reconfigure 
+  git_repos:
+   3rdparty: # 存放需要源码编译的第三方库，如GTSAM, OpenCV, ceres 等。也包含一些设备的驱动程序，如librealsense, livox-SDK等
+     gtsam: #TODo:fast-lio-sam need 4.2.0
+        url: https://git.robotplusplus.com.cn/third-party/borglab/gtsam.git
+        user: $robuster_git_user
+        tag: 4.2.0
+        local_path: $locla_3rdparty_repos
+        other_exec: gtsam.build
+        apt_pkgs:
+        apt_ros_pkgs:
+        python2_pip_pkgs:
+        python3_pip_pkgs: 
+     rpp_fast_migrate_record:
+        url: https://git.robotplusplus.com.cn/others/rpp_fast_migrate_record.git
+        user: $robuster_git_user
+        tag: 
+        local_path: $locla_rpp_tools
+        other_exec: rpp_fast_migrate_record.build
+        apt_pkgs:
+        apt_ros_pkgs:
+        python2_pip_pkgs:
+        python3_pip_pkgs:

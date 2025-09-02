@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/application/navigation_2d/launch/fast_lio_navigation.launch.py

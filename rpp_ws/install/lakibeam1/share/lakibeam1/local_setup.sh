@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/lakibeam1/ament_cmake_environment_hooks/local_setup.sh

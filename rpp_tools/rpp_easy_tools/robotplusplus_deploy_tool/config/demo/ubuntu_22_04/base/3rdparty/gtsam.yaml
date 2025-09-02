@@ -1,0 +1,14 @@
+---
+1804_image:
+  git_repos:
+   3rdparty: 
+     gtsam:
+        url: https://git.robotplusplus.com.cn/third-party/borglab/gtsam.git
+        user: $robuster_git_user
+        tag: 4.2a9
+        local_path: $locla_3rdparty_repos
+        other_exec: gtsam_22_04.build
+        apt_pkgs:
+        apt_ros_pkgs:
+        python2_pip_pkgs:
+        python3_pip_pkgs: 

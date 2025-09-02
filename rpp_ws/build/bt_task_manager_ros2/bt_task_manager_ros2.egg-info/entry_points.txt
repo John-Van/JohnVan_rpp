@@ -1,0 +1,10 @@
+[console_scripts]
+arm = bt_task_manager_ros2.examples.ex_moveit_arm:main
+aruco_detector_node = bt_task_manager_ros2.scripts.aruco_detector_node:main
+chassis = bt_task_manager_ros2.examples.ex_chassis_move:main
+controller_node = bt_task_manager_ros2.scripts.controller_node:main
+grasp_node = bt_task_manager_ros2.scripts.grasp_node:main
+gripper = bt_task_manager_ros2.examples.ex_moveit_gripper:main
+navigation = bt_task_manager_ros2.examples.ex_navigation:main
+test = bt_task_manager_ros2.scripts.test:main
+

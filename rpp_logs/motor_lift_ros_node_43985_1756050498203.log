@@ -1,0 +1,56 @@
+[INFO] [1756050498.239462816] [motor_lift_ros_node]: Lift Motor initialization parameters:
+[INFO] [1756050498.239529770] [motor_lift_ros_node]: CAN Port: can0
+[INFO] [1756050498.239535086] [motor_lift_ros_node]: CAN Motor ID: 0x02
+[INFO] [1756050498.239538725] [motor_lift_ros_node]: Lift Joint: connector_joint
+[INFO] [1756050498.239543577] [motor_lift_ros_node]: High Limit: 0.00
+[INFO] [1756050498.239550142] [motor_lift_ros_node]: Low Limit: -0.46
+[INFO] [1756050498.239554478] [motor_lift_ros_node]: Velocity: 0.02800 m/s
+[ERROR] [1756050683.808654764] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050684.809212133] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050685.808830875] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050686.808961527] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050687.809036222] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050688.809153083] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050689.808945772] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050690.808917732] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050691.808984031] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050692.809174556] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050693.809058453] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050694.810157167] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050695.808962616] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050696.808852991] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050697.809141899] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050698.809037917] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050699.809949955] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050700.809426698] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756050701.088234412] [motor_lift_ros_node]: Motor is in place. Current position: -0.00
+[ERROR] [1756050701.809009184] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050702.809032895] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050703.809086352] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050704.808883727] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050705.808952596] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050706.808984892] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050707.809178950] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050708.808950799] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050709.808934180] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050710.809013724] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050711.808949159] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050712.808935846] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050713.809035510] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050714.808901699] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050715.808999242] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050716.809065239] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050717.809267163] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050718.808958769] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050719.808966333] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050720.808960896] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050721.809073104] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050722.809161545] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050723.809727732] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050724.809056394] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050725.809002512] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050726.808871993] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050727.809085899] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050728.809000136] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[ERROR] [1756050729.808972429] [motor_lift_ros_node]: Set position out of limit, motor move to the nearest limit.
+[INFO] [1756050735.603058389] [rclcpp]: signal_handler(signum=2)

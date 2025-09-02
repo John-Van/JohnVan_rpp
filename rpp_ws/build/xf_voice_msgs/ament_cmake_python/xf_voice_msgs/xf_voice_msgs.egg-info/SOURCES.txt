@@ -1,0 +1,8 @@
+setup.py
+xf_voice_msgs/__init__.py
+xf_voice_msgs.egg-info/PKG-INFO
+xf_voice_msgs.egg-info/SOURCES.txt
+xf_voice_msgs.egg-info/dependency_links.txt
+xf_voice_msgs.egg-info/top_level.txt
+xf_voice_msgs/srv/__init__.py
+xf_voice_msgs/srv/_xf.py

@@ -1,0 +1,15 @@
+---
+18_04_product:
+  git_repos:
+   rpp_data:
+    rpp_data:
+      url: https://git.robotplusplus.com.cn/others/rpp_data.git
+      user: $robuster_git_user
+      tag: 
+      local_path: $locla_rpp_data
+      other_exec: rpp_data.build
+      apt_pkgs:
+      apt_ros_pkgs:
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+

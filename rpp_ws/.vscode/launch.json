@@ -1,0 +1,40 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "driver",
+            "type": "ros",
+            "request": "launch",
+            "target": "/home/rpp/rpp_ws/src/drivers/rpp_ros_driver/launch/driver.launch.py"
+        },
+        {
+            "name": "grasp_node",
+            "request": "launch",
+            "target": "/home/rpp/rpp_ws/src/application/bt_task_manager_ros2/launch/grasp_node.launch.py",
+            "launch": [
+                "rviz",
+                "gz",
+                "gzclient",
+                "gzserver"
+            ],
+            "type": "ros",
+            "arguments": ["robot_name:=ea200"]
+        },
+        {
+            "name": "controller_node",
+            "request": "launch",
+            "target": "/home/rpp/rpp_ws/src/application/bt_task_manager_ros2/launch/controller_node.launch.py",
+            "launch": [
+                "rviz",
+                "gz",
+                "gzclient",
+                "gzserver"
+            ],
+            "type": "ros",
+            "arguments": ["robot_name:=ea200"]
+        }
+    ]
+}

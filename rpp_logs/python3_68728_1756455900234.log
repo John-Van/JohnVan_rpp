@@ -1,0 +1,4 @@
+[INFO] [1756455901.335953268] [ex_joint_goal]: Moving to {joint_positions: [0.0, 0.0, 0.0, -0.7853981633974483, 0.0, 1.5707963267948966, 0.7853981633974483]}
+[WARN] [1756455901.637463516] [ex_joint_goal]: Planning failed! Error code: FAILURE
+[WARN] [1756455901.637898660] [ex_joint_goal]: Cannot execute motion because the provided/planned trajectory is invalid.
+[WARN] [1756455901.638411049] [ex_joint_goal]: Cannot wait until motion is executed (no motion is in progress).

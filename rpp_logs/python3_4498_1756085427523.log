@@ -1,0 +1,3 @@
+[INFO] [1756085427.883712077] [spawner_fault_controller]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [1756085429.394094831] [spawner_fault_controller]: [94mLoaded [1mfault_controller[0m
+[INFO] [1756085429.966274384] [spawner_fault_controller]: [92mConfigured and activated [1mfault_controller[0m

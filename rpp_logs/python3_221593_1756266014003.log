@@ -1,0 +1,4 @@
+[INFO] [1756266015.141906204] [ex_pose_goal]: Moving to {position: [0.25, 0.0, 1.0], quat_xyzw: [0.0, 0.0, 0.0, 1.0]}
+[WARN] [1756266015.544803452] [ex_pose_goal]: Planning failed! Error code: FAILURE
+[WARN] [1756266015.545324956] [ex_pose_goal]: Cannot execute motion because the provided/planned trajectory is invalid.
+[WARN] [1756266015.545576391] [ex_pose_goal]: Cannot wait until motion is executed (no motion is in progress).

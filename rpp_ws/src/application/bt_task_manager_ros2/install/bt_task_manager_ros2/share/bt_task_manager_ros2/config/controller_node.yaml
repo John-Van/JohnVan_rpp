@@ -1,0 +1,17 @@
+/controller_node:
+  ros__parameters:
+    task_cfg: "/home/rpp/rpp_data/config/bt_task_manager/task_grasp.yaml"
+    moveit_arm_config: "right_arm_config"
+    moveit_gripper_config: "fake_config"
+    base_frame: "base_link"
+    target_frame: "marker_6_link"
+    chassis_feed_depth: 0.2
+    tcp_offset_x: 0.01
+    tcp_offset_y: 0.0
+    tcp_offset_z: -0.2
+    arm_feed_depth: 0.1
+    grasp_angles_x: 0.0
+    grasp_angles_y: 0.0
+    grasp_angles_z: 0.0
+    use_target_orient: true
+    grasp_angles: [-90.0, 0.0, -90.0]

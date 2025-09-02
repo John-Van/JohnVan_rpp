@@ -1,0 +1,24 @@
+[1.101s] Invoking command in '/home/rpp/rpp_ws/build/slam_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/slam_2d -- -j24 -l24
+[1.421s] Invoked command in '/home/rpp/rpp_ws/build/slam_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/slam_2d -- -j24 -l24
+[1.422s] Invoking command in '/home/rpp/rpp_ws/build/slam_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/slam_2d
+[1.442s] -- Install configuration: ""
+[1.442s] -- Execute custom install script
+[1.442s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/slam_2d/launch/slam_toolbox_mapping.launch.py
+[1.442s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/slam_2d/config/mapper_params_online_sync.yaml
+[1.442s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/slam_2d/config/nav2_mppi_params.yaml
+[1.442s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/ament_index/resource_index/package_run_dependencies/slam_2d
+[1.442s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/ament_index/resource_index/parent_prefix_path/slam_2d
+[1.442s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/slam_2d/environment/ament_prefix_path.sh
+[1.442s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/slam_2d/environment/ament_prefix_path.dsv
+[1.443s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/slam_2d/environment/path.sh
+[1.443s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/slam_2d/environment/path.dsv
+[1.443s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/slam_2d/local_setup.bash
+[1.443s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/slam_2d/local_setup.sh
+[1.443s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/slam_2d/local_setup.zsh
+[1.443s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/slam_2d/local_setup.dsv
+[1.443s] -- Symlinking: /home/rpp/rpp_ws/install/slam_2d/share/slam_2d/package.dsv
+[1.443s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/ament_index/resource_index/packages/slam_2d
+[1.443s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/slam_2d/cmake/slam_2dConfig.cmake
+[1.443s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/slam_2d/cmake/slam_2dConfig-version.cmake
+[1.443s] -- Up-to-date symlink: /home/rpp/rpp_ws/install/slam_2d/share/slam_2d/package.xml
+[1.622s] Invoked command in '/home/rpp/rpp_ws/build/slam_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/slam_2d

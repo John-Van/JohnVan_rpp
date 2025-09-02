@@ -1,0 +1,10 @@
+1755508086.4386792 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-18-17-08-06-438169-rpp-Default-string-4211
+1755508086.4387569 [INFO] [launch]: Default logging verbosity is set to INFO
+1755508086.7478886 [INFO] [lakibeam1_scan_node-1]: process started with pid [4215]
+1755508086.7479959 [INFO] [livox_ros_driver2_node-2]: process started with pid [4217]
+1755508086.7480409 [INFO] [lidar_clipping-3]: process started with pid [4219]
+1755508086.7480755 [INFO] [robot_state_publisher-4]: process started with pid [4221]
+1755508086.7481060 [INFO] [joint_state_publisher-5]: process started with pid [4223]
+1755508086.7481344 [INFO] [rpp_ros_driver_node-6]: process started with pid [4225]
+1755508087.0461745 [joint_state_publisher-5] [INFO] [1755508087.046009893] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1755508224.9851441 [ERROR] [rpp_ros_driver_node-6]: process has died [pid 4225, exit code -11, cmd '/home/rpp/rpp_ws/install/rpp_ros_driver/lib/rpp_ros_driver/rpp_ros_driver_node --ros-args --params-file /home/rpp/rpp_ws/install/robot_bringup/share/robot_bringup/params/rpp.yaml --params-file /tmp/launch_params_5tn19u0h'].

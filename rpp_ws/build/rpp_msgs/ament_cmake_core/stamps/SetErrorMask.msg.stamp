@@ -1,0 +1,2 @@
+uint8 motor_mask
+uint8 bump_mask

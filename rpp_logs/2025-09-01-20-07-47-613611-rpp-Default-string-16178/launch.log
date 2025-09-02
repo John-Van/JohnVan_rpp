@@ -1,0 +1,15 @@
+1756728467.6142871 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-20-07-47-613611-rpp-Default-string-16178
+1756728467.6143904 [INFO] [launch]: Default logging verbosity is set to INFO
+1756728467.6506536 [INFO] [gui_control-1]: process started with pid [16179]
+1756728467.6507711 [INFO] [gui_control-2]: process started with pid [16181]
+1756729160.4094307 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756729165.4158401 [ERROR] [gui_control-2]: process[gui_control-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1756729165.4161427 [ERROR] [gui_control-1]: process[gui_control-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1756729165.4163027 [INFO] [gui_control-2]: sending signal 'SIGTERM' to process[gui_control-2]
+1756729165.4164999 [INFO] [gui_control-1]: sending signal 'SIGTERM' to process[gui_control-1]
+1756729170.4151547 [ERROR] [gui_control-2]: process[gui_control-2] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+1756729170.4154692 [ERROR] [gui_control-1]: process[gui_control-1] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+1756729170.4156244 [INFO] [gui_control-2]: sending signal 'SIGKILL' to process[gui_control-2]
+1756729170.4159229 [INFO] [gui_control-1]: sending signal 'SIGKILL' to process[gui_control-1]
+1756729170.4214616 [ERROR] [gui_control-1]: process has died [pid 16179, exit code -9, cmd '/home/rpp/rpp_ws/install/gui_control/lib/gui_control/gui_control --ros-args -r __node:=left_hand_control_node --params-file /tmp/launch_params_u7bhjhaf'].
+1756729170.4217093 [ERROR] [gui_control-2]: process has died [pid 16181, exit code -9, cmd '/home/rpp/rpp_ws/install/gui_control/lib/gui_control/gui_control --ros-args -r __node:=right_hand_control_node --params-file /tmp/launch_params_wh6jaf8v'].

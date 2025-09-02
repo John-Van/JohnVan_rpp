@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rpp_msgs/msg/SetLight.msg
+// generated code does not contain a copyright notice
+
+
+module rpp_msgs {
+  module msg {
+    struct SetLight {
+      uint8 front_light;
+
+      uint8 rear_light;
+    };
+  };
+};

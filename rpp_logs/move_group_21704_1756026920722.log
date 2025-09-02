@@ -1,0 +1,779 @@
+[INFO] [1756026920.760751741] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0235356 seconds
+[INFO] [1756026920.760790649] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+[INFO] [1756026920.760795163] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[ERROR] [1756026921.085921274] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+[ERROR] [1756026921.085941300] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+[ERROR] [1756026921.085948967] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+[INFO] [1756026921.857044441] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[INFO] [1756026921.857173607] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[INFO] [1756026921.857653273] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[INFO] [1756026921.857850859] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[INFO] [1756026921.857860444] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1756026921.857985103] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[INFO] [1756026921.857992140] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[INFO] [1756026921.858143450] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[INFO] [1756026921.858281106] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[WARN] [1756026921.858699914] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[ERROR] [1756026921.858708571] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[INFO] [1756026922.682234941] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[INFO] [1756026922.689158453] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[INFO] [1756026922.691267847] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[INFO] [1756026922.691276727] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[INFO] [1756026922.691279027] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[INFO] [1756026922.691289349] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[INFO] [1756026922.691296789] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[INFO] [1756026922.691299241] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1756026922.691304520] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1756026922.691306821] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[INFO] [1756026922.691309567] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[INFO] [1756026922.691315339] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[INFO] [1756026922.691317311] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[INFO] [1756026922.691318696] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[INFO] [1756026922.691338503] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[INFO] [1756026922.691340252] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[INFO] [1756026922.691341630] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[INFO] [1756026922.692636479] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'pilz_industrial_motion_planner'
+[INFO] [1756026922.694897595] [moveit.pilz_industrial_motion_planner.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[INFO] [1756026922.702499303] [moveit.pilz_industrial_motion_planner]: Available plugins: pilz_industrial_motion_planner/PlanningContextLoaderCIRC pilz_industrial_motion_planner/PlanningContextLoaderLIN pilz_industrial_motion_planner/PlanningContextLoaderPTP 
+[INFO] [1756026922.702510564] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderCIRC
+[INFO] [1756026922.703447254] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [CIRC]
+[INFO] [1756026922.703455125] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderLIN
+[INFO] [1756026922.704107443] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [LIN]
+[INFO] [1756026922.704115924] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderPTP
+[INFO] [1756026922.704736262] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [PTP]
+[INFO] [1756026922.704744417] [moveit.ros_planning.planning_pipeline]: Using planning interface 'Pilz Industrial Motion Planner'
+[INFO] [1756026922.724949804] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for left_joint_trajectory_controller
+[INFO] [1756026922.725780339] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for right_joint_trajectory_controller
+[INFO] [1756026922.725871387] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756026922.725884279] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756026922.726185488] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[INFO] [1756026922.726194581] [move_group.move_group]: MoveGroup debug mode is ON
+[INFO] [1756026922.733611171] [move_group.move_group]: 
+
+********************************************************
+* MoveGroup using: 
+*     - ApplyPlanningSceneService
+*     - ClearOctomapService
+*     - CartesianPathService
+*     - ExecuteTrajectoryAction
+*     - GetPlanningSceneService
+*     - KinematicsService
+*     - MoveAction
+*     - MotionPlanService
+*     - QueryPlannersService
+*     - StateValidationService
+********************************************************
+
+[INFO] [1756026922.733633418] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[INFO] [1756026922.733638652] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[WARN] [1756026926.394629802] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756026926.394660094] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756026957.897026959] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756026957.897145004] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756026957.898086384] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756026957.898096993] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756026957.898143795] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756026957.898196034] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1756026957.898202538] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756026957.898660215] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.898670337] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.898676705] [moveit_ros.fix_start_state_collision]: Start state appears to be in collision with respect to group dual_arm
+[INFO] [1756026957.899082279] [moveit_ros.fix_start_state_collision]: Found a valid state near the start state at distance 3.009130 after 0 attempts
+[INFO] [1756026957.899530162] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'dual_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[WARN] [1756026957.923722671] [moveit_trajectory_processing.time_optimal_trajectory_generation]: Joint acceleration limits are not defined. Using the default 1 rad/s^2. You can define acceleration limits in the URDF or joint_limits.yaml.
+[INFO] [1756026957.950119179] [moveit.ros_planning.planning_pipeline]: Planning adapters have added states at index positions: [ 0 ]
+[ERROR] [1756026957.956056252] [moveit.ros_planning.planning_pipeline]: Computed path is not valid. Invalid states at index locations: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 ] out of 337. Explanations follow in command line. Contacts are published on /display_contacts
+[INFO] [1756026957.956092048] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.956095467] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.956395914] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.956400739] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.956540523] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.956544108] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.956687130] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.956691175] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.956789772] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.956793346] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.956884181] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.956886563] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.956966685] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.956969704] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.957054540] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.957056734] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.957135508] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.957137707] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.957233139] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_bracelet_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.957235896] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.957324097] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_bracelet_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.957326116] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.957412343] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_bracelet_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.957414585] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.957503084] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_bracelet_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.957511571] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.957607291] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_bracelet_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.957609410] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.957707393] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_bracelet_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.957710050] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.957790634] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_spherical_wrist_2_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.957792925] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.957878871] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_spherical_wrist_2_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.957881047] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.957953446] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_spherical_wrist_2_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.957955409] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.958028033] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_spherical_wrist_2_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.958030497] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.958111263] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_spherical_wrist_2_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.958113635] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.958192894] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_spherical_wrist_2_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.958195134] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.958285300] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_spherical_wrist_2_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.958287909] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.958370792] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_spherical_wrist_2_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.958373092] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.958443820] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_spherical_wrist_2_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.958445901] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.958531218] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_flange_1_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.958533810] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.958614764] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_flange_1_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.958616924] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.958702574] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_flange_1_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.958704928] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.958777007] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_flange_1_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.958779116] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.958843652] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_flange_1_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.958845502] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.958914520] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_flange_1_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.958916748] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.958999579] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_flange_1_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.959001785] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.959079117] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_flange_1_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.959085211] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.959164582] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_flange_1_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.959166433] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.959240139] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_flange_1_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.959241935] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.959311984] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_flange_1_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.959313862] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.959396468] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.959399372] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.959491884] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.959494381] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.959572497] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.959574711] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.959659053] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.959661188] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.959736393] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.959738333] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.959809437] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.959811277] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.959875873] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.959880580] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.959953360] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.959955554] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.960031697] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.960033677] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.960106255] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.960108043] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756026957.960182194] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756026957.960185393] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ERROR] [1756026957.960237787] [moveit.ros_planning.planning_pipeline]: Completed listing of explanations for invalid states.
+[INFO] [1756026957.960817539] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was found but it seems to be invalid (possibly due to postprocessing). Not executing.
+[INFO] [1756027095.889942724] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756027095.889996378] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756027095.898047683] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756027095.898063611] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756027095.898103251] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756027095.898190457] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1756027095.898194614] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756027095.898464367] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.898473813] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.898496544] [moveit_ros.fix_start_state_collision]: Start state appears to be in collision with respect to group dual_arm
+[INFO] [1756027095.899333223] [moveit_ros.fix_start_state_collision]: Found a valid state near the start state at distance 2.755049 after 2 attempts
+[INFO] [1756027095.899643250] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'dual_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756027095.934750319] [moveit.ros_planning.planning_pipeline]: Planning adapters have added states at index positions: [ 0 ]
+[ERROR] [1756027095.937949626] [moveit.ros_planning.planning_pipeline]: Computed path is not valid. Invalid states at index locations: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 ] out of 149. Explanations follow in command line. Contacts are published on /display_contacts
+[INFO] [1756027095.937983306] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.937986666] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.938177307] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.938180251] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.938285846] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.938288911] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.938389109] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.938391535] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.938475661] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.938477655] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.938572613] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.938575236] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.938659753] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.938661775] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.938748860] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.938762991] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.938849444] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.938851684] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.938944727] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.938946765] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.939034044] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.939035951] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.939119247] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.939121161] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.939213809] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.939215648] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.939316954] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.939319259] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.939435211] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.939437738] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.939567694] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.939570488] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.939712850] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.939715090] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.939855794] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.939861083] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.940017856] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.940020462] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.940187747] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.940189856] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.940357557] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.940359641] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027095.940535379] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027095.940537827] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ERROR] [1756027095.940647482] [moveit.ros_planning.planning_pipeline]: Completed listing of explanations for invalid states.
+[INFO] [1756027095.940841993] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was found but it seems to be invalid (possibly due to postprocessing). Not executing.
+[INFO] [1756027206.986448599] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756027206.986522004] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756027206.987866139] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756027206.987883506] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756027206.987943646] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756027206.988043091] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1756027206.988049352] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756027206.988292877] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027206.988299731] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027206.988305369] [moveit_ros.fix_start_state_collision]: Start state appears to be in collision with respect to group dual_arm
+[INFO] [1756027206.989069312] [moveit_ros.fix_start_state_collision]: Found a valid state near the start state at distance 2.109602 after 1 attempts
+[INFO] [1756027206.989314533] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'dual_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756027207.013396216] [moveit.ros_planning.planning_pipeline]: Planning adapters have added states at index positions: [ 0 ]
+[ERROR] [1756027207.017841432] [moveit.ros_planning.planning_pipeline]: Computed path is not valid. Invalid states at index locations: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 ] out of 177. Explanations follow in command line. Contacts are published on /display_contacts
+[INFO] [1756027207.017876714] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.017880287] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.018118132] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.018121785] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.018244243] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.018246841] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.018347678] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.018350394] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.018449953] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.018452264] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.018553713] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.018555967] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.018654903] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.018657198] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.018749143] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.018762232] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.018857809] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.018861103] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.018956580] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.018958646] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.019050980] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.019052855] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.019151828] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.019154237] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.019256774] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.019259044] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.019362042] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.019364357] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.019470880] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.019473370] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.019601277] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.019603751] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.019739078] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.019741242] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.019885398] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.019892425] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.020053956] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.020056568] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.020265041] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.020267320] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.020504503] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.020507248] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.020780394] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.020782680] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.021096290] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.021098855] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.021386823] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.021389481] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.021640816] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.021643519] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.021852315] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.021854839] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.022016375] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.022018619] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.022175574] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.022178121] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.022335068] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.022337305] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.022485326] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.022488081] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.022640774] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.022643249] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.022846611] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.022849092] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.023058358] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.023060991] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.023250169] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.023252424] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.023440727] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.023442990] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.023627685] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.023630247] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.023808934] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.023814405] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.023946403] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.023948759] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.024048964] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.024051078] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.024154425] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.024156696] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027207.024234659] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027207.024236559] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ERROR] [1756027207.024295029] [moveit.ros_planning.planning_pipeline]: Completed listing of explanations for invalid states.
+[INFO] [1756027207.024576152] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was found but it seems to be invalid (possibly due to postprocessing). Not executing.
+[INFO] [1756027216.080075438] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756027216.080127298] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756027216.086574635] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756027216.086588640] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756027216.086635602] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[INFO] [1756027216.086639469] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756027216.087096129] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'left_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756027216.104166584] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[INFO] [1756027220.041111930] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756027220.041163055] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756027220.048114976] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756027220.048141643] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756027220.048175852] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756027220.048303482] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1756027220.048307714] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756027220.048771934] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'left_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756027220.077346924] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756027220.077366770] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756027220.077428727] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1756027220.077984888] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1756027220.078020219] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756027220.078037663] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756027220.078184501] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to left_joint_trajectory_controller
+[INFO] [1756027220.078710008] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: left_joint_trajectory_controller started execution
+[INFO] [1756027220.078725416] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1756027231.629658339] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'left_joint_trajectory_controller' successfully finished
+[INFO] [1756027231.653146774] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[INFO] [1756027231.658152927] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[INFO] [1756027231.658788728] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756027231.658822569] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756027231.668014958] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756027231.668032058] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756027231.668054225] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[INFO] [1756027231.668286849] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.668305037] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.668310232] [moveit_ros.fix_start_state_collision]: Start state appears to be in collision with respect to group right_arm
+[INFO] [1756027231.668568943] [moveit_ros.fix_start_state_collision]: Found a valid state near the start state at distance 1.760972 after 1 attempts
+[INFO] [1756027231.668753868] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756027231.680618918] [moveit.ros_planning.planning_pipeline]: Planning adapters have added states at index positions: [ 0 ]
+[ERROR] [1756027231.682103300] [moveit.ros_planning.planning_pipeline]: Computed path is not valid. Invalid states at index locations: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 ] out of 76. Explanations follow in command line. Contacts are published on /display_contacts
+[INFO] [1756027231.682130846] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.682134426] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.682282980] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.682285977] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.682394431] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.682396971] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.682496344] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.682498632] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.682587278] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.682589412] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.682674890] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.682677062] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.682752743] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.682754897] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.682844285] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.682846388] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.682922106] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.682924005] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.683002653] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.683004786] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.683086486] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.683088560] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.683173060] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.683174971] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.683264710] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.683266829] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.683352774] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.683354880] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.683423768] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.683425625] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.683493622] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.683495596] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.683565004] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.683569803] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.683640827] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.683643010] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.683726201] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.683728271] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.683797583] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.683799649] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.683869127] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.683871031] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.683936224] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.683938064] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027231.684000150] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027231.684003201] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ERROR] [1756027231.684043154] [moveit.ros_planning.planning_pipeline]: Completed listing of explanations for invalid states.
+[INFO] [1756027231.684173109] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was found but it seems to be invalid (possibly due to postprocessing). Not executing.
+[INFO] [1756027236.142340944] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756027236.142393152] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756027236.147980443] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756027236.147997026] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756027236.148024384] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[INFO] [1756027236.148028295] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756027236.148423828] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027236.148439821] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027236.148446213] [moveit_ros.fix_start_state_collision]: Start state appears to be in collision with respect to group right_arm
+[INFO] [1756027236.148506130] [moveit_ros.fix_start_state_collision]: Found a valid state near the start state at distance 0.491213 after 0 attempts
+[INFO] [1756027236.148787106] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756027236.169118266] [moveit.ros_planning.planning_pipeline]: Planning adapters have added states at index positions: [ 0 ]
+[ERROR] [1756027236.170190260] [moveit.ros_planning.planning_pipeline]: Computed path is not valid. Invalid states at index locations: [ 0 1 2 3 4 5 6 7 8 9 ] out of 54. Explanations follow in command line. Contacts are published on /display_contacts
+[INFO] [1756027236.170214854] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027236.170218104] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027236.170355448] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027236.170358443] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027236.170450574] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027236.170452657] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027236.170538825] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027236.170540700] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027236.170636026] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027236.170638252] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027236.170741127] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027236.170743785] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027236.170841700] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027236.170853037] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027236.170955110] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027236.170957182] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027236.171051408] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027236.171053374] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027236.171134577] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027236.171136381] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ERROR] [1756027236.171185313] [moveit.ros_planning.planning_pipeline]: Completed listing of explanations for invalid states.
+[INFO] [1756027236.171273591] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was found but it seems to be invalid (possibly due to postprocessing). Not executing.
+[INFO] [1756027237.280375339] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756027237.280422573] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756027237.286594404] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756027237.286605774] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756027237.286648245] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756027237.286744727] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1756027237.286748790] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756027237.286982236] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.286990889] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.286997746] [moveit_ros.fix_start_state_collision]: Start state appears to be in collision with respect to group right_arm
+[INFO] [1756027237.287118610] [moveit_ros.fix_start_state_collision]: Found a valid state near the start state at distance 0.841938 after 0 attempts
+[INFO] [1756027237.287401391] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756027237.309253957] [moveit.ros_planning.planning_pipeline]: Planning adapters have added states at index positions: [ 0 ]
+[ERROR] [1756027237.310754015] [moveit.ros_planning.planning_pipeline]: Computed path is not valid. Invalid states at index locations: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 ] out of 69. Explanations follow in command line. Contacts are published on /display_contacts
+[INFO] [1756027237.310790715] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.310794073] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.310950096] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.310953271] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.311044628] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.311046669] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.311134779] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.311138115] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.311220666] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.311222738] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.311304688] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.311306919] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.311401768] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.311404347] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.311494245] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.311496338] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.311581525] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.311594875] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.311691566] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.311693626] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.311778501] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.311780355] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.311866880] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.311869324] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.311948678] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.311950530] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.312027156] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.312029275] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.312114727] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.312116615] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.312212084] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.312214396] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.312322502] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.312324648] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.312444458] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.312446989] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.312578938] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.312584908] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.312737475] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.312740078] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.312926631] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.312929046] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.313095121] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.313097538] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.313270747] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.313272895] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.313451801] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.313454345] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.313630052] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.313632606] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.313807311] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.313809433] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027237.313957802] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027237.313959825] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ERROR] [1756027237.314069360] [moveit.ros_planning.planning_pipeline]: Completed listing of explanations for invalid states.
+[INFO] [1756027237.314202506] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was found but it seems to be invalid (possibly due to postprocessing). Not executing.
+[INFO] [1756027245.028026599] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756027245.028090182] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756027245.038090642] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756027245.038106255] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756027245.038128611] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756027245.038149938] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1756027245.038153880] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756027245.038409220] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027245.038416866] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027245.038423219] [moveit_ros.fix_start_state_collision]: Start state appears to be in collision with respect to group right_arm
+[INFO] [1756027245.038542106] [moveit_ros.fix_start_state_collision]: Found a valid state near the start state at distance 0.270128 after 0 attempts
+[INFO] [1756027245.038815544] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756027245.058243214] [moveit.ros_planning.planning_pipeline]: Planning adapters have added states at index positions: [ 0 ]
+[ERROR] [1756027245.059161063] [moveit.ros_planning.planning_pipeline]: Computed path is not valid. Invalid states at index locations: [ 0 1 2 3 4 5 6 7 8 9 10 11 ] out of 43. Explanations follow in command line. Contacts are published on /display_contacts
+[INFO] [1756027245.059189523] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027245.059193413] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027245.059376501] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027245.059379988] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027245.059481210] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027245.059483318] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027245.059565726] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027245.059567841] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027245.059650191] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027245.059652166] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027245.059727253] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027245.059729258] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027245.059808899] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027245.059811192] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027245.059893362] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027245.059895683] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027245.059985810] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027245.059987927] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027245.060090663] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027245.060093296] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027245.060165429] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027245.060167486] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027245.060233991] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027245.060235888] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ERROR] [1756027245.060280852] [moveit.ros_planning.planning_pipeline]: Completed listing of explanations for invalid states.
+[INFO] [1756027245.060382654] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was found but it seems to be invalid (possibly due to postprocessing). Not executing.
+[INFO] [1756027247.458179027] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756027247.458270467] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756027247.468161895] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756027247.468203295] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756027247.468269687] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756027247.468364439] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1756027247.468376974] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756027247.468735417] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.468747690] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.468756141] [moveit_ros.fix_start_state_collision]: Start state appears to be in collision with respect to group right_arm
+[INFO] [1756027247.468922856] [moveit_ros.fix_start_state_collision]: Found a valid state near the start state at distance 1.443124 after 0 attempts
+[INFO] [1756027247.469313654] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756027247.492183034] [moveit.ros_planning.planning_pipeline]: Planning adapters have added states at index positions: [ 0 ]
+[ERROR] [1756027247.493924901] [moveit.ros_planning.planning_pipeline]: Computed path is not valid. Invalid states at index locations: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 ] out of 87. Explanations follow in command line. Contacts are published on /display_contacts
+[INFO] [1756027247.493951526] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.493954521] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.494101961] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.494104544] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.494195170] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.494197883] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.494285186] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.494287581] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.494388503] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.494390754] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.494481845] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.494484112] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.494567553] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.494569578] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.494653627] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.494655776] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.494735309] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.494737242] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.494822711] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.494824661] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.494897756] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.494899729] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.494970759] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.494972686] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.495044130] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.495046076] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.495121659] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.495123704] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.495205675] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.495207688] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.495288484] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.495290472] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.495377500] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.495379958] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.495475576] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.495477950] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.495562464] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.495564661] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.495644430] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.495646602] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.495739397] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.495741814] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.495825880] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.495827980] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.495901680] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.495903633] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.495970762] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.495974947] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.496042481] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.496044386] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.496115961] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.496118313] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.496189473] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.496191315] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.496258683] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.496260534] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.496330383] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.496332295] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.496403148] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.496406256] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.496486668] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.496489574] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.496571673] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.496574277] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.496649962] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.496652157] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027247.496729619] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027247.496731704] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ERROR] [1756027247.496781977] [moveit.ros_planning.planning_pipeline]: Completed listing of explanations for invalid states.
+[INFO] [1756027247.496952955] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was found but it seems to be invalid (possibly due to postprocessing). Not executing.
+[INFO] [1756027259.694556329] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756027259.694603768] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756027259.698149351] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756027259.698168978] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756027259.698192561] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756027259.698215571] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1756027259.698219987] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756027259.698530451] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.698538409] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.698548410] [moveit_ros.fix_start_state_collision]: Start state appears to be in collision with respect to group right_arm
+[INFO] [1756027259.698795532] [moveit_ros.fix_start_state_collision]: Found a valid state near the start state at distance 2.146994 after 1 attempts
+[INFO] [1756027259.699044046] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'right_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756027259.726933903] [moveit.ros_planning.planning_pipeline]: Planning adapters have added states at index positions: [ 0 ]
+[ERROR] [1756027259.730166464] [moveit.ros_planning.planning_pipeline]: Computed path is not valid. Invalid states at index locations: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 ] out of 201. Explanations follow in command line. Contacts are published on /display_contacts
+[INFO] [1756027259.730194565] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_link' (type 'Robot link') and 'trunk_2_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.730198006] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.730422305] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.730432943] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.730577075] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.730580527] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.730689598] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.730692652] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.730796866] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.730799518] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.730900431] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.730902840] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.730999643] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.731002221] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.731083177] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.731085383] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.731162900] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.731164893] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.731245409] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_bracelet_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.731247815] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.731325555] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_bracelet_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.731327638] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.731419789] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_bracelet_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.731422613] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.731513795] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_bracelet_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.731516105] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.731598874] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_bracelet_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.731601037] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.731676504] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_bracelet_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.731678574] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.731750892] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_bracelet_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.731753178] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.731835118] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_bracelet_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.731837234] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.731916034] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_bracelet_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.731918196] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.731989338] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.731991669] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.732061568] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.732063719] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.732129494] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_bracket_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.732134041] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.732195216] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_flange_1_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.732197171] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.732261901] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_flange_1_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.732263852] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.732331226] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_flange_1_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.732333150] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.732396645] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_flange_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.732398588] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.732473472] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'trunk_1_link' (type 'Robot link') and 'right_camera_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.732476036] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.732536822] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.732539262] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.732620302] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.732622606] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.732697793] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.732700002] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.732770287] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.732772344] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.732864390] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.732869368] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.732943611] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.732945907] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.733022477] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.733024607] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.733101808] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.733103912] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.733188853] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.733190921] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[INFO] [1756027259.733274718] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_camera_bracket_link' (type 'Robot link') and 'trunk_1_link' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[INFO] [1756027259.733277076] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ERROR] [1756027259.733346837] [moveit.ros_planning.planning_pipeline]: Completed listing of explanations for invalid states.
+[INFO] [1756027259.733601868] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was found but it seems to be invalid (possibly due to postprocessing). Not executing.
+[INFO] [1756027267.468479996] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756027267.468535715] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756027267.477995961] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756027267.478011316] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756027267.478033758] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756027267.478053086] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1756027267.478057211] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[INFO] [1756027267.478433729] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'left_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1756027267.516567093] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756027267.516582953] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756027267.516656963] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1756027267.518052617] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1756027267.518087012] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756027267.518103705] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1756027267.518199500] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to left_joint_trajectory_controller
+[INFO] [1756027267.518823371] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: left_joint_trajectory_controller started execution
+[INFO] [1756027267.518838337] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1756027310.721138391] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'left_joint_trajectory_controller' successfully finished
+[INFO] [1756027310.747894452] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[INFO] [1756027310.748328159] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.
+[WARN] [1756027323.909657261] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756027323.909681105] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756027330.442856114] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756027330.442904773] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756027330.448129513] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756027330.448157429] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756027330.448191471] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756027330.448229289] [moveit_move_group_default_capabilities.move_action_capability]: Goal constraints are already satisfied. No need to plan or execute any motions
+[INFO] [1756027330.448239101] [moveit_move_group_default_capabilities.move_action_capability]: Requested path and goal constraints are already met.
+[INFO] [1756027333.102627911] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1756027333.102706674] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[WARN] [1756027333.108133485] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'base_footprint' to planning frame'base_link' (Could not find a connection between 'base_link' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[WARN] [1756027333.108180254] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Unable to transform object from frame 'odom' to planning frame'base_link' (Could not find a connection between 'base_link' and 'odom' because they are not part of the same tree.Tf has two or more unconnected trees.)
+[INFO] [1756027333.108239603] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[INFO] [1756027333.108285546] [moveit_move_group_default_capabilities.move_action_capability]: Goal constraints are already satisfied. No need to plan or execute any motions
+[INFO] [1756027333.108299711] [moveit_move_group_default_capabilities.move_action_capability]: Requested path and goal constraints are already met.
+[INFO] [1756027353.897342531] [rclcpp]: signal_handler(signum=2)

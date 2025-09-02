@@ -1,0 +1,204 @@
+---
+mr600_t100_image:
+  env_map:
+    robuster_git_user: rpp:shihe321
+    local_drivers_repos: $HOME/rpp_ws/src/drivers
+    local_robot_repos: $HOME/rpp_ws/src/robot
+    local_slam_repos: $HOME/rpp_ws/src/slam
+    local_navigation_repos: $HOME/rpp_ws/src/navigation
+    local_manipulator_repos: $HOME/rpp_ws/src/manipulator
+    local_application_repos: $HOME/rpp_ws/src/application
+    local_vision_repos: $HOME/rpp_ws/src/vision
+    locla_3rdparty_repos: $HOME/3rdparty
+    car_mode: robot
+    system_architecture: Linux_arm64_mr600_temp # or Linux_arm64
+    PS1_STRING: \\[\033[1;32m\\]\u\\[\033[1;36m\\]<\\[\033[1;32m\\]$car_mode\\[\033[1;36m\\]>:\\[\033[1;34m\\]\w\\[\033[0m\\]\\$ '
+    apt_source_url: https://mirrors.tuna.tsinghua.edu.cn
+    pip_source_url: https://pypi.tuna.tsinghua.edu.cn/simple
+    rpp_tools_link: http://file.robotplusplus.com.cn/common_tools/1.0.0
+    git_3rdparty_link: https://git.robotplusplus.com.cn/third-party
+    ros1_source_url: https://mirrors.tuna.tsinghua.edu.cn/ros/ubuntu/
+    ros_distro_version: melodic
+  depends_map : 
+    debian_pkgs: 
+      -  ros-melodic-robuster-demo-gui*.deb
+      - nomachine_*.deb
+    python2_pip_pkgs: 
+      - rospkg
+      - pyserial 
+      - numpy
+     
+
+    python3_pip_pkgs: 
+      - numpy
+      - catkin-tools
+      - pycuda
+    apt_pkgs: 
+      - openssh-server 
+      - python python3 python-pip python3-pip
+      - htop tree
+      - curl wget wireshark proxychains4
+      - gawk vim 
+      - git
+      - gimp kazam   pcl-tools
+      - net-tools
+      - bleachbit #硬盘清理工具
+      - libeigen3-dev 
+      - libmodbus-dev libserial-dev
+      - cmake
+    apt_ros_pkgs:
+      - ros-control position-controllers  effort-controllers  velocity-controllers
+      - gazebo-ros gazebo-ros-control
+      - moveit moveit-servo combined-robot-hw trac-ik-kinematics-plugin  joint-trajectory-controller
+      -  joint-state-controller effort-controllers   ros-controllers  joint-state-publisher-gui
+      - joy teleop-twist-joy
+      - ddynamic-reconfigure 
+  git_repos:
+   3rdparty: # 存放需要源码编译的第三方库，如GTSAM, OpenCV, ceres 等。也包含一些设备的驱动程序，如librealsense, livox-SDK等
+   driver: # 设备、传感器的ROS驱动
+      wit_node:
+        url: https://git.robotplusplus.com.cn/drivers/drivers-ros/wit_node.git
+        user: $robuster_git_user
+        tag: v3.0.0
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs: ecl
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_drivers_repos
+      lakibeam1:
+        url: https://git.robotplusplus.com.cn/drivers/drivers-ros/lakibeam1.git
+        user: $robuster_git_user
+        tag: v3.0.0
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_drivers_repos
+      robuster_driver:
+        url: https://git.robotplusplus.com.cn/robuster/robuster_driver.git
+        user: $robuster_git_user
+        tag: mr600_v3.0.0
+        other_exec:
+        apt_pkgs: 
+        apt_ros_pkgs: serial
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_drivers_repos
+   slam: # 建图定位ROS包
+     2d_lidar_undistortion:
+       url: https://git.robotplusplus.com.cn/third-party/elewu/lidar_undistortion_2d.git
+       user: $robuster_git_user
+       tag: v3.0.0
+       local_path: $local_slam_repos
+       other_exec:
+       apt_pkgs:
+       apt_ros_pkgs:
+       python2_pip_pkgs:
+       python3_pip_pkgs:
+     slam_toolbox:
+       url: https://git.robotplusplus.com.cn/slam/stevemacenski/slam_toolbox.git
+       user: $robuster_git_user
+       tag: v3.0.0
+       local_path: $local_slam_repos
+       other_exec:
+       apt_pkgs: libceres-dev
+       apt_ros_pkgs: sparse-bundle-adjustment
+       python2_pip_pkgs:
+       python3_pip_pkgs:
+   navigation: # 导航ROS包
+     teb_local_planner:
+       url: https://git.robotplusplus.com.cn/navigation/rst-tu-dortmund/teb_local_planner.git
+       user: $robuster_git_user
+       tag: rppv3.0.0
+       local_path: $local_navigation_repos
+       other_exec:
+       apt_pkgs: libsuitesparse-dev
+       apt_ros_pkgs: costmap-converter mbf-costmap-core mbf-msgs  libg2o
+       python2_pip_pkgs:
+       python3_pip_pkgs:
+     navigation:
+       url: https://git.robotplusplus.com.cn/navigation/ros-planning/navigation.git
+       user: $robuster_git_user
+       tag: rppv3.0.0
+       local_path: $local_navigation_repos
+       other_exec:
+       apt_pkgs: libsdl-image1.2-dev libsdl-dev
+       apt_ros_pkgs: tf2-sensor-msgs 
+       python2_pip_pkgs:
+       python3_pip_pkgs:
+     navigation_msgs:
+       url: https://git.robotplusplus.com.cn/navigation/ros-planning/navigation_msgs.git
+       user: $robuster_git_user
+       tag: rppv3.0.0
+       local_path: $local_navigation_repos
+       other_exec:
+       apt_pkgs: 
+       apt_ros_pkgs:
+       python2_pip_pkgs:
+       python3_pip_pkgs:
+   manipulator: #械臂相关ROS包
+   application: # 机器人综合演示demo ROS包
+      navigation_2d:
+        url: https://git.robotplusplus.com.cn/robot-application/navigation_2d.git
+        user: $robuster_git_user
+        tag: mr600_v3.0.0
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_application_repos
+      robot_bringup:
+        url: https://git.robotplusplus.com.cn/robot-application/robot_bringup.git
+        user: $robuster_git_user
+        tag: mr600_dev
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_application_repos
+   vision: # 仿真相关功能包
+      realsense_gazebo_description:
+        url: https://git.robotplusplus.com.cn/third-party/m-tartari/realsense_gazebo_description.git
+        user: $robuster_git_user
+        tag: rppv3.0.0
+        local_path: $local_vision_repos
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+      realsense_gazebo_plugin:
+        url: https://git.robotplusplus.com.cn/third-party/pal-robotics/realsense_gazebo_plugin.git
+        user: $robuster_git_user
+        tag: rppv3.0.0
+        local_path: $local_vision_repos
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+   product: # 具体产品对应的描述包，bringup包
+    mr600_description: #mr600
+      url: https://git.robotplusplus.com.cn/robuster/description/mr600_description.git
+      user: $robuster_git_user
+      tag: 
+      other_exec:
+      apt_pkgs:
+      apt_ros_pkgs: 
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+      local_path: $local_robot_repos
+    robuster_mr_msgs:
+      url: https://git.robotplusplus.com.cn/robuster/robuster_mr_msgs.git
+      user: $robuster_git_user
+      tag: v3.0.0
+      other_exec:
+      apt_pkgs:
+      apt_ros_pkgs: 
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+      local_path: $local_robot_repos

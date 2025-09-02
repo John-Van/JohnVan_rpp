@@ -1,0 +1,16 @@
+[INFO] [1756277781.617815086] [example]: example node started
+[WARN] [1756277781.768668368] [example]: Service 'compute_cartesian_path' is not yet available. Better luck next time!
+[WARN] [1756277781.771134923] [example]: Cannot execute motion because the provided/planned trajectory is invalid.
+[WARN] [1756277781.773055574] [example]: Cannot wait until motion is executed (no motion is in progress).
+[WARN] [1756277781.966158799] [example]: Service 'compute_cartesian_path' is not yet available. Better luck next time!
+[WARN] [1756277781.967423174] [example]: Cannot execute motion because the provided/planned trajectory is invalid.
+[WARN] [1756277781.968788220] [example]: Cannot wait until motion is executed (no motion is in progress).
+[WARN] [1756277782.169024363] [example]: Service 'compute_cartesian_path' is not yet available. Better luck next time!
+[WARN] [1756277782.172832287] [example]: Cannot execute motion because the provided/planned trajectory is invalid.
+[WARN] [1756277782.176072935] [example]: Cannot wait until motion is executed (no motion is in progress).
+[WARN] [1756277782.368415277] [example]: Service 'compute_cartesian_path' is not yet available. Better luck next time!
+[WARN] [1756277782.373124771] [example]: Cannot execute motion because the provided/planned trajectory is invalid.
+[WARN] [1756277782.377535177] [example]: Cannot wait until motion is executed (no motion is in progress).
+[WARN] [1756277782.567065999] [example]: Service 'compute_cartesian_path' is not yet available. Better luck next time!
+[WARN] [1756277782.570073097] [example]: Cannot execute motion because the provided/planned trajectory is invalid.
+[WARN] [1756277782.573038038] [example]: Cannot wait until motion is executed (no motion is in progress).

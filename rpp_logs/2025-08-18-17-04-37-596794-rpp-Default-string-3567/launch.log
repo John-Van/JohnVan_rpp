@@ -1,0 +1,12 @@
+1755507877.5973175 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-18-17-04-37-596794-rpp-Default-string-3567
+1755507877.5973942 [INFO] [launch]: Default logging verbosity is set to INFO
+1755507878.1643584 [INFO] [lio_node-1]: process started with pid [3702]
+1755507878.1644716 [INFO] [pgo_node-2]: process started with pid [3704]
+1755507878.1645203 [INFO] [rviz2-3]: process started with pid [3706]
+1755507878.1645548 [INFO] [livox_ros_driver2_node-4]: process started with pid [3708]
+1755507878.1645873 [INFO] [lidar_clipping-5]: process started with pid [3710]
+1755507878.1646204 [INFO] [robot_state_publisher-6]: process started with pid [3712]
+1755507878.1646535 [INFO] [joint_state_publisher-7]: process started with pid [3714]
+1755507878.1646881 [INFO] [rpp_ros_driver_node-8]: process started with pid [3716]
+1755507878.4823370 [joint_state_publisher-7] [INFO] [1755507878.482067716] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1755507889.6784446 [INFO] [rviz2-3]: process has finished cleanly [pid 3706]

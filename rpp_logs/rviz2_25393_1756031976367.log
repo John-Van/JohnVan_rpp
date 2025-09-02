@@ -1,0 +1,37 @@
+[INFO] [1756031977.084709369] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756031977.084786316] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1756031977.257479027] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1756031980.369793678] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1756031980.380580296] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1756031980.693786619] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756031980.761576044] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0197522 seconds
+[INFO] [1756031980.761603734] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+[INFO] [1756031980.761612396] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[ERROR] [1756031981.115433290] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+[ERROR] [1756031981.115464581] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+[ERROR] [1756031981.115479958] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+[INFO] [1756031982.023293929] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1756031982.023649766] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1756031983.072470938] [interactive_marker_display_107475645038112]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1756031983.106878954] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+[INFO] [1756031983.106896905] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+[INFO] [1756031983.112355754] [move_group_interface]: Ready to take commands for planning group dual_arm.
+[INFO] [1756031983.374587513] [interactive_marker_display_107475645038112]: Sending request for interactive markers
+[INFO] [1756031983.452399821] [interactive_marker_display_107475645038112]: Service response received for initialization
+[INFO] [1756032025.090632064] [moveit_ros_visualization.motion_planning_frame]: group right_arm
+[INFO] [1756032025.090669544] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'right_arm' in namespace ''
+[INFO] [1756032025.095173647] [move_group_interface]: Ready to take commands for planning group right_arm.
+[INFO] [1756032036.893665821] [move_group_interface]: Plan and Execute request accepted
+[ERROR] [1756032036.893770158] [rviz2_moveit.rclcpp_action]: unknown goal response, ignoring...
+[INFO] [1756032050.378510199] [move_group_interface]: Plan and Execute request aborted
+[ERROR] [1756032050.379123612] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+[ERROR] [1756032050.408141209] [rviz2_moveit.rclcpp_action]: unknown result response, ignoring...
+[INFO] [1756034602.950631086] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+[INFO] [1756034602.950662526] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+[INFO] [1756034602.956634875] [move_group_interface]: Ready to take commands for planning group dual_arm.
+[INFO] [1756038540.197534531] [move_group_interface]: Plan and Execute request accepted
+[ERROR] [1756038540.197709613] [rviz2_moveit.rclcpp_action]: unknown goal response, ignoring...
+[INFO] [1756038540.278647354] [move_group_interface]: Plan and Execute request aborted
+[ERROR] [1756038540.279628932] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+[INFO] [1756038551.856254356] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+[INFO] [1756038551.856274322] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'left_arm' in nam

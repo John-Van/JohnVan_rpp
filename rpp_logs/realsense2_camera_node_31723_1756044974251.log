@@ -1,0 +1,90 @@
+[INFO] [1756044974.762554300] [right.camera]: RealSense ROS v4.55.1
+[INFO] [1756044974.762612276] [right.camera]: Built with LibRealSense v2.55.1
+[INFO] [1756044974.762618258] [right.camera]: Running with LibRealSense v2.55.1
+[INFO] [1756044974.821762812] [right.camera]: Device with serial number 318122302473 was found.
+
+[INFO] [1756044974.821802488] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.2/1-2.2:1.0/video4linux/video0 was found.
+[INFO] [1756044974.821808611] [right.camera]: Device with name Intel RealSense D455 was found.
+[INFO] [1756044974.821949919] [right.camera]: Device with port number 1-2.2 was found.
+[INFO] [1756044974.844846443] [right.camera]: Device with serial number 139522074289 was found.
+
+[INFO] [1756044974.844879110] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2.3/2-2.3:1.0/video4linux/video6 was found.
+[INFO] [1756044974.844884271] [right.camera]: Device with name Intel RealSense D435I was found.
+[INFO] [1756044974.845009467] [right.camera]: Device with port number 2-2.3 was found.
+[ERROR] [1756044974.845014201] [right.camera]: The requested device with serial number 339222071403 is NOT found. Will Try again.
+[INFO] [1756044980.873918927] [right.camera]: Device with serial number 318122302473 was found.
+
+[INFO] [1756044980.873953238] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.2/1-2.2:1.0/video4linux/video0 was found.
+[INFO] [1756044980.873957413] [right.camera]: Device with name Intel RealSense D455 was found.
+[INFO] [1756044980.874067039] [right.camera]: Device with port number 1-2.2 was found.
+[INFO] [1756044980.916767000] [right.camera]: Device with serial number 139522074289 was found.
+
+[INFO] [1756044980.916799516] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2.3/2-2.3:1.0/video4linux/video6 was found.
+[INFO] [1756044980.916803856] [right.camera]: Device with name Intel RealSense D435I was found.
+[INFO] [1756044980.916914929] [right.camera]: Device with port number 2-2.3 was found.
+[ERROR] [1756044980.916919333] [right.camera]: The requested device with serial number 339222071403 is NOT found. Will Try again.
+[INFO] [1756044986.946934000] [right.camera]: Device with serial number 318122302473 was found.
+
+[INFO] [1756044986.946969211] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.2/1-2.2:1.0/video4linux/video0 was found.
+[INFO] [1756044986.946974353] [right.camera]: Device with name Intel RealSense D455 was found.
+[INFO] [1756044986.947082792] [right.camera]: Device with port number 1-2.2 was found.
+[INFO] [1756044986.975987123] [right.camera]: Device with serial number 139522074289 was found.
+
+[INFO] [1756044986.976017329] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2.3/2-2.3:1.0/video4linux/video6 was found.
+[INFO] [1756044986.976021681] [right.camera]: Device with name Intel RealSense D435I was found.
+[INFO] [1756044986.976134728] [right.camera]: Device with port number 2-2.3 was found.
+[ERROR] [1756044986.976139262] [right.camera]: The requested device with serial number 339222071403 is NOT found. Will Try again.
+[INFO] [1756044993.004175715] [right.camera]: Device with serial number 318122302473 was found.
+
+[INFO] [1756044993.004211415] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.2/1-2.2:1.0/video4linux/video0 was found.
+[INFO] [1756044993.004216193] [right.camera]: Device with name Intel RealSense D455 was found.
+[INFO] [1756044993.004317144] [right.camera]: Device with port number 1-2.2 was found.
+[INFO] [1756044993.041220986] [right.camera]: Device with serial number 139522074289 was found.
+
+[INFO] [1756044993.041257989] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2.3/2-2.3:1.0/video4linux/video6 was found.
+[INFO] [1756044993.041263499] [right.camera]: Device with name Intel RealSense D435I was found.
+[INFO] [1756044993.041401330] [right.camera]: Device with port number 2-2.3 was found.
+[ERROR] [1756044993.041423161] [right.camera]: The requested device with serial number 339222071403 is NOT found. Will Try again.
+[INFO] [1756044999.069650772] [right.camera]: Device with serial number 318122302473 was found.
+
+[INFO] [1756044999.069686214] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.2/1-2.2:1.0/video4linux/video0 was found.
+[INFO] [1756044999.069690471] [right.camera]: Device with name Intel RealSense D455 was found.
+[INFO] [1756044999.069793464] [right.camera]: Device with port number 1-2.2 was found.
+[INFO] [1756044999.097342809] [right.camera]: Device with serial number 139522074289 was found.
+
+[INFO] [1756044999.097379230] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2.3/2-2.3:1.0/video4linux/video6 was found.
+[INFO] [1756044999.097383883] [right.camera]: Device with name Intel RealSense D435I was found.
+[INFO] [1756044999.097514472] [right.camera]: Device with port number 2-2.3 was found.
+[ERROR] [1756044999.097520128] [right.camera]: The requested device with serial number 339222071403 is NOT found. Will Try again.
+[INFO] [1756045005.126903234] [right.camera]: Device with serial number 318122302473 was found.
+
+[INFO] [1756045005.126938263] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.2/1-2.2:1.0/video4linux/video0 was found.
+[INFO] [1756045005.126942973] [right.camera]: Device with name Intel RealSense D455 was found.
+[INFO] [1756045005.127051880] [right.camera]: Device with port number 1-2.2 was found.
+[INFO] [1756045005.153997739] [right.camera]: Device with serial number 139522074289 was found.
+
+[INFO] [1756045005.154029108] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2.3/2-2.3:1.0/video4linux/video6 was found.
+[INFO] [1756045005.154033237] [right.camera]: Device with name Intel RealSense D435I was found.
+[INFO] [1756045005.154154311] [right.camera]: Device with port number 2-2.3 was found.
+[ERROR] [1756045005.154159580] [right.camera]: The requested device with serial number 339222071403 is NOT found. Will Try again.
+[INFO] [1756045011.234727583] [right.camera]: Device with serial number 318122302473 was found.
+
+[INFO] [1756045011.234764977] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.2/1-2.2:1.0/video4linux/video0 was found.
+[INFO] [1756045011.234769470] [right.camera]: Device with name Intel RealSense D455 was found.
+[INFO] [1756045011.234880669] [right.camera]: Device with port number 1-2.2 was found.
+[INFO] [1756045011.261894888] [right.camera]: Device with serial number 139522074289 was found.
+
+[INFO] [1756045011.261921464] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2.3/2-2.3:1.0/video4linux/video6 was found.
+[INFO] [1756045011.261925550] [right.camera]: Device with name Intel RealSense D435I was found.
+[INFO] [1756045011.262044044] [right.camera]: Device with port number 2-2.3 was found.
+[ERROR] [1756045011.262049096] [right.camera]: The requested device with serial number 339222071403 is NOT found. Will Try again.
+[INFO] [1756045017.414498259] [right.camera]: Device with serial number 318122302473 was found.
+
+[INFO] [1756045017.414537340] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.2/1-2.2:1.0/video4linux/video0 was found.
+[INFO] [1756045017.414541754] [right.camera]: Device with name Intel RealSense D455 was found.
+[INFO] [1756045017.414652213] [right.camera]: Device with port number 1-2.2 was found.
+[INFO] [1756045017.441678649] [right.camera]: Device with serial number 139522074289 was found.
+
+[INFO] [1756045017.441718066] [right.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2.3/2-2.3:1.0/video4linux/video6 was found.
+[INFO] [1756045017.441722747] [right.camera]: Device with name Intel RealSense D435I was found.
+[INFO] [1756045017.441852890] [right.camera]: Device with port number 2-2.3 was

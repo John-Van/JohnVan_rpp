@@ -1,0 +1,7 @@
+mkdir build
+cd build
+cmake .. -DSOPHUS_USE_BASIC_LOGGING=ON
+make -j $(nproc)
+echo "shihe321" | sudo -S  make install
+   
+   

@@ -1,0 +1,15 @@
+---
+1804_product:
+  git_repos:
+   application: # 机器人综合演示demo ROS包
+      navigation_2d:
+        url: https://git.robotplusplus.com.cn/robot-application/navigation_2d.git
+        user: $robuster_git_user
+        tag: mr2000-feat-3.0.1
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs:  ira-laser-tools pcl-ros pointcloud-to-laserscan
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_application_repos
+      

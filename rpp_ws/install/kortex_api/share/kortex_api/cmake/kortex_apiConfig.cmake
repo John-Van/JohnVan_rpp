@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/kortex_api/ament_cmake_core/kortex_apiConfig.cmake

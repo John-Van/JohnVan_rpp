@@ -1,0 +1,40 @@
+[INFO] [1756530414.148789067] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756530414.148850362] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1756530414.218650167] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1756530417.312543007] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1756530417.322477126] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1756530417.369566646] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756530417.404209968] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0197987 seconds
+[INFO] [1756530417.404238187] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+[INFO] [1756530417.404244563] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[ERROR] [1756530417.743498503] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+[ERROR] [1756530417.743516729] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+[ERROR] [1756530417.743526202] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+[INFO] [1756530418.660810354] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1756530418.661155456] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1756530419.659362488] [interactive_marker_display_94560047562528]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1756530419.691800605] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+[INFO] [1756530419.691814899] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+[INFO] [1756530419.696508603] [move_group_interface]: Ready to take commands for planning group dual_arm.
+[INFO] [1756530419.834871654] [interactive_marker_display_94560047562528]: Sending request for interactive markers
+[INFO] [1756530419.960516504] [interactive_marker_display_94560047562528]: Service response received for initialization
+[INFO] [1756530429.941904604] [moveit_ros_visualization.motion_planning_frame]: group right_arm
+[INFO] [1756530429.941925333] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'right_arm' in namespace ''
+[INFO] [1756530429.946703852] [move_group_interface]: Ready to take commands for planning group right_arm.
+[INFO] [1756530430.998478575] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756530430.999104914] [move_group_interface]: Planning request accepted
+[ERROR] [1756530430.999270749] [rviz2_moveit.rclcpp_action]: unknown goal response, ignoring...
+[INFO] [1756530431.014407073] [move_group_interface]: Planning request complete!
+[INFO] [1756530431.014486657] [move_group_interface]: time taken to generate plan: 0.00777405 seconds
+[ERROR] [1756530431.025348301] [rviz2_moveit.rclcpp_action]: unknown result response, ignoring...
+[INFO] [1756530432.349240390] [move_group_interface]: Plan and Execute request accepted
+[ERROR] [1756530432.349306365] [rviz2_moveit.rclcpp_action]: unknown goal response, ignoring...
+[INFO] [1756530432.392183559] [move_group_interface]: Plan and Execute request aborted
+[ERROR] [1756530432.392630373] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+[INFO] [1756530433.960453612] [move_group_interface]: Plan and Execute request accepted
+[ERROR] [1756530438.432176630] [rviz2_moveit.rclcpp_action]: unknown goal response, ignoring...
+[INFO] [1756530440.032183149] [move_group_interface]: Plan and Execute request aborted
+[ERROR] [1756530440.032561941] [move_group_interface]: MoveGroupInterface::move() failed or timeout reached
+[ERROR] [1756530443.152530498] [rviz2_moveit.rclcpp_action]: unknown result response, ignoring...
+[ERROR] [1756530443.152655942] [rviz2_moveit.rclcpp_action]: unknown result response, ignoring...
+[INFO] [1756530445.390865142] [rclcpp]: signal_handler(signum=2)

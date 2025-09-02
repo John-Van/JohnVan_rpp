@@ -1,0 +1,15 @@
+---
+1804_product:
+  git_repos:
+   tools:
+    2d_lidar_undistortion:
+      url: https://git.robotplusplus.com.cn/third-party/elewu/lidar_undistortion_2d.git
+      user: $robuster_git_user
+      tag:  featre-v3.0.1
+      local_path: $local_tools_repos
+      other_exec:
+      apt_pkgs:
+      apt_ros_pkgs:
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+    

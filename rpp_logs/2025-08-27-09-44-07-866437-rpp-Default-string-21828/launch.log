@@ -1,0 +1,81 @@
+1756259047.8670974 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-27-09-44-07-866437-rpp-Default-string-21828
+1756259047.8671842 [INFO] [launch]: Default logging verbosity is set to INFO
+1756259049.8980541 [INFO] [robot_state_publisher-1]: process started with pid [21955]
+1756259049.8982069 [INFO] [move_group-2]: process started with pid [21957]
+1756259049.8982584 [INFO] [rviz2-3]: process started with pid [21959]
+1756259049.8982947 [INFO] [ros2_control_node-4]: process started with pid [21961]
+1756259049.8983276 [INFO] [spawner-5]: process started with pid [21963]
+1756259049.8983688 [INFO] [spawner-6]: process started with pid [21965]
+1756259049.8984005 [INFO] [spawner-7]: process started with pid [21967]
+1756259050.0115387 [ros2_control_node-4] [WARN] [1756259050.011301480] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+1756259050.0121462 [ros2_control_node-4] [INFO] [1756259050.012032782] [resource_manager]: Loading hardware 'wheel_LF_link' 
+1756259050.0123203 [ros2_control_node-4] terminate called after throwing an instance of 'pluginlib::LibraryLoadException'
+1756259050.0123718 [ros2_control_node-4]   what():  According to the loaded plugin descriptions the class gazebo_ros2_control/GazeboSystem with base class type hardware_interface::SystemInterface does not exist. Declared types are  fake_components/GenericSystem kortex_driver/KortexMultiInterfaceHardware mock_components/GenericSystem test_hardware_components/TestSystemCommandModes test_hardware_components/TestTwoJointSystem
+1756259050.0124047 [ros2_control_node-4] Stack trace (most recent call last):
+1756259050.0127275 [ros2_control_node-4] #16   Object "", at 0xffffffffffffffff, in 
+1756259050.0173140 [ros2_control_node-4] #15   Object "/opt/ros/humble/lib/controller_manager/ros2_control_node", at 0x602329384ee4, in 
+1756259050.0858402 [ros2_control_node-4] #14   Source "../csu/libc-start.c", line 392, in __libc_start_main_impl [0x7eb266a29e3f]
+1756259050.0861521 [ros2_control_node-4] #13   Source "../sysdeps/nptl/libc_start_call_main.h", line 58, in __libc_start_call_main [0x7eb266a29d8f]
+1756259050.0862067 [ros2_control_node-4] #12   Object "/opt/ros/humble/lib/controller_manager/ros2_control_node", at 0x6023293843e3, in 
+1756259050.0865743 [ros2_control_node-4] #11   Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7eb2674b55da, in controller_manager::ControllerManager::ControllerManager(std::shared_ptr<rclcpp::Executor>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::NodeOptions const&)
+1756259050.0867224 [ros2_control_node-4] #10   Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7eb2674b05ff, in controller_manager::ControllerManager::init_resource_manager(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+1756259050.0867620 [ros2_control_node-4] #9    Object "/opt/ros/humble/lib/libhardware_interface.so", at 0x7eb2670af115, in hardware_interface::ResourceManager::load_urdf(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool, bool)
+1756259050.0867913 [ros2_control_node-4] #8    Object "/opt/ros/humble/lib/libhardware_interface.so", at 0x7eb2670ad52e, in 
+1756259050.0868993 [ros2_control_node-4] #7    Object "/opt/ros/humble/lib/libhardware_interface.so", at 0x7eb26708e3fa, in 
+1756259050.0870197 [ros2_control_node-4] #6    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7eb266eae4d7, in __cxa_throw
+1756259050.0871315 [ros2_control_node-4] #5    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7eb266eae276, in std::terminate()
+1756259050.0872481 [ros2_control_node-4] #4    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7eb266eae20b, in 
+1756259050.0873370 [ros2_control_node-4] #3    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7eb266ea2b9d, in 
+1756259050.0874736 [ros2_control_node-4] #2    Source "./stdlib/abort.c", line 79, in abort [0x7eb266a287f2]
+1756259050.0875745 [ros2_control_node-4] #1    Source "../sysdeps/posix/raise.c", line 26, in raise [0x7eb266a42475]
+1756259050.0876911 [ros2_control_node-4] #0  | Source "./nptl/pthread_kill.c", line 89, in __pthread_kill_internal
+1756259050.0877287 [ros2_control_node-4]     | Source "./nptl/pthread_kill.c", line 78, in __pthread_kill_implementation
+1756259050.0877533 [ros2_control_node-4]       Source "./nptl/pthread_kill.c", line 44, in __pthread_kill [0x7eb266a969fc]
+1756259050.0878401 [ros2_control_node-4] Aborted (Signal sent by tkill() 21961 1000)
+1756259050.1689212 [ERROR] [ros2_control_node-4]: process has died [pid 21961, exit code -6, cmd '/opt/ros/humble/lib/controller_manager/ros2_control_node --ros-args --params-file /tmp/launch_params_whha3hdx --params-file /home/rpp/rpp_ws/install/ea200_moveit_config/share/ea200_moveit_config/config/ros2_controllers.yaml'].
+1756259050.6027997 [rviz2-3] [INFO] [1756259050.602556743] [rviz2]: Stereo is NOT SUPPORTED
+1756259050.6029351 [rviz2-3] [INFO] [1756259050.602617290] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1756259050.7075911 [rviz2-3] [INFO] [1756259050.707378818] [rviz2]: Stereo is NOT SUPPORTED
+1756259050.8258493 [rviz2-3] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1756259050.8259602 [rviz2-3]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1756259053.8526769 [rviz2-3] [ERROR] [1756259053.852427186] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1756259053.8614099 [rviz2-3] [INFO] [1756259053.861166827] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1756259054.0843253 [rviz2-3] [INFO] [1756259054.084114205] [rviz2]: Stereo is NOT SUPPORTED
+1756259054.1397827 [rviz2-3] [INFO] [1756259054.139580478] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0484176 seconds
+1756259054.1398861 [rviz2-3] [INFO] [1756259054.139608945] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+1756259054.1399295 [rviz2-3] [INFO] [1756259054.139616236] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1756259054.4656267 [rviz2-3] [ERROR] [1756259054.465382460] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+1756259054.4657700 [rviz2-3] [ERROR] [1756259054.465397454] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+1756259054.4658191 [rviz2-3] [ERROR] [1756259054.465405927] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+1756259055.2786486 [rviz2-3] [INFO] [1756259055.278389734] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+1756259055.2790210 [rviz2-3] [INFO] [1756259055.278765940] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+1756259056.2396472 [rviz2-3] [INFO] [1756259056.239452968] [interactive_marker_display_107837052205904]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+1756259056.2707050 [rviz2-3] [INFO] [1756259056.270543209] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+1756259056.2708151 [rviz2-3] [INFO] [1756259056.270558163] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+1756259056.2752433 [rviz2-3] [INFO] [1756259056.275077794] [move_group_interface]: Ready to take commands for planning group dual_arm.
+1756259056.3575890 [rviz2-3] [INFO] [1756259056.357299321] [interactive_marker_display_107837052205904]: Sending request for interactive markers
+1756259056.4327402 [rviz2-3] [INFO] [1756259056.432517720] [interactive_marker_display_107837052205904]: Service response received for initialization
+1756259095.8119810 [rviz2-3] [INFO] [1756259095.811572743] [move_group_interface]: Plan and Execute request accepted
+1756259096.8125267 [rviz2-3] [INFO] [1756259096.812460019] [move_group_interface]: Plan and Execute request complete!
+1756259208.7081125 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756259208.7113817 [rviz2-3] [INFO] [1756259208.707812325] [rclcpp]: signal_handler(signum=2)
+1756259208.7241783 [rviz2-3] [WARN] [1756259208.723819169] [interactive_marker_display_107837052205904]: Server not available while running, resetting
+1756259208.8133802 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 21955]
+1756259208.8291228 [rviz2-3] 
+1756259208.8292279 [rviz2-3] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+1756259208.8292601 [rviz2-3] This error state is being overwritten:
+1756259208.8292828 [rviz2-3] 
+1756259208.8293035 [rviz2-3]   'rcl node's context is invalid, at ./src/rcl/node.c:428'
+1756259208.8293238 [rviz2-3] 
+1756259208.8293433 [rviz2-3] with this new error message:
+1756259208.8293695 [rviz2-3] 
+1756259208.8293884 [rviz2-3]   'publisher's context is invalid, at ./src/rcl/publisher.c:389'
+1756259208.8294070 [rviz2-3] 
+1756259208.8294275 [rviz2-3] rcutils_reset_error() should be called after error handling to avoid this.
+1756259208.8294492 [rviz2-3] <<<
+1756259208.8307366 [rviz2-3] [INFO] [1756259208.830600003] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
+1756259208.8407950 [ERROR] [move_group-2]: process has died [pid 21957, exit code -11, cmd '/opt/ros/humble/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_d2tbz82x --params-file /tmp/launch_params_ke6kjoht'].
+1756259208.8426099 [INFO] [spawner-5]: process has finished cleanly [pid 21963]
+1756259208.8433659 [INFO] [spawner-7]: process has finished cleanly [pid 21967]
+1756259208.8435915 [INFO] [spawner-6]: process has finished cleanly [pid 21965]
+1756259208.9482150 [ERROR] [rviz2-3]: process has died [pid 21959, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/rpp/rpp_ws/install/ea200_moveit_config/share/ea200_moveit_config/config/moveit.rviz --ros-args --params-file /tmp/launch_params_a2hdzjpu --params-file /tmp/launch_params_5imfv6qs --params-file /tmp/launch_params_ge8pka_t'].

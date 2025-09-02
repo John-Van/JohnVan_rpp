@@ -1,0 +1,31 @@
+[INFO] [1756687488.849759828] [serial_driver]: motion model: 2wd
+[INFO] [1756687488.850552484] [serial_driver]: enable serial control 00
+[INFO] [1756687488.950676989] [serial_driver]: enable serial control 00
+[INFO] [1756687489.050805391] [serial_driver]: enable serial control 00
+[INFO] [1756687489.150944658] [serial_driver]: enable serial control 00
+[INFO] [1756687489.251120833] [serial_driver]: enable serial control 00
+[INFO] [1756687489.351350970] [serial_driver]: enable serial control 00
+[INFO] [1756687489.451583529] [serial_driver]: enable serial control 00
+[INFO] [1756687489.551845546] [serial_driver]: enable serial control 00
+[INFO] [1756687489.652069510] [serial_driver]: enable serial control 00
+[INFO] [1756687489.752279532] [serial_driver]: enable serial control 00
+[INFO] [1756687489.852393696] [serial_driver]: enable serial control 00
+[INFO] [1756687489.952647162] [serial_driver]: enable serial control 00
+[INFO] [1756687490.052896256] [serial_driver]: enable serial control 00
+[INFO] [1756687490.153008414] [serial_driver]: enable serial control 00
+[INFO] [1756687490.253114980] [serial_driver]: enable serial control 00
+[INFO] [1756687490.353230082] [serial_driver]: enable serial control 00
+[INFO] [1756687490.453313774] [serial_driver]: enable serial control 00
+[INFO] [1756687490.553486017] [serial_driver]: enable serial control 00
+[INFO] [1756687490.653646647] [serial_driver]: enable serial control 00
+[INFO] [1756687490.753868952] [serial_driver]: enable serial control 00
+[INFO] [1756687490.854050231] [serial_driver]: enable serial control 00
+[INFO] [1756687490.954203419] [serial_driver]: enable serial control 00
+[INFO] [1756687491.054351237] [serial_driver]: enable serial control 00
+[INFO] [1756687491.154502359] [serial_driver]: enable serial control 00
+[INFO] [1756687491.254707364] [serial_driver]: enable serial control 00
+[INFO] [1756687491.354929268] [serial_driver]: enable serial control 00
+[INFO] [1756687491.455199703] [serial_driver]: enable serial control 00
+[INFO] [1756687491.555365949] [serial_driver]: enable serial control 00
+[INFO] [1756687491.655544779] [serial_driver]: enable serial control success
+[INFO] [1756709212.615504856] [rclcpp]: signal_handler(signum=2)

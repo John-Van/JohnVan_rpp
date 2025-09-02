@@ -1,0 +1,15 @@
+/serial_driver:
+  ros__parameters:
+    odom_frame: odom
+    base_frame: base_footprint
+    baud_rate: 115200
+    control_rate: 25
+    motion_model: 2wd #2wd 4wd ackermann mecanum 4w4s
+    port: /dev/ttyS0
+    publish_odom: true
+    publish_odom_tf: true
+    use_diff_twist: true
+    use_sim_time: false
+    wheel_base: 0.0
+    wheel_bias: 0.460
+    wheel_radius: 0.08

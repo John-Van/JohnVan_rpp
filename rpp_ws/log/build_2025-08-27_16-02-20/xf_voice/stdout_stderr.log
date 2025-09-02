@@ -1,0 +1,41 @@
+[ 66%] Built target iat_publish
+[100%] Built target tts_subscribe
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/iat_publish
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/tts_subscribe
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/lib/libmsc.so
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/formats.h
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/linuxrec.h
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/msp_cmn.h
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/msp_errors.h
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/msp_types.h
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/qise.h
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/qisr.h
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/qtts.h
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/speech_recognizer.h
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice//__pycache__/work.launch.cpython-312.pyc
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice//iat_launch.py
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice//tts_only_launch.py
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice//work.launch.py
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice//tts_params.yaml
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice//voice_control.yaml
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/__init__.py
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/match_demo.py
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/robot_state.py
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/ament_index/resource_index/package_run_dependencies/xf_voice
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/ament_index/resource_index/parent_prefix_path/xf_voice
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/environment/path.sh
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/environment/path.dsv
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/local_setup.bash
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/local_setup.sh
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/local_setup.zsh
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/local_setup.dsv
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/package.dsv
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/ament_index/resource_index/packages/xf_voice
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/cmake/xf_voiceConfig.cmake
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/cmake/xf_voiceConfig-version.cmake
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/package.xml
+-- Up-to-date: /home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/voice_control

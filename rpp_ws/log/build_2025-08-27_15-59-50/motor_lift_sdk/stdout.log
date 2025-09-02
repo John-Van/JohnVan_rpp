@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target motor_lift_sdk[0m
+[ 42%] Built target motor_lift_sdk
+[35m[1mConsolidate compiler generated dependencies of target rpp_keyboard_teleoperate[0m
+[100%] Built target rpp_keyboard_teleoperate
+-- Install configuration: "Debug"
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/lib/libmotor_lift_sdk.so
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/bin/rpp_keyboard_teleoperate
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/include
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/include/motor_lift
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/include/motor_lift/can_motor.h
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/include/motor_lift/motor_lift.h
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/share/motor_lift_sdk/cmake/motor_lift_sdkConfig.cmake
+-- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/share/motor_lift_sdk/cmake/motor_lift_sdkConfig-debug.cmake

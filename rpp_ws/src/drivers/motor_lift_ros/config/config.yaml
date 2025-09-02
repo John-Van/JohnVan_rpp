@@ -1,0 +1,9 @@
+/motor_lift_ros_node:
+  ros__parameters:
+    can_port: can0
+    can_motor_id: 0x02
+    lift_joint: connector_joint
+    # 单位为米
+    high_limit: 0.0
+    low_limit: -0.46
+    velocity: 0.028

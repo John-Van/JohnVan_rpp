@@ -1,0 +1,26 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: ea200_description
+    relative_path: xacro/ea200.xacro
+    xacro_args: sim_gazebo:=true
+  srdf:
+    relative_path: config/ea200.srdf
+  package_settings:
+    author_name: shaojiale
+    author_email: shaojiale@robotplusplus.com.cn
+    generated_timestamp: 1750907518
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

@@ -1,0 +1,19 @@
+/lidar_clipping:
+  ros__parameters:
+    point_cloud_topic: /livox/lidar
+    filtered_point_cloud_topic: /livox/lidar_filtered 
+    lidar_type: livox
+    max_x: 0.15
+    max_y: 0.35
+    max_z: 0.7
+    min_x: -0.85
+    min_y: -0.35
+    min_z: -0.2
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    use_sim_time: false

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rpp/rpp_ws/build/xf_voice/iat_publish" "/home/rpp/rpp_ws/build/xf_voice/tts_subscribe" "TARGETS" "iat_publish" "tts_subscribe" "RUNTIME_DESTINATION" "lib/xf_voice")

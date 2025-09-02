@@ -1,0 +1,21 @@
+[100%] Built target lidar_clipping
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/lidar_clipping/launch/lidar_clipping.launch.py
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/lidar_clipping/config/config.yaml
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/lib/lidar_clipping/lidar_clipping
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/ament_index/resource_index/package_run_dependencies/lidar_clipping
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/ament_index/resource_index/parent_prefix_path/lidar_clipping
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/lidar_clipping/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/lidar_clipping/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/lidar_clipping/environment/path.sh
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/lidar_clipping/environment/path.dsv
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/lidar_clipping/local_setup.bash
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/lidar_clipping/local_setup.sh
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/lidar_clipping/local_setup.zsh
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/lidar_clipping/local_setup.dsv
+-- Symlinking: /home/rpp/rpp_ws/install/lidar_clipping/share/lidar_clipping/package.dsv
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/ament_index/resource_index/packages/lidar_clipping
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/lidar_clipping/cmake/lidar_clippingConfig.cmake
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/lidar_clipping/cmake/lidar_clippingConfig-version.cmake
+-- Up-to-date symlink: /home/rpp/rpp_ws/install/lidar_clipping/share/lidar_clipping/package.xml

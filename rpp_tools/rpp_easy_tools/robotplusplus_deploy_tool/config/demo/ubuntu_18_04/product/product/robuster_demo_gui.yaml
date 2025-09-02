@@ -1,0 +1,15 @@
+---
+1804_product:
+  git_repos:
+   product: # 具体产品对应的描述包，bringup包
+    robuster_demo_gui:
+      url: https://git.robotplusplus.com.cn/robuster-gui/robuster_demo_gui.git
+      user: $robuster_git_user
+      tag:  #pass
+      other_exec:
+      apt_pkgs:
+      apt_ros_pkgs: 
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+      local_path: $local_robot_repos
+    

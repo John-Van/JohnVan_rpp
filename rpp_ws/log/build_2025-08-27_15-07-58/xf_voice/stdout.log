@@ -1,0 +1,83 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_BUILD_TYPE=Debug
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found xf_voice_msgs: 0.0.1 (/home/rpp/rpp_ws/install/xf_voice_msgs/share/xf_voice_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rpp/rpp_ws/build/xf_voice
+[ 16%] [32mBuilding CXX object CMakeFiles/iat_publish.dir/src/iat_online_record_sample/iat_online_record_node.cpp.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/iat_publish.dir/src/iat_online_record_sample/linuxrec.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/iat_publish.dir/src/iat_online_record_sample/speech_recognizer.c.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/tts_subscribe.dir/src/tts_online_sample/tts_online_node.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable iat_publish[0m
+[ 83%] Built target iat_publish
+[100%] [32m[1mLinking CXX executable tts_subscribe[0m
+[100%] Built target tts_subscribe
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/iat_publish
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/tts_subscribe
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/lib/libmsc.so
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/formats.h
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/linuxrec.h
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/msp_cmn.h
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/msp_errors.h
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/msp_types.h
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/qise.h
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/qisr.h
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/qtts.h
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/include/xf_voice/speech_recognizer.h
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice//__pycache__/work.launch.cpython-312.pyc
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice//iat_launch.py
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice//tts_only_launch.py
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice//work.launch.py
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice//tts_params.yaml
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice//voice_control.yaml
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/__init__.py
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/match_demo.py
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/robot_state.py
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/ament_index/resource_index/package_run_dependencies/xf_voice
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/ament_index/resource_index/parent_prefix_path/xf_voice
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/environment/ament_prefix_path.sh
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/environment/path.sh
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/environment/path.dsv
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/local_setup.bash
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/local_setup.sh
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/local_setup.zsh
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/local_setup.dsv
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/package.dsv
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/ament_index/resource_index/packages/xf_voice
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/cmake/xf_voiceConfig.cmake
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/cmake/xf_voiceConfig-version.cmake
+-- Symlinking: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/package.xml
+-- Installing: /home/rpp/rpp_ws/install/xf_voice/lib/xf_voice/voice_control

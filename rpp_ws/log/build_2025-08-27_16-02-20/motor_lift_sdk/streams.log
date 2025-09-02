@@ -1,0 +1,15 @@
+[0.386s] Invoking command in '/home/rpp/rpp_ws/build/motor_lift_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/motor_lift_sdk -- -j24 -l24
+[1.202s] [ 42%] Built target motor_lift_sdk
+[1.203s] [100%] Built target rpp_keyboard_teleoperate
+[1.228s] Invoked command in '/home/rpp/rpp_ws/build/motor_lift_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/rpp_ws/build/motor_lift_sdk -- -j24 -l24
+[1.231s] Invoking command in '/home/rpp/rpp_ws/build/motor_lift_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/motor_lift_sdk
+[1.335s] -- Install configuration: "Debug"
+[1.335s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/lib/libmotor_lift_sdk.so
+[1.335s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/bin/rpp_keyboard_teleoperate
+[1.336s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/include
+[1.336s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/include/motor_lift
+[1.336s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/include/motor_lift/can_motor.h
+[1.336s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/include/motor_lift/motor_lift.h
+[1.337s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/share/motor_lift_sdk/cmake/motor_lift_sdkConfig.cmake
+[1.337s] -- Up-to-date: /home/rpp/rpp_ws/install/motor_lift_sdk/share/motor_lift_sdk/cmake/motor_lift_sdkConfig-debug.cmake
+[1.501s] Invoked command in '/home/rpp/rpp_ws/build/motor_lift_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/rpp_ws/build/motor_lift_sdk

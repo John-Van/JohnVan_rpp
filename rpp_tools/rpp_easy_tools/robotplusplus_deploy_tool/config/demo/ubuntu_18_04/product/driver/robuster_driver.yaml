@@ -1,0 +1,15 @@
+---
+1804_product:
+  git_repos:
+   driver: # 设备、传感器的ROS驱动
+      robuster_driver:
+        url: https://git.robotplusplus.com.cn/robuster/robuster_driver.git
+        user: $robuster_git_user
+        tag: mr1000-devel
+        other_exec:
+        apt_pkgs: 
+        apt_ros_pkgs: serial
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_drivers_repos
+      

@@ -1,0 +1,2 @@
+rsync -a --remove-source-files ./ ../
+rm -rf $(pwd)

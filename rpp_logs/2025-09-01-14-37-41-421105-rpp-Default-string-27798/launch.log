@@ -1,0 +1,49 @@
+1756708661.4216821 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-14-37-41-421105-rpp-Default-string-27798
+1756708661.4217782 [INFO] [launch]: Default logging verbosity is set to INFO
+1756708662.4349198 [INFO] [robot_state_publisher-1]: process started with pid [27800]
+1756708662.4350445 [INFO] [gzserver-2]: process started with pid [27802]
+1756708662.4350984 [INFO] [gzclient-3]: process started with pid [27804]
+1756708662.4351401 [INFO] [spawn_entity.py-4]: process started with pid [27806]
+1756708693.1691196 [ERROR] [spawn_entity.py-4]: process has died [pid 27806, exit code 1, cmd '/opt/ros/humble/lib/gazebo_ros/spawn_entity.py -topic robot_description -entity ea200 -z 0.08 --ros-args -r __node:=spawn_robot'].
+1756708693.1736133 [INFO] [spawner-5]: process started with pid [28016]
+1756708693.1737437 [INFO] [spawner-6]: process started with pid [28018]
+1756708693.1738260 [INFO] [spawner-7]: process started with pid [28020]
+1756708693.1738889 [INFO] [spawner-8]: process started with pid [28022]
+1756708693.4981198 [spawner-7] [INFO] [1756708693.497889576] [spawner_body_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756708693.5007207 [spawner-8] [INFO] [1756708693.500538612] [spawner_joint_position_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756708693.5045230 [spawner-6] [INFO] [1756708693.504373603] [spawner_diff_drive_base_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756708693.5055470 [spawner-5] [INFO] [1756708693.505404917] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+1756708703.5110073 [spawner-7] [WARN] [1756708703.510809725] [spawner_body_controller]: Could not contact service /controller_manager/list_controllers
+1756708703.5112743 [spawner-7] [INFO] [1756708703.511015964] [spawner_body_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756708703.5133970 [spawner-8] [WARN] [1756708703.513293491] [spawner_joint_position_controller]: Could not contact service /controller_manager/list_controllers
+1756708703.5135157 [spawner-8] [INFO] [1756708703.513480713] [spawner_joint_position_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756708703.5163059 [spawner-6] [WARN] [1756708703.516226991] [spawner_diff_drive_base_controller]: Could not contact service /controller_manager/list_controllers
+1756708703.5165086 [spawner-6] [INFO] [1756708703.516468277] [spawner_diff_drive_base_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756708703.5180311 [spawner-5] [WARN] [1756708703.517919910] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+1756708703.5182631 [spawner-5] [INFO] [1756708703.518199705] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+1756708713.5230982 [spawner-7] [WARN] [1756708713.522918924] [spawner_body_controller]: Could not contact service /controller_manager/list_controllers
+1756708713.5233512 [spawner-7] [INFO] [1756708713.523095237] [spawner_body_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756708713.5269017 [spawner-8] [WARN] [1756708713.526841718] [spawner_joint_position_controller]: Could not contact service /controller_manager/list_controllers
+1756708713.5270727 [spawner-8] [INFO] [1756708713.527032446] [spawner_joint_position_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756708713.5279746 [spawner-6] [WARN] [1756708713.527890803] [spawner_diff_drive_base_controller]: Could not contact service /controller_manager/list_controllers
+1756708713.5280859 [spawner-6] [INFO] [1756708713.528051315] [spawner_diff_drive_base_controller]: waiting for service /controller_manager/list_controllers to become available...
+1756708713.5319729 [spawner-5] [WARN] [1756708713.531711635] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+1756708713.5322790 [spawner-5] [INFO] [1756708713.532064091] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+1756708717.4041502 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756708717.4087753 [gzserver-2] [INFO] [1756708717.404023034] [rclcpp]: signal_handler(signum=2)
+1756708717.4394400 [ERROR] [gzclient-3]: process has died [pid 27804, exit code -2, cmd 'gzclient --gui-client-plugin=libgazebo_ros_eol_gui.so'].
+1756708717.5126607 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 27800]
+1756708717.5372901 [INFO] [spawner-8]: process has finished cleanly [pid 28022]
+1756708717.5374999 [INFO] [spawner-5]: process has finished cleanly [pid 28016]
+1756708717.5390685 [INFO] [spawner-6]: process has finished cleanly [pid 28018]
+1756708717.5407784 [INFO] [spawner-7]: process has finished cleanly [pid 28020]
+1756708721.5638096 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756708721.5640559 [gzserver-2] [INFO] [1756708721.563707832] [rclcpp]: signal_handler(signum=2)
+1756708722.4092836 [ERROR] [gzserver-2]: process[gzserver-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1756708722.4097834 [INFO] [gzserver-2]: sending signal 'SIGTERM' to process[gzserver-2]
+1756708722.4101303 [gzserver-2] [INFO] [1756708722.410027495] [rclcpp]: signal_handler(signum=15)
+1756708723.2679679 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756708723.2682076 [gzserver-2] [INFO] [1756708723.268003371] [rclcpp]: signal_handler(signum=2)
+1756708727.4127088 [ERROR] [gzserver-2]: process[gzserver-2] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+1756708727.4131439 [INFO] [gzserver-2]: sending signal 'SIGKILL' to process[gzserver-2]
+1756708727.4473097 [ERROR] [gzserver-2]: process has died [pid 27802, exit code -9, cmd 'gzserver /opt/ros/humble/share/gazebo_ros/worlds/empty.world -slibgazebo_ros_init.so -slibgazebo_ros_factory.so -slibgazebo_ros_force_system.so'].

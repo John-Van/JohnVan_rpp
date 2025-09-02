@@ -1,0 +1,9 @@
+1756457169.3276820 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-29-16-46-09-327161-rpp-Default-string-70424
+1756457169.3277566 [INFO] [launch]: Default logging verbosity is set to INFO
+1756457169.3554645 [WARNING] [launch_ros.actions.node]: Parameter file path is not a file: /home/rpp/rpp_ws/install/xf_voice/share/xf_voice/config/tts_params.yaml
+1756457169.3603778 [INFO] [iat_publish-1]: process started with pid [70425]
+1756457169.3604598 [INFO] [tts_subscribe-2]: process started with pid [70427]
+1756457169.3605027 [INFO] [wheeltec_mic-3]: process started with pid [70429]
+1756457169.3605390 [INFO] [voice_control-4]: process started with pid [70431]
+1756457169.3605721 [INFO] [voice_control-5]: process started with pid [70433]
+1756457518.9219835 [ERROR] [wheeltec_mic-3]: process has died [pid 70429, exit code -11, cmd '/home/rpp/rpp_ws/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/wheeltec_mic --ros-args --params-file /tmp/launch_params_hexvu667'].

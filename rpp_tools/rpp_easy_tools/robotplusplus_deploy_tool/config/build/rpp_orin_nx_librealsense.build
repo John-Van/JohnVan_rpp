@@ -1,0 +1,14 @@
+#T801s 统一了用户名与密码
+sed -i -r "s@http.+github.com@https:///git.robotplusplus.com.cn/third-party@g" ./CMake/pybind11-download.cmake.in
+sed -i -r "s@http.+github.com@https:///git.robotplusplus.com.cn/third-party@g" ./CMake/external_libcurl.cmake
+#sudo apt-get install imagemagick graphviz dvipng python3-venv latexmk librsvg2-bin texlive-lang-chinese texlive-xetex
+#sudo apt install -y python3-sphinx
+./scripts/patch-realsense-ubuntu-L4T.sh  
+#sudo apt-get install git libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev -y
+#sudo apt install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+echo "shihe321" |sudo  -S sh ./scripts/setup_udev_rules.sh  
+mkdir build && cd build  
+#add cuda lib
+cmake .. -DBUILD_EXAMPLES=true -DCMAKE_BUILD_TYPE=release -DBUILD_PYTHON_BINDINGS:bool=true -DPYTHON_EXECUTABLE=/usr/bin/python3.8 -DFORCE_RSUSB_BACKEND=false -DBUILD_WITH_CUDA=true && make -j$(($(nproc)-1)) && echo "shihe321" |sudo  -S  make install
+
+# echo "shihe321" |sudo  -S ln -s "/usr/include/opencv4" "/usr/include/opencv"

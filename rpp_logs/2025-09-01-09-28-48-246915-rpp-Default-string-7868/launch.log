@@ -1,0 +1,6 @@
+1756690128.2474248 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-09-28-48-246915-rpp-Default-string-7868
+1756690128.2474999 [INFO] [launch]: Default logging verbosity is set to INFO
+1756690128.2724118 [INFO] [linker_hand_sdk-1]: process started with pid [7869]
+1756690230.3662446 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756690230.4868104 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1756690230.4893532 [ERROR] [linker_hand_sdk-1]: process has died [pid 7869, exit code -2, cmd '/home/rpp/rpp_ws/install/linker_hand_ros2_sdk/lib/linker_hand_ros2_sdk/linker_hand_sdk --ros-args -r __node:=linker_hand_sdk --params-file /tmp/launch_params_m7u2iwvk'].

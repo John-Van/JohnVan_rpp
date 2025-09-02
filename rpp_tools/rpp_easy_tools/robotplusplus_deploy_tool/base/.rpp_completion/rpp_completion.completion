@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# 定义自动补全脚本目录
+SCRIPT_DIR="${SCRIPT_ROOT_PATH}/base/.rpp_completion"
+TARGET_SCRIPT="${1:-"rpp_completion.completion"}"
+DEBUG=${DEBUG:-false} # 默认启用调试日志
+
+# 检查目录是否存在
+if [[ ! -d "$SCRIPT_DIR" ]]; then
+    [[ "$DEBUG" == true ]] && echo "Warning: Directory $SCRIPT_DIR does not exist. Skipping script loading."
+    exit 0
+fi
+
+# 遍历并检查目录中的所有脚本
+for script in "$SCRIPT_DIR"/*; do
+    # 仅加载可执行的文件
+    if [[ -f "$script" && -x "$script" ]]; then
+        script_name=$(basename "$script")
+
+        # 跳过目标脚本
+        if [[ "$script_name" == "$TARGET_SCRIPT" ]]; then
+            [[ "$DEBUG" == true ]] && echo "Skipping $script_name (target script to exclude)"
+            continue
+        fi
+
+        # 加载其他脚本
+        [[ "$DEBUG" == true ]] && echo "Executing $script_name..."
+        source "$script"
+    else
+        [[ "$DEBUG" == true ]] && echo "Skipping $script (not executable or not a file)"
+    fi
+done

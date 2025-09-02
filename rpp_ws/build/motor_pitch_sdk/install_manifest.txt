@@ -1,0 +1,6 @@
+/home/rpp/rpp_ws/install/motor_pitch_sdk/lib/libmotor_pitch_sdk.so
+/home/rpp/rpp_ws/install/motor_pitch_sdk/bin/rpp_keyboard_teleoperate
+/home/rpp/rpp_ws/install/motor_pitch_sdk/include/motor_pitch/can.h
+/home/rpp/rpp_ws/install/motor_pitch_sdk/include/motor_pitch/motor_pitch.h
+/home/rpp/rpp_ws/install/motor_pitch_sdk/share/motor_pitch_sdk/cmake/motor_pitch_sdkConfig.cmake
+/home/rpp/rpp_ws/install/motor_pitch_sdk/share/motor_pitch_sdk/cmake/motor_pitch_sdkConfig-noconfig.cmake

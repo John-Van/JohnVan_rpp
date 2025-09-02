@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libmotor_pitch_sdk.so -o libmotor_pitch_sdk.so CMakeFiles/motor_pitch_sdk.dir/src/motor_pitch.cpp.o CMakeFiles/motor_pitch_sdk.dir/src/can.cpp.o 

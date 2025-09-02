@@ -1,0 +1,12 @@
+{
+  "package_name": "wheeltec_mic_msg",
+  "non_idl_tuples": [
+    "/home/rpp/rpp_ws/src/drivers/wheeltec_mic/wheeltec_mic_msg:msg/PcmMsg.msg",
+    "/home/rpp/rpp_ws/src/drivers/wheeltec_mic/wheeltec_mic_msg:msg/Position.msg",
+    "/home/rpp/rpp_ws/src/drivers/wheeltec_mic/wheeltec_mic_msg:srv/GetDeviceType.srv",
+    "/home/rpp/rpp_ws/src/drivers/wheeltec_mic/wheeltec_mic_msg:srv/GetOfflineResult.srv",
+    "/home/rpp/rpp_ws/src/drivers/wheeltec_mic/wheeltec_mic_msg:srv/SetAwakeWord.srv",
+    "/home/rpp/rpp_ws/src/drivers/wheeltec_mic/wheeltec_mic_msg:srv/SetMajorMic.srv",
+    "/home/rpp/rpp_ws/src/drivers/wheeltec_mic/wheeltec_mic_msg:srv/SwitchMic.srv"
+  ]
+}

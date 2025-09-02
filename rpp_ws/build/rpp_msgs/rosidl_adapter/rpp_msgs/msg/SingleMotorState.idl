@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rpp_msgs/msg/SingleMotorState.msg
+// generated code does not contain a copyright notice
+
+
+module rpp_msgs {
+  module msg {
+    struct SingleMotorState {
+      float theta;
+
+      float omega;
+
+      @verbatim (language="comment", text=
+        "no use")
+      float voltage;
+
+      @verbatim (language="comment", text=
+        "no use")
+      float current;
+
+      @verbatim (language="comment", text=
+        "no use")
+      float temperature;
+
+      @verbatim (language="comment", text=
+        "no use")
+      float rpm;
+
+      @verbatim (language="comment", text=
+        "no use")
+      int32 tick;
+
+      @verbatim (language="comment", text=
+        "no use")
+      uint32 fault;
+    };
+  };
+};

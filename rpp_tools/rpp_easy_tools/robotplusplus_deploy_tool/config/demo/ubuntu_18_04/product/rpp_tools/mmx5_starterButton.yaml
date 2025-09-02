@@ -1,0 +1,15 @@
+---
+1804_product:
+  git_repos:
+   rpp_tools:
+    starterButton:
+      url: https://git.robotplusplus.com.cn/others/starterbutton.git
+      user: $robuster_git_user
+      tag:  
+      local_path: $locla_rpp_tools
+      other_exec:
+      apt_pkgs:
+      apt_ros_pkgs:
+      python2_pip_pkgs:
+      python3_pip_pkgs:
+    

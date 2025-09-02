@@ -1,0 +1,46 @@
+[INFO] [1756014813.669148962] [head.camera]: RealSense ROS v4.55.1
+[INFO] [1756014813.669235610] [head.camera]: Built with LibRealSense v2.55.1
+[INFO] [1756014813.669251436] [head.camera]: Running with LibRealSense v2.55.1
+[INFO] [1756014813.697717318] [head.camera]: Device with serial number 318122302473 was found.
+
+[INFO] [1756014813.697745240] [head.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.2/1-2.2:1.0/video4linux/video0 was found.
+[INFO] [1756014813.697749848] [head.camera]: Device with name Intel RealSense D455 was found.
+[INFO] [1756014813.697864623] [head.camera]: Device with port number 1-2.2 was found.
+[INFO] [1756014813.697869684] [head.camera]: Device USB type: 2.1
+[WARN] [1756014813.697873440] [head.camera]: Device 318122302473 is connected using a 2.1 port. Reduced performance is expected.
+[INFO] [1756014813.697899115] [head.camera]: getParameters...
+[INFO] [1756014813.698146423] [head.camera]: JSON file is not provided
+[INFO] [1756014813.698151778] [head.camera]: Device Name: Intel RealSense D455
+[INFO] [1756014813.698155353] [head.camera]: Device Serial No: 318122302473
+[INFO] [1756014813.698158736] [head.camera]: Device physical port: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.2/1-2.2:1.0/video4linux/video0
+[INFO] [1756014813.698162358] [head.camera]: Device FW version: 5.16.0.1
+[INFO] [1756014813.698165481] [head.camera]: Device Product ID: 0x0B5C
+[INFO] [1756014813.698168404] [head.camera]: Sync Mode: Off
+[WARN] [1756014813.801185906] [head.camera]: re-enable the stream for the change to take effect.
+[WARN] [1756014813.806862195] [head.camera]: re-enable the stream for the change to take effect.
+[INFO] [1756014813.815183555] [head.camera]: Stopping Sensor: Depth Module
+[INFO] [1756014813.815243537] [head.camera]: Stopping Sensor: RGB Camera
+[INFO] [1756014813.815256075] [head.camera]: Stopping Sensor: Motion Module
+[INFO] [1756014813.837002543] [head.camera]: Starting Sensor: Depth Module
+[INFO] [1756014813.840717102] [head.camera]: Open profile: stream_type: Infra(1), Format: Y8, Width: 640, Height: 480, FPS: 15
+[INFO] [1756014813.840737649] [head.camera]: Open profile: stream_type: Depth(0), Format: Z16, Width: 640, Height: 480, FPS: 30
+[INFO] [1756014813.955340810] [head.camera]: Starting Sensor: RGB Camera
+[INFO] [1756014813.958864955] [head.camera]: Open profile: stream_type: Color(0), Format: RGB8, Width: 640, Height: 480, FPS: 30
+[INFO] [1756014813.969585582] [head.camera]: Starting Sensor: Motion Module
+[INFO] [1756014813.971727533] [head.camera]: Open profile: stream_type: Accel(0)Format: MOTION_XYZ32F, FPS: 100
+[INFO] [1756014813.971763202] [head.camera]: Open profile: stream_type: Gyro(0)Format: MOTION_XYZ32F, FPS: 200
+[INFO] [1756014813.972695810] [head.camera]: RealSense Node Is Up!
+[ERROR] [1756014817.411881997] [head.camera]: The device has been disconnected!
+[INFO] [1756014817.411983407] [head.camera]: Stop Sensor: Depth Module
+[INFO] [1756014817.411993766] [head.camera]: Close Sensor. 
+[INFO] [1756014817.849206361] [head.camera]: Close Sensor - Done. 
+[INFO] [1756014817.849250037] [head.camera]: Stop Sensor: RGB Camera
+[INFO] [1756014817.849263688] [head.camera]: Close Sensor. 
+[INFO] [1756014817.849590879] [head.camera]: Close Sensor - Done. 
+[INFO] [1756014817.849609975] [head.camera]: Stop Sensor: Motion Module
+[ERROR] [1756014817.850030003] [head.camera]: Exception: ./src/ros_sensor.cpp:307:Failed to enable_sensor /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.2/1-2.2:1.5/0003:8086:0B5C.0001/HID-SENSOR-2000e1.4.auto/enable_sensor Last Error: No such file or directory
+[INFO] [1756014817.850049949] [head.camera]: Close Sensor. 
+[ERROR] [1756014817.850081875] [head.camera]: Exception: ./src/ros_sensor.cpp:316:close() failed. Hid device is streaming!
+[INFO] [1756014817.850093440] [head.camera]: Close Sensor - Done. 
+[INFO] [1756014817.850220386] [head.camera]: Stop Sensor: Motion Module
+[ERROR] [1756014817.850279851] [head.camera]: Exception: ./src/ros_sensor.cpp:307:Failed to enable_sensor /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/

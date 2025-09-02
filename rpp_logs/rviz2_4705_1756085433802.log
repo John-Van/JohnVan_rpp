@@ -1,0 +1,26 @@
+[INFO] [1756085434.126531978] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756085434.126586411] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1756085434.171499391] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1756085437.314552135] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1756085437.323283256] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1756085437.354127632] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1756085437.385256401] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0183945 seconds
+[INFO] [1756085437.385296343] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+[INFO] [1756085437.385302163] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[ERROR] [1756085437.688888149] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+[ERROR] [1756085437.688905174] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+[ERROR] [1756085437.688913923] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+[INFO] [1756085438.450455902] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1756085438.450734115] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1756085439.408155701] [interactive_marker_display_99147110356800]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[INFO] [1756085439.438033364] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+[INFO] [1756085439.438044706] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+[INFO] [1756085439.441770689] [move_group_interface]: Ready to take commands for planning group dual_arm.
+[INFO] [1756085439.567986346] [interactive_marker_display_99147110356800]: Sending request for interactive markers
+[INFO] [1756085439.689439002] [interactive_marker_display_99147110356800]: Service response received for initialization
+[INFO] [1756085468.643086872] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1756085468.643733478] [move_group_interface]: Planning request accepted
+[INFO] [1756085468.664786858] [move_group_interface]: Planning request complete!
+[INFO] [1756085468.665447108] [move_group_interface]: time taken to generate plan: 0.00992121 seconds
+[INFO] [1756085477.005976475] [move_group_interface]: Execute request accepted
+[INFO] [1756085486.439168228] [move_group_interface]: Execute request success!

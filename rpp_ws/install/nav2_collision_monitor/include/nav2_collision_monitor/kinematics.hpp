@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/src/navigation/navigation2/nav2_collision_monitor/include/nav2_collision_monitor/kinematics.hpp

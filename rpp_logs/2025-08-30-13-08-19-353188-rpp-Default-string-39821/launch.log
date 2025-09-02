@@ -1,0 +1,43 @@
+1756530499.3537095 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-30-13-08-19-353188-rpp-Default-string-39821
+1756530499.3537877 [INFO] [launch]: Default logging verbosity is set to INFO
+1756530499.7897067 [INFO] [move_group-1]: process started with pid [39822]
+1756530499.7898185 [INFO] [rviz2-2]: process started with pid [39824]
+1756530500.2563446 [rviz2-2] [INFO] [1756530500.256141819] [rviz2]: Stereo is NOT SUPPORTED
+1756530500.2565448 [rviz2-2] [INFO] [1756530500.256201741] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1756530500.2748497 [rviz2-2] [INFO] [1756530500.274690140] [rviz2]: Stereo is NOT SUPPORTED
+1756530500.3670900 [rviz2-2] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1756530500.3672583 [rviz2-2]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1756530503.3820455 [rviz2-2] [ERROR] [1756530503.381881684] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1756530503.3909719 [rviz2-2] [INFO] [1756530503.390768756] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1756530503.4200175 [rviz2-2] [INFO] [1756530503.419850207] [rviz2]: Stereo is NOT SUPPORTED
+1756530503.4540904 [rviz2-2] [INFO] [1756530503.453880294] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0194445 seconds
+1756530503.4542055 [rviz2-2] [INFO] [1756530503.453906347] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+1756530503.4542396 [rviz2-2] [INFO] [1756530503.453912394] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1756530503.7808061 [rviz2-2] [ERROR] [1756530503.780582892] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+1756530503.7809708 [rviz2-2] [ERROR] [1756530503.780601266] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+1756530503.7810287 [rviz2-2] [ERROR] [1756530503.780613763] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+1756530504.6445816 [rviz2-2] [INFO] [1756530504.644409760] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+1756530504.6449392 [rviz2-2] [INFO] [1756530504.644729810] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+1756530505.6255925 [rviz2-2] [INFO] [1756530505.625405032] [interactive_marker_display_105676773109040]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+1756530505.6568277 [rviz2-2] [INFO] [1756530505.656685600] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+1756530505.6569262 [rviz2-2] [INFO] [1756530505.656699358] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+1756530505.6611662 [rviz2-2] [INFO] [1756530505.661038147] [move_group_interface]: Ready to take commands for planning group dual_arm.
+1756530505.7920909 [rviz2-2] [INFO] [1756530505.791863569] [interactive_marker_display_105676773109040]: Sending request for interactive markers
+1756530505.9089696 [rviz2-2] [INFO] [1756530505.908782734] [interactive_marker_display_105676773109040]: Service response received for initialization
+1756530575.3050504 [rviz2-2] [INFO] [1756530575.304828032] [moveit_ros_visualization.motion_planning_frame_context]: Connect to database: {host: 127.0.0.1, port: 33829}
+1756530575.3055801 [rviz2-2] [ERROR] [1756530575.305515378] [warehouse_ros.database_loader]: Exception while loading database plugin 'warehouse_ros_mongo::MongoDatabaseConnection': According to the loaded plugin descriptions the class warehouse_ros_mongo::MongoDatabaseConnection with base class type warehouse_ros::DatabaseConnection does not exist. Declared types are 
+1756530575.3056426 [rviz2-2] 
+1756530575.7727489 [rviz2-2] [INFO] [1756530575.772527246] [moveit_ros_visualization.motion_planning_frame_context]: Connect to database: {host: 127.0.0.1, port: 33829}
+1756530575.7728500 [rviz2-2] [ERROR] [1756530575.772591977] [warehouse_ros.database_loader]: Exception while loading database plugin 'warehouse_ros_mongo::MongoDatabaseConnection': According to the loaded plugin descriptions the class warehouse_ros_mongo::MongoDatabaseConnection with base class type warehouse_ros::DatabaseConnection does not exist. Declared types are 
+1756530575.7728858 [rviz2-2] 
+1756530576.1124163 [rviz2-2] [INFO] [1756530576.112245505] [moveit_ros_visualization.motion_planning_frame_context]: Connect to database: {host: 127.0.0.1, port: 33829}
+1756530576.1125185 [rviz2-2] [ERROR] [1756530576.112298648] [warehouse_ros.database_loader]: Exception while loading database plugin 'warehouse_ros_mongo::MongoDatabaseConnection': According to the loaded plugin descriptions the class warehouse_ros_mongo::MongoDatabaseConnection with base class type warehouse_ros::DatabaseConnection does not exist. Declared types are 
+1756530576.1125517 [rviz2-2] 
+1756530576.4023821 [rviz2-2] [INFO] [1756530576.402160996] [moveit_ros_visualization.motion_planning_frame_context]: Connect to database: {host: 127.0.0.1, port: 33829}
+1756530576.4024808 [rviz2-2] [ERROR] [1756530576.402210775] [warehouse_ros.database_loader]: Exception while loading database plugin 'warehouse_ros_mongo::MongoDatabaseConnection': According to the loaded plugin descriptions the class warehouse_ros_mongo::MongoDatabaseConnection with base class type warehouse_ros::DatabaseConnection does not exist. Declared types are 
+1756530576.4025137 [rviz2-2] 
+1756530576.5731869 [rviz2-2] [INFO] [1756530576.573012143] [moveit_ros_visualization.motion_planning_frame_context]: Connect to database: {host: 127.0.0.1, port: 33829}
+1756530576.5732927 [rviz2-2] [ERROR] [1756530576.573054270] [warehouse_ros.database_loader]: Exception while loading database plugin 'warehouse_ros_mongo::MongoDatabaseConnection': According to the loaded plugin descriptions the class warehouse_ros_mongo::MongoDatabaseConnection with base class type warehouse_ros::DatabaseConnection does not exist. Declared types are 
+1756530576.5733266 [rviz2-2] 
+1756530585.4490895 [rviz2-2] [INFO] [1756530585.448880238] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
+1756530586.5642054 [ERROR] [rviz2-2]: process has died [pid 39824, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/rpp/rpp_ws/install/ea200_moveit_config/share/ea200_moveit_config/config/moveit.rviz --ros-args -r __node:=rviz2_moveit --params-file /tmp/launch_params_qgqrzu20 --params-file /tmp/launch_params_rrsvsnpy --params-file /tmp/launch_params_t1k1ovvo --params-file /tmp/launch_params_wdzu6jbr --params-file /tmp/launch_params_10gt0dex'].

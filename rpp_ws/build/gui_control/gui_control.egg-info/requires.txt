@@ -1,0 +1,5 @@
+linker_hand_ros2_sdk
+setuptools
+
+[test]
+pytest

@@ -1,0 +1,7 @@
+1756719664.0657218 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-17-41-04-065218-rpp-Default-string-5166
+1756719664.0657964 [INFO] [launch]: Default logging verbosity is set to INFO
+1756719664.0909374 [INFO] [motor_pitch_ros_node-1]: process started with pid [5167]
+1756719714.0901837 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756719719.0962138 [ERROR] [motor_pitch_ros_node-1]: process[motor_pitch_ros_node-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1756719719.0964475 [INFO] [motor_pitch_ros_node-1]: sending signal 'SIGTERM' to process[motor_pitch_ros_node-1]
+1756719719.0977159 [ERROR] [motor_pitch_ros_node-1]: process has died [pid 5167, exit code -15, cmd '/home/rpp/rpp_ws/install/motor_pitch_ros/lib/motor_pitch_ros/motor_pitch_ros_node --ros-args -r __node:=motor_pitch_ros_node --params-file /home/rpp/rpp_ws/install/motor_pitch_ros/share/motor_pitch_ros/config/config.yaml'].

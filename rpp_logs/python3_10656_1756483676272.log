@@ -1,0 +1,3 @@
+[INFO] [1756483676.323568338] [spawner_left_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...
+[WARN] [1756483676.432381401] [spawner_left_joint_trajectory_controller]: [93mController already loaded, skipping load_controller[0m
+[ERROR] [1756483676.433493153] [spawner_left_joint_trajectory_controller]: [91mFailed to configure controller[0m

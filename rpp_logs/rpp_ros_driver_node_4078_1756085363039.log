@@ -1,0 +1,29 @@
+[INFO] [1756085363.075802169] [serial_driver]: motion model: 2wd
+[INFO] [1756085363.076525586] [serial_driver]: enable serial control 00
+[INFO] [1756085363.176624763] [serial_driver]: enable serial control 00
+[INFO] [1756085363.276735900] [serial_driver]: enable serial control 00
+[INFO] [1756085363.376838236] [serial_driver]: enable serial control 00
+[INFO] [1756085363.476964479] [serial_driver]: enable serial control 00
+[INFO] [1756085363.577182998] [serial_driver]: enable serial control 00
+[INFO] [1756085363.677397668] [serial_driver]: enable serial control 00
+[INFO] [1756085363.777478422] [serial_driver]: enable serial control 00
+[INFO] [1756085363.877559918] [serial_driver]: enable serial control 00
+[INFO] [1756085363.977831827] [serial_driver]: enable serial control 00
+[INFO] [1756085364.078008838] [serial_driver]: enable serial control 00
+[INFO] [1756085364.178194860] [serial_driver]: enable serial control 00
+[INFO] [1756085364.278332863] [serial_driver]: enable serial control 00
+[INFO] [1756085364.378515491] [serial_driver]: enable serial control 00
+[INFO] [1756085364.478602957] [serial_driver]: enable serial control 00
+[INFO] [1756085364.578686656] [serial_driver]: enable serial control 00
+[INFO] [1756085364.678879234] [serial_driver]: enable serial control 00
+[INFO] [1756085364.779093459] [serial_driver]: enable serial control 00
+[INFO] [1756085364.879275934] [serial_driver]: enable serial control 00
+[INFO] [1756085364.979522619] [serial_driver]: enable serial control 00
+[INFO] [1756085365.079710766] [serial_driver]: enable serial control 00
+[INFO] [1756085365.179882485] [serial_driver]: enable serial control 00
+[INFO] [1756085365.280061717] [serial_driver]: enable serial control 00
+[INFO] [1756085365.380249494] [serial_driver]: enable serial control 00
+[INFO] [1756085365.480418698] [serial_driver]: enable serial control 00
+[INFO] [1756085365.580592211] [serial_driver]: enable serial control 00
+[INFO] [1756085365.680667614] [serial_driver]: enable serial control success
+[INFO] [1756099628.089460099] [rclcpp]: signal_handler(signum=2)

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:property name="robot_name" value="cr100" />
+    <xacro:property name="PI" value="3.1415926535897931" />
+
+    <!--Left
+    front wheel installation, unit m-->
+    <xacro:property name="wheel_LF_x" value="0.0" />
+    <xacro:property name="wheel_LF_y" value="0.230499999999998" />
+    <xacro:property name="wheel_LF_z" value="0.0" />
+
+    <xacro:property name="caster_LB_x" value="-0.436000000000004" />
+    <xacro:property name="caster_LB_y" value="0.179999999999997" />
+    <xacro:property name="caster_LB_z" value="-0.0425000000000016" />
+
+    <!--Make
+    the tire larger than the actual value-->
+    <xacro:property name="wheel_FL_radius" value="0.08" />
+    <xacro:property name="wheel_FL_length" value="0.078" />
+
+    <xacro:property name="caster_RL_radius" value="0.0375" />
+    <xacro:property name="caster_RL_length" value="0.078" />
+
+    <!-- laser parameters-->
+    <xacro:property name="laser_sensor_pose_xyzrpy" value="0 0 0 0 0 0" />
+    <xacro:property name="laser_sensor_visualize" value="false" />
+    <xacro:property name="laser_sensor_update_rate" value="40" />
+    <xacro:property name="laser_sensor_ray_scan_horizontal_samples" value="720" />
+    <xacro:property name="laser_sensor_ray_scan_horizontal_resolution" value="1" />
+    <xacro:property name="laser_sensor_ray_scan_horizontal_min_angle" value="-1.355" />
+    <xacro:property name="laser_sensor_ray_scan_horizontal_max_angle" value="1.355" />
+    <xacro:property name="laser_sensor_ray_range_min" value="0.10" />
+    <xacro:property name="laser_sensor_ray_range_max" value="30.0" />
+    <xacro:property name="laser_sensor_ray_range_resolution" value="0.01" />
+    <xacro:property name="laser_sensor_ray_noise_type" value="gaussian" />
+    <xacro:property name="laser_sensor_ray_noise_mean" value="0.0" />
+    <xacro:property name="laser_sensor_ray_noise_stddev" value="0.01" />
+    <xacro:property name="laser_sensor_plugin_updateRate" value="10.0" />
+    <xacro:property name="laser_sensor_plugin_updateRateHZ" value="10.0" />
+
+    <!--lidar  parameters-->
+    <!-- const-->
+    <xacro:property name="lidar_sensor_pose_xyzrpy" value="0 0 0 0 0 0" />
+    <!-- The location and direction of the sensor-->
+    <xacro:property name="lidar_sensor_visualize" value="false" />
+    <!-- Irreversible sensor -->
+    <xacro:property name="lidar_sensor_ray_scan_horizontal_resolution" value="1" />
+    <xacro:property name="lidar_sensor_ray_scan_vertical_resolution" value="1" />
+    <xacro:property name="lidar_sensor_ray_scan_vertical_min_angle" value="-${15.0*PI/180.0}" />
+    <xacro:property name="lidar_sensor_ray_scan_vertical_max_angle" value="${15.0*PI/180.0}" />
+    <xacro:property name="lidar_sensor_ray_range_resolution" value="0.001" />
+    <xacro:property name="lidar_sensor_ray_noise_type" value="gaussian" />
+    <xacro:property name="lidar_sensor_ray_noise_mean" value="0.0" />
+    <xacro:property name="lidar_sensor_ray_noise_stddev" value="0.0" />
+    <!-- enter-->
+    <xacro:property name="lidar_sensor_update_rate" value="10" />
+    <!-- Update frequency -->
+    <xacro:property name="lidar_choose_gpu" value="true" />
+    <!-- TODO : imu_choose_gpu   :false  ,true-->
+    <xacro:property name="lidar_sensor_ray_scan_horizontal_samples" value="12000" />
+    <xacro:property name="lidar_sensor_ray_scan_horizontal_min_angle" value="0.4" />
+    <xacro:property name="lidar_sensor_ray_scan_horizontal_max_angle" value="150.0" />
+    <xacro:property name="lidar_sensor_ray_scan_vertical_samples" value="40" />
+    <xacro:property name="lidar_sensor_ray_range_min" value="0.5" />
+    <xacro:property name="lidar_sensor_ray_range_max" value="40" />
+    <xacro:property name="lidar_sensor_plugin_topicName" value="10" />
+    <xacro:property name="lidar_sensor_plugin_min_range" value="40" />
+    <xacro:property name="lidar_sensor_plugin_max_range" value="40" />
+    <xacro:property name="lidar_sensor_plugin_gaussianNoise" value="0" />
+</robot>

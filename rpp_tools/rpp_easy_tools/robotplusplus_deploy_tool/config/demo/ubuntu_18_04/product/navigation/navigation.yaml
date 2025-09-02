@@ -1,0 +1,15 @@
+---
+1804_product:
+  git_repos:
+   navigation: # 导航ROS包
+     navigation:
+       url: https://git.robotplusplus.com.cn/navigation/ros-planning/navigation.git
+       user: $robuster_git_user
+       tag: rppv3.0.0
+       local_path: $local_navigation_repos
+       other_exec:
+       apt_pkgs: libsdl-image1.2-dev libsdl-dev
+       apt_ros_pkgs: tf2-sensor-msgs 
+       python2_pip_pkgs:
+       python3_pip_pkgs:
+    

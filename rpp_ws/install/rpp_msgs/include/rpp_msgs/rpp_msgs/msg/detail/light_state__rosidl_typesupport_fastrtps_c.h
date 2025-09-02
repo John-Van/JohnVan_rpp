@@ -1,0 +1,1 @@
+/home/rpp/rpp_ws/build/rpp_msgs/rosidl_typesupport_fastrtps_c/rpp_msgs/msg/detail/light_state__rosidl_typesupport_fastrtps_c.h

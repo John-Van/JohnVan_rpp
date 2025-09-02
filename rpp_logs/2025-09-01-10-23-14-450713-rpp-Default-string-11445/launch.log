@@ -1,0 +1,6 @@
+1756693394.4513209 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-09-01-10-23-14-450713-rpp-Default-string-11445
+1756693394.4514120 [INFO] [launch]: Default logging verbosity is set to INFO
+1756693394.4857907 [INFO] [gui_control-1]: process started with pid [11447]
+1756693394.4858959 [INFO] [gui_control-2]: process started with pid [11449]
+1756693406.7304437 [INFO] [gui_control-2]: process has finished cleanly [pid 11449]
+1756693408.1714900 [INFO] [gui_control-1]: process has finished cleanly [pid 11447]

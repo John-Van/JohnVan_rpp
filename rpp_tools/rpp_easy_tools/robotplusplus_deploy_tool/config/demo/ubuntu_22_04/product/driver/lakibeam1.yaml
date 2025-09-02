@@ -1,0 +1,16 @@
+---
+2204_product:
+  git_repos:
+   driver: # 设备、传感器的ROS驱动
+      lakibeam1: #ros2
+        url: https://git.robotplusplus.com.cn/drivers/drivers-ros2/lakibeam1.git
+        user: $robuster_git_user
+        tag: 
+        other_exec:
+        apt_pkgs:
+        apt_ros_pkgs: 
+        python2_pip_pkgs:
+        python3_pip_pkgs:
+        local_path: $local_drivers_repos
+        rpp_docs: http://file.robotplusplus.com.cn/equipment_information/lidar/2d/LakiBeam/
+   

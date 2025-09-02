@@ -1,0 +1,48 @@
+1756261100.3437521 [INFO] [launch]: All log files can be found below /home/rpp/rpp_logs/2025-08-27-10-18-20-343101-rpp-Default-string-120848
+1756261100.3438442 [INFO] [launch]: Default logging verbosity is set to INFO
+1756261100.8549070 [INFO] [move_group-1]: process started with pid [120884]
+1756261100.8550322 [INFO] [rviz2-2]: process started with pid [120886]
+1756261101.6622939 [rviz2-2] [INFO] [1756261101.662071705] [rviz2]: Stereo is NOT SUPPORTED
+1756261101.6624498 [rviz2-2] [INFO] [1756261101.662132278] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1756261101.7590032 [rviz2-2] [INFO] [1756261101.758783320] [rviz2]: Stereo is NOT SUPPORTED
+1756261101.8291993 [rviz2-2] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1756261101.8293126 [rviz2-2]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1756261104.8466020 [rviz2-2] [ERROR] [1756261104.846409021] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1756261104.8558474 [rviz2-2] [INFO] [1756261104.855638898] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1756261104.8857203 [rviz2-2] [INFO] [1756261104.885503580] [rviz2]: Stereo is NOT SUPPORTED
+1756261104.9251513 [rviz2-2] [INFO] [1756261104.924933588] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0204473 seconds
+1756261104.9252651 [rviz2-2] [INFO] [1756261104.924961613] [moveit_robot_model.robot_model]: Loading robot model 'ea200'...
+1756261104.9253008 [rviz2-2] [INFO] [1756261104.924969696] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1756261105.2841613 [rviz2-2] [ERROR] [1756261105.283958770] [moveit_kinematics_base.kinematics_base]: Group 'dual_arm' is not a chain
+1756261105.2842703 [rviz2-2] [ERROR] [1756261105.283977471] [kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'dual_arm'
+1756261105.2843170 [rviz2-2] [ERROR] [1756261105.283986986] [moveit_ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group dual_arm.
+1756261106.2061536 [rviz2-2] [INFO] [1756261106.205950148] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+1756261106.2065797 [rviz2-2] [INFO] [1756261106.206431056] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+1756261107.3174558 [rviz2-2] [INFO] [1756261107.317267759] [interactive_marker_display_103913855699296]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+1756261107.3537209 [rviz2-2] [INFO] [1756261107.353541049] [moveit_ros_visualization.motion_planning_frame]: group dual_arm
+1756261107.3538611 [rviz2-2] [INFO] [1756261107.353556703] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'dual_arm' in namespace ''
+1756261107.3585372 [rviz2-2] [INFO] [1756261107.358357943] [move_group_interface]: Ready to take commands for planning group dual_arm.
+1756261107.4408581 [rviz2-2] [INFO] [1756261107.440610611] [interactive_marker_display_103913855699296]: Sending request for interactive markers
+1756261107.5185292 [rviz2-2] [INFO] [1756261107.518288734] [interactive_marker_display_103913855699296]: Service response received for initialization
+1756261114.8824556 [rviz2-2] [INFO] [1756261114.882085143] [move_group_interface]: Plan and Execute request accepted
+1756261114.8870687 [rviz2-2] [INFO] [1756261114.886881924] [move_group_interface]: Plan and Execute request complete!
+1756261120.8140047 [rviz2-2] [INFO] [1756261120.813506713] [move_group_interface]: Plan and Execute request accepted
+1756261120.8203106 [rviz2-2] [INFO] [1756261120.820095817] [move_group_interface]: Plan and Execute request complete!
+1756261132.0956106 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1756261132.0968196 [rviz2-2] [INFO] [1756261132.095475107] [rclcpp]: signal_handler(signum=2)
+1756261132.0971098 [rviz2-2] [WARN] [1756261132.096010160] [interactive_marker_display_103913855699296]: Server not available while running, resetting
+1756261132.2039092 [rviz2-2] 
+1756261132.2040274 [rviz2-2] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+1756261132.2040715 [rviz2-2] This error state is being overwritten:
+1756261132.2041001 [rviz2-2] 
+1756261132.2041256 [rviz2-2]   'rcl node's context is invalid, at ./src/rcl/node.c:428'
+1756261132.2041488 [rviz2-2] 
+1756261132.2041764 [rviz2-2] with this new error message:
+1756261132.2042060 [rviz2-2] 
+1756261132.2042289 [rviz2-2]   'publisher's context is invalid, at ./src/rcl/publisher.c:389'
+1756261132.2042511 [rviz2-2] 
+1756261132.2042730 [rviz2-2] rcutils_reset_error() should be called after error handling to avoid this.
+1756261132.2042947 [rviz2-2] <<<
+1756261132.2062633 [rviz2-2] [INFO] [1756261132.206107245] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
+1756261133.2478907 [ERROR] [move_group-1]: process has died [pid 120884, exit code -11, cmd '/opt/ros/humble/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_l63vosyt'].
+1756261134.2945251 [ERROR] [rviz2-2]: process has died [pid 120886, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/rpp/rpp_ws/install/ea200_moveit_config/share/ea200_moveit_config/config/moveit.rviz --ros-args -r __node:=rviz2_moveit --params-file /tmp/launch_params_iiwmzo0n --params-file /tmp/launch_params_sryp0w_1 --params-file /tmp/launch_params_hzbprl19 --params-file /tmp/launch_params_1fp5bbh7 --params-file /tmp/launch_params_j6_vz9vq'].
