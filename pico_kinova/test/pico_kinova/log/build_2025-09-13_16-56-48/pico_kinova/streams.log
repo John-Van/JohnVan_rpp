@@ -1,0 +1,571 @@
+[0.011s] Invoking command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake /home/rpp/Desktop/pico_kinova/pico_kinova -DCMAKE_INSTALL_PREFIX=/home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.097s] -- The CXX compiler identification is GNU 11.4.0
+[0.102s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.235s] -- Detecting CXX compiler ABI info - done
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.239s] -- Detecting CXX compile features
+[0.239s] -- Detecting CXX compile features - done
+[0.245s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.408s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.521s] -- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+[0.526s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.588s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.598s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.610s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.646s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.708s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.715s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.818s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.841s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.874s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.889s] -- Looking for pthread.h
+[0.950s] -- Looking for pthread.h - found
+[0.950s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.009s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.010s] -- Found Threads: TRUE  
+[1.057s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.098s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.244s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.302s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.318s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.324s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.347s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.446s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.479s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.635s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.663s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.684s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.708s] -- Found Eigen3: /usr/include/eigen3
+[1.713s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread program_options 
+[1.780s] -- Found Curses: /usr/lib/x86_64-linux-gnu/libcurses.so  
+[1.780s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[1.846s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[1.847s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[1.914s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[1.914s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[1.985s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.012s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.109s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.110s] -- Configured cppcheck include dirs: /home/rpp/Desktop/pico_kinova/pico_kinova/lib;/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include;/home/rpp/Desktop/pico_kinova/pico_kinova/dynamixel_sdk/include;$<BUILD_INTERFACE:/home/rpp/Desktop/pico_kinova/pico_kinova/include>
+[2.110s] -- Configured cppcheck exclude dirs and/or files: 
+[2.112s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.114s] -- Added test 'lint_cmake' to check CMake code style
+[2.116s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.122s] -- Added test 'uncrustify' to check C / C++ code style
+[2.122s] -- Configured uncrustify additional arguments: 
+[2.123s] -- Added test 'xmllint' to check XML markup files
+[2.125s] -- Configuring done
+[2.154s] -- Generating done
+[2.163s] -- Build files have been written to: /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova
+[2.172s] Invoked command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake /home/rpp/Desktop/pico_kinova/pico_kinova -DCMAKE_INSTALL_PREFIX=/home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova
+[2.174s] Invoking command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova -- -j24 -l24
+[2.229s] [ 14%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/robot_state.cpp.o[0m
+[2.229s] [ 16%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/robotiq_gripper.cpp.o[0m
+[2.229s] [ 14%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/urcl/log.cpp.o[0m
+[2.229s] [ 14%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/rtde_receive_interface.cpp.o[0m
+[2.229s] [ 16%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/urcl/default_log_handler.cpp.o[0m
+[2.229s] [ 14%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/urcl/script_sender.cpp.o[0m
+[2.229s] [ 16%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/rtde_control_interface.cpp.o[0m
+[2.230s] [ 19%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/rtde.cpp.o[0m
+[2.231s] [ 21%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/urcl/tcp_server.cpp.o[0m
+[2.232s] [ 28%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/dashboard_enums.cpp.o[0m
+[2.233s] [ 28%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/dashboard_client.cpp.o[0m
+[2.233s] [ 28%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/script_client.cpp.o[0m
+[2.233s] [ 30%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/rtde_io_interface.cpp.o[0m
+[2.685s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/src/robot_state.cpp:1[m[K:
+[2.685s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.685s]    93 |   }[01;35m[K;[m[K
+[2.685s]       |    [01;35m[K^[m[K
+[2.685s]       |    [31m[K-[m[K
+[2.685s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.685s]   107 |   }[01;35m[K;[m[K
+[2.686s]       |    [01;35m[K^[m[K
+[2.686s]       |    [31m[K-[m[K
+[2.722s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const[m[K’:
+[2.723s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.723s]   154 |     uint16_t operator()([01;35m[Kuint32_t int_val[m[K) const
+[2.723s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[2.723s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const[m[K’:
+[2.723s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.723s]   159 |     uint16_t operator()([01;35m[Kuint64_t int_val[m[K) const
+[2.723s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[2.723s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const[m[K’:
+[2.723s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.724s]   164 |     uint16_t operator()([01;35m[Kint32_t int_val[m[K) const
+[2.724s]       |                         [01;35m[K~~~~~~~~^~~~~~~[m[K
+[2.724s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const[m[K’:
+[2.724s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdouble_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.724s]   169 |     uint16_t operator()([01;35m[Kdouble double_val[m[K) const
+[2.724s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[2.776s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/src/rtde.cpp:1[m[K:
+[2.776s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.776s]    93 |   }[01;35m[K;[m[K
+[2.776s]       |    [01;35m[K^[m[K
+[2.776s]       |    [31m[K-[m[K
+[2.776s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.777s]   107 |   }[01;35m[K;[m[K
+[2.777s]       |    [01;35m[K^[m[K
+[2.777s]       |    [31m[K-[m[K
+[2.818s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const[m[K’:
+[2.818s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.818s]   154 |     uint16_t operator()([01;35m[Kuint32_t int_val[m[K) const
+[2.818s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[2.818s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const[m[K’:
+[2.818s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.818s]   159 |     uint16_t operator()([01;35m[Kuint64_t int_val[m[K) const
+[2.818s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[2.818s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const[m[K’:
+[2.818s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.818s]   164 |     uint16_t operator()([01;35m[Kint32_t int_val[m[K) const
+[2.819s]       |                         [01;35m[K~~~~~~~~^~~~~~~[m[K
+[2.819s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const[m[K’:
+[2.819s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdouble_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.819s]   169 |     uint16_t operator()([01;35m[Kdouble double_val[m[K) const
+[2.819s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[3.128s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/src/rtde_control_interface.cpp:2[m[K:
+[3.128s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.129s]    93 |   }[01;35m[K;[m[K
+[3.129s]       |    [01;35m[K^[m[K
+[3.129s]       |    [31m[K-[m[K
+[3.129s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.129s]   107 |   }[01;35m[K;[m[K
+[3.129s]       |    [01;35m[K^[m[K
+[3.129s]       |    [31m[K-[m[K
+[3.171s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const[m[K’:
+[3.172s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.172s]   154 |     uint16_t operator()([01;35m[Kuint32_t int_val[m[K) const
+[3.172s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[3.172s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const[m[K’:
+[3.172s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.172s]   159 |     uint16_t operator()([01;35m[Kuint64_t int_val[m[K) const
+[3.172s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[3.172s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const[m[K’:
+[3.172s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.172s]   164 |     uint16_t operator()([01;35m[Kint32_t int_val[m[K) const
+[3.172s]       |                         [01;35m[K~~~~~~~~^~~~~~~[m[K
+[3.172s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const[m[K’:
+[3.172s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdouble_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.172s]   169 |     uint16_t operator()([01;35m[Kdouble double_val[m[K) const
+[3.172s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[3.353s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/src/rtde_receive_interface.cpp:1[m[K:
+[3.354s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.354s]    93 |   }[01;35m[K;[m[K
+[3.354s]       |    [01;35m[K^[m[K
+[3.354s]       |    [31m[K-[m[K
+[3.354s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.354s]   107 |   }[01;35m[K;[m[K
+[3.354s]       |    [01;35m[K^[m[K
+[3.354s]       |    [31m[K-[m[K
+[3.431s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const[m[K’:
+[3.432s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.432s]   154 |     uint16_t operator()([01;35m[Kuint32_t int_val[m[K) const
+[3.432s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[3.432s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const[m[K’:
+[3.432s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.432s]   159 |     uint16_t operator()([01;35m[Kuint64_t int_val[m[K) const
+[3.432s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[3.432s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const[m[K’:
+[3.432s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.432s]   164 |     uint16_t operator()([01;35m[Kint32_t int_val[m[K) const
+[3.432s]       |                         [01;35m[K~~~~~~~~^~~~~~~[m[K
+[3.432s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const[m[K’:
+[3.432s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdouble_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.432s]   169 |     uint16_t operator()([01;35m[Kdouble double_val[m[K) const
+[3.432s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[4.281s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/src/dashboard_client.cpp:[m[K In member function ‘[01m[Kvoid ur_rtde::DashboardClient::setUserRole(const ur_rtde::UserRole&)[m[K’:
+[4.281s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/src/dashboard_client.cpp:349:17:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+[4.281s]   349 |       message = [01;35m[K"locked"[m[K;
+[4.281s]       |                 [01;35m[K^~~~~~~~[m[K
+[4.281s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/src/dashboard_client.cpp:350:5:[m[K [01;36m[Knote: [m[Khere
+[4.281s]   350 |     [01;36m[Kcase[m[K UserRole::PROGRAMMER:
+[4.281s]       |     [01;36m[K^~~~[m[K
+[4.281s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/src/dashboard_client.cpp:351:17:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+[4.281s]   351 |       message = [01;35m[K"programmer"[m[K;
+[4.281s]       |                 [01;35m[K^~~~~~~~~~~~[m[K
+[4.281s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/src/dashboard_client.cpp:352:5:[m[K [01;36m[Knote: [m[Khere
+[4.281s]   352 |     [01;36m[Kcase[m[K UserRole::OPERATOR:
+[4.281s]       |     [01;36m[K^~~~[m[K
+[4.281s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/src/dashboard_client.cpp:353:17:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+[4.281s]   353 |       message = [01;35m[K"operator"[m[K;
+[4.281s]       |                 [01;35m[K^~~~~~~~~~[m[K
+[4.281s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/src/dashboard_client.cpp:354:5:[m[K [01;36m[Knote: [m[Khere
+[4.281s]   354 |     [01;36m[Kcase[m[K UserRole::NONE:
+[4.281s]       |     [01;36m[K^~~~[m[K
+[4.281s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/src/dashboard_client.cpp:355:17:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+[4.282s]   355 |       message = [01;35m[K"none"[m[K;
+[4.282s]       |                 [01;35m[K^~~~~~[m[K
+[4.282s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/src/dashboard_client.cpp:356:5:[m[K [01;36m[Knote: [m[Khere
+[4.282s]   356 |     [01;36m[Kcase[m[K UserRole::RESTRICTED:
+[4.282s]       |     [01;36m[K^~~~[m[K
+[6.023s] [ 33%] [32m[1mLinking CXX shared library librtde.so[0m
+[6.331s] [ 33%] Built target rtde
+[6.352s] [ 35%] [32mBuilding CXX object ur_rtde/CMakeFiles/robotiq_gripper_example.dir/examples/cpp/robotiq_gripper_example.cpp.o[0m
+[6.352s] [ 38%] [32mBuilding CXX object ur_rtde/CMakeFiles/move_path_async_example.dir/examples/cpp/move_path_async_example.cpp.o[0m
+[6.352s] [ 42%] [32mBuilding CXX object ur_rtde/CMakeFiles/move_until_contact_example.dir/examples/cpp/move_until_contact.cpp.o[0m
+[6.353s] [ 42%] [32mBuilding CXX object ur_rtde/CMakeFiles/jog_example.dir/examples/cpp/jog_example.cpp.o[0m
+[6.353s] [ 45%] [32mBuilding CXX object ur_rtde/CMakeFiles/contact_detection_example.dir/examples/cpp/contact_detection_example.cpp.o[0m
+[6.354s] [ 47%] [32mBuilding CXX object ur_rtde/CMakeFiles/io_example.dir/examples/cpp/io_example.cpp.o[0m
+[6.355s] [ 50%] [32mBuilding CXX object ur_rtde/CMakeFiles/record_data_example.dir/examples/cpp/record_data_example.cpp.o[0m
+[6.355s] [ 52%] [32mBuilding CXX object ur_rtde/CMakeFiles/forcemode_example.dir/examples/cpp/forcemode_example.cpp.o[0m
+[6.358s] [ 54%] [32mBuilding CXX object ur_rtde/CMakeFiles/move_async_example.dir/examples/cpp/move_async_example.cpp.o[0m
+[6.358s] [ 57%] [32mBuilding CXX object ur_rtde/CMakeFiles/movej_path_with_blend_example.dir/examples/cpp/movej_path_with_blend_example.cpp.o[0m
+[6.359s] [ 59%] [32mBuilding CXX object ur_rtde/CMakeFiles/realtime_control_example.dir/examples/cpp/realtime_control_example.cpp.o[0m
+[6.360s] [ 61%] [32mBuilding CXX object ur_rtde/CMakeFiles/speedj_example.dir/examples/cpp/speedj_example.cpp.o[0m
+[6.361s] [ 64%] [32mBuilding CXX object ur_rtde/CMakeFiles/servoj_example.dir/examples/cpp/servoj_example.cpp.o[0m
+[6.362s] [ 66%] [32mBuilding CXX object CMakeFiles/pico_kinova.dir/src/pico_kinova.cpp.o[0m
+[7.196s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/servoj_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.196s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/servoj_example.cpp:8:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.196s]     8 | int main([01;35m[Kint argc[m[K, char* argv[])
+[7.196s]       |          [01;35m[K~~~~^~~~[m[K
+[7.196s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/servoj_example.cpp:8:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.196s]     8 | int main(int argc, [01;35m[Kchar* argv[][m[K)
+[7.196s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[7.199s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/move_until_contact.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.199s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/move_until_contact.cpp:4:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.199s]     4 | int main([01;35m[Kint argc[m[K, char* argv[])
+[7.199s]       |          [01;35m[K~~~~^~~~[m[K
+[7.199s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/move_until_contact.cpp:4:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.199s]     4 | int main(int argc, [01;35m[Kchar* argv[][m[K)
+[7.199s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[7.206s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/speedj_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.206s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/speedj_example.cpp:8:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.206s]     8 | int main([01;35m[Kint argc[m[K, char* argv[])
+[7.206s]       |          [01;35m[K~~~~^~~~[m[K
+[7.206s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/speedj_example.cpp:8:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.206s]     8 | int main(int argc, [01;35m[Kchar* argv[][m[K)
+[7.206s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[7.213s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/jog_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.213s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/jog_example.cpp:10:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.213s]    10 | int main([01;35m[Kint argc[m[K, char* argv[])
+[7.213s]       |          [01;35m[K~~~~^~~~[m[K
+[7.213s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/jog_example.cpp:10:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.213s]    10 | int main(int argc, [01;35m[Kchar* argv[][m[K)
+[7.214s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[7.318s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/movej_path_with_blend_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.319s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/movej_path_with_blend_example.cpp:5:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.319s]     5 | int main([01;35m[Kint argc[m[K, char* argv[])
+[7.319s]       |          [01;35m[K~~~~^~~~[m[K
+[7.319s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/movej_path_with_blend_example.cpp:5:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.319s]     5 | int main(int argc, [01;35m[Kchar* argv[][m[K)
+[7.319s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[7.406s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/rtde_receive_interface.h:6[m[K,
+[7.406s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/contact_detection_example.cpp:2[m[K:
+[7.406s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.406s]    93 |   }[01;35m[K;[m[K
+[7.406s]       |    [01;35m[K^[m[K
+[7.407s]       |    [31m[K-[m[K
+[7.407s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.407s]   107 |   }[01;35m[K;[m[K
+[7.407s]       |    [01;35m[K^[m[K
+[7.407s]       |    [31m[K-[m[K
+[7.466s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const[m[K’:
+[7.466s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.467s]   154 |     uint16_t operator()([01;35m[Kuint32_t int_val[m[K) const
+[7.467s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[7.467s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const[m[K’:
+[7.467s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.467s]   159 |     uint16_t operator()([01;35m[Kuint64_t int_val[m[K) const
+[7.467s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[7.467s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const[m[K’:
+[7.468s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.468s]   164 |     uint16_t operator()([01;35m[Kint32_t int_val[m[K) const
+[7.468s]       |                         [01;35m[K~~~~~~~~^~~~~~~[m[K
+[7.468s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const[m[K’:
+[7.468s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdouble_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.468s]   169 |     uint16_t operator()([01;35m[Kdouble double_val[m[K) const
+[7.468s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[7.469s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/rtde_receive_interface.h:6[m[K,
+[7.470s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/io_example.cpp:2[m[K:
+[7.470s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.470s]    93 |   }[01;35m[K;[m[K
+[7.470s]       |    [01;35m[K^[m[K
+[7.470s]       |    [31m[K-[m[K
+[7.470s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.471s]   107 |   }[01;35m[K;[m[K
+[7.471s]       |    [01;35m[K^[m[K
+[7.471s]       |    [31m[K-[m[K
+[7.473s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/contact_detection_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.473s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/contact_detection_example.cpp:8:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.473s]     8 | int main([01;35m[Kint argc[m[K, char* argv[])
+[7.473s]       |          [01;35m[K~~~~^~~~[m[K
+[7.473s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/contact_detection_example.cpp:8:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.473s]     8 | int main(int argc, [01;35m[Kchar* argv[][m[K)
+[7.474s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[7.525s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const[m[K’:
+[7.525s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.525s]   154 |     uint16_t operator()([01;35m[Kuint32_t int_val[m[K) const
+[7.525s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[7.525s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const[m[K’:
+[7.525s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.525s]   159 |     uint16_t operator()([01;35m[Kuint64_t int_val[m[K) const
+[7.525s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[7.525s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const[m[K’:
+[7.526s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.526s]   164 |     uint16_t operator()([01;35m[Kint32_t int_val[m[K) const
+[7.526s]       |                         [01;35m[K~~~~~~~~^~~~~~~[m[K
+[7.526s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const[m[K’:
+[7.526s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdouble_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.526s]   169 |     uint16_t operator()([01;35m[Kdouble double_val[m[K) const
+[7.526s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[7.526s] [ 69%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/servoj_example[0m
+[7.531s] [ 71%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/move_until_contact_example[0m
+[7.538s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/io_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.538s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/io_example.cpp:8:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.538s]     8 | int main([01;35m[Kint argc[m[K, char* argv[])
+[7.538s]       |          [01;35m[K~~~~^~~~[m[K
+[7.539s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/io_example.cpp:8:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.539s]     8 | int main(int argc, [01;35m[Kchar* argv[][m[K)
+[7.539s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[7.541s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/rtde_receive_interface.h:6[m[K,
+[7.541s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/move_async_example.cpp:2[m[K:
+[7.541s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.541s]    93 |   }[01;35m[K;[m[K
+[7.541s]       |    [01;35m[K^[m[K
+[7.541s]       |    [31m[K-[m[K
+[7.541s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.541s]   107 |   }[01;35m[K;[m[K
+[7.541s]       |    [01;35m[K^[m[K
+[7.541s]       |    [31m[K-[m[K
+[7.543s] [ 73%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/speedj_example[0m
+[7.544s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/robotiq_gripper_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.544s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/robotiq_gripper_example.cpp:33:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.544s]    33 | int main([01;35m[Kint argc[m[K, char* argv[])
+[7.545s]       |          [01;35m[K~~~~^~~~[m[K
+[7.545s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/robotiq_gripper_example.cpp:33:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.545s]    33 | int main(int argc, [01;35m[Kchar* argv[][m[K)
+[7.545s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[7.572s] [ 76%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/jog_example[0m
+[7.614s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const[m[K’:
+[7.615s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.615s]   154 |     uint16_t operator()([01;35m[Kuint32_t int_val[m[K) const
+[7.615s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[7.616s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const[m[K’:
+[7.616s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.616s]   159 |     uint16_t operator()([01;35m[Kuint64_t int_val[m[K) const
+[7.616s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[7.616s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const[m[K’:
+[7.616s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.617s]   164 |     uint16_t operator()([01;35m[Kint32_t int_val[m[K) const
+[7.617s]       |                         [01;35m[K~~~~~~~~^~~~~~~[m[K
+[7.617s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const[m[K’:
+[7.617s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdouble_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.617s]   169 |     uint16_t operator()([01;35m[Kdouble double_val[m[K) const
+[7.617s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[7.622s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/move_async_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.622s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/move_async_example.cpp:10:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.622s]    10 | int main([01;35m[Kint argc[m[K, char* argv[])
+[7.622s]       |          [01;35m[K~~~~^~~~[m[K
+[7.622s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/move_async_example.cpp:10:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.622s]    10 | int main(int argc, [01;35m[Kchar* argv[][m[K)
+[7.622s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[7.665s] [ 76%] Built target servoj_example
+[7.700s] [ 76%] Built target speedj_example
+[7.722s] [ 76%] Built target move_until_contact_example
+[7.724s] [ 76%] Built target jog_example
+[7.762s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/forcemode_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.762s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/forcemode_example.cpp:8:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.762s]     8 | int main([01;35m[Kint argc[m[K, char* argv[])
+[7.762s]       |          [01;35m[K~~~~^~~~[m[K
+[7.763s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/forcemode_example.cpp:8:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.763s]     8 | int main(int argc, [01;35m[Kchar* argv[][m[K)
+[7.763s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[7.784s] [ 78%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/movej_path_with_blend_example[0m
+[7.809s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/rtde_receive_interface.h:6[m[K,
+[7.810s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/record_data_example.cpp:1[m[K:
+[7.810s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.810s]    93 |   }[01;35m[K;[m[K
+[7.810s]       |    [01;35m[K^[m[K
+[7.810s]       |    [31m[K-[m[K
+[7.810s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.810s]   107 |   }[01;35m[K;[m[K
+[7.811s]       |    [01;35m[K^[m[K
+[7.811s]       |    [31m[K-[m[K
+[7.862s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const[m[K’:
+[7.862s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.862s]   154 |     uint16_t operator()([01;35m[Kuint32_t int_val[m[K) const
+[7.863s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[7.863s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const[m[K’:
+[7.863s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.863s]   159 |     uint16_t operator()([01;35m[Kuint64_t int_val[m[K) const
+[7.863s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[7.863s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const[m[K’:
+[7.863s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.864s]   164 |     uint16_t operator()([01;35m[Kint32_t int_val[m[K) const
+[7.864s]       |                         [01;35m[K~~~~~~~~^~~~~~~[m[K
+[7.864s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const[m[K’:
+[7.864s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdouble_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.864s]   169 |     uint16_t operator()([01;35m[Kdouble double_val[m[K) const
+[7.864s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[7.893s] [ 80%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/contact_detection_example[0m
+[7.928s] [ 80%] Built target movej_path_with_blend_example
+[7.931s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/move_path_async_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.931s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/move_path_async_example.cpp:10:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.931s]    10 | int main([01;35m[Kint argc[m[K, char* argv[])
+[7.931s]       |          [01;35m[K~~~~^~~~[m[K
+[7.931s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/move_path_async_example.cpp:10:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.931s]    10 | int main(int argc, [01;35m[Kchar* argv[][m[K)
+[7.931s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[7.947s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/rtde_receive_interface.h:6[m[K,
+[7.947s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/realtime_control_example.cpp:2[m[K:
+[7.947s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.947s]    93 |   }[01;35m[K;[m[K
+[7.948s]       |    [01;35m[K^[m[K
+[7.948s]       |    [31m[K-[m[K
+[7.948s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.948s]   107 |   }[01;35m[K;[m[K
+[7.948s]       |    [01;35m[K^[m[K
+[7.948s]       |    [31m[K-[m[K
+[8.007s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const[m[K’:
+[8.007s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.007s]   154 |     uint16_t operator()([01;35m[Kuint32_t int_val[m[K) const
+[8.007s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[8.007s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const[m[K’:
+[8.007s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.007s]   159 |     uint16_t operator()([01;35m[Kuint64_t int_val[m[K) const
+[8.008s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[8.008s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const[m[K’:
+[8.008s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.008s]   164 |     uint16_t operator()([01;35m[Kint32_t int_val[m[K) const
+[8.008s]       |                         [01;35m[K~~~~~~~~^~~~~~~[m[K
+[8.008s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const[m[K’:
+[8.008s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdouble_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.009s]   169 |     uint16_t operator()([01;35m[Kdouble double_val[m[K) const
+[8.009s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[8.009s] [ 83%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/io_example[0m
+[8.010s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/realtime_control_example.cpp:[m[K In function ‘[01m[Kvoid raiseFlag(int)[m[K’:
+[8.010s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/realtime_control_example.cpp:17:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.010s]    17 | void raiseFlag([01;35m[Kint param[m[K)
+[8.010s]       |                [01;35m[K~~~~^~~~~[m[K
+[8.011s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/realtime_control_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.012s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/realtime_control_example.cpp:30:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.012s]    30 | int main([01;35m[Kint argc[m[K, char* argv[])
+[8.012s]       |          [01;35m[K~~~~^~~~[m[K
+[8.012s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/realtime_control_example.cpp:30:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.012s]    30 | int main(int argc, [01;35m[Kchar* argv[][m[K)
+[8.012s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[8.036s] [ 83%] Built target contact_detection_example
+[8.093s] [ 85%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/robotiq_gripper_example[0m
+[8.099s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/record_data_example.cpp:[m[K In function ‘[01m[Kvoid raiseFlag(int)[m[K’:
+[8.100s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/examples/cpp/record_data_example.cpp:15:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.100s]    15 | void raiseFlag([01;35m[Kint param[m[K)
+[8.100s]       |                [01;35m[K~~~~^~~~~[m[K
+[8.110s] [ 88%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/forcemode_example[0m
+[8.135s] [ 90%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/move_async_example[0m
+[8.144s] [ 90%] Built target io_example
+[8.241s] [ 90%] Built target robotiq_gripper_example
+[8.246s] [ 90%] Built target forcemode_example
+[8.266s] [ 90%] Built target move_async_example
+[8.360s] [ 95%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/realtime_control_example[0m
+[8.360s] [ 95%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/move_path_async_example[0m
+[8.471s] [ 95%] Built target move_path_async_example
+[8.476s] [ 95%] Built target realtime_control_example
+[8.687s] [ 97%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/record_data_example[0m
+[8.788s] [ 97%] Built target record_data_example
+[9.343s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/rtde_receive_interface.h:6[m[K,
+[9.343s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:18[m[K:
+[9.343s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[9.344s]    93 |   }[01;35m[K;[m[K
+[9.344s]       |    [01;35m[K^[m[K
+[9.344s]       |    [31m[K-[m[K
+[9.344s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[9.344s]   107 |   }[01;35m[K;[m[K
+[9.344s]       |    [01;35m[K^[m[K
+[9.344s]       |    [31m[K-[m[K
+[9.372s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const[m[K’:
+[9.372s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.372s]   154 |     uint16_t operator()([01;35m[Kuint32_t int_val[m[K) const
+[9.372s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[9.372s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const[m[K’:
+[9.372s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.372s]   159 |     uint16_t operator()([01;35m[Kuint64_t int_val[m[K) const
+[9.372s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[9.372s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const[m[K’:
+[9.372s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.372s]   164 |     uint16_t operator()([01;35m[Kint32_t int_val[m[K) const
+[9.372s]       |                         [01;35m[K~~~~~~~~^~~~~~~[m[K
+[9.372s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const[m[K’:
+[9.372s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdouble_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.372s]   169 |     uint16_t operator()([01;35m[Kdouble double_val[m[K) const
+[9.372s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[10.983s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kstd::array<double, 3> eulerToRobotRotVectorLeft(const std::array<double, 3>&)[m[K’:
+[10.983s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:206:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kry_rotated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[10.983s]   206 |     double [01;35m[Kry_rotated[m[K = ry * cos45 + rz * sin45;
+[10.983s]       |            [01;35m[K^~~~~~~~~~[m[K
+[10.983s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:207:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krz_rotated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[10.983s]   207 |     double [01;35m[Krz_rotated[m[K = -ry * sin45 + rz * cos45;
+[10.983s]       |            [01;35m[K^~~~~~~~~~[m[K
+[10.998s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kvoid OnPXREAClientCallback(void*, PXREAClientCallbackType, int, void*)[m[K’:
+[10.998s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:313:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KPXREAFullMask[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[10.998s]   313 |     switch [01;35m[K([m[Ktype)
+[10.998s]       |            [01;35m[K^[m[K
+[10.998s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:311:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontext[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.998s]   311 | void OnPXREAClientCallback([01;35m[Kvoid* context[m[K, PXREAClientCallbackType type, int status, void* userData)
+[10.998s]       |                            [01;35m[K~~~~~~^~~~~~~[m[K
+[10.998s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kstd::vector<double> convertControllerToUR5PoseLeft(const std::array<double, 7>&)[m[K’:
+[10.998s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:382:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcontrollerPose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.998s]   382 | std::vector<double> convertControllerToUR5PoseLeft([01;35m[Kconst std::array<double, 7>& controllerPose[m[K) {
+[10.998s]       |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[10.998s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.998s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:482:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.998s]   482 | int main([01;35m[Kint argc[m[K, char *argv[])
+[10.998s]       |          [01;35m[K~~~~^~~~[m[K
+[10.998s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:482:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.998s]   482 | int main(int argc, [01;35m[Kchar *argv[][m[K)
+[10.998s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[13.426s] [100%] [32m[1mLinking CXX executable pico_kinova[0m
+[13.917s] [100%] Built target pico_kinova
+[13.930s] Invoked command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova -- -j24 -l24
+[13.938s] Invoking command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova
+[13.944s] -- Install configuration: ""
+[13.944s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/bin/pico_kinova
+[13.947s] -- Set runtime path of "/home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/bin/pico_kinova" to ""
+[13.947s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/package_run_dependencies/pico_kinova
+[13.947s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/parent_prefix_path/pico_kinova
+[13.947s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/ament_prefix_path.sh
+[13.947s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/ament_prefix_path.dsv
+[13.947s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/path.sh
+[13.947s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/path.dsv
+[13.947s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.bash
+[13.947s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.sh
+[13.947s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.zsh
+[13.947s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.dsv
+[13.947s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/package.dsv
+[13.948s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/packages/pico_kinova
+[13.948s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/cmake/pico_kinovaConfig.cmake
+[13.948s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/cmake/pico_kinovaConfig-version.cmake
+[13.948s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/package.xml
+[13.948s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so.1.6.0
+[13.958s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so.1.6
+[13.958s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so
+[13.958s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_utility.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/dashboard_enums.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/dashboard_client.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/robot_state.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/script_client.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_control_interface.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_control_interface_doc.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_receive_interface.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_receive_interface_doc.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_io_interface.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_io_interface_doc.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/robotiq_gripper.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_export.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/log.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/default_log_handler.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/script_sender.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/tcp_server.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/tcp_socket.h
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeTargets.cmake
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeTargets-noconfig.cmake
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeConfig.cmake
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeConfigVersion.cmake
+[13.959s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeBuildConfig.cmake
+[13.961s] Invoked command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova

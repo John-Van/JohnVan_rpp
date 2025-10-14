@@ -1,0 +1,43 @@
+# servo_params.yaml
+servo:
+  # 基本设置
+  use_gazebo: false
+  robot_description: robot_description
+  move_group_name: arm_group  # 您的move group名称
+  frame_id: base_link         # 参考坐标系
+  command_out_topic: /joint_group_velocity_controller/commands
+  
+  # 输入话题设置
+  cartesian_command_in_topic: /servo_server/delta_twist_cmds
+  joint_command_in_topic: /servo_server/delta_joint_cmds
+  joint_topic: /joint_states
+  status_topic: /servo_server/status
+  
+  # 发布频率
+  publish_period: 0.01  # 100Hz
+  
+  # 缩放因子和限制
+  scale:
+    linear:
+      x: 0.5
+      y: 0.5  
+      z: 0.5
+    angular:
+      x: 0.5
+      y: 0.5
+      z: 0.5
+  linear_scale: 0.25
+  angular_scale: 0.4
+  
+  # 碰撞检测
+  check_collisions: true
+  collision_check_rate: 10.0
+  
+  # 关节限制
+  joint_limits:
+    # 示例 - 根据您的机器人调整
+    joint1:
+      has_velocity_limits: true
+      max_velocity: 2.0
+      has_acceleration_limits: true  
+      max_acceleration: 5.0

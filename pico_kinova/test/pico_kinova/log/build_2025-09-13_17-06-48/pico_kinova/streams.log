@@ -1,0 +1,131 @@
+[0.010s] Invoking command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova -- -j24 -l24
+[0.033s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.134s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.150s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.152s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.155s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.189s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.191s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.262s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.289s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.295s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.383s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.400s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.405s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.417s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.442s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.457s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.520s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[0.537s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[0.549s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[0.567s] -- Found Eigen3: /usr/include/eigen3
+[0.571s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread program_options 
+[0.601s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.674s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.675s] -- Configured cppcheck include dirs: /home/rpp/Desktop/pico_kinova/pico_kinova/lib;/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include;/home/rpp/Desktop/pico_kinova/pico_kinova/dynamixel_sdk/include;$<BUILD_INTERFACE:/home/rpp/Desktop/pico_kinova/pico_kinova/include>
+[0.675s] -- Configured cppcheck exclude dirs and/or files: 
+[0.676s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.679s] -- Added test 'lint_cmake' to check CMake code style
+[0.681s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.692s] -- Added test 'uncrustify' to check C / C++ code style
+[0.692s] -- Configured uncrustify additional arguments: 
+[0.694s] -- Added test 'xmllint' to check XML markup files
+[0.694s] -- Configuring done
+[0.724s] -- Generating done
+[0.734s] -- Build files have been written to: /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova
+[0.767s] [35m[1mConsolidate compiler generated dependencies of target rtde[0m
+[0.813s] [  2%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/script_client.cpp.o[0m
+[2.634s] [  4%] [32m[1mLinking CXX shared library librtde.so[0m
+[2.922s] [ 33%] Built target rtde
+[2.934s] [35m[1mConsolidate compiler generated dependencies of target servoj_example[0m
+[2.934s] [35m[1mConsolidate compiler generated dependencies of target forcemode_example[0m
+[2.934s] [35m[1mConsolidate compiler generated dependencies of target move_until_contact_example[0m
+[2.934s] [35m[1mConsolidate compiler generated dependencies of target robotiq_gripper_example[0m
+[2.935s] [35m[1mConsolidate compiler generated dependencies of target pico_kinova[0m
+[2.935s] [35m[1mConsolidate compiler generated dependencies of target jog_example[0m
+[2.935s] [35m[1mConsolidate compiler generated dependencies of target speedj_example[0m
+[2.936s] [35m[1mConsolidate compiler generated dependencies of target move_async_example[0m
+[2.937s] [35m[1mConsolidate compiler generated dependencies of target movej_path_with_blend_example[0m
+[2.940s] [35m[1mConsolidate compiler generated dependencies of target move_path_async_example[0m
+[2.940s] [35m[1mConsolidate compiler generated dependencies of target record_data_example[0m
+[2.940s] [35m[1mConsolidate compiler generated dependencies of target io_example[0m
+[2.941s] [35m[1mConsolidate compiler generated dependencies of target contact_detection_example[0m
+[2.941s] [35m[1mConsolidate compiler generated dependencies of target realtime_control_example[0m
+[2.966s] [ 35%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/forcemode_example[0m
+[2.967s] [ 38%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/servoj_example[0m
+[2.967s] [ 40%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/speedj_example[0m
+[2.969s] [ 45%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/jog_example[0m
+[2.969s] [ 45%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/robotiq_gripper_example[0m
+[2.969s] [ 47%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/move_until_contact_example[0m
+[2.976s] [ 50%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/movej_path_with_blend_example[0m
+[2.979s] [ 52%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/move_async_example[0m
+[2.981s] [ 54%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/move_path_async_example[0m
+[2.982s] [ 57%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/record_data_example[0m
+[2.982s] [ 59%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/realtime_control_example[0m
+[2.983s] [ 61%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/contact_detection_example[0m
+[2.984s] [ 64%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/io_example[0m
+[2.999s] [ 66%] [32m[1mLinking CXX executable pico_kinova[0m
+[3.085s] [ 69%] Built target speedj_example
+[3.098s] [ 71%] Built target jog_example
+[3.102s] [ 73%] Built target movej_path_with_blend_example
+[3.112s] [ 76%] Built target contact_detection_example
+[3.117s] [ 78%] Built target io_example
+[3.123s] [ 80%] Built target move_async_example
+[3.149s] [ 83%] Built target forcemode_example
+[3.153s] [ 85%] Built target record_data_example
+[3.162s] [ 88%] Built target move_until_contact_example
+[3.163s] [ 90%] Built target robotiq_gripper_example
+[3.166s] [ 92%] Built target move_path_async_example
+[3.175s] [ 95%] Built target realtime_control_example
+[3.181s] [ 97%] Built target servoj_example
+[3.558s] [100%] Built target pico_kinova
+[3.567s] Invoked command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova -- -j24 -l24
+[3.576s] Invoking command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova
+[3.582s] -- Install configuration: ""
+[3.582s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/pico_kinova/pico_kinova
+[3.587s] -- Set runtime path of "/home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/pico_kinova/pico_kinova" to ""
+[3.587s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/package_run_dependencies/pico_kinova
+[3.587s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/parent_prefix_path/pico_kinova
+[3.587s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/ament_prefix_path.sh
+[3.587s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/ament_prefix_path.dsv
+[3.587s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/path.sh
+[3.587s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/path.dsv
+[3.587s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.bash
+[3.587s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.sh
+[3.587s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.zsh
+[3.588s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.dsv
+[3.588s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/package.dsv
+[3.588s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/packages/pico_kinova
+[3.588s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/cmake/pico_kinovaConfig.cmake
+[3.588s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/cmake/pico_kinovaConfig-version.cmake
+[3.588s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/package.xml
+[3.589s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so.1.6.0
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so.1.6
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_utility.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/dashboard_enums.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/dashboard_client.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/robot_state.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/script_client.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_control_interface.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_control_interface_doc.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_receive_interface.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_receive_interface_doc.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_io_interface.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_io_interface_doc.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/robotiq_gripper.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_export.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/log.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/default_log_handler.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/script_sender.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/tcp_server.h
+[3.602s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/tcp_socket.h
+[3.604s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeTargets.cmake
+[3.604s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeTargets-noconfig.cmake
+[3.604s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeConfig.cmake
+[3.604s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeConfigVersion.cmake
+[3.604s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeBuildConfig.cmake
+[3.605s] Invoked command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova

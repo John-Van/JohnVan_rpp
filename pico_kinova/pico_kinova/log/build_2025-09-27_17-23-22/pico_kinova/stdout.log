@@ -1,0 +1,173 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/rpp/anaconda3/envs/kinova/bin/python3 (found version "3.10.18") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_servo: 2.5.9 (/opt/ros/humble/share/moveit_servo/cmake)
+-- Found Python3: /home/rpp/anaconda3/envs/kinova/bin/python3 (found version "3.10.18") found components: Interpreter Development Development.Module Development.Embed 
+-- Found Kinova libraries: /home/rpp/Desktop/pico_kinova/pico_kinova/lib/libKortexApiCpp.a;/home/rpp/Desktop/pico_kinova/pico_kinova/lib/libKortexApiCpp_without_protobuf.a;/home/rpp/Desktop/pico_kinova/pico_kinova/lib/libPXREARobotSDK.so
+-- Found Eigen3: /usr/include/eigen3
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread program_options 
+-- Found Curses: /usr/lib/x86_64-linux-gnu/libcurses.so  
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Found Python3: /home/rpp/anaconda3/envs/kinova/include/python3.10 (found version "3.10.18") found components: NumPy Interpreter Development.Module 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/rpp/Desktop/pico_kinova/pico_kinova/include;/home/rpp/Desktop/pico_kinova/pico_kinova/include/thirdParty/cxxopts;/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib;/home/rpp/Desktop/pico_kinova/pico_kinova/lib;/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include;/home/rpp/Desktop/pico_kinova/pico_kinova/dynamixel_sdk/include;$<BUILD_INTERFACE:/home/rpp/Desktop/pico_kinova/pico_kinova/include>;$<BUILD_INTERFACE:/home/rpp/Desktop/pico_kinova/pico_kinova/include/client>;$<BUILD_INTERFACE:/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs>;$<BUILD_INTERFACE:/home/rpp/Desktop/pico_kinova/pico_kinova/include/common>;$<BUILD_INTERFACE:/home/rpp/Desktop/pico_kinova/pico_kinova/include/google>;$<BUILD_INTERFACE:/home/rpp/Desktop/pico_kinova/pico_kinova/include/messages>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova
+[  6%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/script_client.cpp.o[0m
+[  6%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/rtde_control_interface.cpp.o[0m
+[  6%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/rtde_receive_interface.cpp.o[0m
+[ 11%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/robotiq_gripper.cpp.o[0m
+[ 11%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/urcl/script_sender.cpp.o[0m
+[ 13%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/dashboard_client.cpp.o[0m
+[ 16%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/urcl/log.cpp.o[0m
+[ 18%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/urcl/tcp_server.cpp.o[0m
+[ 20%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/robot_state.cpp.o[0m
+[ 23%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/rtde.cpp.o[0m
+[ 25%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/rtde_io_interface.cpp.o[0m
+[ 27%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/dashboard_enums.cpp.o[0m
+[ 30%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/urcl/default_log_handler.cpp.o[0m
+[ 32%] [32m[1mLinking CXX shared library librtde.so[0m
+[ 32%] Built target rtde
+[ 34%] [32mBuilding CXX object ur_rtde/CMakeFiles/io_example.dir/examples/cpp/io_example.cpp.o[0m
+[ 37%] [32mBuilding CXX object ur_rtde/CMakeFiles/contact_detection_example.dir/examples/cpp/contact_detection_example.cpp.o[0m
+[ 39%] [32mBuilding CXX object ur_rtde/CMakeFiles/movej_path_with_blend_example.dir/examples/cpp/movej_path_with_blend_example.cpp.o[0m
+[ 41%] [32mBuilding CXX object ur_rtde/CMakeFiles/move_until_contact_example.dir/examples/cpp/move_until_contact.cpp.o[0m
+[ 44%] [32mBuilding CXX object ur_rtde/CMakeFiles/move_path_async_example.dir/examples/cpp/move_path_async_example.cpp.o[0m
+[ 46%] [32mBuilding CXX object ur_rtde/CMakeFiles/robotiq_gripper_example.dir/examples/cpp/robotiq_gripper_example.cpp.o[0m
+[ 48%] [32mBuilding CXX object ur_rtde/CMakeFiles/forcemode_example.dir/examples/cpp/forcemode_example.cpp.o[0m
+[ 51%] [32mBuilding CXX object ur_rtde/CMakeFiles/realtime_control_example.dir/examples/cpp/realtime_control_example.cpp.o[0m
+[ 53%] [32mBuilding CXX object ur_rtde/CMakeFiles/speedj_example.dir/examples/cpp/speedj_example.cpp.o[0m
+[ 55%] [32mBuilding CXX object ur_rtde/CMakeFiles/jog_example.dir/examples/cpp/jog_example.cpp.o[0m
+[ 58%] [32mBuilding CXX object ur_rtde/CMakeFiles/record_data_example.dir/examples/cpp/record_data_example.cpp.o[0m
+[ 60%] [32mBuilding CXX object ur_rtde/CMakeFiles/servoj_example.dir/examples/cpp/servoj_example.cpp.o[0m
+[ 62%] [32mBuilding CXX object ur_rtde/CMakeFiles/move_async_example.dir/examples/cpp/move_async_example.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/pico_kinova.dir/src/pico_kinova.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/pico_kinova.dir/utilities.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/jog_example[0m
+[ 72%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/movej_path_with_blend_example[0m
+[ 72%] Built target movej_path_with_blend_example
+[ 72%] Built target jog_example
+[ 74%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/io_example[0m
+[ 76%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/forcemode_example[0m
+[ 79%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/contact_detection_example[0m
+[ 79%] Built target forcemode_example
+[ 79%] Built target io_example
+[ 79%] Built target contact_detection_example
+[ 81%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/realtime_control_example[0m
+[ 83%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/robotiq_gripper_example[0m
+[ 86%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/move_path_async_example[0m
+[ 86%] Built target realtime_control_example
+[ 88%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/servoj_example[0m
+[ 88%] Built target robotiq_gripper_example
+[ 90%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/move_until_contact_example[0m
+[ 93%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/speedj_example[0m
+[ 93%] Built target move_path_async_example
+[ 93%] Built target servoj_example
+[ 93%] Built target move_until_contact_example
+[ 95%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/record_data_example[0m
+[ 95%] Built target speedj_example
+[ 97%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/move_async_example[0m
+[ 97%] Built target record_data_example
+[ 97%] Built target move_async_example
+[100%] [32m[1mLinking CXX executable pico_kinova[0m
+[100%] Built target pico_kinova
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/pico_kinova/pico_kinova
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/package_run_dependencies/pico_kinova
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/parent_prefix_path/pico_kinova
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/ament_prefix_path.sh
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/path.sh
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/path.dsv
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.bash
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.sh
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.zsh
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.dsv
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/package.dsv
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/packages/pico_kinova
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/cmake/pico_kinovaConfig.cmake
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/cmake/pico_kinovaConfig-version.cmake
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/package.xml
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so.1.6.0
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so.1.6
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_utility.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/dashboard_enums.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/dashboard_client.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/robot_state.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/script_client.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_control_interface.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_control_interface_doc.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_receive_interface.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_receive_interface_doc.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_io_interface.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_io_interface_doc.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/robotiq_gripper.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_export.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/log.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/default_log_handler.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/script_sender.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/tcp_server.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/tcp_socket.h
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeTargets.cmake
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeTargets-noconfig.cmake
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeConfig.cmake
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeConfigVersion.cmake
+-- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeBuildConfig.cmake
