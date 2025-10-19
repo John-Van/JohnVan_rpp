@@ -9,21 +9,22 @@ Kinova_DualArm/
 ├── rpp_logs/ # 日志文件
 ├── rpp_tools/ # 工具脚本
 ├── rpp_ws/ # ROS2 工作空间
+├── pico_kinova # pico MR设备与Kinova机械臂遥操作的工作空间
 ├── README.md # 项目说明文件
 
 ## 🔧 主要功能
 
 - **机械臂控制**：支持 Kinova Gen3/Gen3 Lite 系列机械臂的控制，包括关节控制、笛卡尔控制和夹爪控制。
-- **仿真支持**：提供与 Gazebo 和 V-REP 的集成，支持在仿真环境中进行开发和测试。
+- **仿真支持**：提供与 Gazebo 和 MuJoCo 的集成，支持在仿真环境中进行开发和测试。
 - **视觉感知**：集成 Kinova Vision 模块，支持图像流和点云数据处理。
-- **运动规划**：与 MoveIt! 集成，实现路径规划和运动控制。
+- **运动规划**：与 MoveIt2! 集成，实现路径规划和运动控制。
 
 ## 🛠 安装与配置
 
 ### 1. 环境要求
 
 - **操作系统**：Ubuntu 22.04
-- **ROS2 版本**：建议使用 ROS2 Foxy 或 Galactic
+- **ROS2 版本**：建议使用 ROS2 Humble
 - **硬件要求**：Kinova Gen3 或 Gen3 Lite 机械臂；可选：Kinova Vision 模块
 
 ### 2. 安装步骤
