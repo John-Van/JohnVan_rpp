@@ -22,7 +22,7 @@ Kinova_DualArm/
 
 ### 1. 环境要求
 
-- **操作系统**：Ubuntu 18.04 或 20.04
+- **操作系统**：Ubuntu 22.04
 - **ROS2 版本**：建议使用 ROS2 Foxy 或 Galactic
 - **硬件要求**：Kinova Gen3 或 Gen3 Lite 机械臂；可选：Kinova Vision 模块
 
