@@ -60,8 +60,8 @@ namespace plt = matplotlibcpp;
 #define PORT 10000
 
 // Maximum allowed waiting time during actions
-constexpr auto TIMEOUT_DURATION = std::chrono::seconds(20);
-
+constexpr auto TIMEOUT_DURATION = std::chrono::seconds(60);
+// 绘图数据
 const int MAX_DATA_POINTS = 100; // 最大数据点数
 int left_data_counter = 0; // 数据点计数器
 std::vector<double> left_data;
@@ -94,16 +94,17 @@ std::function<void(k_api::Base::ActionNotification)>
     };
 }
 
-bool example_move_to_home_position(k_api::Base::BaseClient* base)
+// 将机械臂位姿移动到home位姿，同时设置机械臂模式为伺服模式
+bool example_move_to_position(k_api::Base::BaseClient* base, const std::string& arm_name)
 {
     // Make sure the arm is in Single Level Servoing before executing an Action
     auto servoingMode = k_api::Base::ServoingModeInformation();
-    servoingMode.set_servoing_mode(k_api::Base::ServoingMode::SINGLE_LEVEL_SERVOING);
-    base->SetServoingMode(servoingMode);
-    std::this_thread::sleep_for(std::chrono::milliseconds(500));
+    servoingMode.set_servoing_mode(k_api::Base::ServoingMode::SINGLE_LEVEL_SERVOING);  //设置机械臂为单级伺服模式
+    base->SetServoingMode(servoingMode); 
+    std::this_thread::sleep_for(std::chrono::milliseconds(500));  //延迟500ms确保模式切换完成
     
-    // Move arm to ready position
-    std::cout << "Moving the arm to a safe position" << std::endl;
+    // Move arm to initial position based on arm_name
+    std::cout << "Moving " << arm_name << " to initial position" << std::endl;
     auto action_type = k_api::Base::RequestedActionType();
     action_type.set_action_type(k_api::Base::REACH_JOINT_ANGLES);
     auto action_list = base->ReadAllActions(action_type);
@@ -111,15 +112,16 @@ bool example_move_to_home_position(k_api::Base::BaseClient* base)
     action_handle.set_identifier(0);
     for (auto action : action_list.action_list()) 
     {
-        if (action.name() == "Home") 
+        if (action.name() == ((arm_name == "Right_Arm") ? "Right_Initial" : "Left_Initial")) 
         {
             action_handle = action.handle();
+            
         }
     }
 
     if (action_handle.identifier() == 0) 
     {
-        std::cout << "Can't reach safe position, exiting" << std::endl;
+        std::cout << "Can't reach initial position, exiting" << std::endl;
         return false;
     } 
     else 
@@ -148,6 +150,7 @@ bool example_move_to_home_position(k_api::Base::BaseClient* base)
 
     }
 }
+
 
 bool example_twist_command(k_api::Base::BaseClient* base)
 {
@@ -464,6 +467,7 @@ std::array<double, 7> transformControllerToEE(
     return controller_pose_in_ee;
 }
 
+// 字符转数字
 std::array<double, 7> stringToPoseArray(const std::string& poseStr) {
     std::array<double, 7> result{0};
     std::stringstream ss(poseStr);
@@ -475,6 +479,7 @@ std::array<double, 7> stringToPoseArray(const std::string& poseStr) {
     return result;
 }
 
+// 四元数转欧拉角
 std::array<double, 3> quaternionToEuler(double qx, double qy, double qz, double qw) {
     std::array<double, 3> euler;
     
@@ -554,8 +559,11 @@ void OnPXREAClientCallback(void* context, PXREAClientCallbackType type, int stat
                         // std::cout << "左手手柄" << std::endl;
                         // std::cout << left["pose"].get<std::string>() << std::endl;
                         LeftControllerInitPose = stringToPoseArray(left["pose"].get<std::string>());
+                        // 转化到相对于base_link的位姿
                         LeftControllerBasePose = transformPoseUsingEigen(LeftControllerInitPose);
+                        // 转化到相对于末端执行器left_ee_frame的位姿
                         LeftControllerPose = transformControllerToEE(LeftControllerBasePose, left_ee_frame);
+                        // 将四元数转化为欧拉角的形式
                         LeftControllerEuler = quaternionToEuler(LeftControllerPose[3], LeftControllerPose[4], LeftControllerPose[5], LeftControllerPose[6]);
                         LeftTrigger = left["trigger"].get<double>();
                         LeftGrip = left["grip"].get<double>();
@@ -563,8 +571,12 @@ void OnPXREAClientCallback(void* context, PXREAClientCallbackType type, int stat
                         //计算速度
                         if (DeltaTime > 0) {
                             for (int i = 0; i < 3; ++i) {
+                                // 速度
                                 LeftControllerVelocity[i] = (LeftControllerPose[i] - LastLeftControllerCon[i]) / DeltaTime;
-                                LeftControllerVelocity[i + 3] = (LeftControllerEuler[i] - LastLeftControllerCon[i + 3]) / DeltaTime;
+                                // 角速度
+                                // LeftControllerVelocity[i + 3] = 180/M_PI * (LeftControllerEuler[i] - LastLeftControllerCon[i + 3]) / DeltaTime;
+                                // 适当放大该值
+                                LeftControllerVelocity[i + 3] = 220/M_PI * (LeftControllerEuler[i] - LastLeftControllerCon[i + 3]) / DeltaTime;
                             }
                         }
                         //输出速度
@@ -590,8 +602,11 @@ void OnPXREAClientCallback(void* context, PXREAClientCallbackType type, int stat
                         // std::cout << "右手手柄" << std::endl;
                         // std::cout << right["pose"].get<std::string>() << std::endl;
                         RightControllerInitPose = stringToPoseArray(right["pose"].get<std::string>());
+                        // 转化到相对于base_link的位姿
                         RightControllerBasePose = transformPoseUsingEigen(RightControllerInitPose);
+                        // 转化到相对于末端执行器rightZ_ee_frame的位姿
                         RightControllerPose = transformControllerToEE(RightControllerBasePose, right_ee_frame);
+                        // 将四元素转化为欧拉角的形式
                         RightControllerEuler = quaternionToEuler(RightControllerPose[3], RightControllerPose[4], RightControllerPose[5], RightControllerPose[6]);
                         RightTrigger = right["trigger"].get<double>();
                         RightGrip = right["grip"].get<double>();
@@ -599,8 +614,10 @@ void OnPXREAClientCallback(void* context, PXREAClientCallbackType type, int stat
                         //计算速度
                         if (DeltaTime > 0) {
                             for (int i = 0; i < 3; ++i) {
+                                // 速度
                                 RightControllerVelocity[i] = (RightControllerPose[i] - LastRightControllerCon[i]) / DeltaTime;
-                                RightControllerVelocity[i + 3] = (RightControllerEuler[i] - LastRightControllerCon[i + 3]) / DeltaTime;
+                                // 角速度
+                                RightControllerVelocity[i + 3] = 180/M_PI * (RightControllerEuler[i] - LastRightControllerCon[i + 3]) / DeltaTime;
                             }
                         }
                         //输出速度
@@ -626,9 +643,10 @@ void OnPXREAClientCallback(void* context, PXREAClientCallbackType type, int stat
                         // std::cout << "头戴设备" << std::endl;
                         // std::cout << headset["pose"].get<std::string>() << std::endl;
                         HeadsetInitPose = stringToPoseArray(headset["pose"].get<std::string>());
+                        // 转化到相对于base_link的位姿
                         HeadsetBasePose = transformPoseUsingEigen(HeadsetInitPose);
-                        HeadsetPose = transformControllerToEE(HeadsetBasePose, right_ee_frame);
-                        HeadsetEuler = quaternionToEuler(HeadsetPose[3], HeadsetPose[4], HeadsetPose[5], HeadsetPose[6]);
+                        // 将四元素转化为欧拉角的形式
+                        HeadsetEuler = quaternionToEuler(HeadsetBasePose[3], HeadsetBasePose[4], HeadsetBasePose[5], HeadsetBasePose[6]);
                         //计算速度
                         if (DeltaTime > 0) {
                             for (int i = 0; i < 3; ++i) {
@@ -719,13 +737,18 @@ int main(int argc, char *argv[])
     
     // Example core
     // 运行到初始位置，并进行伺服模式的切换
-    example_move_to_home_position(base_right);
-    example_move_to_home_position(base_left);
+    example_move_to_position(base_right, "Right_Arm");
+    std::this_thread::sleep_for(std::chrono::seconds(1));
+    example_move_to_position(base_left, "Left_Arm");
+    std::this_thread::sleep_for(std::chrono::seconds(3));
+
+
+
 
     try {
         // 主循环或主要逻辑
         while (running) { // 根据您的实际循环条件调整
-            // 检查LeftGrip
+            // 检查LeftGrip是否按下，检查是否接收到新数据
             if (LeftGrip != 0.0 && LeftRunFlag) {
                 //发送速度指令
                 kinova_twist_command(base_left, 
@@ -741,7 +764,7 @@ int main(int argc, char *argv[])
                 base_left->Stop();
             }
             
-            // RightGrip
+            // 检查RightGrip是否按下，检查是否接收到新数据
             if (RightGrip != 0.0 && RightRunFlag) {
                 //发送速度指令
                 kinova_twist_command(base_right, 
@@ -755,7 +778,7 @@ int main(int argc, char *argv[])
             else {
                 base_right->Stop();
             }
-
+            // 绘图指令
             plotTimerCallback();
 
             //添加10ms的延时
@@ -791,7 +814,7 @@ int main(int argc, char *argv[])
     }
     catch (...) {
         std::cerr << "程序发生未知异常" << std::endl;
-            // Close API session
+        // Close API session
         session_manager_right->CloseSession();
         session_manager_left->CloseSession();
 

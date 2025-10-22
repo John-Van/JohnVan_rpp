@@ -1,0 +1,252 @@
+[0.000000] (-) TimerEvent: {}
+[0.000301] (pico_kinova) JobQueued: {'identifier': 'pico_kinova', 'dependencies': OrderedDict()}
+[0.000395] (pico_kinova) JobStarted: {'identifier': 'pico_kinova'}
+[0.012553] (pico_kinova) JobProgress: {'identifier': 'pico_kinova', 'progress': 'cmake'}
+[0.013383] (pico_kinova) JobProgress: {'identifier': 'pico_kinova', 'progress': 'build'}
+[0.014203] (pico_kinova) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova', '--', '-j24', '-l24'], 'cwd': '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:setup.py install is deprecated'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'rpp'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/rpp/3rdparty//TensorRT-10.9.0.34/lib:/usr/local/cuda-12.8/lib64:/usr/local/lib/:/home/rpp/3rdparty//TensorRT-10.9.0.34/lib:/usr/local/cuda-12.8/lib64:/home/rpp/rpp_ws/install/xf_voice/lib:/home/rpp/rpp_ws/install/xf_voice_msgs/lib:/home/rpp/rpp_ws/install/wheeltec_mic_ros2/lib:/home/rpp/rpp_ws/install/wheeltec_mic_msg/lib:/home/rpp/rpp_ws/install/slam_toolbox/lib:/home/rpp/rpp_ws/install/serial/lib:/home/rpp/rpp_ws/install/rpp_msgs/lib:/home/rpp/rpp_ws/install/rpp_driver/lib:/home/rpp/rpp_ws/install/pico_kinova/lib:/home/rpp/rpp_ws/install/nav2_smoother/lib:/home/rpp/rpp_ws/install/nav2_graceful_controller/lib:/home/rpp/rpp_ws/install/nav2_controller/lib:/home/rpp/rpp_ws/install/improved_dwa_planner/lib:/home/rpp/rpp_ws/install/dwb_plugins/lib:/home/rpp/rpp_ws/install/dwb_critics/lib:/home/rpp/rpp_ws/install/dwb_core/lib:/home/rpp/rpp_ws/install/nav_2d_utils/lib:/home/rpp/rpp_ws/install/dwb_msgs/lib:/home/rpp/rpp_ws/install/nav_2d_msgs/lib:/home/rpp/rpp_ws/install/nav2_waypoint_follower/lib:/home/rpp/rpp_ws/install/nav2_theta_star_planner/lib:/home/rpp/rpp_ws/install/nav2_smac_planner/lib:/home/rpp/rpp_ws/install/nav2_rotation_shim_controller/lib:/home/rpp/rpp_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/rpp/rpp_ws/install/nav2_planner/lib:/home/rpp/rpp_ws/install/nav2_navfn_planner/lib:/home/rpp/rpp_ws/install/nav2_mppi_controller/lib:/home/rpp/rpp_ws/install/nav2_constrained_smoother/lib:/home/rpp/rpp_ws/install/nav2_bt_navigator/lib:/home/rpp/rpp_ws/install/nav2_behaviors/lib:/home/rpp/rpp_ws/install/nav2_collision_monitor/lib:/home/rpp/rpp_ws/install/costmap_queue/lib:/home/rpp/rpp_ws/install/nav2_costmap_2d/lib:/home/rpp/rpp_ws/install/nav2_voxel_grid/lib:/home/rpp/rpp_ws/install/nav2_velocity_smoother/lib:/home/rpp/rpp_ws/install/nav2_rviz_plugins/lib:/home/rpp/rpp_ws/install/nav2_map_server/lib:/home/rpp/rpp_ws/install/nav2_lifecycle_manager/lib:/home/rpp/rpp_ws/install/nav2_behavior_tree/lib:/home/rpp/rpp_ws/install/nav2_amcl/lib:/home/rpp/rpp_ws/install/nav2_util/lib:/home/rpp/rpp_ws/install/nav2_msgs/lib:/home/rpp/rpp_ws/install/motor_pitch_sdk/lib:/home/rpp/rpp_ws/install/motor_lift_sdk/lib:/home/rpp/rpp_ws/install/livox_ros_driver2/lib:/home/rpp/rpp_ws/install/kortex_driver/lib:/home/rpp/rpp_ws/install/ira_laser_tools/lib:/home/rpp/rpp_ws/install/interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/local/lib/::/home/rpp/.mujoco/mujoco-3.3.6/bin:/usr/lib/nvidia:/opt/apps/roboticsservice/SDK/x64:/home/rpp/.mujoco/mujoco-3.3.6/bin:/usr/lib/nvidia:/opt/apps/roboticsservice/SDK/x64'), ('CONDA_BACKUP_QT_XCB_GL_INTEGRATION', ''), ('HOME', '/home/rpp'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/rpp/Desktop/pico_kinova/pico_kinova'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1648'), ('ROS_LOG_DIR', '/home/rpp/rpp_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1785b5f7cdbfa379caa6b87168f328ca'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rpp/rpp_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'rpp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/rpp/rpp_ws/install/rpp_driver/lib/x86_64-linux-gnu/pkgconfig:/home/rpp/rpp_ws/install/rpp_driver/lib/pkgconfig:/home/rpp/rpp_ws/install/motor_pitch_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/rpp/rpp_ws/install/motor_pitch_sdk/lib/pkgconfig:/home/rpp/rpp_ws/install/motor_lift_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/rpp/rpp_ws/install/motor_lift_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'rpp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.8/bin:/home/rpp/rpp_tools/rpp_easy_tools/gen_bin:/home/rpp/anaconda3/bin:/home/rpp/anaconda3/condabin:/usr/local/cuda-12.8/bin:/home/rpp/rpp_ws/install/rpp_driver/bin:/home/rpp/rpp_ws/install/motor_pitch_sdk/bin:/home/rpp/rpp_ws/install/motor_lift_sdk/bin:/opt/ros/humble/bin:/home/rpp/rpp_tools/rpp_easy_tools/gen_bin:/home/rpp/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rpp-Default-string:@/tmp/.ICE-unix/1648,unix/rpp-Default-string:/tmp/.ICE-unix/1648'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/05728305_27eb_4e34_b692_62d23c6b124c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('QT_XCB_GL_INTEGRATION', 'none'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-df44507d44.sock'), ('GNOME_TERMINAL_SERVICE', ':1.206'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/rpp/anaconda3/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/rpp/rpp_ws/install/xf_voice:/home/rpp/rpp_ws/install/xf_voice_msgs:/home/rpp/rpp_ws/install/wheeltec_mic_ros2:/home/rpp/rpp_ws/install/wheeltec_mic_msg:/home/rpp/rpp_ws/install/teleop_init_202510:/home/rpp/rpp_ws/install/nav2_system_tests:/home/rpp/rpp_ws/install/nav2_bringup:/home/rpp/rpp_ws/install/slam_toolbox:/home/rpp/rpp_ws/install/slam_3d:/home/rpp/rpp_ws/install/slam_2d:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/serial:/home/rpp/rpp_ws/install/rpp_ros_driver:/home/rpp/rpp_ws/install/rpp_msgs:/home/rpp/rpp_ws/install/robot_bringup:/home/rpp/rpp_ws/install/pymoveit2:/home/rpp/rpp_ws/install/pico_kinova:/home/rpp/rpp_ws/install/pgo:/home/rpp/rpp_ws/install/navigation_2d:/home/rpp/rpp_ws/install/navigation2:/home/rpp/rpp_ws/install/nav2_smoother:/home/rpp/rpp_ws/install/nav2_graceful_controller:/home/rpp/rpp_ws/install/nav2_dwb_controller:/home/rpp/rpp_ws/install/nav2_controller:/home/rpp/rpp_ws/install/improved_dwa_planner:/home/rpp/rpp_ws/install/dwb_plugins:/home/rpp/rpp_ws/install/dwb_critics:/home/rpp/rpp_ws/install/dwb_core:/home/rpp/rpp_ws/install/nav_2d_utils:/home/rpp/rpp_ws/install/dwb_msgs:/home/rpp/rpp_ws/install/nav_2d_msgs:/home/rpp/rpp_ws/install/nav2_waypoint_follower:/home/rpp/rpp_ws/install/nav2_theta_star_planner:/home/rpp/rpp_ws/install/nav2_smac_planner:/home/rpp/rpp_ws/install/nav2_rotation_shim_controller:/home/rpp/rpp_ws/install/nav2_regulated_pure_pursuit_controller:/home/rpp/rpp_ws/install/nav2_planner:/home/rpp/rpp_ws/install/nav2_navfn_planner:/home/rpp/rpp_ws/install/nav2_mppi_controller:/home/rpp/rpp_ws/install/nav2_constrained_smoother:/home/rpp/rpp_ws/install/nav2_bt_navigator:/home/rpp/rpp_ws/install/nav2_behaviors:/home/rpp/rpp_ws/install/nav2_core:/home/rpp/rpp_ws/install/nav2_collision_monitor:/home/rpp/rpp_ws/install/costmap_queue:/home/rpp/rpp_ws/install/nav2_costmap_2d:/home/rpp/rpp_ws/install/nav2_voxel_grid:/home/rpp/rpp_ws/install/nav2_velocity_smoother:/home/rpp/rpp_ws/install/nav2_rviz_plugins:/home/rpp/rpp_ws/install/nav2_map_server:/home/rpp/rpp_ws/install/nav2_lifecycle_manager:/home/rpp/rpp_ws/install/nav2_behavior_tree:/home/rpp/rpp_ws/install/nav2_amcl:/home/rpp/rpp_ws/install/nav2_util:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/nav2_msgs:/home/rpp/rpp_ws/install/nav2_common:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/moveit2_control_demo:/home/rpp/rpp_ws/install/motor_pitch_ros:/home/rpp/rpp_ws/install/motor_lift_ros:/home/rpp/rpp_ws/install/localizer:/home/rpp/rpp_ws/install/lidar_clipping:/home/rpp/rpp_ws/install/fastlio2:/home/rpp/rpp_ws/install/livox_ros_driver2:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/lakibeam1:/home/rpp/rpp_ws/install/kortex_bringup:/home/rpp/rpp_ws/install/kortex_driver:/home/rpp/rpp_ws/install/kinova_gen3_lite_moveit_config:/home/rpp/rpp_ws/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/rpp/rpp_ws/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/rpp/rpp_ws/install/kortex_description:/home/rpp/rpp_ws/install/kortex_api:/home/rpp/rpp_ws/install/ira_laser_tools:/home/rpp/rpp_ws/install/hba:/home/rpp/rpp_ws/install/interface:/home/rpp/rpp_ws/install/ea200_moveit_config:/home/rpp/rpp_ws/install/ea200_description:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/cr100_description:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rpp/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rpp/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1785b5f7cdbfa379caa6b87168f328ca'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rpp/rpp_ws/install/xf_voice_msgs/local/lib/python3.10/dist-packages:/home/rpp/rpp_ws/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages:/home/rpp/rpp_ws/install/teleop_init_202510/lib/python3.10/site-packages:/home/rpp/rpp_ws/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/rpp/rpp_ws/install/setting_info/lib/python3.10/site-packages:/home/rpp/rpp_ws/install/rpp_msgs/local/lib/python3.10/dist-packages:/home/rpp/rpp_ws/install/pymoveit2/local/lib/python3.10/dist-packages:/home/rpp/rpp_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/rpp/rpp_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/rpp/rpp_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/rpp/rpp_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/rpp/rpp_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/rpp/rpp_ws/build/my_moveit_control:/home/rpp/rpp_ws/install/my_moveit_control/lib/python3.10/site-packages:/home/rpp/rpp_ws/build/moveit_control:/home/rpp/rpp_ws/install/moveit_control/lib/python3.10/site-packages:/home/rpp/rpp_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/rpp/rpp_ws/install/gui_control/lib/python3.10/site-packages:/home/rpp/rpp_ws/install/graphic_display/lib/python3.10/site-packages:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk/lib/python3.10/site-packages:/home/rpp/rpp_ws/install/interface/local/lib/python3.10/dist-packages:/home/rpp/rpp_ws/install/dual_arm_cartesian_control/lib/python3.10/site-packages:/home/rpp/rpp_ws/install/dual_arm_bt_control/lib/python3.10/site-packages:/home/rpp/rpp_ws/install/bt_task_manager_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/rpp/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('SCRIPT_ROOT_PATH', '/home/rpp/rpp_tools/rpp_easy_tools/robotplusplus_deploy_tool'), ('CMAKE_PREFIX_PATH', '/home/rpp/rpp_ws/install/xf_voice:/home/rpp/rpp_ws/install/xf_voice_msgs:/home/rpp/rpp_ws/install/wheeltec_mic_ros2:/home/rpp/rpp_ws/install/wheeltec_mic_msg:/home/rpp/rpp_ws/install/nav2_system_tests:/home/rpp/rpp_ws/install/nav2_bringup:/home/rpp/rpp_ws/install/slam_toolbox:/home/rpp/rpp_ws/install/slam_3d:/home/rpp/rpp_ws/install/slam_2d:/home/rpp/rpp_ws/install/serial:/home/rpp/rpp_ws/install/rpp_ros_driver:/home/rpp/rpp_ws/install/rpp_msgs:/home/rpp/rpp_ws/install/rpp_driver:/home/rpp/rpp_ws/install/robot_bringup:/home/rpp/rpp_ws/install/pymoveit2:/home/rpp/rpp_ws/install/pico_kinova:/home/rpp/rpp_ws/install/pgo:/home/rpp/rpp_ws/install/navigation_2d:/home/rpp/rpp_ws/install/navigation2:/home/rpp/rpp_ws/install/nav2_smoother:/home/rpp/rpp_ws/install/nav2_graceful_controller:/home/rpp/rpp_ws/install/nav2_dwb_controller:/home/rpp/rpp_ws/install/nav2_controller:/home/rpp/rpp_ws/install/improved_dwa_planner:/home/rpp/rpp_ws/install/dwb_plugins:/home/rpp/rpp_ws/install/dwb_critics:/home/rpp/rpp_ws/install/dwb_core:/home/rpp/rpp_ws/install/nav_2d_utils:/home/rpp/rpp_ws/install/dwb_msgs:/home/rpp/rpp_ws/install/nav_2d_msgs:/home/rpp/rpp_ws/install/nav2_waypoint_follower:/home/rpp/rpp_ws/install/nav2_theta_star_planner:/home/rpp/rpp_ws/install/nav2_smac_planner:/home/rpp/rpp_ws/install/nav2_rotation_shim_controller:/home/rpp/rpp_ws/install/nav2_regulated_pure_pursuit_controller:/home/rpp/rpp_ws/install/nav2_planner:/home/rpp/rpp_ws/install/nav2_navfn_planner:/home/rpp/rpp_ws/install/nav2_mppi_controller:/home/rpp/rpp_ws/install/nav2_constrained_smoother:/home/rpp/rpp_ws/install/nav2_bt_navigator:/home/rpp/rpp_ws/install/nav2_behaviors:/home/rpp/rpp_ws/install/nav2_core:/home/rpp/rpp_ws/install/nav2_collision_monitor:/home/rpp/rpp_ws/install/costmap_queue:/home/rpp/rpp_ws/install/nav2_costmap_2d:/home/rpp/rpp_ws/install/nav2_voxel_grid:/home/rpp/rpp_ws/install/nav2_velocity_smoother:/home/rpp/rpp_ws/install/nav2_rviz_plugins:/home/rpp/rpp_ws/install/nav2_map_server:/home/rpp/rpp_ws/install/nav2_lifecycle_manager:/home/rpp/rpp_ws/install/nav2_behavior_tree:/home/rpp/rpp_ws/install/nav2_amcl:/home/rpp/rpp_ws/install/nav2_util:/home/rpp/rpp_ws/install/nav2_msgs:/home/rpp/rpp_ws/install/nav2_common:/home/rpp/rpp_ws/install/moveit2_control_demo:/home/rpp/rpp_ws/install/motor_pitch_ros:/home/rpp/rpp_ws/install/motor_pitch_sdk:/home/rpp/rpp_ws/install/motor_lift_ros:/home/rpp/rpp_ws/install/motor_lift_sdk:/home/rpp/rpp_ws/install/localizer:/home/rpp/rpp_ws/install/lidar_clipping:/home/rpp/rpp_ws/install/fastlio2:/home/rpp/rpp_ws/install/livox_ros_driver2:/home/rpp/rpp_ws/install/lakibeam1:/home/rpp/rpp_ws/install/kortex_bringup:/home/rpp/rpp_ws/install/kortex_driver:/home/rpp/rpp_ws/install/kinova_gen3_lite_moveit_config:/home/rpp/rpp_ws/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/rpp/rpp_ws/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/rpp/rpp_ws/install/kortex_description:/home/rpp/rpp_ws/install/kortex_api:/home/rpp/rpp_ws/install/ira_laser_tools:/home/rpp/rpp_ws/install/hba:/home/rpp/rpp_ws/install/interface:/home/rpp/rpp_ws/install/ea200_moveit_config:/home/rpp/rpp_ws/install/ea200_description:/home/rpp/rpp_ws/install/cr100_description:/home/rpp/rpp_ws/install/teleop_init_202510:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble'), ('MUJOCO_KEY_PATH', '/home/rpp/.mujoco/home/rpp/.mujoco')]), 'shell': False}
+[0.096298] (pico_kinova) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/script_client.cpp.o\x1b[0m\n'}
+[0.099691] (-) TimerEvent: {}
+[0.199893] (-) TimerEvent: {}
+[0.300142] (-) TimerEvent: {}
+[0.400406] (-) TimerEvent: {}
+[0.500653] (-) TimerEvent: {}
+[0.600906] (-) TimerEvent: {}
+[0.701151] (-) TimerEvent: {}
+[0.801418] (-) TimerEvent: {}
+[0.901676] (-) TimerEvent: {}
+[1.001911] (-) TimerEvent: {}
+[1.102157] (-) TimerEvent: {}
+[1.202378] (-) TimerEvent: {}
+[1.302604] (-) TimerEvent: {}
+[1.402827] (-) TimerEvent: {}
+[1.503050] (-) TimerEvent: {}
+[1.603268] (-) TimerEvent: {}
+[1.703517] (-) TimerEvent: {}
+[1.803749] (-) TimerEvent: {}
+[1.903999] (-) TimerEvent: {}
+[2.004233] (-) TimerEvent: {}
+[2.104500] (-) TimerEvent: {}
+[2.204767] (-) TimerEvent: {}
+[2.304982] (-) TimerEvent: {}
+[2.383053] (pico_kinova) StdoutLine: {'line': b'[  4%] \x1b[32m\x1b[1mLinking CXX shared library librtde.so\x1b[0m\n'}
+[2.405103] (-) TimerEvent: {}
+[2.505324] (-) TimerEvent: {}
+[2.605544] (-) TimerEvent: {}
+[2.705777] (-) TimerEvent: {}
+[2.806023] (-) TimerEvent: {}
+[2.819490] (pico_kinova) StdoutLine: {'line': b'[ 32%] Built target rtde\n'}
+[2.849926] (pico_kinova) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pico_kinova\x1b[0m\n'}
+[2.851836] (pico_kinova) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX executable ../../../ur_rtde/bin/forcemode_example\x1b[0m\n'}
+[2.852042] (pico_kinova) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX executable ../../../ur_rtde/bin/robotiq_gripper_example\x1b[0m\n'}
+[2.852138] (pico_kinova) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX executable ../../../ur_rtde/bin/servoj_example\x1b[0m\n'}
+[2.852253] (pico_kinova) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX executable ../../../ur_rtde/bin/speedj_example\x1b[0m\n'}
+[2.852342] (pico_kinova) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX executable ../../../ur_rtde/bin/movej_path_with_blend_example\x1b[0m\n'}
+[2.855182] (pico_kinova) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX executable ../../../ur_rtde/bin/move_path_async_example\x1b[0m\n'}
+[2.855838] (pico_kinova) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX executable ../../../ur_rtde/bin/move_async_example\x1b[0m\n'}
+[2.856114] (pico_kinova) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX executable ../../../ur_rtde/bin/io_example\x1b[0m\n'}
+[2.860656] (pico_kinova) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX executable ../../../ur_rtde/bin/realtime_control_example\x1b[0m\n'}
+[2.861179] (pico_kinova) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable ../../../ur_rtde/bin/move_until_contact_example\x1b[0m\n'}
+[2.861929] (pico_kinova) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable ../../../ur_rtde/bin/jog_example\x1b[0m\n'}
+[2.862544] (pico_kinova) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable ../../../ur_rtde/bin/contact_detection_example\x1b[0m\n'}
+[2.863729] (pico_kinova) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable ../../../ur_rtde/bin/record_data_example\x1b[0m\n'}
+[2.906208] (-) TimerEvent: {}
+[2.947863] (pico_kinova) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/pico_kinova.dir/src/pico_kinova.cpp.o\x1b[0m\n'}
+[3.006379] (-) TimerEvent: {}
+[3.046596] (pico_kinova) StdoutLine: {'line': b'[ 69%] Built target forcemode_example\n'}
+[3.046979] (pico_kinova) StdoutLine: {'line': b'[ 69%] Built target servoj_example\n'}
+[3.047414] (pico_kinova) StdoutLine: {'line': b'[ 72%] Built target io_example\n'}
+[3.049882] (pico_kinova) StdoutLine: {'line': b'[ 74%] Built target contact_detection_example\n'}
+[3.056870] (pico_kinova) StdoutLine: {'line': b'[ 76%] Built target speedj_example\n'}
+[3.061438] (pico_kinova) StdoutLine: {'line': b'[ 79%] Built target jog_example\n'}
+[3.070508] (pico_kinova) StdoutLine: {'line': b'[ 81%] Built target realtime_control_example\n'}
+[3.098954] (pico_kinova) StdoutLine: {'line': b'[ 83%] Built target movej_path_with_blend_example\n'}
+[3.106482] (-) TimerEvent: {}
+[3.107255] (pico_kinova) StdoutLine: {'line': b'[ 86%] Built target move_async_example\n'}
+[3.114309] (pico_kinova) StdoutLine: {'line': b'[ 88%] Built target record_data_example\n'}
+[3.119367] (pico_kinova) StdoutLine: {'line': b'[ 90%] Built target robotiq_gripper_example\n'}
+[3.125543] (pico_kinova) StdoutLine: {'line': b'[ 93%] Built target move_until_contact_example\n'}
+[3.127894] (pico_kinova) StdoutLine: {'line': b'[ 95%] Built target move_path_async_example\n'}
+[3.206576] (-) TimerEvent: {}
+[3.306786] (-) TimerEvent: {}
+[3.407065] (-) TimerEvent: {}
+[3.507308] (-) TimerEvent: {}
+[3.607525] (-) TimerEvent: {}
+[3.707771] (-) TimerEvent: {}
+[3.808023] (-) TimerEvent: {}
+[3.908277] (-) TimerEvent: {}
+[4.008513] (-) TimerEvent: {}
+[4.108767] (-) TimerEvent: {}
+[4.148584] (pico_kinova) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:36\x1b[m\x1b[K:\n'}
+[4.148739] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/TransportClientTcp.h:34:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning is a GCC extension\n'}
+[4.148800] (pico_kinova) StderrLine: {'line': b'   34 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K Unknown OS type!\n'}
+[4.148843] (pico_kinova) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.148882] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/TransportClientTcp.h:34:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning Unknown OS type! [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.208882] (-) TimerEvent: {}
+[4.309104] (-) TimerEvent: {}
+[4.409335] (-) TimerEvent: {}
+[4.509594] (-) TimerEvent: {}
+[4.609821] (-) TimerEvent: {}
+[4.710055] (-) TimerEvent: {}
+[4.810290] (-) TimerEvent: {}
+[4.910517] (-) TimerEvent: {}
+[5.010750] (-) TimerEvent: {}
+[5.111009] (-) TimerEvent: {}
+[5.211237] (-) TimerEvent: {}
+[5.238731] (pico_kinova) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/rtde_receive_interface.h:6\x1b[m\x1b[K,\n'}
+[5.238906] (pico_kinova) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:18\x1b[m\x1b[K:\n'}
+[5.238961] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.239020] (pico_kinova) StderrLine: {'line': b'   93 |   }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[5.239071] (pico_kinova) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.239115] (pico_kinova) StderrLine: {'line': b'      |    \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[5.239155] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.239197] (pico_kinova) StderrLine: {'line': b'  107 |   }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[5.239234] (pico_kinova) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.239271] (pico_kinova) StderrLine: {'line': b'      |    \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[5.271846] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.271989] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kint_val\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.272046] (pico_kinova) StderrLine: {'line': b'  154 |     uint16_t operator()(\x1b[01;35m\x1b[Kuint32_t int_val\x1b[m\x1b[K) const\n'}
+[5.272089] (pico_kinova) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[5.272143] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.272198] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kint_val\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.272240] (pico_kinova) StderrLine: {'line': b'  159 |     uint16_t operator()(\x1b[01;35m\x1b[Kuint64_t int_val\x1b[m\x1b[K) const\n'}
+[5.272280] (pico_kinova) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[5.272324] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.272365] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kint_val\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.272406] (pico_kinova) StderrLine: {'line': b'  164 |     uint16_t operator()(\x1b[01;35m\x1b[Kint32_t int_val\x1b[m\x1b[K) const\n'}
+[5.272445] (pico_kinova) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[5.272484] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.272524] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdouble_val\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.272564] (pico_kinova) StderrLine: {'line': b'  169 |     uint16_t operator()(\x1b[01;35m\x1b[Kdouble double_val\x1b[m\x1b[K) const\n'}
+[5.272603] (pico_kinova) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.311324] (-) TimerEvent: {}
+[5.411603] (-) TimerEvent: {}
+[5.511863] (-) TimerEvent: {}
+[5.612072] (-) TimerEvent: {}
+[5.712307] (-) TimerEvent: {}
+[5.812558] (-) TimerEvent: {}
+[5.912783] (-) TimerEvent: {}
+[6.013038] (-) TimerEvent: {}
+[6.113287] (-) TimerEvent: {}
+[6.213506] (-) TimerEvent: {}
+[6.313722] (-) TimerEvent: {}
+[6.413964] (-) TimerEvent: {}
+[6.514191] (-) TimerEvent: {}
+[6.614407] (-) TimerEvent: {}
+[6.714651] (-) TimerEvent: {}
+[6.814892] (-) TimerEvent: {}
+[6.915106] (-) TimerEvent: {}
+[7.015355] (-) TimerEvent: {}
+[7.115615] (-) TimerEvent: {}
+[7.215873] (-) TimerEvent: {}
+[7.316074] (-) TimerEvent: {}
+[7.416303] (-) TimerEvent: {}
+[7.516534] (-) TimerEvent: {}
+[7.616780] (-) TimerEvent: {}
+[7.684681] (pico_kinova) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/KError.h:9\x1b[m\x1b[K,\n'}
+[7.684939] (pico_kinova) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/IRouterClient.h:13\x1b[m\x1b[K,\n'}
+[7.685059] (pico_kinova) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:13\x1b[m\x1b[K,\n'}
+[7.685163] (pico_kinova) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:32\x1b[m\x1b[K:\n'}
+[7.685261] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:\x1b[m\x1b[K At global scope:\n'}
+[7.685355] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:15:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.685475] (pico_kinova) StderrLine: {'line': b'   15 |         \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[7.685570] (pico_kinova) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.685671] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:29:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.685763] (pico_kinova) StderrLine: {'line': b'   29 |         \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[7.685852] (pico_kinova) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.685941] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:39:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.686036] (pico_kinova) StderrLine: {'line': b'   39 |         \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[7.686125] (pico_kinova) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.686213] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:46:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.686301] (pico_kinova) StderrLine: {'line': b'   46 |         \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[7.686388] (pico_kinova) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.686474] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:55:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.686572] (pico_kinova) StderrLine: {'line': b'   55 |         \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[7.686659] (pico_kinova) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.709383] (pico_kinova) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:32\x1b[m\x1b[K:\n'}
+[7.709595] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Kinova::Api::Base::BaseClient::messageHeaderValidation(const Kinova::Api::Frame&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.709691] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:764:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KmsgFrame\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.709784] (pico_kinova) StderrLine: {'line': b'  764 |                         void messageHeaderValidation(\x1b[01;35m\x1b[Kconst Frame& msgFrame\x1b[m\x1b[K){ /* todogr ... */ }\n'}
+[7.709872] (pico_kinova) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.713612] (pico_kinova) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/SessionManager.h:13\x1b[m\x1b[K,\n'}
+[7.713781] (pico_kinova) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:33\x1b[m\x1b[K:\n'}
+[7.713872] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/SessionClientRpc.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Kinova::Api::Session::SessionClient::messageHeaderValidation(const Kinova::Api::Frame&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.713985] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/SessionClientRpc.h:77:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KmsgFrame\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.714152] (pico_kinova) StderrLine: {'line': b'   77 |                         void messageHeaderValidation(\x1b[01;35m\x1b[Kconst Frame& msgFrame\x1b[m\x1b[K){ /* todogr ... */ }\n'}
+[7.714233] (pico_kinova) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.716864] (-) TimerEvent: {}
+[7.817070] (-) TimerEvent: {}
+[7.917306] (-) TimerEvent: {}
+[8.017541] (-) TimerEvent: {}
+[8.117802] (-) TimerEvent: {}
+[8.218027] (-) TimerEvent: {}
+[8.314554] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:\x1b[m\x1b[K At global scope:\n'}
+[8.314714] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:212:121:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMAX_VELOCITY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.314766] (pico_kinova) StderrLine: {'line': b'  212 | bool move_to_joint_angles(k_api::Base::BaseClient* base, const std::vector<double>& joint_angles_deg, double velocity = \x1b[01;31m\x1b[KMAX_VELOCITY\x1b[m\x1b[K)\n'}
+[8.314808] (pico_kinova) StderrLine: {'line': b'      |                                                                                                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.318086] (-) TimerEvent: {}
+[8.321134] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool move_to_joint_angles(Kinova::Api::Base::BaseClient*, const std::vector<double>&, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.321211] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:228:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDEG2RAD\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.321253] (pico_kinova) StderrLine: {'line': b'  228 |         joint_angle->set_value(joint_angles_deg[i] * \x1b[01;31m\x1b[KDEG2RAD\x1b[m\x1b[K);\n'}
+[8.321292] (pico_kinova) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.322120] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:233:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCONSTRAINT_SPEED\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KKinova::Api::Base\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KJOINT_CONSTRAINT_SPEED\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.322165] (pico_kinova) StderrLine: {'line': b'  233 |     constraint->set_type(k_api::Base::\x1b[01;31m\x1b[KCONSTRAINT_SPEED\x1b[m\x1b[K);\n'}
+[8.322203] (pico_kinova) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.322239] (pico_kinova) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[KJOINT_CONSTRAINT_SPEED\x1b[m\x1b[K\n'}
+[8.323873] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool move_to_custom_home_position(Kinova::Api::Base::BaseClient*, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.323936] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:272:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KKinova::Api::Base::JointAngles::add_joint_angles(float&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.323983] (pico_kinova) StderrLine: {'line': b'  272 |         \x1b[01;31m\x1b[Kjoint_angles.add_joint_angles(angle)\x1b[m\x1b[K;\n'}
+[8.324022] (pico_kinova) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[8.324945] (pico_kinova) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:10\x1b[m\x1b[K,\n'}
+[8.325086] (pico_kinova) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:32\x1b[m\x1b[K:\n'}
+[8.325155] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/messages/Base.pb.h:32632:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KKinova::Api::Base::JointAngle* Kinova::Api::Base::JointAngles::add_joint_angles()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.325219] (pico_kinova) StderrLine: {'line': b'32632 | inline ::Kinova::Api::Base::JointAngle* \x1b[01;36m\x1b[KJointAngles\x1b[m\x1b[K::add_joint_angles() {\n'}
+[8.325281] (pico_kinova) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.325342] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/messages/Base.pb.h:32632:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[8.326607] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:276:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSpeed\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KKinova::Api::Base\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.326690] (pico_kinova) StderrLine: {'line': b'  276 |     auto speed = k_api::Base::\x1b[01;31m\x1b[KSpeed\x1b[m\x1b[K();\n'}
+[8.326733] (pico_kinova) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.327017] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:280:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Kinova::Api::Base::BaseClient\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KSendJointAnglesCommand\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KSendJointSpeedsCommand\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.327093] (pico_kinova) StderrLine: {'line': b'  280 |     base->\x1b[01;31m\x1b[KSendJointAnglesCommand\x1b[m\x1b[K(joint_angles, speed);\n'}
+[8.327132] (pico_kinova) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.327168] (pico_kinova) StderrLine: {'line': b'      |           \x1b[32m\x1b[KSendJointSpeedsCommand\x1b[m\x1b[K\n'}
+[8.327202] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:\x1b[m\x1b[K At global scope:\n'}
+[8.327238] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:283:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.327275] (pico_kinova) StderrLine: {'line': b'  283 | \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[8.327312] (pico_kinova) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.346300] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid OnPXREAClientCallback(void*, PXREAClientCallbackType, int, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.346452] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:612:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kenumeration value \xe2\x80\x98\x1b[01m\x1b[KPXREAFullMask\x1b[m\x1b[K\xe2\x80\x99 not handled in switch [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch\x07-Wswitch\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.346565] (pico_kinova) StderrLine: {'line': b'  612 |     switch \x1b[01;35m\x1b[K(\x1b[m\x1b[Ktype)\n'}
+[8.346606] (pico_kinova) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.346643] (pico_kinova) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:610:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcontext\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.346681] (pico_kinova) StderrLine: {'line': b'  610 | void OnPXREAClientCallback(\x1b[01;35m\x1b[Kvoid* context\x1b[m\x1b[K, PXREAClientCallbackType type, int status, void* userData)\n'}
+[8.346718] (pico_kinova) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[8.418176] (-) TimerEvent: {}
+[8.518420] (-) TimerEvent: {}
+[8.618652] (-) TimerEvent: {}
+[8.718908] (-) TimerEvent: {}
+[8.819145] (-) TimerEvent: {}
+[8.919386] (-) TimerEvent: {}
+[9.019644] (-) TimerEvent: {}
+[9.119901] (-) TimerEvent: {}
+[9.220131] (-) TimerEvent: {}
+[9.320358] (-) TimerEvent: {}
+[9.420622] (-) TimerEvent: {}
+[9.520859] (-) TimerEvent: {}
+[9.621110] (-) TimerEvent: {}
+[9.721339] (-) TimerEvent: {}
+[9.821588] (-) TimerEvent: {}
+[9.921821] (-) TimerEvent: {}
+[10.022109] (-) TimerEvent: {}
+[10.122329] (-) TimerEvent: {}
+[10.222576] (-) TimerEvent: {}
+[10.322803] (-) TimerEvent: {}
+[10.423077] (-) TimerEvent: {}
+[10.523298] (-) TimerEvent: {}
+[10.623549] (-) TimerEvent: {}
+[10.723830] (-) TimerEvent: {}
+[10.755587] (pico_kinova) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pico_kinova.dir/build.make:76\xef\xbc\x9aCMakeFiles/pico_kinova.dir/src/pico_kinova.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[10.755834] (pico_kinova) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:180\xef\xbc\x9aCMakeFiles/pico_kinova.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[10.756054] (pico_kinova) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[10.758294] (pico_kinova) CommandEnded: {'returncode': 2}
+[10.766480] (pico_kinova) JobEnded: {'identifier': 'pico_kinova', 'rc': 2}
+[10.776857] (-) EventReactorShutdown: {}

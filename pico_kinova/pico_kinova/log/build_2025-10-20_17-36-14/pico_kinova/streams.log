@@ -1,0 +1,65 @@
+[0.012s] Invoking command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/teleop_init_202510:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova -- -j24 -l24
+[0.077s] [ 32%] Built target rtde
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target pico_kinova[0m
+[0.104s] [ 37%] Built target servoj_example
+[0.108s] [ 44%] Built target robotiq_gripper_example
+[0.108s] [ 46%] Built target speedj_example
+[0.108s] [ 51%] Built target jog_example
+[0.109s] [ 55%] Built target contact_detection_example
+[0.109s] [ 60%] Built target record_data_example
+[0.110s] [ 65%] Built target movej_path_with_blend_example
+[0.110s] [ 69%] Built target move_path_async_example
+[0.110s] [ 74%] Built target move_until_contact_example
+[0.111s] [ 79%] Built target io_example
+[0.112s] [ 83%] Built target move_async_example
+[0.113s] [ 88%] Built target forcemode_example
+[0.118s] [ 93%] Built target realtime_control_example
+[0.140s] [100%] Built target pico_kinova
+[0.152s] Invoked command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/teleop_init_202510:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova -- -j24 -l24
+[0.161s] Invoking command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/teleop_init_202510:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova
+[0.168s] -- Install configuration: ""
+[0.169s] -- Execute custom install script
+[0.169s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/pico_kinova/pico_kinova
+[0.169s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/package_run_dependencies/pico_kinova
+[0.169s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/parent_prefix_path/pico_kinova
+[0.169s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/ament_prefix_path.sh
+[0.169s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/ament_prefix_path.dsv
+[0.169s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/path.sh
+[0.169s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/path.dsv
+[0.169s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.bash
+[0.169s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.sh
+[0.169s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.zsh
+[0.170s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.dsv
+[0.170s] -- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/package.dsv
+[0.178s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/packages/pico_kinova
+[0.178s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/cmake/pico_kinovaConfig.cmake
+[0.178s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/cmake/pico_kinovaConfig-version.cmake
+[0.178s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/package.xml
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so.1.6.0
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so.1.6
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_utility.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/dashboard_enums.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/dashboard_client.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/robot_state.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/script_client.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_control_interface.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_control_interface_doc.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_receive_interface.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_receive_interface_doc.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_io_interface.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_io_interface_doc.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/robotiq_gripper.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_export.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/log.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/default_log_handler.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/script_sender.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/tcp_server.h
+[0.179s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/tcp_socket.h
+[0.180s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeTargets.cmake
+[0.180s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeTargets-noconfig.cmake
+[0.180s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeConfig.cmake
+[0.180s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeConfigVersion.cmake
+[0.180s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeBuildConfig.cmake
+[0.181s] Invoked command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/teleop_init_202510:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova

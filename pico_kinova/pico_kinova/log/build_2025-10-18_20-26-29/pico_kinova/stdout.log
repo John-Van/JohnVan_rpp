@@ -1,0 +1,31 @@
+[  2%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/script_client.cpp.o[0m
+[  4%] [32m[1mLinking CXX shared library librtde.so[0m
+[ 32%] Built target rtde
+[35m[1mConsolidate compiler generated dependencies of target pico_kinova[0m
+[ 34%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/forcemode_example[0m
+[ 39%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/robotiq_gripper_example[0m
+[ 39%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/servoj_example[0m
+[ 41%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/speedj_example[0m
+[ 44%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/movej_path_with_blend_example[0m
+[ 46%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/move_path_async_example[0m
+[ 51%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/move_async_example[0m
+[ 51%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/io_example[0m
+[ 53%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/realtime_control_example[0m
+[ 55%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/move_until_contact_example[0m
+[ 58%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/jog_example[0m
+[ 60%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/contact_detection_example[0m
+[ 62%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/record_data_example[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/pico_kinova.dir/src/pico_kinova.cpp.o[0m
+[ 69%] Built target forcemode_example
+[ 69%] Built target servoj_example
+[ 72%] Built target io_example
+[ 74%] Built target contact_detection_example
+[ 76%] Built target speedj_example
+[ 79%] Built target jog_example
+[ 81%] Built target realtime_control_example
+[ 83%] Built target movej_path_with_blend_example
+[ 86%] Built target move_async_example
+[ 88%] Built target record_data_example
+[ 90%] Built target robotiq_gripper_example
+[ 93%] Built target move_until_contact_example
+[ 95%] Built target move_path_async_example

@@ -1,0 +1,248 @@
+[35m[1mConsolidate compiler generated dependencies of target rtde[0m
+[ 32%] Built target rtde
+[35m[1mConsolidate compiler generated dependencies of target robotiq_gripper_example[0m
+[35m[1mConsolidate compiler generated dependencies of target move_until_contact_example[0m
+[35m[1mConsolidate compiler generated dependencies of target forcemode_example[0m
+[35m[1mConsolidate compiler generated dependencies of target move_path_async_example[0m
+[35m[1mConsolidate compiler generated dependencies of target io_example[0m
+[35m[1mConsolidate compiler generated dependencies of target record_data_example[0m
+[35m[1mConsolidate compiler generated dependencies of target movej_path_with_blend_example[0m
+[35m[1mConsolidate compiler generated dependencies of target jog_example[0m
+[35m[1mConsolidate compiler generated dependencies of target move_async_example[0m
+[35m[1mConsolidate compiler generated dependencies of target servoj_example[0m
+[35m[1mConsolidate compiler generated dependencies of target realtime_control_example[0m
+[35m[1mConsolidate compiler generated dependencies of target speedj_example[0m
+[35m[1mConsolidate compiler generated dependencies of target contact_detection_example[0m
+[35m[1mConsolidate compiler generated dependencies of target pico_kinova[0m
+[ 41%] Built target forcemode_example
+[ 41%] Built target robotiq_gripper_example
+[ 46%] Built target jog_example
+[ 51%] Built target io_example
+[ 55%] Built target record_data_example
+[ 65%] Built target move_until_contact_example
+[ 65%] Built target move_async_example
+[ 69%] Built target movej_path_with_blend_example
+[ 74%] Built target move_path_async_example
+[ 79%] Built target servoj_example
+[ 83%] Built target speedj_example
+[ 88%] Built target realtime_control_example
+[ 93%] Built target contact_detection_example
+[ 95%] [32mBuilding CXX object CMakeFiles/pico_kinova.dir/src/pico_kinova.cpp.o[0m
+In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:36[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/TransportClientTcp.h:34:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+   34 | #[01;35m[Kwarning[m[K Unknown OS type!
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/TransportClientTcp.h:34:2:[m[K [01;35m[Kwarning: [m[K#warning Unknown OS type! [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/rtde_receive_interface.h:6[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:18[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   93 |   }[01;35m[K;[m[K
+      |    [01;35m[K^[m[K
+      |    [31m[K-[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  107 |   }[01;35m[K;[m[K
+      |    [01;35m[K^[m[K
+      |    [31m[K-[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  154 |     uint16_t operator()([01;35m[Kuint32_t int_val[m[K) const
+      |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  159 |     uint16_t operator()([01;35m[Kuint64_t int_val[m[K) const
+      |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  164 |     uint16_t operator()([01;35m[Kint32_t int_val[m[K) const
+      |                         [01;35m[K~~~~~~~~^~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdouble_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  169 |     uint16_t operator()([01;35m[Kdouble double_val[m[K) const
+      |                         [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/KError.h:9[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/IRouterClient.h:13[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:13[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:32[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:[m[K At global scope:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:15:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |         [01;35m[K{[m[K
+      |         [01;35m[K^[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:29:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   29 |         [01;35m[K{[m[K
+      |         [01;35m[K^[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:39:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   39 |         [01;35m[K{[m[K
+      |         [01;35m[K^[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:46:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   46 |         [01;35m[K{[m[K
+      |         [01;35m[K^[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:55:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   55 |         [01;35m[K{[m[K
+      |         [01;35m[K^[m[K
+In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:32[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:[m[K In member function ‘[01m[Kvoid Kinova::Api::Base::BaseClient::messageHeaderValidation(const Kinova::Api::Frame&)[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:764:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmsgFrame[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  764 |                         void messageHeaderValidation([01;35m[Kconst Frame& msgFrame[m[K){ /* todogr ... */ }
+      |                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/SessionManager.h:13[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:33[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/SessionClientRpc.h:[m[K In member function ‘[01m[Kvoid Kinova::Api::Session::SessionClient::messageHeaderValidation(const Kinova::Api::Frame&)[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/SessionClientRpc.h:77:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmsgFrame[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   77 |                         void messageHeaderValidation([01;35m[Kconst Frame& msgFrame[m[K){ /* todogr ... */ }
+      |                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:24[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kvoid initialize_matplotlib()[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:231:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  231 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Matplotlib初始化成功");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:231:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:231:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  231 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Matplotlib初始化成功");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:231:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  231 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Matplotlib初始化成功");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:231:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  231 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Matplotlib初始化成功");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:24[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:231:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  231 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Matplotlib初始化成功");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:231:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  231 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Matplotlib初始化成功");
+      |                     [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:24[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:233:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  233 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Matplotlib初始化失败: %s", e.what());
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:233:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:233:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  233 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Matplotlib初始化失败: %s", e.what());
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:233:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  233 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Matplotlib初始化失败: %s", e.what());
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:233:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  233 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Matplotlib初始化失败: %s", e.what());
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:24[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:233:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  233 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Matplotlib初始化失败: %s", e.what());
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:233:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  233 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Matplotlib初始化失败: %s", e.what());
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kvoid update_plot()[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:240:27:[m[K [01;31m[Kerror: [m[K‘[01m[KLeftControllerBasePose[m[K’ was not declared in this scope
+  240 |     left_data_x.push_back([01;31m[KLeftControllerBasePose[m[K[0]);  // 直接使用全局变量
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:253:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdraw_plot[m[K’ was not declared in this scope
+  253 |     [01;31m[Kdraw_plot[m[K();
+      |     [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:24[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kvoid draw_plot()[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:281:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  281 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "绘图错误: %s", e.what());
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:281:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:281:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  281 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "绘图错误: %s", e.what());
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:281:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  281 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "绘图错误: %s", e.what());
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:281:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  281 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "绘图错误: %s", e.what());
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:24[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:281:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  281 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "绘图错误: %s", e.what());
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:281:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  281 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "绘图错误: %s", e.what());
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kvoid OnPXREAClientCallback(void*, PXREAClientCallbackType, int, void*)[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:509:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KPXREAFullMask[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  509 |     switch [01;35m[K([m[Ktype)
+      |            [01;35m[K^[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:507:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontext[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  507 | void OnPXREAClientCallback([01;35m[Kvoid* context[m[K, PXREAClientCallbackType type, int status, void* userData)
+      |                            [01;35m[K~~~~~~^~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/string:41[m[K,
+                 from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/11/ios:42[m[K,
+                 from [01m[K/usr/include/c++/11/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:5[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = rclcpp::TimerBase; _Args = {std::shared_ptr<rclcpp::WallTimer<void (*)(), 0> >}; _Tp = rclcpp::TimerBase][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = rclcpp::TimerBase; _Args = {std::shared_ptr<rclcpp::WallTimer<void (*)(), 0> >}; _Tp = rclcpp::TimerBase; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<rclcpp::TimerBase>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<rclcpp::WallTimer<void (*)(), 0> >}; _Tp = rclcpp::TimerBase; _Alloc = std::allocator<rclcpp::TimerBase>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = rclcpp::TimerBase; _Alloc = std::allocator<rclcpp::TimerBase>; _Args = {std::shared_ptr<rclcpp::WallTimer<void (*)(), 0> >}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<rclcpp::TimerBase>; _Args = {std::shared_ptr<rclcpp::WallTimer<void (*)(), 0> >}; _Tp = rclcpp::TimerBase; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<rclcpp::TimerBase>; _Args = {std::shared_ptr<rclcpp::WallTimer<void (*)(), 0> >}; _Tp = rclcpp::TimerBase][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = rclcpp::TimerBase; _Alloc = std::allocator<rclcpp::TimerBase>; _Args = {std::shared_ptr<rclcpp::WallTimer<void (*)(), 0> >}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = rclcpp::TimerBase; _Args = {std::shared_ptr<rclcpp::WallTimer<void (*)(), 0> >}][m[K’
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:676:81:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Krclcpp::TimerBase[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:43[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:24[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:46:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Krclcpp::TimerBase[m[K’:
+   46 | class [01;36m[KTimerBase[m[K
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:103:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual bool rclcpp::TimerBase::call()[m[K’
+  103 |   [01;36m[Kcall[m[K() = 0;
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:108:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void rclcpp::TimerBase::execute_callback()[m[K’
+  108 |   [01;36m[Kexecute_callback[m[K() = 0;
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:126:16:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual bool rclcpp::TimerBase::is_steady()[m[K’
+  126 |   virtual bool [01;36m[Kis_steady[m[K() = 0;
+      |                [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pico_kinova.dir/build.make:76：CMakeFiles/pico_kinova.dir/src/pico_kinova.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:180：CMakeFiles/pico_kinova.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

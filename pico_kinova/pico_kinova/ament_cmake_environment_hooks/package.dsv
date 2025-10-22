@@ -1,0 +1,4 @@
+source;share/pico_kinova/local_setup.bash
+source;share/pico_kinova/local_setup.dsv
+source;share/pico_kinova/local_setup.sh
+source;share/pico_kinova/local_setup.zsh

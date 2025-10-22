@@ -1,99 +1,58 @@
-# XR-based Teleoperation on Bimanual UR5
+## 0913
+- 在运行代码之前需要先运行：bash /opt/apps/roboticsservice/runService.sh 用来打开接收pico遥操作的接收
+- 将pico和电脑之间的通讯打通，moveit2的接口也已经接入程序中，可以正常进行编译
 
-This demo shows how to implement XR robotics toolkit to achieve robot teleoperation.
+## 0923
+- 桌面快捷控制应用中的启动介绍在文件：file:///home/rpp/rpp_tools/starterbutton/.starterButton/config/config.json
 
-## Description
+## 0925
+- 运行的包为：ros2 run pico_kinova pico_kinova
+- 在运行之前尽量先开启rviz，可以看到机械臂的运动情况
+- 由于cmake文件是在之前的基础上进行修改的，即使有一些依赖不会用到也不要删除，不然可能会编译出错（除非已经确定不会在cmake文件和运行文件中调用的）
+- 在utilities.cpp文件中修改机械臂的ip地址
 
+## 0927
+- 添加matplotlib绘图功能，可以绘制二维和三维的图表（暂时可以显示左边手柄的x,y,z的坐标值）
+- matplotlib只支持2.0以下版本的numpy
+- cmakelists中需要手动包含numpy的头文件
+- conda中的python也需要安装cmake，make，gcc，c++，才可以征程用于编译过程，不然会发生版本错误
+- conda install cmake make gcc g++
 
+## 代码编译
+- 编译所有的程序包
+- colcon build 
+- 编译指定的程序包
+- colcon build --packages-select pico_kinova --mixin debug
+- source环境
+- source /opt/ros/humble/setup.bash  
+- source install/local_setup.bash
+- 清除之前的构建
+- rm -rf build install log
+- 列出所有包及其内容
+- colcon list --packages-select pico_kinova
+- 查看tf树
+- ros2 run rqt_tf_tree rqt_tf_tree
 
-https://github.com/user-attachments/assets/288b3f30-11b8-458f-a596-a6c91a87a993
+- 头显传输过来的数据如下
+{
+    "functionName": "Tracking",
+    "value": 
+        "{\"predictTime\":521697731.067,
+        \"appState\":{\"focus\":true},
+        \"Head\":{\"pose\":\"-0.005365652,-0.0509465337,-0.02424921,-0.0219538137,-0.125764042,0.0502647348,-0.990542769\",\"status\":3},
+        \"Controller\":
+            {\"left\":
+                {\"axisX\":0.0,\"axisY\":0.0,\"axisClick\":false,\"grip\":0.0,\"trigger\":0.0,\"primaryButton\":false,\"secondaryButton\":false,\"menuButton\":false,\"pose\":\"-0.108875774,-0.406339616,-0.232757375,-0.07052495,-0.170688525,-0.15705815,0.9701672\"},
+            \"right\":
+                {\"axisX\":0.0,\"axisY\":0.0,\"axisClick\":false,\"grip\":0.0,\"trigger\":0.505882382392883,\"primaryButton\":false,\"secondaryButton\":false,\"menuButton\":false,\"pose\":\"0.0470392,-0.285911828,-0.182648584,0.100988381,0.185609534,-0.018177418,0.9772513\"}},
+        \"timeStampNs\":1758800748545324032,
+        \"Input\":1}"
+}
 
-
-## Getting Started
-
-### Dependencies
-
-Before building the project, you must install the following dependencies:
-
-* [Eigen](https://eigen.tuxfamily.org/) - C++ template library for linear algebra
-* [ur-rtde](https://gitlab.com/sdurobotics/ur_rtde) - Real-Time Data Exchange library for Universal Robots
-* [Dynamixel SDK](https://github.com/ROBOTIS-GIT/DynamixelSDK) - Software development kit for ROBOTIS Dynamixel actuators
-
-> **Note:** This demo is developed and tested on Windows 10 and Ubuntu 22.04. This main branch only works on Linux system. If you want to run the demo on Windows PC, please refer to the [win_X86 branch](https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Cpp/tree/win_x86) of this repo.
-
-## Installation
-
-### 1. Install Required Libraries
-
-#### Eigen
-Download and install Eigen from the [official website](https://eigen.tuxfamily.org/). 
-
-#### ur-rtde
-Follow the installation instructions on the [ur-rtde repository](https://gitlab.com/sdurobotics/ur_rtde).
-
-#### Dynamixel SDK
-Follow the installation instructions on the [Dynamixel SDK repository](https://github.com/ROBOTIS-GIT/DynamixelSDK).
-
-### 2. Clone the Repository
-
-```bash
-git clone https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Cpp.git
-cd XRoboToolkit-Teleop-Sample-Cpp
-```
-
-### 3. Build the Project
-
-```bash
-mkdir build
-cd build
-cmake ..
-cmake --build . --config Release
-```
-
-## Executing Program
-
-1. Install **xr-robotics-toolkit.apk** on Pico 4 Ultra headset. Follow instructions on the [XR-robotics/unity demo repository](https://github.com/XR-Robotics/unity_demo.git).
-
-2. Install **xr-robotics-toolkit robot server** on Linux PC. Follow instructions on the [XR-robotics/unity_demo repository](https://github.com/XR-Robotics/unity_demo.git).
-
-3. Run XRoboToolkit-PC-Service:
-   - Run `/opt/apps/roboticsservice/runService.sh`
-
-4. Open xr-robotics-toolkit app on Pico 4 Ultra headset. Wait for the pop-up screen and select the IP address of the robot PC to connect. The main panel will display "Working" if connection is established.
-
-   <img width="387" alt="server_connection" src="docs/server_connection.png" />
-
-
-5. On Unity main screen, once connection is confirmed:
-   - Toggle `HeadTracking` On
-   - Toggle `Controller` On
-   - Toggle `Control with the A` On
-
-   Follow instructions on "[full body pose sync between two XR headsets](https://github.com/XR-Robotics/unity_demo?tab=readme-ov-file#remote-stereo-vision-sync-between-two-xr-headsets) " for details on how to enable tele-vision between two headsets.
-
-   
-   <img width="394" alt="unity_main_panel" src="docs/unity_main_panel.png" />
-
-7. Execute main program from `build/Release/teleop_demo_UR5.exe`. Once UR5 arms and dynamixel motors are enabled without error messages:
-   - Press A button on the right Pico controller to toggle `Send Tracking Data` On
-   - The headset is now synced with the robot head movement
-   - To teleoperate the UR5 robot arm, press and hold either left or right controller's Grip button
-
-8. Note on using Dynamixel Motors on ubuntu. To enable serial communication, use the following command. 
-```
-sudo chmod a+rw /dev/ttyUSB0 //or your USB port
-```
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### Third-Party Licenses
-
-This project uses the following third-party libraries:
-
-* [Eigen](https://eigen.tuxfamily.org/) - Mozilla Public License 2.0
-* [ur-rtde](https://gitlab.com/sdurobotics/ur_rtde) - MIT License
-* [Dynamixel SDK](https://github.com/ROBOTIS-GIT/DynamixelSDK) - Apache License 2.0
-
+## 代码文件介绍
+- api_cpp：机械臂相关的api例子和使用介绍
+- dynamixel_sdk：pico遥操作例子中的控制舵机的sdk部分，可以不用管
+- matplotlib：绘图库，可以通过此库来绘制数据图像（用于论文图片）
+- src：里面包含着运行的主文件(pico_kinova.cpp)
+- utility.cpp：机械臂配置文档，里面可以调整需要连接的机械臂ip地址
+- CMakeLists.txt：编译cmake文件，里面现在还包含编译dynamixel_sdk的部分，后续优化可以删掉（因为此文件基本不会用到也不会变动，所以基本不会影响编译速度）

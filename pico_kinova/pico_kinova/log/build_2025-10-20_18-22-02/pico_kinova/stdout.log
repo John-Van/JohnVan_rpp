@@ -1,0 +1,16 @@
+[ 32%] Built target rtde
+[35m[1mConsolidate compiler generated dependencies of target pico_kinova[0m
+[ 37%] Built target move_async_example
+[ 41%] Built target forcemode_example
+[ 46%] Built target servoj_example
+[ 51%] Built target realtime_control_example
+[ 55%] Built target speedj_example
+[ 60%] Built target move_until_contact_example
+[ 69%] Built target jog_example
+[ 69%] Built target robotiq_gripper_example
+[ 74%] Built target movej_path_with_blend_example
+[ 79%] Built target move_path_async_example
+[ 83%] Built target io_example
+[ 88%] Built target record_data_example
+[ 93%] Built target contact_detection_example
+[ 95%] [32mBuilding CXX object CMakeFiles/pico_kinova.dir/src/pico_kinova.cpp.o[0m

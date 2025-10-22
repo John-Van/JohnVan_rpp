@@ -1,0 +1,136 @@
+[0.016s] Invoking command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/teleop_init_202510:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova -- -j24 -l24
+[0.097s] [ 32%] Built target rtde
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target pico_kinova[0m
+[0.130s] [ 37%] Built target robotiq_gripper_example
+[0.131s] [ 41%] Built target move_until_contact_example
+[0.131s] [ 46%] Built target move_path_async_example
+[0.131s] [ 51%] Built target move_async_example
+[0.132s] [ 55%] Built target realtime_control_example
+[0.132s] [ 60%] Built target movej_path_with_blend_example
+[0.134s] [ 65%] Built target io_example
+[0.135s] [ 69%] Built target jog_example
+[0.136s] [ 74%] Built target servoj_example
+[0.137s] [ 79%] Built target forcemode_example
+[0.138s] [ 83%] Built target record_data_example
+[0.139s] [ 88%] Built target contact_detection_example
+[0.140s] [ 93%] Built target speedj_example
+[0.179s] [ 95%] [32mBuilding CXX object CMakeFiles/pico_kinova.dir/src/pico_kinova.cpp.o[0m
+[1.264s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:36[m[K:
+[1.264s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/TransportClientTcp.h:34:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+[1.264s]    34 | #[01;35m[Kwarning[m[K Unknown OS type!
+[1.265s]       |  [01;35m[K^~~~~~~[m[K
+[1.265s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/TransportClientTcp.h:34:2:[m[K [01;35m[Kwarning: [m[K#warning Unknown OS type! [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[2.294s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/rtde_receive_interface.h:6[m[K,
+[2.295s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:18[m[K:
+[2.295s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.295s]    93 |   }[01;35m[K;[m[K
+[2.295s]       |    [01;35m[K^[m[K
+[2.295s]       |    [31m[K-[m[K
+[2.295s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.295s]   107 |   }[01;35m[K;[m[K
+[2.295s]       |    [01;35m[K^[m[K
+[2.295s]       |    [31m[K-[m[K
+[2.325s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const[m[K’:
+[2.325s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.325s]   154 |     uint16_t operator()([01;35m[Kuint32_t int_val[m[K) const
+[2.325s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[2.325s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const[m[K’:
+[2.325s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.325s]   159 |     uint16_t operator()([01;35m[Kuint64_t int_val[m[K) const
+[2.325s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[2.325s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const[m[K’:
+[2.325s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.325s]   164 |     uint16_t operator()([01;35m[Kint32_t int_val[m[K) const
+[2.325s]       |                         [01;35m[K~~~~~~~~^~~~~~~[m[K
+[2.326s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const[m[K’:
+[2.326s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdouble_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.326s]   169 |     uint16_t operator()([01;35m[Kdouble double_val[m[K) const
+[2.326s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[4.592s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/KError.h:9[m[K,
+[4.593s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/IRouterClient.h:13[m[K,
+[4.593s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:13[m[K,
+[4.593s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:32[m[K:
+[4.593s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:[m[K At global scope:
+[4.593s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:15:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.593s]    15 |         [01;35m[K{[m[K
+[4.593s]       |         [01;35m[K^[m[K
+[4.593s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:29:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.593s]    29 |         [01;35m[K{[m[K
+[4.593s]       |         [01;35m[K^[m[K
+[4.593s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:39:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.593s]    39 |         [01;35m[K{[m[K
+[4.593s]       |         [01;35m[K^[m[K
+[4.593s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:46:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.593s]    46 |         [01;35m[K{[m[K
+[4.593s]       |         [01;35m[K^[m[K
+[4.593s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:55:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.593s]    55 |         [01;35m[K{[m[K
+[4.593s]       |         [01;35m[K^[m[K
+[4.617s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:32[m[K:
+[4.617s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:[m[K In member function ‘[01m[Kvoid Kinova::Api::Base::BaseClient::messageHeaderValidation(const Kinova::Api::Frame&)[m[K’:
+[4.617s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:764:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmsgFrame[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.617s]   764 |                         void messageHeaderValidation([01;35m[Kconst Frame& msgFrame[m[K){ /* todogr ... */ }
+[4.617s]       |                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.621s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/SessionManager.h:13[m[K,
+[4.621s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:33[m[K:
+[4.621s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/SessionClientRpc.h:[m[K In member function ‘[01m[Kvoid Kinova::Api::Session::SessionClient::messageHeaderValidation(const Kinova::Api::Frame&)[m[K’:
+[4.621s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/SessionClientRpc.h:77:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmsgFrame[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.621s]    77 |                         void messageHeaderValidation([01;35m[Kconst Frame& msgFrame[m[K){ /* todogr ... */ }
+[4.621s]       |                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[5.216s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K At global scope:
+[5.216s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:212:121:[m[K [01;31m[Kerror: [m[K‘[01m[KMAX_VELOCITY[m[K’ was not declared in this scope
+[5.217s]   212 | bool move_to_joint_angles(k_api::Base::BaseClient* base, const std::vector<double>& joint_angles_deg, double velocity = [01;31m[KMAX_VELOCITY[m[K)
+[5.217s]       |                                                                                                                         [01;31m[K^~~~~~~~~~~~[m[K
+[5.224s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kbool move_to_joint_angles(Kinova::Api::Base::BaseClient*, const std::vector<double>&, double)[m[K’:
+[5.224s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:228:54:[m[K [01;31m[Kerror: [m[K‘[01m[KDEG2RAD[m[K’ was not declared in this scope
+[5.224s]   228 |         joint_angle->set_value(joint_angles_deg[i] * [01;31m[KDEG2RAD[m[K);
+[5.224s]       |                                                      [01;31m[K^~~~~~~[m[K
+[5.225s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:233:39:[m[K [01;31m[Kerror: [m[K‘[01m[KCONSTRAINT_SPEED[m[K’ is not a member of ‘[01m[KKinova::Api::Base[m[K’; did you mean ‘[01m[KJOINT_CONSTRAINT_SPEED[m[K’?
+[5.225s]   233 |     constraint->set_type(k_api::Base::[01;31m[KCONSTRAINT_SPEED[m[K);
+[5.225s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.225s]       |                                       [32m[KJOINT_CONSTRAINT_SPEED[m[K
+[5.241s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kbool move_to_custom_home_position(Kinova::Api::Base::BaseClient*, bool)[m[K’:
+[5.241s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:268:62:[m[K [01;31m[Kerror: [m[K‘[01m[KLEFT_HOME_ANGLES[m[K’ was not declared in this scope
+[5.241s]   268 |     const std::vector<double>& target_angles = is_left_arm ? [01;31m[KLEFT_HOME_ANGLES[m[K : RIGHT_HOME_ANGLES;
+[5.241s]       |                                                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.256s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:268:81:[m[K [01;31m[Kerror: [m[K‘[01m[KRIGHT_HOME_ANGLES[m[K’ was not declared in this scope
+[5.256s]   268 |     const std::vector<double>& target_angles = is_left_arm ? LEFT_HOME_ANGLES : [01;31m[KRIGHT_HOME_ANGLES[m[K;
+[5.257s]       |                                                                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.268s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:270:54:[m[K [01;31m[Kerror: [m[K‘[01m[KMAX_VELOCITY[m[K’ was not declared in this scope
+[5.268s]   270 |     return move_to_joint_angles(base, target_angles, [01;31m[KMAX_VELOCITY[m[K);
+[5.268s]       |                                                      [01;31m[K^~~~~~~~~~~~[m[K
+[5.268s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K At global scope:
+[5.268s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:274:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool example_move_to_home_position(Kinova::Api::Base::BaseClient*)[m[K’
+[5.268s]   274 | bool [01;31m[Kexample_move_to_home_position[m[K(k_api::Base::BaseClient* base)
+[5.268s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.268s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:101:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool example_move_to_home_position(Kinova::Api::Base::BaseClient*)[m[K’ previously defined here
+[5.268s]   101 | bool [01;36m[Kexample_move_to_home_position[m[K(k_api::Base::BaseClient* base)
+[5.268s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.271s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:388:28:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst seconds TIMEOUT_DURATION[m[K’
+[5.271s]   388 | const std::chrono::seconds [01;31m[KTIMEOUT_DURATION[m[K(20);
+[5.271s]       |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.271s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:63:16:[m[K [01;36m[Knote: [m[K‘[01m[Kconstexpr const std::chrono::duration<long int> TIMEOUT_DURATION[m[K’ previously defined here
+[5.271s]    63 | constexpr auto [01;36m[KTIMEOUT_DURATION[m[K = std::chrono::seconds(20);
+[5.271s]       |                [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[5.271s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:398:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::function<void(Kinova::Api::Base::ActionNotification)> create_action_event_listener_by_promise(std::promise<Kinova::Api::Base::ActionEvent>&)[m[K’
+[5.271s]   398 |     [01;31m[Kcreate_action_event_listener_by_promise[m[K(std::promise<k_api::Base::ActionEvent>& finish_promise)
+[5.271s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.271s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:80:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::function<void(Kinova::Api::Base::ActionNotification)> create_action_event_listener_by_promise(std::promise<Kinova::Api::Base::ActionEvent>&)[m[K’ previously defined here
+[5.271s]    80 |     [01;36m[Kcreate_action_event_listener_by_promise[m[K(std::promise<k_api::Base::ActionEvent>& finish_promise)
+[5.271s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.291s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kvoid OnPXREAClientCallback(void*, PXREAClientCallbackType, int, void*)[m[K’:
+[5.291s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:679:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KPXREAFullMask[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[5.291s]   679 |     switch [01;35m[K([m[Ktype)
+[5.291s]       |            [01;35m[K^[m[K
+[5.291s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:677:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontext[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.291s]   677 | void OnPXREAClientCallback([01;35m[Kvoid* context[m[K, PXREAClientCallbackType type, int status, void* userData)
+[5.291s]       |                            [01;35m[K~~~~~~^~~~~~~[m[K
+[7.478s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K At global scope:
+[7.478s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:1016:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst char _ZTSZ39create_action_event_listener_by_promiseRSt7promiseIN6Kinova3Api4Base11ActionEventEEEUlNS2_18ActionNotificationEE_ [][m[K’
+[7.478s]  1016 | [01;31m[K}[m[K
+[7.479s]       | [01;31m[K^[m[K
+[7.479s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:1016:1:[m[K [01;36m[Knote: [m[K‘[01m[Kconst char _ZTSZ39create_action_event_listener_by_promiseRSt7promiseIN6Kinova3Api4Base11ActionEventEEEUlNS2_18ActionNotificationEE_ [118][m[K’ previously defined here
+[7.733s] gmake[2]: *** [CMakeFiles/pico_kinova.dir/build.make:76：CMakeFiles/pico_kinova.dir/src/pico_kinova.cpp.o] 错误 1
+[7.733s] gmake[1]: *** [CMakeFiles/Makefile2:180：CMakeFiles/pico_kinova.dir/all] 错误 2
+[7.733s] gmake: *** [Makefile:146：all] 错误 2
+[7.735s] Invoked command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/teleop_init_202510:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova -- -j24 -l24

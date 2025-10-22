@@ -1,0 +1,132 @@
+[ 32%] Built target rtde
+[35m[1mConsolidate compiler generated dependencies of target pico_kinova[0m
+[ 39%] Built target move_path_async_example
+[ 41%] Built target forcemode_example
+[ 46%] Built target move_async_example
+[ 51%] Built target robotiq_gripper_example
+[ 58%] Built target io_example
+[ 60%] Built target realtime_control_example
+[ 65%] Built target jog_example
+[ 69%] Built target record_data_example
+[ 74%] Built target servoj_example
+[ 79%] Built target move_until_contact_example
+[ 83%] Built target contact_detection_example
+[ 88%] Built target movej_path_with_blend_example
+[ 93%] Built target speedj_example
+[ 95%] [32mBuilding CXX object CMakeFiles/pico_kinova.dir/src/pico_kinova.cpp.o[0m
+In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:36[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/TransportClientTcp.h:34:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+   34 | #[01;35m[Kwarning[m[K Unknown OS type!
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/TransportClientTcp.h:34:2:[m[K [01;35m[Kwarning: [m[K#warning Unknown OS type! [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/rtde_receive_interface.h:6[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:18[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   93 |   }[01;35m[K;[m[K
+      |    [01;35m[K^[m[K
+      |    [31m[K-[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  107 |   }[01;35m[K;[m[K
+      |    [01;35m[K^[m[K
+      |    [31m[K-[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  154 |     uint16_t operator()([01;35m[Kuint32_t int_val[m[K) const
+      |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  159 |     uint16_t operator()([01;35m[Kuint64_t int_val[m[K) const
+      |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  164 |     uint16_t operator()([01;35m[Kint32_t int_val[m[K) const
+      |                         [01;35m[K~~~~~~~~^~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdouble_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  169 |     uint16_t operator()([01;35m[Kdouble double_val[m[K) const
+      |                         [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/KError.h:9[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/IRouterClient.h:13[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:13[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:32[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:[m[K At global scope:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:15:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |         [01;35m[K{[m[K
+      |         [01;35m[K^[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:29:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   29 |         [01;35m[K{[m[K
+      |         [01;35m[K^[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:39:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   39 |         [01;35m[K{[m[K
+      |         [01;35m[K^[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:46:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   46 |         [01;35m[K{[m[K
+      |         [01;35m[K^[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:55:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   55 |         [01;35m[K{[m[K
+      |         [01;35m[K^[m[K
+In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:32[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:[m[K In member function ‘[01m[Kvoid Kinova::Api::Base::BaseClient::messageHeaderValidation(const Kinova::Api::Frame&)[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:764:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmsgFrame[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  764 |                         void messageHeaderValidation([01;35m[Kconst Frame& msgFrame[m[K){ /* todogr ... */ }
+      |                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/SessionManager.h:13[m[K,
+                 from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:33[m[K:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/SessionClientRpc.h:[m[K In member function ‘[01m[Kvoid Kinova::Api::Session::SessionClient::messageHeaderValidation(const Kinova::Api::Frame&)[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/SessionClientRpc.h:77:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmsgFrame[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   77 |                         void messageHeaderValidation([01;35m[Kconst Frame& msgFrame[m[K){ /* todogr ... */ }
+      |                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kvoid OnPXREAClientCallback(void*, PXREAClientCallbackType, int, void*)[m[K’:
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:514:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KPXREAFullMask[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  514 |     switch [01;35m[K([m[Ktype)
+      |            [01;35m[K^[m[K
+[01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:512:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontext[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  512 | void OnPXREAClientCallback([01;35m[Kvoid* context[m[K, PXREAClientCallbackType type, int status, void* userData)
+      |                            [01;35m[K~~~~~~^~~~~~~[m[K
+[ 97%] [32m[1mLinking CXX executable pico_kinova[0m
+[100%] Built target pico_kinova
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/pico_kinova/pico_kinova
+-- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/package_run_dependencies/pico_kinova
+-- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/parent_prefix_path/pico_kinova
+-- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/path.sh
+-- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/path.dsv
+-- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.bash
+-- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.sh
+-- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.zsh
+-- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.dsv
+-- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/package.dsv
+-- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/packages/pico_kinova
+-- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/cmake/pico_kinovaConfig.cmake
+-- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/cmake/pico_kinovaConfig-version.cmake
+-- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/package.xml
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so.1.6.0
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so.1.6
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_utility.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/dashboard_enums.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/dashboard_client.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/robot_state.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/script_client.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_control_interface.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_control_interface_doc.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_receive_interface.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_receive_interface_doc.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_io_interface.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_io_interface_doc.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/robotiq_gripper.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_export.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/log.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/default_log_handler.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/script_sender.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/tcp_server.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/tcp_socket.h
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeTargets.cmake
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeTargets-noconfig.cmake
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeConfig.cmake
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeConfigVersion.cmake
+-- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeBuildConfig.cmake

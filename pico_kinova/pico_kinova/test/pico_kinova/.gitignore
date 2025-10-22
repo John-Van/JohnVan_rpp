@@ -1,0 +1,137 @@
+# This file is used to ignore files which are generated
+# ----------------------------------------------------------------------------
+# Binaries
+# --------
+*.dll
+*.exe
+
+# Build directories
+build/
+out/
+bin/
+
+# IDE specific files
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+!lib/**/*.so
+!lib/**/*.dylib
+!lib/**/*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+!lib/**/*.a
+!lib/**/*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+!lib/**/*.exe
+!lib/**/*.out
+!lib/**/*.app
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Windows specific
+*.pdb
+*.ilk
+*.exp
+*.manifest
+*.dll.a
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+*.autosave
+*.core
+*.moc
+*.orig
+*.rej
+*.so.*
+*_pch.h.cpp
+*_resource.rc
+*.qm
+.#*
+*.*#
+core
+!core/
+tags
+.directory
+*.debug
+Makefile*
+*.prl
+*.app
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Thumbs.db
+*.res
+*.rc
+/.qmake.cache
+/.qmake.stash
+
+# qtcreator generated files
+*.pro.user*
+CMakeLists.txt.user*
+
+# xemacs temporary files
+*.flc
+
+# Vim temporary files
+.*.swp
+
+# Visual Studio generated files
+*.ib_pdb_index
+*.idb
+*.sln
+*.suo
+*.vcproj
+*vcproj.*.*.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj
+*vcxproj.*
+
+# MinGW generated files
+*.Debug
+*.Release
+
+# Python byte code
+*.pyc
+
+# Explicitly include library directories
+!dynamixel_sdk/
+!dynamixel_sdk/**
+!ur_rtde/
+!ur_rtde/**
+

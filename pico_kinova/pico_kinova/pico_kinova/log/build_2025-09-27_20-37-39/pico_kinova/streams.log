@@ -1,0 +1,209 @@
+[0.012s] Invoking command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/rpp/Desktop/pico_kinova/pico_kinova -DCMAKE_INSTALL_PREFIX=/home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova
+[0.024s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.081s] -- Found Python3: /home/rpp/anaconda3/envs/kinova/bin/python3 (found version "3.10.18") found components: Interpreter 
+[0.141s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.147s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.166s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.168s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.171s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.213s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.216s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.306s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.340s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.348s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.463s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.484s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.490s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.504s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.541s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.560s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.639s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[0.659s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[0.673s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[0.692s] -- Found moveit_servo: 2.5.9 (/opt/ros/humble/share/moveit_servo/cmake)
+[1.233s] -- Found Python3: /home/rpp/anaconda3/envs/kinova/bin/python3 (found version "3.10.18") found components: Interpreter Development Development.Module Development.Embed 
+[1.234s] -- Found Kinova libraries: /home/rpp/Desktop/pico_kinova/pico_kinova/lib/libKortexApiCpp.a;/home/rpp/Desktop/pico_kinova/pico_kinova/lib/libKortexApiCpp_without_protobuf.a;/home/rpp/Desktop/pico_kinova/pico_kinova/lib/libPXREARobotSDK.so
+[1.235s] -- Found Eigen3: /usr/include/eigen3
+[1.241s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread program_options 
+[1.600s] -- Found Python3: /home/rpp/anaconda3/envs/kinova/include/python3.10 (found version "3.10.18") found components: NumPy Interpreter Development.Module 
+[1.638s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.768s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.770s] -- Configured cppcheck include dirs: /home/rpp/Desktop/pico_kinova/pico_kinova/include;/home/rpp/Desktop/pico_kinova/pico_kinova/include/thirdParty/cxxopts;/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib;/home/rpp/Desktop/pico_kinova/pico_kinova/lib;/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include;/home/rpp/Desktop/pico_kinova/pico_kinova/dynamixel_sdk/include;$<BUILD_INTERFACE:/home/rpp/Desktop/pico_kinova/pico_kinova/include>;$<BUILD_INTERFACE:/home/rpp/Desktop/pico_kinova/pico_kinova/include/client>;$<BUILD_INTERFACE:/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs>;$<BUILD_INTERFACE:/home/rpp/Desktop/pico_kinova/pico_kinova/include/common>;$<BUILD_INTERFACE:/home/rpp/Desktop/pico_kinova/pico_kinova/include/google>;$<BUILD_INTERFACE:/home/rpp/Desktop/pico_kinova/pico_kinova/include/messages>
+[1.770s] -- Configured cppcheck exclude dirs and/or files: 
+[1.775s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.784s] -- Added test 'lint_cmake' to check CMake code style
+[1.788s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.823s] -- Added test 'uncrustify' to check C / C++ code style
+[1.823s] -- Configured uncrustify additional arguments: 
+[1.828s] -- Added test 'xmllint' to check XML markup files
+[1.829s] -- Configuring done
+[1.870s] -- Generating done
+[1.884s] -- Build files have been written to: /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova
+[1.895s] Invoked command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/rpp/Desktop/pico_kinova/pico_kinova -DCMAKE_INSTALL_PREFIX=/home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova
+[1.897s] Invoking command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova -- -j24 -l24
+[1.956s] [35m[1mConsolidate compiler generated dependencies of target rtde[0m
+[2.024s] [  2%] [32mBuilding CXX object ur_rtde/CMakeFiles/rtde.dir/src/script_client.cpp.o[0m
+[4.371s] [  4%] [32m[1mLinking CXX shared library librtde.so[0m
+[4.747s] [ 32%] Built target rtde
+[4.762s] [35m[1mConsolidate compiler generated dependencies of target move_path_async_example[0m
+[4.762s] [35m[1mConsolidate compiler generated dependencies of target speedj_example[0m
+[4.762s] [35m[1mConsolidate compiler generated dependencies of target forcemode_example[0m
+[4.762s] [35m[1mConsolidate compiler generated dependencies of target move_async_example[0m
+[4.762s] [35m[1mConsolidate compiler generated dependencies of target io_example[0m
+[4.763s] [35m[1mConsolidate compiler generated dependencies of target servoj_example[0m
+[4.763s] [35m[1mConsolidate compiler generated dependencies of target pico_kinova[0m
+[4.767s] [35m[1mConsolidate compiler generated dependencies of target movej_path_with_blend_example[0m
+[4.767s] [35m[1mConsolidate compiler generated dependencies of target record_data_example[0m
+[4.767s] [35m[1mConsolidate compiler generated dependencies of target robotiq_gripper_example[0m
+[4.767s] [35m[1mConsolidate compiler generated dependencies of target contact_detection_example[0m
+[4.768s] [35m[1mConsolidate compiler generated dependencies of target jog_example[0m
+[4.768s] [35m[1mConsolidate compiler generated dependencies of target move_until_contact_example[0m
+[4.768s] [35m[1mConsolidate compiler generated dependencies of target realtime_control_example[0m
+[4.801s] [ 34%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/speedj_example[0m
+[4.806s] [ 37%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/forcemode_example[0m
+[4.807s] [ 39%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/move_path_async_example[0m
+[4.812s] [ 41%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/servoj_example[0m
+[4.816s] [ 44%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/move_async_example[0m
+[4.822s] [ 46%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/contact_detection_example[0m
+[4.825s] [ 48%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/movej_path_with_blend_example[0m
+[4.825s] [ 51%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/robotiq_gripper_example[0m
+[4.826s] [ 53%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/jog_example[0m
+[4.827s] [ 55%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/io_example[0m
+[4.828s] [ 60%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/move_until_contact_example[0m
+[4.829s] [ 60%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/record_data_example[0m
+[4.833s] [ 62%] [32m[1mLinking CXX executable ../../../ur_rtde/bin/realtime_control_example[0m
+[4.851s] [ 65%] [32mBuilding CXX object CMakeFiles/pico_kinova.dir/src/pico_kinova.cpp.o[0m
+[4.968s] [ 67%] Built target move_path_async_example
+[4.997s] [ 69%] Built target robotiq_gripper_example
+[4.999s] [ 72%] Built target realtime_control_example
+[5.005s] [ 74%] Built target move_async_example
+[5.007s] [ 76%] Built target move_until_contact_example
+[5.019s] [ 79%] Built target io_example
+[5.057s] [ 81%] Built target movej_path_with_blend_example
+[5.057s] [ 83%] Built target servoj_example
+[5.058s] [ 86%] Built target jog_example
+[5.074s] [ 88%] Built target forcemode_example
+[5.075s] [ 90%] Built target speedj_example
+[5.079s] [ 93%] Built target record_data_example
+[5.090s] [ 95%] Built target contact_detection_example
+[6.148s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:36[m[K:
+[6.148s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/TransportClientTcp.h:34:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+[6.148s]    34 | #[01;35m[Kwarning[m[K Unknown OS type!
+[6.148s]       |  [01;35m[K^~~~~~~[m[K
+[6.149s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/TransportClientTcp.h:34:2:[m[K [01;35m[Kwarning: [m[K#warning Unknown OS type! [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[7.223s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/rtde_receive_interface.h:6[m[K,
+[7.223s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:18[m[K:
+[7.223s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.223s]    93 |   }[01;35m[K;[m[K
+[7.223s]       |    [01;35m[K^[m[K
+[7.223s]       |    [31m[K-[m[K
+[7.223s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.223s]   107 |   }[01;35m[K;[m[K
+[7.223s]       |    [01;35m[K^[m[K
+[7.223s]       |    [31m[K-[m[K
+[7.253s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const[m[K’:
+[7.253s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.253s]   154 |     uint16_t operator()([01;35m[Kuint32_t int_val[m[K) const
+[7.253s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[7.253s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const[m[K’:
+[7.253s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.254s]   159 |     uint16_t operator()([01;35m[Kuint64_t int_val[m[K) const
+[7.254s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[7.254s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const[m[K’:
+[7.254s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.254s]   164 |     uint16_t operator()([01;35m[Kint32_t int_val[m[K) const
+[7.254s]       |                         [01;35m[K~~~~~~~~^~~~~~~[m[K
+[7.254s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const[m[K’:
+[7.254s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdouble_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.254s]   169 |     uint16_t operator()([01;35m[Kdouble double_val[m[K) const
+[7.254s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[9.407s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/KError.h:9[m[K,
+[9.407s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/IRouterClient.h:13[m[K,
+[9.407s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:13[m[K,
+[9.407s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:32[m[K:
+[9.407s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:[m[K At global scope:
+[9.407s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:15:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[9.407s]    15 |         [01;35m[K{[m[K
+[9.407s]       |         [01;35m[K^[m[K
+[9.407s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:29:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[9.407s]    29 |         [01;35m[K{[m[K
+[9.407s]       |         [01;35m[K^[m[K
+[9.407s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:39:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[9.407s]    39 |         [01;35m[K{[m[K
+[9.407s]       |         [01;35m[K^[m[K
+[9.407s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:46:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[9.407s]    46 |         [01;35m[K{[m[K
+[9.407s]       |         [01;35m[K^[m[K
+[9.407s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:55:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[9.407s]    55 |         [01;35m[K{[m[K
+[9.407s]       |         [01;35m[K^[m[K
+[9.429s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:32[m[K:
+[9.429s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:[m[K In member function ‘[01m[Kvoid Kinova::Api::Base::BaseClient::messageHeaderValidation(const Kinova::Api::Frame&)[m[K’:
+[9.429s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:764:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmsgFrame[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.429s]   764 |                         void messageHeaderValidation([01;35m[Kconst Frame& msgFrame[m[K){ /* todogr ... */ }
+[9.429s]       |                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[9.432s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/SessionManager.h:13[m[K,
+[9.433s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:33[m[K:
+[9.433s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/SessionClientRpc.h:[m[K In member function ‘[01m[Kvoid Kinova::Api::Session::SessionClient::messageHeaderValidation(const Kinova::Api::Frame&)[m[K’:
+[9.433s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/SessionClientRpc.h:77:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmsgFrame[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.433s]    77 |                         void messageHeaderValidation([01;35m[Kconst Frame& msgFrame[m[K){ /* todogr ... */ }
+[9.433s]       |                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[9.982s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kvoid OnPXREAClientCallback(void*, PXREAClientCallbackType, int, void*)[m[K’:
+[9.982s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:509:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KPXREAFullMask[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[9.982s]   509 |     switch [01;35m[K([m[Ktype)
+[9.982s]       |            [01;35m[K^[m[K
+[9.982s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:507:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontext[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.982s]   507 | void OnPXREAClientCallback([01;35m[Kvoid* context[m[K, PXREAClientCallbackType type, int status, void* userData)
+[9.982s]       |                            [01;35m[K~~~~~~^~~~~~~[m[K
+[13.812s] [ 97%] [32m[1mLinking CXX executable pico_kinova[0m
+[15.194s] [100%] Built target pico_kinova
+[15.204s] Invoked command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova -- -j24 -l24
+[15.213s] Invoking command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova
+[15.221s] -- Install configuration: ""
+[15.221s] -- Execute custom install script
+[15.221s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/pico_kinova/pico_kinova
+[15.222s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/package_run_dependencies/pico_kinova
+[15.222s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/parent_prefix_path/pico_kinova
+[15.222s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/ament_prefix_path.sh
+[15.222s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/ament_prefix_path.dsv
+[15.222s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/path.sh
+[15.222s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/environment/path.dsv
+[15.222s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.bash
+[15.222s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.sh
+[15.222s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.zsh
+[15.222s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/local_setup.dsv
+[15.222s] -- Symlinking: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/package.dsv
+[15.232s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/ament_index/resource_index/packages/pico_kinova
+[15.232s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/cmake/pico_kinovaConfig.cmake
+[15.232s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/cmake/pico_kinovaConfig-version.cmake
+[15.232s] -- Up-to-date symlink: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/share/pico_kinova/package.xml
+[15.232s] -- Installing: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so.1.6.0
+[15.243s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so.1.6
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/librtde.so
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_utility.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/dashboard_enums.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/dashboard_client.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/robot_state.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/script_client.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_control_interface.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_control_interface_doc.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_receive_interface.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_receive_interface_doc.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_io_interface.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_io_interface_doc.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/robotiq_gripper.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/ur_rtde/rtde_export.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/log.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/default_log_handler.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/script_sender.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/tcp_server.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/include/urcl/tcp_socket.h
+[15.244s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeTargets.cmake
+[15.245s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeTargets-noconfig.cmake
+[15.245s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeConfig.cmake
+[15.245s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeConfigVersion.cmake
+[15.245s] -- Up-to-date: /home/rpp/Desktop/pico_kinova/pico_kinova/install/pico_kinova/lib/cmake/ur_rtde/ur_rtdeBuildConfig.cmake
+[15.246s] Invoked command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova

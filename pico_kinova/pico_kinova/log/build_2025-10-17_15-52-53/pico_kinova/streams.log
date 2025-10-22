@@ -1,0 +1,462 @@
+[0.015s] Invoking command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/teleop_init_202510:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova -- -j24 -l24
+[0.090s] [ 32%] Built target rtde
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target pico_kinova[0m
+[0.122s] [ 37%] Built target move_until_contact_example
+[0.122s] [ 41%] Built target forcemode_example
+[0.122s] [ 46%] Built target move_path_async_example
+[0.123s] [ 51%] Built target servoj_example
+[0.124s] [ 60%] Built target jog_example
+[0.124s] [ 60%] Built target move_async_example
+[0.125s] [ 65%] Built target movej_path_with_blend_example
+[0.127s] [ 74%] Built target robotiq_gripper_example
+[0.127s] [ 74%] Built target speedj_example
+[0.131s] [ 79%] Built target record_data_example
+[0.131s] [ 86%] Built target realtime_control_example
+[0.132s] [ 88%] Built target contact_detection_example
+[0.132s] [ 93%] Built target io_example
+[0.173s] [ 95%] [32mBuilding CXX object CMakeFiles/pico_kinova.dir/src/pico_kinova.cpp.o[0m
+[1.247s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:36[m[K:
+[1.247s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/TransportClientTcp.h:34:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+[1.247s]    34 | #[01;35m[Kwarning[m[K Unknown OS type!
+[1.247s]       |  [01;35m[K^~~~~~~[m[K
+[1.247s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/TransportClientTcp.h:34:2:[m[K [01;35m[Kwarning: [m[K#warning Unknown OS type! [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[2.292s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/rtde_receive_interface.h:6[m[K,
+[2.292s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:18[m[K:
+[2.292s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:93:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.292s]    93 |   }[01;35m[K;[m[K
+[2.292s]       |    [01;35m[K^[m[K
+[2.292s]       |    [31m[K-[m[K
+[2.292s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:107:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.292s]   107 |   }[01;35m[K;[m[K
+[2.292s]       |    [01;35m[K^[m[K
+[2.292s]       |    [31m[K-[m[K
+[2.323s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint32_t) const[m[K’:
+[2.323s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:154:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.323s]   154 |     uint16_t operator()([01;35m[Kuint32_t int_val[m[K) const
+[2.323s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[2.323s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(uint64_t) const[m[K’:
+[2.323s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:159:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.323s]   159 |     uint16_t operator()([01;35m[Kuint64_t int_val[m[K) const
+[2.323s]       |                         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[2.323s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(int32_t) const[m[K’:
+[2.323s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:164:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kint_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.323s]   164 |     uint16_t operator()([01;35m[Kint32_t int_val[m[K) const
+[2.323s]       |                         [01;35m[K~~~~~~~~^~~~~~~[m[K
+[2.323s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:[m[K In member function ‘[01m[Kuint16_t ur_rtde::RobotState::SizeVisitor::operator()(double) const[m[K’:
+[2.323s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/ur_rtde/include/ur_rtde/robot_state.h:169:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdouble_val[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.323s]   169 |     uint16_t operator()([01;35m[Kdouble double_val[m[K) const
+[2.323s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[4.593s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/KError.h:9[m[K,
+[4.593s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/IRouterClient.h:13[m[K,
+[4.593s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:13[m[K,
+[4.593s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:32[m[K:
+[4.593s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:[m[K At global scope:
+[4.593s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:15:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.593s]    15 |         [01;35m[K{[m[K
+[4.593s]       |         [01;35m[K^[m[K
+[4.593s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:29:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.593s]    29 |         [01;35m[K{[m[K
+[4.593s]       |         [01;35m[K^[m[K
+[4.593s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:39:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.593s]    39 |         [01;35m[K{[m[K
+[4.593s]       |         [01;35m[K^[m[K
+[4.593s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:46:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.593s]    46 |         [01;35m[K{[m[K
+[4.593s]       |         [01;35m[K^[m[K
+[4.594s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/common/HeaderInfo.h:55:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.594s]    55 |         [01;35m[K{[m[K
+[4.594s]       |         [01;35m[K^[m[K
+[4.617s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:32[m[K:
+[4.617s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:[m[K In member function ‘[01m[Kvoid Kinova::Api::Base::BaseClient::messageHeaderValidation(const Kinova::Api::Frame&)[m[K’:
+[4.618s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/BaseClientRpc.h:764:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmsgFrame[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.618s]   764 |                       void messageHeaderValidation([01;35m[Kconst Frame& msgFrame[m[K){ /* todogr ... */ }
+[4.618s]       |                                                    [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.618s] 
+[4.621s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client/SessionManager.h:13[m[K,
+[4.621s]                  from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:33[m[K:
+[4.621s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/SessionClientRpc.h:[m[K In member function ‘[01m[Kvoid Kinova::Api::Session::SessionClient::messageHeaderValidation(const Kinova::Api::Frame&)[m[K’:
+[4.622s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/include/client_stubs/SessionClientRpc.h:77:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmsgFrame[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.622s]    77 |                       void messageHeaderValidation([01;35m[Kconst Frame& msgFrame[m[K){ /* todogr ... */ }
+[4.622s]       |                                                    [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.622s] 
+[5.206s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kvoid initialize_matplotlib()[m[K’:
+[5.206s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:287:14:[m[K [01;31m[Kerror: [m[K‘[01m[KrcParams[m[K’ is not a member of ‘[01m[Kplt[m[K’; did you mean ‘[01m[Krcparams[m[K’?
+[5.206s]   287 |         plt::[01;31m[KrcParams[m[K["font.sans-serif"] = {"DejaVu Sans", "Arial", "Liberation Sans", "sans-serif"};
+[5.206s]       |              [01;31m[K^~~~~~~~[m[K
+[5.206s]       |              [32m[Krcparams[m[K
+[5.206s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:288:14:[m[K [01;31m[Kerror: [m[K‘[01m[KrcParams[m[K’ is not a member of ‘[01m[Kplt[m[K’; did you mean ‘[01m[Krcparams[m[K’?
+[5.206s]   288 |         plt::[01;31m[KrcParams[m[K["axes.unicode_minus"] = false;  // 解决负号显示问题
+[5.206s]       |              [01;31m[K^~~~~~~~[m[K
+[5.206s]       |              [32m[Krcparams[m[K
+[5.207s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kvoid draw_plot()[m[K’:
+[5.207s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:308:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplot(std::vector<double>&, std::vector<double>&, const char [3], <brace-enclosed initializer list>)[m[K’
+[5.207s]   308 |             [01;31m[Kplt::plot(left_data, left_data_x, "r-", {{"label", "left_x"}})[m[K;
+[5.207s]       |             [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.207s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.207s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:442:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::vector<BufferT>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.207s]   442 | bool [01;36m[Kplot[m[K(const std::vector<Numeric> &x, const std::vector<Numeric> &y, const std::map<std::string, std::string>& keywords)
+[5.207s]       |      [01;36m[K^~~~[m[K
+[5.207s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:442:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.208s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:308:22:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.208s]   308 |             [01;36m[Kplt::plot(left_data, left_data_x, "r-", {{"label", "left_x"}})[m[K;
+[5.208s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.208s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.208s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1358:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NumericX, class NumericY> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::vector<_ValT>&, const string&)[m[K’
+[5.208s]  1358 | bool [01;36m[Kplot[m[K(const std::vector<NumericX>& x, const std::vector<NumericY>& y, const std::string& s = "")
+[5.208s]       |      [01;36m[K^~~~[m[K
+[5.208s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1358:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.208s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:308:22:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.208s]   308 |             [01;36m[Kplt::plot(left_data, left_data_x, "r-", {{"label", "left_x"}})[m[K;
+[5.208s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.208s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.208s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1810:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const string&)[m[K’
+[5.208s]  1810 | bool [01;36m[Kplot[m[K(const std::vector<Numeric>& y, const std::string& format = "")
+[5.208s]       |      [01;36m[K^~~~[m[K
+[5.208s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1810:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.208s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:308:22:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.208s]   308 |             [01;36m[Kplt::plot(left_data, left_data_x, "r-", {{"label", "left_x"}})[m[K;
+[5.208s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.208s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.208s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1818:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.208s]  1818 | bool [01;36m[Kplot[m[K(const std::vector<Numeric>& y, const std::map<std::string, std::string>& keywords)
+[5.208s]       |      [01;36m[K^~~~[m[K
+[5.208s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1818:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.208s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:308:22:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.208s]   308 |             [01;36m[Kplt::plot(left_data, left_data_x, "r-", {{"label", "left_x"}})[m[K;
+[5.209s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.209s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.209s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2860:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... Args> bool matplotlibcpp::plot()[m[K’
+[5.209s]  2860 | bool [01;36m[Kplot[m[K() { return true; }
+[5.209s]       |      [01;36m[K^~~~[m[K
+[5.209s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2860:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.209s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:308:22:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[5.209s]   308 |             [01;36m[Kplt::plot(left_data, left_data_x, "r-", {{"label", "left_x"}})[m[K;
+[5.209s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.209s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.209s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2863:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const A&, const B&, const string&, Args ...) [with A = std::vector<double>; B = std::vector<double>; Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’
+[5.209s]  2863 | bool [01;36m[Kplot[m[K(const A& a, const B& b, const std::string& format, Args... args)
+[5.210s]       |      [01;36m[K^~~~[m[K
+[5.210s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2863:6:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.210s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2872:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const std::vector<double>&, const string&)[m[K’
+[5.210s]  2872 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& x, const std::vector<double>& y, const std::string& format = "") {
+[5.210s]       |             [01;36m[K^~~~[m[K
+[5.210s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2872:13:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.210s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2876:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const string&)[m[K’
+[5.210s]  2876 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& y, const std::string& format = "") {
+[5.210s]       |             [01;36m[K^~~~[m[K
+[5.210s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2876:13:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.210s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2880:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const std::vector<double>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.210s]  2880 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& x, const std::vector<double>& y, const std::map<std::string, std::string>& keywords) {
+[5.210s]       |             [01;36m[K^~~~[m[K
+[5.210s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2880:13:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.210s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:309:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplot(std::vector<double>&, std::vector<double>&, const char [3], <brace-enclosed initializer list>)[m[K’
+[5.210s]   309 |             [01;31m[Kplt::plot(left_data, left_data_y, "g-", {{"label", "left_y"}})[m[K;
+[5.210s]       |             [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.210s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.210s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:442:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::vector<BufferT>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.210s]   442 | bool [01;36m[Kplot[m[K(const std::vector<Numeric> &x, const std::vector<Numeric> &y, const std::map<std::string, std::string>& keywords)
+[5.210s]       |      [01;36m[K^~~~[m[K
+[5.210s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:442:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.210s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:309:22:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.210s]   309 |             [01;36m[Kplt::plot(left_data, left_data_y, "g-", {{"label", "left_y"}})[m[K;
+[5.211s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.211s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.211s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1358:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NumericX, class NumericY> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::vector<_ValT>&, const string&)[m[K’
+[5.211s]  1358 | bool [01;36m[Kplot[m[K(const std::vector<NumericX>& x, const std::vector<NumericY>& y, const std::string& s = "")
+[5.211s]       |      [01;36m[K^~~~[m[K
+[5.211s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1358:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.211s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:309:22:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.211s]   309 |             [01;36m[Kplt::plot(left_data, left_data_y, "g-", {{"label", "left_y"}})[m[K;
+[5.211s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.211s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.211s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1810:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const string&)[m[K’
+[5.211s]  1810 | bool [01;36m[Kplot[m[K(const std::vector<Numeric>& y, const std::string& format = "")
+[5.211s]       |      [01;36m[K^~~~[m[K
+[5.211s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1810:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.211s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:309:22:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.211s]   309 |             [01;36m[Kplt::plot(left_data, left_data_y, "g-", {{"label", "left_y"}})[m[K;
+[5.211s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.211s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.211s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1818:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.212s]  1818 | bool [01;36m[Kplot[m[K(const std::vector<Numeric>& y, const std::map<std::string, std::string>& keywords)
+[5.212s]       |      [01;36m[K^~~~[m[K
+[5.212s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1818:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.212s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:309:22:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.212s]   309 |             [01;36m[Kplt::plot(left_data, left_data_y, "g-", {{"label", "left_y"}})[m[K;
+[5.212s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.212s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.212s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2860:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... Args> bool matplotlibcpp::plot()[m[K’
+[5.212s]  2860 | bool [01;36m[Kplot[m[K() { return true; }
+[5.212s]       |      [01;36m[K^~~~[m[K
+[5.212s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2860:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.212s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:309:22:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[5.212s]   309 |             [01;36m[Kplt::plot(left_data, left_data_y, "g-", {{"label", "left_y"}})[m[K;
+[5.212s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.212s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.212s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2863:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const A&, const B&, const string&, Args ...) [with A = std::vector<double>; B = std::vector<double>; Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’
+[5.212s]  2863 | bool [01;36m[Kplot[m[K(const A& a, const B& b, const std::string& format, Args... args)
+[5.212s]       |      [01;36m[K^~~~[m[K
+[5.212s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2863:6:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.212s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2872:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const std::vector<double>&, const string&)[m[K’
+[5.212s]  2872 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& x, const std::vector<double>& y, const std::string& format = "") {
+[5.212s]       |             [01;36m[K^~~~[m[K
+[5.212s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2872:13:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.212s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2876:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const string&)[m[K’
+[5.212s]  2876 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& y, const std::string& format = "") {
+[5.212s]       |             [01;36m[K^~~~[m[K
+[5.213s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2876:13:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.213s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2880:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const std::vector<double>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.213s]  2880 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& x, const std::vector<double>& y, const std::map<std::string, std::string>& keywords) {
+[5.213s]       |             [01;36m[K^~~~[m[K
+[5.213s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2880:13:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.213s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:310:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplot(std::vector<double>&, std::vector<double>&, const char [3], <brace-enclosed initializer list>)[m[K’
+[5.213s]   310 |             [01;31m[Kplt::plot(left_data, left_data_z, "b-", {{"label", "left_z"}})[m[K;
+[5.213s]       |             [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.213s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.213s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:442:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::vector<BufferT>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.213s]   442 | bool [01;36m[Kplot[m[K(const std::vector<Numeric> &x, const std::vector<Numeric> &y, const std::map<std::string, std::string>& keywords)
+[5.213s]       |      [01;36m[K^~~~[m[K
+[5.213s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:442:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.213s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:310:22:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.213s]   310 |             [01;36m[Kplt::plot(left_data, left_data_z, "b-", {{"label", "left_z"}})[m[K;
+[5.213s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.213s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.213s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1358:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NumericX, class NumericY> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::vector<_ValT>&, const string&)[m[K’
+[5.213s]  1358 | bool [01;36m[Kplot[m[K(const std::vector<NumericX>& x, const std::vector<NumericY>& y, const std::string& s = "")
+[5.213s]       |      [01;36m[K^~~~[m[K
+[5.213s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1358:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.213s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:310:22:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.213s]   310 |             [01;36m[Kplt::plot(left_data, left_data_z, "b-", {{"label", "left_z"}})[m[K;
+[5.213s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.213s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.213s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1810:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const string&)[m[K’
+[5.213s]  1810 | bool [01;36m[Kplot[m[K(const std::vector<Numeric>& y, const std::string& format = "")
+[5.214s]       |      [01;36m[K^~~~[m[K
+[5.214s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1810:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.214s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:310:22:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.214s]   310 |             [01;36m[Kplt::plot(left_data, left_data_z, "b-", {{"label", "left_z"}})[m[K;
+[5.214s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.214s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.214s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1818:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.214s]  1818 | bool [01;36m[Kplot[m[K(const std::vector<Numeric>& y, const std::map<std::string, std::string>& keywords)
+[5.214s]       |      [01;36m[K^~~~[m[K
+[5.214s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1818:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.214s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:310:22:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.214s]   310 |             [01;36m[Kplt::plot(left_data, left_data_z, "b-", {{"label", "left_z"}})[m[K;
+[5.214s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.214s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.214s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2860:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... Args> bool matplotlibcpp::plot()[m[K’
+[5.214s]  2860 | bool [01;36m[Kplot[m[K() { return true; }
+[5.214s]       |      [01;36m[K^~~~[m[K
+[5.214s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2860:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.214s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:310:22:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[5.214s]   310 |             [01;36m[Kplt::plot(left_data, left_data_z, "b-", {{"label", "left_z"}})[m[K;
+[5.214s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.214s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.214s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2863:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const A&, const B&, const string&, Args ...) [with A = std::vector<double>; B = std::vector<double>; Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’
+[5.214s]  2863 | bool [01;36m[Kplot[m[K(const A& a, const B& b, const std::string& format, Args... args)
+[5.214s]       |      [01;36m[K^~~~[m[K
+[5.214s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2863:6:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.214s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2872:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const std::vector<double>&, const string&)[m[K’
+[5.214s]  2872 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& x, const std::vector<double>& y, const std::string& format = "") {
+[5.215s]       |             [01;36m[K^~~~[m[K
+[5.215s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2872:13:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.215s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2876:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const string&)[m[K’
+[5.215s]  2876 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& y, const std::string& format = "") {
+[5.215s]       |             [01;36m[K^~~~[m[K
+[5.215s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2876:13:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.215s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2880:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const std::vector<double>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.215s]  2880 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& x, const std::vector<double>& y, const std::map<std::string, std::string>& keywords) {
+[5.215s]       |             [01;36m[K^~~~[m[K
+[5.215s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2880:13:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.215s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:345:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplot(std::vector<double>&, std::vector<double>&, const char [4], <brace-enclosed initializer list>)[m[K’
+[5.215s]   345 |             [01;31m[Kplt::plot(right_data, right_data_x, "r--", {{"label", "right_x"}})[m[K;
+[5.215s]       |             [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.215s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.215s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:442:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::vector<BufferT>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.215s]   442 | bool [01;36m[Kplot[m[K(const std::vector<Numeric> &x, const std::vector<Numeric> &y, const std::map<std::string, std::string>& keywords)
+[5.215s]       |      [01;36m[K^~~~[m[K
+[5.215s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:442:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.215s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:345:22:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.215s]   345 |             [01;36m[Kplt::plot(right_data, right_data_x, "r--", {{"label", "right_x"}})[m[K;
+[5.215s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.215s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.215s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1358:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NumericX, class NumericY> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::vector<_ValT>&, const string&)[m[K’
+[5.215s]  1358 | bool [01;36m[Kplot[m[K(const std::vector<NumericX>& x, const std::vector<NumericY>& y, const std::string& s = "")
+[5.215s]       |      [01;36m[K^~~~[m[K
+[5.215s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1358:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.215s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:345:22:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.216s]   345 |             [01;36m[Kplt::plot(right_data, right_data_x, "r--", {{"label", "right_x"}})[m[K;
+[5.216s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.216s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.216s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1810:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const string&)[m[K’
+[5.216s]  1810 | bool [01;36m[Kplot[m[K(const std::vector<Numeric>& y, const std::string& format = "")
+[5.216s]       |      [01;36m[K^~~~[m[K
+[5.216s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1810:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.216s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:345:22:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.216s]   345 |             [01;36m[Kplt::plot(right_data, right_data_x, "r--", {{"label", "right_x"}})[m[K;
+[5.216s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.216s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.216s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1818:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.216s]  1818 | bool [01;36m[Kplot[m[K(const std::vector<Numeric>& y, const std::map<std::string, std::string>& keywords)
+[5.216s]       |      [01;36m[K^~~~[m[K
+[5.216s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1818:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.216s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:345:22:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.216s]   345 |             [01;36m[Kplt::plot(right_data, right_data_x, "r--", {{"label", "right_x"}})[m[K;
+[5.216s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.216s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.216s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2860:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... Args> bool matplotlibcpp::plot()[m[K’
+[5.216s]  2860 | bool [01;36m[Kplot[m[K() { return true; }
+[5.216s]       |      [01;36m[K^~~~[m[K
+[5.216s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2860:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.216s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:345:22:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[5.216s]   345 |             [01;36m[Kplt::plot(right_data, right_data_x, "r--", {{"label", "right_x"}})[m[K;
+[5.216s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.216s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.217s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2863:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const A&, const B&, const string&, Args ...) [with A = std::vector<double>; B = std::vector<double>; Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’
+[5.217s]  2863 | bool [01;36m[Kplot[m[K(const A& a, const B& b, const std::string& format, Args... args)
+[5.217s]       |      [01;36m[K^~~~[m[K
+[5.217s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2863:6:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.217s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2872:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const std::vector<double>&, const string&)[m[K’
+[5.217s]  2872 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& x, const std::vector<double>& y, const std::string& format = "") {
+[5.217s]       |             [01;36m[K^~~~[m[K
+[5.217s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2872:13:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.217s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2876:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const string&)[m[K’
+[5.217s]  2876 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& y, const std::string& format = "") {
+[5.217s]       |             [01;36m[K^~~~[m[K
+[5.217s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2876:13:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.217s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2880:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const std::vector<double>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.217s]  2880 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& x, const std::vector<double>& y, const std::map<std::string, std::string>& keywords) {
+[5.217s]       |             [01;36m[K^~~~[m[K
+[5.217s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2880:13:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.217s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:346:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplot(std::vector<double>&, std::vector<double>&, const char [4], <brace-enclosed initializer list>)[m[K’
+[5.217s]   346 |             [01;31m[Kplt::plot(right_data, right_data_y, "g--", {{"label", "right_y"}})[m[K;
+[5.217s]       |             [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.217s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.217s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:442:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::vector<BufferT>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.217s]   442 | bool [01;36m[Kplot[m[K(const std::vector<Numeric> &x, const std::vector<Numeric> &y, const std::map<std::string, std::string>& keywords)
+[5.217s]       |      [01;36m[K^~~~[m[K
+[5.218s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:442:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.218s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:346:22:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.218s]   346 |             [01;36m[Kplt::plot(right_data, right_data_y, "g--", {{"label", "right_y"}})[m[K;
+[5.218s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.218s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.218s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1358:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NumericX, class NumericY> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::vector<_ValT>&, const string&)[m[K’
+[5.218s]  1358 | bool [01;36m[Kplot[m[K(const std::vector<NumericX>& x, const std::vector<NumericY>& y, const std::string& s = "")
+[5.218s]       |      [01;36m[K^~~~[m[K
+[5.218s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1358:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.218s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:346:22:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.218s]   346 |             [01;36m[Kplt::plot(right_data, right_data_y, "g--", {{"label", "right_y"}})[m[K;
+[5.218s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.218s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.218s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1810:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const string&)[m[K’
+[5.218s]  1810 | bool [01;36m[Kplot[m[K(const std::vector<Numeric>& y, const std::string& format = "")
+[5.218s]       |      [01;36m[K^~~~[m[K
+[5.218s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1810:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.218s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:346:22:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.218s]   346 |             [01;36m[Kplt::plot(right_data, right_data_y, "g--", {{"label", "right_y"}})[m[K;
+[5.218s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.218s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.218s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1818:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.218s]  1818 | bool [01;36m[Kplot[m[K(const std::vector<Numeric>& y, const std::map<std::string, std::string>& keywords)
+[5.218s]       |      [01;36m[K^~~~[m[K
+[5.218s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1818:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.219s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:346:22:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.219s]   346 |             [01;36m[Kplt::plot(right_data, right_data_y, "g--", {{"label", "right_y"}})[m[K;
+[5.219s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.219s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.219s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2860:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... Args> bool matplotlibcpp::plot()[m[K’
+[5.219s]  2860 | bool [01;36m[Kplot[m[K() { return true; }
+[5.219s]       |      [01;36m[K^~~~[m[K
+[5.219s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2860:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.219s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:346:22:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[5.219s]   346 |             [01;36m[Kplt::plot(right_data, right_data_y, "g--", {{"label", "right_y"}})[m[K;
+[5.219s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.219s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.219s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2863:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const A&, const B&, const string&, Args ...) [with A = std::vector<double>; B = std::vector<double>; Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’
+[5.219s]  2863 | bool [01;36m[Kplot[m[K(const A& a, const B& b, const std::string& format, Args... args)
+[5.219s]       |      [01;36m[K^~~~[m[K
+[5.219s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2863:6:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.219s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2872:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const std::vector<double>&, const string&)[m[K’
+[5.219s]  2872 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& x, const std::vector<double>& y, const std::string& format = "") {
+[5.219s]       |             [01;36m[K^~~~[m[K
+[5.219s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2872:13:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.219s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2876:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const string&)[m[K’
+[5.219s]  2876 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& y, const std::string& format = "") {
+[5.219s]       |             [01;36m[K^~~~[m[K
+[5.219s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2876:13:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.220s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2880:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const std::vector<double>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.220s]  2880 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& x, const std::vector<double>& y, const std::map<std::string, std::string>& keywords) {
+[5.220s]       |             [01;36m[K^~~~[m[K
+[5.220s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2880:13:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.220s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:347:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplot(std::vector<double>&, std::vector<double>&, const char [4], <brace-enclosed initializer list>)[m[K’
+[5.220s]   347 |             [01;31m[Kplt::plot(right_data, right_data_z, "b--", {{"label", "right_z"}})[m[K;
+[5.220s]       |             [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.220s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.220s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:442:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::vector<BufferT>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.220s]   442 | bool [01;36m[Kplot[m[K(const std::vector<Numeric> &x, const std::vector<Numeric> &y, const std::map<std::string, std::string>& keywords)
+[5.220s]       |      [01;36m[K^~~~[m[K
+[5.220s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:442:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.220s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:347:22:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.220s]   347 |             [01;36m[Kplt::plot(right_data, right_data_z, "b--", {{"label", "right_z"}})[m[K;
+[5.220s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.220s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.220s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1358:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NumericX, class NumericY> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::vector<_ValT>&, const string&)[m[K’
+[5.220s]  1358 | bool [01;36m[Kplot[m[K(const std::vector<NumericX>& x, const std::vector<NumericY>& y, const std::string& s = "")
+[5.220s]       |      [01;36m[K^~~~[m[K
+[5.220s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1358:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.220s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:347:22:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.220s]   347 |             [01;36m[Kplt::plot(right_data, right_data_z, "b--", {{"label", "right_z"}})[m[K;
+[5.220s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.220s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.220s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1810:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const string&)[m[K’
+[5.220s]  1810 | bool [01;36m[Kplot[m[K(const std::vector<Numeric>& y, const std::string& format = "")
+[5.220s]       |      [01;36m[K^~~~[m[K
+[5.221s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1810:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.221s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:347:22:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.221s]   347 |             [01;36m[Kplt::plot(right_data, right_data_z, "b--", {{"label", "right_z"}})[m[K;
+[5.221s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.221s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.221s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1818:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Numeric> bool matplotlibcpp::plot(const std::vector<BufferT>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.221s]  1818 | bool [01;36m[Kplot[m[K(const std::vector<Numeric>& y, const std::map<std::string, std::string>& keywords)
+[5.221s]       |      [01;36m[K^~~~[m[K
+[5.221s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:1818:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.221s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:347:22:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.221s]   347 |             [01;36m[Kplt::plot(right_data, right_data_z, "b--", {{"label", "right_z"}})[m[K;
+[5.221s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.221s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.221s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2860:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... Args> bool matplotlibcpp::plot()[m[K’
+[5.221s]  2860 | bool [01;36m[Kplot[m[K() { return true; }
+[5.221s]       |      [01;36m[K^~~~[m[K
+[5.221s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2860:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.221s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:347:22:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[5.221s]   347 |             [01;36m[Kplt::plot(right_data, right_data_z, "b--", {{"label", "right_z"}})[m[K;
+[5.221s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.221s] In file included from [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:42[m[K:
+[5.221s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2863:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const A&, const B&, const string&, Args ...) [with A = std::vector<double>; B = std::vector<double>; Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’
+[5.221s]  2863 | bool [01;36m[Kplot[m[K(const A& a, const B& b, const std::string& format, Args... args)
+[5.221s]       |      [01;36m[K^~~~[m[K
+[5.221s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2863:6:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.221s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2872:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const std::vector<double>&, const string&)[m[K’
+[5.221s]  2872 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& x, const std::vector<double>& y, const std::string& format = "") {
+[5.222s]       |             [01;36m[K^~~~[m[K
+[5.222s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2872:13:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.222s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2876:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const string&)[m[K’
+[5.222s]  2876 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& y, const std::string& format = "") {
+[5.222s]       |             [01;36m[K^~~~[m[K
+[5.222s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2876:13:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[5.222s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2880:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool matplotlibcpp::plot(const std::vector<double>&, const std::vector<double>&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’
+[5.222s]  2880 | inline bool [01;36m[Kplot[m[K(const std::vector<double>& x, const std::vector<double>& y, const std::map<std::string, std::string>& keywords) {
+[5.222s]       |             [01;36m[K^~~~[m[K
+[5.222s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/matplotlib/matplotlibcpp.h:2880:13:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[5.225s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:[m[K In function ‘[01m[Kvoid OnPXREAClientCallback(void*, PXREAClientCallbackType, int, void*)[m[K’:
+[5.225s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:590:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KPXREAFullMask[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[5.225s]   590 |     switch [01;35m[K([m[Ktype)
+[5.225s]       |            [01;35m[K^[m[K
+[5.225s] [01m[K/home/rpp/Desktop/pico_kinova/pico_kinova/src/pico_kinova.cpp:588:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontext[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.225s]   588 | void OnPXREAClientCallback([01;35m[Kvoid* context[m[K, PXREAClientCallbackType type, int status, void* userData)
+[5.225s]       |                            [01;35m[K~~~~~~^~~~~~~[m[K
+[7.687s] gmake[2]: *** [CMakeFiles/pico_kinova.dir/build.make:76：CMakeFiles/pico_kinova.dir/src/pico_kinova.cpp.o] 错误 1
+[7.688s] gmake[1]: *** [CMakeFiles/Makefile2:180：CMakeFiles/pico_kinova.dir/all] 错误 2
+[7.688s] gmake: *** [Makefile:146：all] 错误 2
+[7.690s] Invoked command in '/home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rpp/rpp_ws/install/teleop_init_202510:/home/rpp/rpp_ws/install/setting_info:/home/rpp/rpp_ws/install/nav2_simple_commander:/home/rpp/rpp_ws/install/my_moveit_control:/home/rpp/rpp_ws/install/moveit_control:/home/rpp/rpp_ws/install/gui_control:/home/rpp/rpp_ws/install/graphic_display:/home/rpp/rpp_ws/install/linker_hand_ros2_sdk:/home/rpp/rpp_ws/install/dual_arm_cartesian_control:/home/rpp/rpp_ws/install/dual_arm_bt_control:/home/rpp/rpp_ws/install/bt_task_manager_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rpp/Desktop/pico_kinova/pico_kinova/build/pico_kinova -- -j24 -l24
