@@ -585,7 +585,7 @@ void OnPXREAClientCallback(void* context, PXREAClientCallbackType type, int stat
                         // 转化到相对于末端执行器left_ee_frame的位姿
                         LeftControllerPose = transformControllerToEE(LeftControllerBasePose, left_ee_frame);
                         // 将四元数转化为欧拉角的形式
-                        LeftControllerEuler = quaternionToEuler(LeftControllerInitPose[3], LeftControllerInitPose[4], LeftControllerInitPose[5], LeftControllerInitPose[6]);
+                        LeftControllerEuler = quaternionToEuler(LeftControllerPose[3], LeftControllerPose[4], LeftControllerPose[5], LeftControllerPose[6]);
                         LeftTrigger = left["trigger"].get<double>();
                         LeftGrip = left["grip"].get<double>();
                         std::cout << "左手手柄触发器: " << LeftTrigger.load() << ", 握持: " << LeftGrip.load() << std::endl;
