@@ -6,8 +6,8 @@ from setuptools import find_packages, setup
 
 package_name = 'linker_hand_ros2_sdk'
 
-this_dir = os.path.abspath(os.path.dirname(__file__))
-custom_dir = os.path.join(this_dir, package_name, "LinkerHand")
+this_dir = os.path.abspath(os.path.dirname(__file__))  # setup.py所在目录
+custom_dir = os.path.join(this_dir, package_name, "LinkerHand")  # LinkerHand根目录
 
 data_files = [
     ('share/ament_index/resource_index/packages',
@@ -16,14 +16,16 @@ data_files = [
     (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
 ]
 
-# for root, dirs, files in os.walk(custom_dir):
-#     if files:
-#         relative_path = os.path.relpath(root, os.path.join(this_dir, package_name))
-#         target_path = os.path.join('share', package_name, relative_path)
-#         # 修复这里：路径必须是相对路径
-#         files_full_path = [os.path.relpath(os.path.join(root, f), start=os.getcwd()) for f in files]
-#         data_files.append((target_path, files_full_path))
-        
+# 关键：添加LinkerHand目录下的所有文件（包括config/setting.yaml）
+for root, dirs, files in os.walk(custom_dir):
+    if files:
+        # 计算当前目录相对于package_name的相对路径（用于安装路径）
+        relative_path = os.path.relpath(root, os.path.join(this_dir, package_name))
+        # 安装目标路径：对应到lib/{package_name}/下的相对路径
+        target_path = os.path.join('lib', package_name, relative_path)
+        # 源文件路径：必须是相对于setup.py所在目录的相对路径
+        files_relative = [os.path.relpath(os.path.join(root, f), start=this_dir) for f in files]
+        data_files.append((target_path, files_relative))
 
 setup(
     name=package_name,
